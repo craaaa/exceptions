@@ -551,7 +551,7 @@ def main():
             return metric.compute(predictions=preds, references=labels)
 
     # Initialize our Trainer
-    early_stop = EarlyStoppingCallback(100) # early stopping after 20 eval steps without improvement
+    early_stop = EarlyStoppingCallback(3) # early stopping after 20 eval steps without improvement
 
     trainer = Trainer(
         model=model,
