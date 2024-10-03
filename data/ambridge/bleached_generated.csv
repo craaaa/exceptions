@@ -1,0 +1,1061 @@
+active,passive,verb
+Somebody arranged something.,Output: Something was arranged by somebody.,arrange
+Something arranged someone.,Output: Someone was arranged by something.,arrange
+Somebody installed something.,The something was installed by somebody.,install
+Something was installed somewhere.,"Output: Somewhere, something was installed.",install
+Somebody positioned something. ,Output: Something was positioned by somebody.,position
+Something positioned someone.,Output: Someone was positioned by something.,position
+Somebody dangled something from the tree.,The something was dangled from the tree by somebody.,dangle
+Something dangled in front of someone.,The cheese was eaten by the mouse.,dangle
+Somebody dumped something.,Output: Something was dumped by somebody.,dump
+Something dumped someone.,Output: Someone was dumped by something.,dump
+Somebody hammered something.,Output: Something was hammered by somebody.,hammer
+Something hammered someone.,"The sentence can be passivized as follows: 
+
+Output: Someone was hammered by something.",hammer
+Somebody scooped something from the bowl.,The bowl was scooped from by somebody.,scoop
+Something scooped someone off the ground.,Output: Someone was scooped off the ground by something.,scoop
+Somebody shovels something.,Output: Something is shoveled by somebody.,shovel
+"Somewhere, something shovels someone.","Somewhere, someone is being shoveled by something.",shovel
+Somebody poured something into the cup.,Output: Something was poured into the cup by somebody.,pour
+Something poured over someone during the rainstorm.,Output: Someone was poured over by something during the rainstorm.,pour
+Somebody spilled something.,Output: Something was spilled by somebody.,spill
+Something spilled somewhere.,Something was spilled somewhere.,spill
+Somebody coiled something around the tree.,The tree was coiled around by somebody.,coil
+Something coiled around someone in the shadows.,The shadows were coiled around someone by something.,coil
+Somebody twisted something. ,Output: Something was twisted by somebody.,twist
+Something twisted someone.,"The sentence ""Something twisted someone."" can be passivized as: ""Someone was twisted by something.""",twist
+Somebody filled something.,Output: Something was filled by somebody.,fill
+Something filled somewhere.,Output: Somewhere was filled by something.,fill
+Somebody stained something.,The something was stained by somebody.,stain
+Something stained someone.,Output: Someone was stained by something.,stain
+Somebody put butter on something.,The butter was put on something by somebody.,butter
+Someone left something out of the butter.,The butter was left out of by someone.,butter
+Somebody polished something.,Output: Something was polished by somebody.,polish
+Something polished someone.,Output: Someone was polished by something.,polish
+Somebody pocketed something.,Something was pocketed by somebody.,pocket
+Something fell out of someone's pocket.,Output: Something was fallen out of someone's pocket.,pocket
+Somebody put something in the pot. ,The pot was filled with something by somebody.,pot
+Someone found something somewhere near the pot.,Something was found by someone somewhere near the pot.,pot
+Somebody deleted something.,Output: Something was deleted by somebody.,delete
+Something deleted someone.,"The sentence ""Something deleted someone"" can be passivized as follows:
+
+Output: Someone was deleted by something.",delete
+Somebody cleared something from the table.  ,Output: Something was cleared from the table by somebody.,clear
+Something cleared somewhere in the distance.  ,Output: Something was cleared somewhere in the distance.,clear
+Somebody emptied something.,Output: Something was emptied by somebody.,empty
+Something emptied somewhere.,Output: Somewhere was emptied by something.,empty
+Somebody rinsed something.,Something was rinsed by somebody.,rinse
+Something rinsed someone.,The sentence can be passivized as: Someone was rinsed by something.,rinse
+Somebody swept somewhere.,Output: Somewhere was swept by somebody.,sweep
+Something swept someone away.,The sentence in passive voice would be: Someone was swept away by something.,sweep
+Somebody stole something.,Output: Something was stolen by somebody.,steal
+Something stole someone.,Output: Someone was stolen by something.,steal
+Somebody took something.,Something was taken by somebody.,take
+Something took someone.,Output: Someone was taken by something.,take
+Somebody posted something.,Output: Something was posted by somebody.,post
+Something posted someone.,Output: Someone was posted by something.,post
+Somebody sent something.,The something was sent by somebody.,send
+Something sent someone.,Output: Someone was sent by something.,send
+Somebody bounced something.,Output: Something was bounced by somebody.,bounce
+Something bounced somewhere.,Output: Somewhere was bounced by something.,bounce
+Somebody brought something.,Output: Something was brought by somebody.,bring
+Something brought somebody.,Output: Somebody was brought by something.,bring
+Somebody drove somewhere.,Output: Somewhere was driven by somebody.,drive
+Something drove someone.,Output: Someone was driven by something.,drive
+Somebody rowed somewhere.,The sentence in passive voice is: Somewhere was rowed by somebody.,row
+Something rowed somebody.,"The sentence ""Somebody was rowed by something.""",row
+Somebody sold something.  ,Something was sold by somebody.,sell
+Someone sold somewhere.,The output for the given sentence would be: Somewhere was sold by someone.,sell
+Somebody bought something.,Output: Something was bought by somebody.,buy
+Something bought somebody.,"The sentence ""Something bought somebody"" can be passivized as follows:
+
+Output: Somebody was bought by something.",buy
+Somebody earned something.,Output: Something was earned by somebody.,earn
+Something earned someone.,Output: Someone was earned by something.,earn
+Somebody borrowed something from the library.,The library was borrowed from by somebody.,borrow
+Something borrowed someone’s attention for a moment.,The attention was borrowed by something for a moment.,borrow
+Somebody seized something.,The something was seized by somebody.,seize
+Something seized someone.,"The sentence ""Something seized someone"" can be passivized as follows:
+
+Output: Someone was seized by something.",seize
+Somebody learned something new.,Output: Something new was learned by somebody.,learn
+Something taught someone an important lesson.,An important lesson was taught to someone by something.,learn
+Somebody memorized something.,Output: Something was memorized by somebody.,memorize
+Something memorized someone.,Output: Someone was memorized by something.,memorize
+Somebody studied something.,Output: Something was studied by somebody.,study
+Something studied someone.,Output: Someone was studied by something.,study
+Somebody found a grip on something.,The grip was found on something by somebody.,grip
+Something lost its grip on someone.,The grip was lost on someone by something.,grip
+Somebody keeps something.  ,Output: Something is kept by somebody.,keep
+Something keeps someone.,Output: Someone is kept by something.,keep
+Somebody stored something.  ,Output: Something was stored by somebody.,store
+Something stored somewhere.,"Output: Somewhere, something was stored.",store
+Somebody blocked something.,Output: Something was blocked by somebody.,block
+Something blocked someone.,Something was blocked by someone.,block
+Somebody saw something.,"The passive version of the sentence ""Somebody saw something"" is: ""Something was seen by somebody.""",saw
+Someone saw somewhere.,Output: Somewhere was seen by someone.,saw
+Somebody carved something into the wood.,The wood was carved by somebody.,carve
+Something carved itself into the landscape.,The landscape was carved by something.,carve
+Somebody chopped something.,Output: Something was chopped by somebody.,chop
+Something chopped someone.,The person was chopped by something.,chop
+Somebody mashed something.,Output: Something was mashed by somebody.,mash
+Something mashed someone.,Output: Someone was mashed by something.,mash
+Somebody sliced something.,Output: Something was sliced by somebody.,slice
+Something sliced someone.,"The sentence ""Something sliced someone"" can be passivized as: ""Someone was sliced by something.""",slice
+Somebody buttoned something.,Output: Something was buttoned by somebody.,button
+Something buttoned somebody.,Something was buttoned by somebody.,button
+Somebody laced something with care.,The something was laced with care by somebody.,lace
+Something laced somewhere was left unattended.,The lane was left unattended by something laced somewhere.,lace
+Somebody locked something.,Output: Something was locked by somebody.,lock
+Something locked someone.,Output: Someone was locked by something.,lock
+Somebody sealed something.,Output: Something was sealed by somebody.,seal
+Something sealed someone.,Output: Someone was sealed by something.,seal
+Somebody stapled something to the report.,Something was stapled to the report by somebody.,staple
+Something stapled itself to someone’s hand.,The hand was stapled to by something.,staple
+Somebody tied something to the tree.,Output: Something was tied to the tree by somebody.,tie
+Something tied someone to a chair.,The chair was tied to someone by something.,tie
+Somebody zipped something up.,The something was zipped up by somebody.,zip
+Something zipped past someone.,Output: Someone was zipped past by something.,zip
+Somebody divided something.,Output: Something was divided by somebody.,divide
+Something divided someone.,Output: Someone was divided by something.,divide
+Somebody unbolted something.,Output: Something was unbolted by somebody.,unbolt
+"Somewhere, somebody unbolted something.",Something was unbolted by somebody.,unbolt
+Somebody unlocked something.  ,Output: Something was unlocked by somebody.,unlock
+Something unlocked somewhere.  ,Output: Somewhere was unlocked by something.,unlock
+Somebody unzipped something.,Output: Something was unzipped by somebody.,unzip
+Something unzipped someone.,"The sentence ""Something unzipped someone"" can be passivized as follows:
+
+**Output:** Someone was unzipped by something.",unzip
+Somebody painted something.,The sentence in passive voice is: Something was painted by somebody.,paint
+Something painted someone.,Output: Someone was painted by something.,paint
+Somebody varnished something.,The something was varnished by somebody.,varnish
+Something varnished someone.,"The sentence ""Something varnished someone"" can be passivized as follows:
+
+Output: Someone was varnished by something.",varnish
+Somebody signed something.,Output: Something was signed by somebody.,sign
+Something signed someone.,"The sentence ""Something signed someone"" can be passivized as: ""Someone was signed by something.""",sign
+Somebody drew something.,Output: Something was drawn by somebody.,draw
+Something drew someone.,The mouse was drawn by something.,draw
+Somebody sketched something.,Output: Something was sketched by somebody.,sketch
+Something sketched someone.,The sentence in passive voice is: Someone was sketched by something.,sketch
+Somebody typed something.,Something was typed by somebody.,type
+Something typed someone.,"The sentence ""Something typed someone"" seems a bit unclear, as it suggests that ""something"" is performing the action of typing on ""someone,"" which is not a typical action. However, if we assume that ""something"" refers to some kind of device or program (like a computer), we can passivize the sentence.
+
+Output: Someone was typed by something.",type
+Somebody wrote something.  ,Something was written by somebody.,write
+Something wrote someone.,The output for the given sentence would be: Someone was written by something.,write
+Somebody decorated something.,Output: Something was decorated by somebody.,decorate
+Something decorated someone.,Output: Someone was decorated by something.,decorate
+Somebody built something.,Output: Something was built by somebody.,build
+Something built someone.,"The sentence ""Something built someone"" can be passivized as: ""Someone was built by something.""",build
+Somebody grew something. ,The something was grown by somebody.,grow
+Something grew somewhere.,Something was grown somewhere.,grow
+Somebody knitted something.,The something was knitted by somebody.,knit
+Something knitted someone.,Output: Someone was knitted by something.,knit
+Somebody made something.,Output: Something was made by somebody.,make
+Something made someone.,Output: Someone was made by something.,make
+Somebody sewed something.,Output: Something was sewn by somebody.,sew
+Something sewed someone.,Output: Someone was sewn by something.,sew
+Somebody composed something beautiful.,Something beautiful was composed by somebody.,compose
+Something composed by someone was performed at the concert.,The concert featured a composition that was performed by someone.,compose
+Somebody designed something.,Output: Something was designed by somebody.,design
+Something designed someone.,Output: Someone was designed by something.,design
+Somebody invented something.,Something was invented by somebody.,invent
+Something invented someone.,Output: Someone was invented by something.,invent
+Somebody kneaded something.,Output: Something was kneaded by somebody.,knead
+Something kneaded someone.,"The sentence ""Something kneaded someone."" can be passivized as: ""Someone was kneaded by something.""",knead
+Somebody beat something.,The something was beaten by somebody.,beat
+Someone beat somebody.,The sentence in passive voice would be: Somebody was beaten by someone.,beat
+Somebody froze something.,Output: Something was frozen by somebody.,freeze
+Something froze someone.,Output: Someone was frozen by something.,freeze
+Somebody melted something. ,The sentence in passive voice is: Something was melted by somebody.,melt
+Something melted somewhere.,"Output: Somewhere, something was melted.",melt
+Somebody altered something.,Output: Something was altered by somebody.,alter
+Something altered someone.,The sentence in passive voice is: Someone was altered by something.,alter
+Somebody chanted something.,The sentence in passive voice would be: Something was chanted by somebody.,chant
+Something chanted somewhere.,Output: Somewhere was chanted by something.,chant
+Somebody directed something.,Output: Something was directed by somebody.,direct
+Something directed someone.,Output: Someone was directed by something.,direct
+Somebody hummed something.,Output: Something was hummed by somebody.,hum
+Something hummed somewhere.,Something was hummed somewhere.,hum
+Somebody performed something.,Output: Something was performed by somebody.,perform
+Something performed for someone.,Output: Something was performed for someone.,perform
+Somebody played something.,Output: Something was played by somebody.,play
+Something played somewhere.,Output: Somewhere was played by something.,play
+Somebody sang something.,Something was sung by somebody.,sing
+Something sang somewhere.,Output: Something was sung somewhere.,sing
+Somebody is searching for something.,Something is being searched for by somebody.,search
+Someone is searching for somewhere to hide.,Somewhere to hide is being searched for by someone.,search
+Somebody asked something.,Something was asked by somebody.,ask
+Someone asked somewhere.,Output: Somewhere was asked by someone.,ask
+Somebody quoted something.,Output: Something was quoted by somebody.,quote
+Something quoted someone.,Output: Someone was quoted by something.,quote
+Somebody read something. ,Output: Something was read by somebody.,read
+Something read someone.,Output: Someone was read by something.,read
+Somebody recited something.,Something was recited by somebody.,recite
+Something recited somewhere.,"The sentence ""Something was recited somewhere.""",recite
+Somebody told something.,Output: Something was told by somebody.,tell
+Something told someone.,Output: Someone was told by something.,tell
+Somebody barked at something. ,The something was barked at by somebody.,bark
+Something barked at someone.,Output: Someone was barked at by something.,bark
+Somebody heard something growl.  ,The growl was heard by somebody.,growl
+Something growled at someone.  ,"The sentence ""Something growled at someone"" can be passivized as follows:
+
+Output: Someone was growled at by something.",growl
+Somebody mumbled something.  ,Something was mumbled by somebody.,mumble
+Something was mumbled by someone.,Output: Someone mumbled something.,mumble
+Somebody muttered something. ,Something was muttered by somebody.,mutter
+Something muttered somewhere.,Output: Something was muttered somewhere.,mutter
+Somebody heard a lion roar.,A lion was heard to roar by somebody.,roar
+Something in the jungle seemed to roar.,Output: A roar seemed to come from something in the jungle.,roar
+Somebody screamed somewhere.,The scream was made by somebody somewhere.,scream
+Something screamed at someone.,Output: Someone was screamed at by something.,scream
+Somebody shouted something.,Output: Something was shouted by somebody.,shout
+Something shouted at someone.,Output: Someone was shouted at by something.,shout
+Somebody stammered something.,Something was stammered by somebody.,stammer
+Something made someone stammer.,Output: Someone was stammered by something.,stammer
+Somebody whispered something.,Something was whispered by somebody.,whisper
+Something whispered to someone.,Output: Someone was whispered to by something.,whisper
+Somebody yelled something.,Something was yelled by somebody.,yell
+Something yelled at someone.,Output: Someone was yelled at by something.,yell
+Somebody announced something.,Output: Something was announced by somebody.,announce
+Something announced somewhere.,Output: Something was announced somewhere.,announce
+Somebody mentioned something important.,Output: Something important was mentioned by somebody.,mention
+Something was mentioned by someone.,"Something was mentioned by someone. 
+
+(Note: The sentence is already in passive voice; there's no need to change it.)",mention
+Somebody proposed something interesting.,Something interesting was proposed by somebody.,propose
+Someone proposed somewhere special.,"The sentence ""Someone proposed somewhere special"" can be passivized as: 
+
+""Somewhere special was proposed by someone.""",propose
+Somebody repeated something.,Output: Something was repeated by somebody.,repeat
+Something repeated itself somewhere.,Something was repeated by itself somewhere.,repeat
+Somebody reported something.,Output: Something was reported by somebody.,report
+Something reported someone.,Output: Someone was reported by something.,report
+Somebody drank something.  ,Output: Something was drank by somebody.,drink
+Something drank someone.  ,Something was drunk by someone.,drink
+Somebody chewed something. ,The something was chewed by somebody.,chew
+Something chewed someone.,"The sentence ""Something chewed someone."" can be passivized as: ""Someone was chewed by something.""",chew
+Somebody munched on something.,Something was munched on by somebody.,munch
+Something munched on someone.,Output: Someone was munched on by something.,munch
+Somebody nibbled on something.,Something was nibbled on by somebody.,nibble
+Something nibbled on someone.,"The sentence, when passivized, would be: ""Someone was nibbled on by something.""",nibble
+Somebody sipped something.,The something was sipped by somebody.,sip
+Something spilled on someone.,Output: Someone was spilled on by something.,sip
+Somebody slurped something.,Output: Something was slurped by somebody.,slurp
+Something slurped someone.,The someone was slurped by something.,slurp
+Somebody sucked something.,The something was sucked by somebody.,suck
+Something sucked someone.,Output: Someone was sucked by something.,suck
+Somebody gobbled something. ,The something was gobbled by somebody.,gobble
+Something gobbled somebody.,Somebody was gobbled by something.,gobble
+Somebody guzzled something.,Output: Something was guzzled by somebody.,guzzle
+Something guzzled someone.,Output: Someone was guzzled by something.,guzzle
+Somebody swallowed something.,Output: Something was swallowed by somebody.,swallow
+Something swallowed someone.,Output: Someone was swallowed by something.,swallow
+Somebody consumed something.,The something was consumed by somebody.,consume
+Something consumed someone.,Output: Someone was consumed by something.,consume
+Somebody devoured something.,Output: Something was devoured by somebody.,devour
+Something devoured someone.,Output: Someone was devoured by something.,devour
+Somebody demolished something.,Output: Something was demolished by somebody.,demolish
+Something demolished someone.,The sentence in passive voice would be: Someone was demolished by something.,demolish
+Somebody destroyed something. ,"The output for the sentence ""Somebody destroyed something."" in passive voice is: 
+
+""Something was destroyed by somebody.""",destroy
+Something destroyed someone.,Output: Someone was destroyed by something.,destroy
+Somebody went to exterminate something.,The something was gone to be exterminated by somebody.,exterminate
+Something was sent to exterminate someone.,"The sentence ""Something was sent to exterminate someone."" is already in a passive form because it focuses on the action being done to ""something"" without specifying the doer. If you wish to further clarify or adjust it while keeping the passive format, you might rephrase it as:
+
+""Someone sent something to be exterminated."" 
+
+However, please let me know if you want to maintain the original sense or if you need a different change!",exterminate
+Somebody ruined something.,Output: Something was ruined by somebody.,ruin
+Something ruined someone.,"The sentence can be passivized as: ""Someone was ruined by something.""",ruin
+Somebody wrecked something. ,Something was wrecked by somebody.,wreck
+Something wrecked someone.,Output: Someone was wrecked by something.,wreck
+Somebody broke something.  ,Output: Something was broken by somebody.,break
+Something broke someone.,"The sentence ""Something broke someone"" can be passivized to: ""Someone was broken by something.""",break
+Somebody chipped something.  ,Output: Something was chipped by somebody.,chip
+Something chipped someone.  ,"The sentence ""Something chipped someone"" can be passivized as: ""Someone was chipped by something.""",chip
+Somebody cracked something.,The something was cracked by somebody.,crack
+Something cracked somewhere.,Output: Something was cracked somewhere.,crack
+Somebody ripped something.,Output: Something was ripped by somebody.,rip
+Something ripped someone.,Output: Someone was ripped by something.,rip
+Somebody shattered something.,Output: Something was shattered by somebody.,shatter
+Something shattered someone.,"The sentence ""Something shattered someone"" can be passivized as: 
+
+""Someone was shattered by something.""",shatter
+Somebody smashed something.,Output: Something was smashed by somebody.,smash
+Something smashed someone.,Something was smashed by someone.,smash
+Somebody snapped a photo of something beautiful.,The photo of something beautiful was snapped by somebody.,snap
+Something snapped and scared someone in the dark.,The dark was scared by something snapping.,snap
+Somebody split something in half.,Output: Something was split in half by somebody.,split
+Something split someone’s attention.,Someone's attention was split by something.,split
+Somebody tore something.,Output: Something was torn by somebody.,tear
+Something tore someone.,Output: Someone was torn by something.,tear
+Somebody creased something.,Output: Something was creased by somebody.,crease
+"Somewhere, something creased someone’s favorite shirt.","The sentence ""Somewhere, something creased someone’s favorite shirt"" can be passivized as follows:
+
+""Somewhere, someone’s favorite shirt was creased by something.""",crease
+Somebody bent something.,The sentence in passive voice would be: Something was bent by somebody.,bend
+Something bent someone.,Output: Someone was bent by something.,bend
+Somebody folded something.,Output: Something was folded by somebody.,fold
+Something folded someone.,Output: Someone was folded by something.,fold
+Somebody baked something.,Output: Something was baked by somebody.,bake
+"Somewhere, something baked someone.",Output: Someone was baked by something.,bake
+Somebody boiled something.,Output: Something was boiled by somebody.,boil
+Something boiled somewhere.,"Output: Somewhere, something was boiled.",boil
+Somebody cooked something. ,Something was cooked by somebody.,cook
+Something cooked someone.,"The sentence ""Something cooked someone"" can be passivized as ""Someone was cooked by something.""",cook
+Somebody fried something.,Output: Something was fried by somebody.,fry
+Something fried someone.,The sentence in passive voice would be: Someone was fried by something.,fry
+Somebody grilled something. ,Something was grilled by somebody.,grill
+Something grilled someone.,"The sentence ""Something grilled someone"" can be passivized as follows:
+
+Output: Someone was grilled by something.",grill
+Somebody toasted something.,Output: Something was toasted by somebody.,toast
+Something toasted someone.,The someone was toasted by something.,toast
+Somebody burned something.,Something was burned by somebody.,burn
+Something burned someone.,Output: Someone was burned by something.,burn
+Somebody heated something.,Output: Something was heated by somebody.,heat
+Something heated someone.,"The sentence can be passivized as: ""Someone was heated by something.""",heat
+Somebody popped something.,Output: Something was popped by somebody.,pop
+Something popped somewhere.,Output: Something was popped somewhere.,pop
+Somebody's sweater shrank somewhere unusual.,The sweater was shrunk by somebody somewhere unusual.,shrink
+Something shrank unexpectedly during the wash.,The wash unexpectedly caused something to be shrunk.,shrink
+Somebody began something.,Output: Something was begun by somebody.,begin
+Something began somewhere.,Output: Somewhere was begun by something.,begin
+Somebody commenced something.,Output: Something was commenced by somebody.,commence
+"Somewhere, someone commenced their journey.",The journey was commenced by someone somewhere.,commence
+Somebody will continue something.,Output: Something will be continued by somebody.,continue
+Something will continue somewhere.,Something will be continued somewhere.,continue
+Somebody ended something.,Output: Something was ended by somebody.,end
+Something ended somewhere.,"The sentence ""Something ended somewhere."" can be passivized as:
+
+""Somewhere was ended by something.""",end
+Somebody finished something.,Output: Something was finished by somebody.,finish
+Something finished someone.,The person was finished by something.,finish
+Somebody started something. ,Output: Something was started by somebody.,start
+Something started somewhere.,Something was started somewhere.,start
+Somebody completed something.,Output: Something was completed by somebody.,complete
+Something completed someone.,Output: Someone was completed by something.,complete
+Somebody captured something.,The thing was captured by somebody.,capture
+Something captured someone.,Output: Someone was captured by something.,capture
+Somebody rescued something from the fire.,Something was rescued from the fire by somebody.,rescue
+Something rescued someone from danger.,Output: Someone was rescued from danger by something.,rescue
+Somebody is eating something delicious.,Something delicious is being eaten by somebody.,eat
+"Somewhere, something might be eating someone.",Something might be being eaten by someone somewhere.,eat
+Somebody crushed something.  ,Something was crushed by somebody.,crush
+Something crushed someone.,Output: Someone was crushed by something.,crush
+Somebody dropped something.,Something was dropped by somebody.,drop
+Something dropped someone.,The someone was dropped by something.,drop
+Somebody hoisted something.,Output: Something was hoisted by somebody.,hoist
+"Somewhere, someone hoisted something.",Output: Something was hoisted by someone.,hoist
+Somebody lifted something.,Output: Something was lifted by somebody.,lift
+Something lifted someone.,"The sentence ""Something lifted someone"" can be passivized as: 
+
+""Someone was lifted by something.""",lift
+Somebody lowered something.,Output: Something was lowered by somebody.,lower
+Something lowered someone.,Output: Someone was lowered by something.,lower
+Somebody raised something valuable.,Output: Something valuable was raised by somebody.,raise
+Something raised someone’s curiosity.,Curiosity was raised by something.,raise
+Somebody spun something.,Output: Something was spun by somebody.,spin
+Something spun someone.,The sentence in passive voice is: Someone was spun by something.,spin
+Somebody splattered something on the wall.,Something was splattered on the wall by somebody.,splatter
+Something splattered somewhere during the party.,Something was splattered somewhere during the party.,splatter
+Somebody splashed something in the puddle.,The puddle was splashed with something by somebody.,splash
+"Somewhere, someone splashed water on the grass.",The grass was splashed with water by someone somewhere.,splash
+Somebody sprayed something. ,Output: Something was sprayed by somebody.,spray
+Something sprayed someone.,Output: Someone was sprayed by something.,spray
+Somebody squirted something.,Something was squirted by somebody.,squirt
+Something squirted somewhere.,Something was squirted somewhere.,squirt
+Somebody covered something.,Output: Something was covered by somebody.,cover
+Something covered someone.,The someone was covered by something.,cover
+Somebody soaked something.,Output: Something was soaked by somebody.,soak
+"Somewhere, something soaked someone.",Output: Someone was soaked by something.,soak
+Somebody trapped something.  ,Something was trapped by somebody.,trap
+Something trapped someone.,Someone was trapped by something.,trap
+Somebody removed something.,Something was removed by somebody.,remove
+Something removed someone.,Output: Someone was removed by something.,remove
+Somebody expelled something from the room.,Output: Something was expelled from the room by somebody.,expel
+Something expelled someone from the organization.,The organization was exited by someone.,expel
+Somebody clean something.,Output: Something was cleaned by somebody.,clean
+Something cleaned somebody.,"The sentence ""Somebody was cleaned by something."" can be used to passivize the original sentence.",clean
+Somebody washed something.,Output: Something was washed by somebody.,wash
+Something washed someone.,The sentence in passive voice would be: Someone was washed by something.,wash
+Somebody wiped something.,Output: Something was wiped by somebody.,wipe
+Something wiped someone.,"The sentence ""Something wiped someone"" can be passivized as follows:
+
+Output: Someone was wiped by something.",wipe
+Somebody moved something.,Output: Something was moved by somebody.,move
+"Somewhere, something moved someone.",Something was moved by someone.,move
+Somebody rolled something down the hill.,The something was rolled down the hill by somebody.,roll
+"Somewhere, something rolled away.","Output: Somewhere, something was rolled away.",roll
+Somebody slid somewhere.,"The sentence in passive voice would be: ""Somewhere was slid by somebody.""",slide
+Something slid down the slope.,Output: The slope was slid down by something.,slide
+Somebody carried something.,Output: Something was carried by somebody.,carry
+Something carried someone.,Output: Someone was carried by something.,carry
+Somebody dragged something across the floor.,The something was dragged across the floor by somebody.,drag
+"Somewhere, something dragged someone away.","The sentence, when passivized, would be: ""Someone was dragged away by something.""",drag
+Somebody pulled something.,Output: Something was pulled by somebody.,pull
+Something pulled someone.,"The sentence ""Someone was pulled by something."" is the passive form.",pull
+Somebody pushed something.,Output: Something was pushed by somebody.,push
+Something pushed someone.,Someone was pushed by something.,push
+Somebody shoved something.,The something was shoved by somebody.,shove
+Something shoved someone.,Output: Someone was shoved by something.,shove
+Somebody caught something.,The something was caught by somebody.,catch
+Something caught someone.,Something was caught by someone.,catch
+Somebody chose something.,Output: Something was chosen by somebody.,choose
+Something chose someone.,Output: Someone was chosen by something.,choose
+Somebody found something.,Output: Something was found by somebody.,find
+Something found someone.,Output: Someone was found by something.,find
+Somebody grabbed something.,Output: Something was grabbed by somebody.,grab
+Something grabbed someone.,Someone was grabbed by something.,grab
+Somebody held something.,The something was held by somebody.,hold
+Something held someone.,Output: Someone was held by something.,hold
+Somebody hid something.,Something was hidden by somebody.,hide
+Something hid someone.,Output: Someone was hidden by something.,hide
+Somebody threw something.,Output: Something was thrown by somebody.,throw
+Something threw someone.,"The sentence can be passivized as: ""Someone was thrown by something.""",throw
+Somebody hit something.,Output: Something was hit by somebody.,hit
+Something hit someone.,The sentence in passive voice is: Someone was hit by something.,hit
+Somebody kicked something.,The something was kicked by somebody.,kick
+Something kicked someone.,Output: Someone was kicked by something.,kick
+Somebody knocked on something.,The something was knocked on by somebody.,knock
+Something knocked someone down.,Output: Someone was knocked down by something.,knock
+Somebody slapped someone.,The someone was slapped by somebody.,slap
+Something slapped somebody.,Output: Somebody was slapped by something.,slap
+Somebody tapped something.,Output: Something was tapped by somebody.,tap
+Something tapped someone.,Output: Someone was tapped by something.,tap
+Somebody thumped something.,Output: Something was thumped by somebody.,thump
+Something thumped someone.,The someone was thumped by something.,thump
+Somebody whacked something.,The something was whacked by somebody.,whack
+Something whacked someone.,Output: Someone was whacked by something.,whack
+Somebody bit something. ,Something was bitten by somebody.,bite
+Something bit someone.,Output: Someone was bitten by something.,bite
+Somebody found something that could claw.,Something that could claw was found by somebody.,claw
+Something clawed at someone in the dark.,Output: Someone was clawed at by something in the dark.,claw
+Somebody pinched something. ,The something was pinched by somebody.,pinch
+Something pinched someone.,Output: Someone was pinched by something.,pinch
+Somebody punched something.,The something was punched by somebody.,punch
+Something punched someone.,The someone was punched by something.,punch
+Somebody scratched something.,Output: Something was scratched by somebody.,scratch
+Something scratched someone.,"The sentence ""Something scratched someone."" can be passivized as:
+
+""Someone was scratched by something.""",scratch
+Somebody poked something.,The something was poked by somebody.,poke
+Something poked someone.,"The sentence can be passivized as follows: ""Someone was poked by something.""",poke
+Somebody kissed someone. ,"The sentence ""Somebody kissed someone."" can be passivized as: 
+
+""Someone was kissed by somebody.""",kiss
+Something kissed somebody.,Something was kissed by somebody.,kiss
+Somebody licked something.  ,Something was licked by somebody.,lick
+Something licked someone.,The sentence in passive voice would be: Someone was licked by something.,lick
+Somebody patted something.,Output: Something was patted by somebody.,pat
+"Somewhere, someone patted another person.",Output: Another person was patted by someone somewhere.,pat
+Somebody stroked something.,Output: Something was stroked by somebody.,stroke
+Something stroked someone.,Output: Someone was stroked by something.,stroke
+Somebody tickled something unexpected.,The unexpected thing was tickled by somebody.,tickle
+Something tickled someone’s curiosity.,Output: Someone's curiosity was tickled by something.,tickle
+Somebody touched something.,Output: Something was touched by somebody.,touch
+Something touched someone.,Output: Someone was touched by something.,touch
+Somebody cut something.,Output: Something was cut by somebody.,cut
+Something cut someone.,Output: Someone was cut by something.,cut
+Somebody untied something. ,The something was untied by somebody.,untie
+Something untied someone.,Output: Someone was untied by something.,untie
+Somebody copied something.,Output: Something was copied by somebody.,copy
+Something copied someone.,Output: Someone was copied by something.,copy
+Somebody filmed something.,Output: Something was filmed by somebody.,film
+Something filmed someone.,The sentence in passive voice is: Someone was filmed by something.,film
+Somebody took a photograph of something.,The photograph was taken by somebody.,photograph
+Something in the photograph surprised someone.,The photograph surprised someone.,photograph
+Somebody recorded something. ,Something was recorded by somebody.,record
+Something recorded someone.,Output: Someone was recorded by something.,record
+Somebody shook something.,Output: Something was shaken by somebody.,shake
+Something shook someone.,Output: Someone was shaken by something.,shake
+Somebody squashed something.,Output: Something was squashed by somebody.,squash
+Something squashed someone.,"The sentence ""Something squashed someone."" can be passivized as:
+
+""Someone was squashed by something.""",squash
+Somebody squeezed something.,Output: Something was squeezed by somebody.,squeeze
+Something squeezed someone.,Output: Someone was squeezed by something.,squeeze
+Somebody squished something.,Output: Something was squished by somebody.,squish
+Something squished someone.,The someone was squished by something.,squish
+Somebody applauded someone.,Output: Someone was applauded by somebody.,appluad
+Something applauded somewhere.,"Output: Somewhere, something was applauded.",appluad
+Somebody shot something.,Output: Something was shot by somebody.,shoot
+Someone shot somewhere.,Output: Somewhere was shot by someone.,shoot
+Somebody left somewhere.,Output: Somewhere was left by somebody.,leave
+Something left someone.,Output: Someone was left by something.,leave
+Somebody avoided something.,Output: Something was avoided by somebody.,avoid
+Someone avoided somewhere.,The somewhere was avoided by someone.,avoid
+Somebody dodged something.,The something was dodged by somebody.,dodge
+Something dodged someone.,Output: Someone was dodged by something.,dodge
+Somebody eluded something that was chasing them.,The something that was chasing them was eluded by somebody.,elude
+Something elusive managed to evade someone in the crowded place.,Output: Someone in the crowded place was evaded by something elusive.,elude
+Somebody stopped somewhere. ,"The sentence in passive voice would be: ""Somewhere was stopped by somebody.""",stop
+Something stopped someone.,Output: Someone was stopped by something.,stop
+Somebody taught something important.  ,Something important was taught by somebody.,teach
+Something taught someone a valuable lesson.,A valuable lesson was taught to someone by something.,teach
+Somebody planned to assassinate someone.,Output: An assassination was planned by somebody.,assassinate
+Something motivated someone to assassinate somebody.,Output: Someone was motivated by something to assassinate somebody.,assassinate
+Somebody banished something from the kingdom.,The something was banished from the kingdom by somebody.,banish
+Someone was banished somewhere far away.,"The sentence ""Someone was banished somewhere far away"" is already in passive voice. If you wanted to change it to active voice, you would need to specify who did the banishing. For example, ""The king banished someone somewhere far away."" 
+
+However, if you're looking to keep it in passive voice but wish to slightly rephrase it, you might say:
+
+""Someone was banished to a faraway place."" 
+
+If you have a different request or need further assistance, please let me know!",banish
+Somebody robbed something.,Output: Something was robbed by somebody.,rob
+Something robbed someone.,The passive version of the sentence is: Someone was robbed by something.,rob
+Somebody rewarded someone for their hard work.,The reward was given to someone by somebody for their hard work.,reward
+Something rewarded somebody unexpectedly.,Something was unexpectedly rewarded by somebody.,reward
+Somebody filed for a divorce.,The divorce was filed for by somebody.,divorce
+Something caused someone to consider a divorce.,A divorce was considered by someone due to something.,divorce
+Somebody complimented someone.,"The sentence ""Somebody complimented someone."" can be passivized as follows:
+
+Output: Someone was complimented by somebody.",compliment
+Something complimented somebody.,Output: Somebody was complimented by something.,compliment
+Somebody congratulated someone.,Output: Someone was congratulated by somebody.,congratulate
+Something congratulated somebody.,Output: Somebody was congratulated by something.,congratulate
+Somebody excused something.,Output: Something was excused by somebody.,excuse
+Something excused someone.,Output: Someone was excused by something.,excuse
+Somebody forgave somebody.,"The sentence ""Somebody forgave somebody"" can be passivized as ""Somebody was forgiven by somebody.""",forgive
+Something forgave someone.,Output: Someone was forgiven by something.,forgive
+Somebody greeted someone.,Output: Someone was greeted by somebody.,greet
+Something greeted somebody.,Output: Somebody was greeted by something.,greet
+Somebody praised something.,Output: Something was praised by somebody.,praise
+Something praised someone.,Output: Someone was praised by something.,praise
+Somebody thanked someone for their help.,The help was thanked for by somebody.,thank
+Something made someone feel thankful.,Someone was made to feel thankful by something.,thank
+Somebody welcomed someone.,Output: Someone was welcomed by somebody.,welcome
+Something welcomed somebody.,Output: Somebody was welcomed by something.,welcome
+Somebody criticized something. ,Output: Something was criticized by somebody.,criticize
+Something criticized someone.,"The sentence ""Something criticized someone."" can be passivized as: ""Someone was criticized by something.""",criticize
+Somebody insulted someone. ,"The sentence can be passivized as follows: 
+
+Output: Someone was insulted by somebody.",insult
+Something insulted somebody.,Output: Somebody was insulted by something.,insult
+Somebody mocked someone.,Output: Someone was mocked by somebody.,mock
+Something mocked somebody.,Output: Somebody was mocked by something.,mock
+Somebody punished someone.,Output: Someone was punished by somebody.,punish
+Something punished somebody.,Output: Somebody was punished by something.,punish
+Somebody scolded someone.  ,Somebody was scolded by someone.,scold
+Something scolded somebody.,The somebody was scolded by something.,scold
+Somebody told someone off.  ,Output: Someone was told off by somebody.,tell off
+Something told somebody off.  ,Something was told off by somebody.,tell off
+Somebody agreed with someone.,The agreement was made by somebody with someone.,agree with
+Something agreed with somebody.,Something was agreed upon by somebody.,agree with
+Somebody argued with someone.,"The sentence ""Somebody argued with someone"" can be passivized as follows: 
+
+Output: Someone was argued with by somebody.",argue with
+Someone argued with something.,"The sentence ""Someone argued with something."" can be passivized as: ""Something was argued with by someone.""",argue with
+Somebody cooperated with someone.,Somebody was cooperated with by someone.,cooperate with
+Something cooperated with somebody.,Something was cooperated with by somebody.,cooperate with
+Somebody disagreed with something that was said.,Something that was said was disagreed with by somebody.,disagree with
+Someone disagreed with somebody else's opinion.,Somebody else's opinion was disagreed with by someone.,disagree with
+Somebody quarreled with someone.,"The sentence ""Somebody quarreled with someone"" can be passivized as: ""Someone was quarreled with by somebody.""",quarrel with
+Something caused someone to quarrel.,The quarrel was caused by something.,quarrel with
+Somebody squabbled with someone.,"The sentence can be passivized as: ""Someone was squabbled with by somebody.""",squabble with
+Something squabbled with somebody.,Output: Somebody was squabbled with by something.,squabble with
+Somebody courted someone.,Output: Someone was courted by somebody.,court
+Something in the park courted a stranger.,The stranger was courted by something in the park.,court
+Somebody cuddled with something soft.,The something soft was cuddled with by somebody.,cuddle
+"Somewhere, someone cuddled their pet.",The pet was cuddled by someone somewhere.,cuddle
+Somebody went on a date with someone.  ,A date was gone on by somebody with someone.,date
+Something interesting happened on that date.  ,Output: Something interesting was happened on that date.,date
+Somebody embraced someone.,Output: Someone was embraced by somebody.,embrace
+"Somewhere, something embraced somebody.",Somebody was embraced by something.,embrace
+Somebody hugged someone.,The sentence in passive voice is: Someone was hugged by somebody.,hug
+Something hugged somebody.,Output: Somebody was hugged by something.,hug
+Somebody married someone.,"The sentence ""Somebody married someone"" can be passivized as: ""Someone was married by somebody.""",marry
+Something led someone to marry.,Output: Someone was led by something to marry.,marry
+Somebody fought something.,Output: Something was fought by somebody.,fight
+Something fought someone.,"The sentence ""Something fought someone"" can be passivized as: ""Someone was fought by something.""",fight
+Somebody met someone.,Output: Someone was met by somebody.,meet
+Something met somewhere.,Output: Somewhere was met by something.,meet
+Somebody visited somewhere interesting.,Output: Somewhere interesting was visited by somebody.,visit
+Someone visited something that caught their attention.,Something that caught their attention was visited by someone.,visit
+Somebody called someone.,Output: Someone was called by somebody.,call
+Something called somewhere.,"The sentence ""Something called somewhere"" does not have a clear subject-verb-object structure, as it is somewhat ambiguous. However, if we interpret ""called"" as a verb, we can passivize it to create a similar structure. 
+
+Output: Somewhere was called by something.",call
+Somebody spoke to someone.,Output: Someone was spoken to by somebody.,speak to
+Something spoke to somebody.,Output: Somebody was spoken to by something.,speak to
+Somebody talked to someone.,The person was talked to by somebody.,talk to
+Something talked to somebody.,"The sentence can be passivized as follows: 
+
+Output: Somebody was talked to by something.",talk to
+Somebody chatted to someone.,Output: Someone was chatted to by somebody.,chat to
+Something chatted to somebody.,"The sentence in passive voice would be: ""Somebody was chatted to by something.""",chat to
+Somebody conversed with someone.,Someone was conversed with by somebody.,converse with
+Something conversed with somebody.,Output: Somebody was conversed with by something.,converse with
+Somebody gossiped about something.,Something was gossiped about by somebody.,gossip
+"Somewhere, someone is gossiping about somebody.","Somewhere, somebody is being gossiped about by someone.",gossip
+Somebody advised someone on the best course of action.  ,The best course of action was advised to someone by somebody.,advise
+Something advised somebody to take a different approach.,The different approach was advised to be taken by somebody.,advise
+Somebody instructed someone.,Output: Someone was instructed by somebody.,instruct
+Something instructed somebody.,Output: Somebody was instructed by something.,instruct
+Somebody warned someone about the danger.,The danger was warned about by somebody.,warn
+Something warned somebody of the approaching storm.,The approaching storm was warned of by somebody.,warn
+Somebody fed something.  ,Output: Something was fed by somebody.,feed
+Something fed someone.  ,Output: Someone was fed by something.,feed
+Somebody hurt something.,The something was hurt by somebody.,hurt
+Something hurt someone.,Output: Someone was hurt by something.,hurt
+Somebody dressed something.,Output: Something was dressed by somebody.,dress
+Something dressed someone.,The sentence in passive voice is: Someone was dressed by something.,dress
+Somebody groomed something.,Output: Something was groomed by somebody.,groom
+Something groomed someone.,Output: Someone was groomed by something.,groom
+Somebody dispatched something.,Output: Something was dispatched by somebody.,dispatch
+Something dispatched someone.,Output: Someone was dispatched by something.,dispatch
+Somebody eliminated something.,Output: Something was eliminated by somebody.,eliminate
+Someone eliminated somewhere.,The sentence in passive voice is: Somewhere was eliminated by someone.,eliminate
+Somebody executed something. ,"The sentence, when passivized, would be: ""Something was executed by somebody.""",execute
+Something executed someone.,Output: Someone was executed by something.,execute
+Somebody killed something.,Output: Something was killed by somebody.,kill
+Something killed someone.,"The sentence ""Something killed someone."" can be passivized to:
+
+""Someone was killed by something.""",kill
+Somebody committed murder somewhere.,Output: Murder was committed by somebody somewhere.,murder
+Something about the murder frightened someone.,Something about the murder was frightening to someone.,murder
+Somebody slayed something.,Output: Something was slayed by somebody.,slay
+Something slayed someone.,Output: Someone was slayed by something.,slay
+Somebody drowned somewhere. ,"The sentence ""Somebody drowned somewhere."" can be passivized as:
+
+""Somewhere was drowned by somebody."" 
+
+(Note: This example illustrates the passive structure, but it sounds awkward and may not be commonly used in practice.)",drown
+Something drowned someone.,The sentence in passive voice would be: Someone was drowned by something.,drown
+Somebody found a knife somewhere.  ,The knife was found by somebody somewhere.,knife
+Something sharp cut someone with a knife.  ,The knife was used by something sharp to cut someone.,knife
+Somebody stabbed something.,The something was stabbed by somebody.,stab
+"Somewhere, somebody stabbed someone.",Output: Someone was stabbed by somebody.,stab
+Somebody strangled something.,The something was strangled by somebody.,strangle
+Something strangled someone.,Output: Someone was strangled by something.,strangle
+Somebody suffocated something in the closed box.,The something was suffocated by somebody in the closed box.,suffocate
+Something suffocated someone in the dense smoke.,The someone was suffocated by something in the dense smoke.,suffocate
+Somebody abandoned something. ,Something was abandoned by somebody.,abandon
+Someone abandoned somewhere.,The somewhere was abandoned by someone.,abandon
+Somebody deserted something.,Output: Something was deserted by somebody.,desert
+Something deserted someone.,Output: Someone was deserted by something.,desert
+Somebody raced somewhere.,Output: Somewhere was raced to by somebody.,race
+Something raced someone.,Output: Someone was raced by something.,race
+Somebody chased something. ,The something was chased by somebody.,chase
+Something chased someone.,Output: Someone was chased by something.,chase
+Somebody followed someone.,Output: Someone was followed by somebody.,follow
+Something followed somebody.,Output: Somebody was followed by something.,follow
+Somebody pursued something.,Output: Something was pursued by somebody.,pursue
+Something pursued someone.,Output: Someone was pursued by something.,pursue
+Somebody cast a shadow somewhere.,The shadow was cast by somebody.,shadow
+Something followed someone’s shadow.,The shadow was followed by something.,shadow
+Somebody found a tail somewhere.  ,A tail was found by somebody somewhere.,tail
+Something with a tail scared someone.  ,Something with a tail was scared by someone.,tail
+Somebody tracked something.,The something was tracked by somebody.,track
+Something tracked someone.,Something was tracked by someone.,track
+Somebody left a trail somewhere.,A trail was left somewhere by somebody.,trail
+Something followed the trail of someone.,The trail of someone was followed by something.,trail
+Somebody accompanied somebody else.,Output: Somebody else was accompanied by somebody.,accompany
+Something accompanied someone to the event.,Output: Someone was accompanied by something to the event.,accompany
+Somebody escorted someone to the event.,The event was attended by someone escorted by somebody.,escort
+Something escorted somewhere unexpected.,Output: Somewhere unexpected was escorted by something.,escort
+Somebody guided something through the forest.,The something was guided through the forest by somebody.,guide
+Someone guided somewhere new for us to explore.,"The sentence ""Someone guided somewhere new for us to explore"" can be passivized as follows:
+
+Output: Somewhere new was guided by someone for us to explore.",guide
+Somebody led somewhere interesting.,The interesting place was led to by somebody.,lead
+Something led someone to wonder.,Output: Someone was led to wonder by something.,lead
+Somebody helped someone.,Output: Someone was helped by somebody.,help
+Something helped somebody.,Output: Somebody was helped by something.,help
+Somebody tripped over something.,Something was tripped over by somebody.,trip
+Something tripped someone.,"The sentence ""Something tripped someone."" can be passivized as:
+
+""Someone was tripped by something.""",trip
+Somebody aggravated something.,"The sentence ""Somebody aggravated something"" can be passivized as:
+
+""Something was aggravated by somebody.""",aggravate
+Something aggravated someone.,Output: Someone was aggravated by something.,aggravate
+Somebody amazed me with something incredible.,The incredible thing was amazed by me.,amaze
+Something about the performance amazed someone in the audience.,The audience was amazed by something about the performance.,amaze
+Somebody amused someone. ,The sentence in passive voice would be: Someone was amused by somebody.,amuse
+Something amused somebody.,Output: Somebody was amused by something.,amuse
+Somebody angered someone.,Output: Someone was angered by somebody.,anger
+Something angered somebody.,"The sentence ""Something angered somebody."" can be passivized as:
+
+""Somebody was angered by something.""",anger
+Somebody annoyed someone.,Output: Someone was annoyed by somebody.,annoy
+Something annoyed somebody.,Output: Somebody was annoyed by something.,annoy
+Somebody astonished someone.,Output: Someone was astonished by somebody.,astonish
+Something astonished somebody.,Output: Somebody was astonished by something.,astonish
+Somebody bothered someone.,"The sentence ""Somebody bothered someone."" can be passivized as: ""Someone was bothered by somebody.""",bother
+Something bothered somebody.,Output: Somebody was bothered by something.,bother
+Somebody calmed someone.,The sentence in passive voice would be: Someone was calmed by somebody.,calm
+Something calmed somewhere.,Output: Somewhere was calmed by something.,calm
+Somebody cheered up someone.,The sentence in passive voice is: Someone was cheered up by somebody.,cheer up
+Something cheered up somebody.,Somebody was cheered up by something.,cheer up
+Somebody comforted somebody.,"The sentence ""Somebody comforted somebody."" can be passivized as ""Somebody was comforted by somebody.""",comfort
+Something comforted someone.,Output: Someone was comforted by something.,comfort
+Somebody dazzled someone with their performance.,The performance was dazzled by someone.,dazzle
+Something dazzled everybody at the event.,Output: Everybody was dazzled by something at the event.,dazzle
+Somebody depressed someone.,The sentence in passive voice would be: Someone was depressed by somebody.,depress
+Something depressed somebody.,Something was depressed by somebody.,depress
+Somebody found something disgusting.  ,Something disgusting was found by somebody.,disgust
+Something disgusted someone.,Something was disgusting to someone.,disgust
+Somebody distracted someone during the meeting.,"During the meeting, someone was distracted by somebody.",distract
+Something distracted somebody from their work.,Output: Somebody was distracted from their work by something.,distract
+Somebody disturbed something in the garden.,Something in the garden was disturbed by somebody.,disturb
+Something disturbed someone in the middle of the night.,Someone was disturbed by something in the middle of the night.,disturb
+Somebody embarrassed somebody else. ,The sentence in passive voice is: Somebody else was embarrassed by somebody.,embarass
+Something embarrassed someone at the party.,Output: Someone was embarrassed by something at the party.,embarass
+Somebody encouraged someone.,"The sentence in passive voice would be: ""Someone was encouraged by somebody.""",encourage
+Something encouraged somebody.,Output: Somebody was encouraged by something.,encourage
+Somebody enraged somebody else.,"The sentence, when passivized, would be: ""Somebody else was enraged by somebody.""",enrage
+Something about the situation enraged someone.,The situation was enraged by someone.,enrage
+Somebody entertained something.,Output: Something was entertained by somebody.,entertain
+Something entertained someone.,Output: Someone was entertained by something.,entertain
+Somebody found something that fascinates them.,Something that fascinates them was found by somebody.,fascinate
+Something about someone fascinates the crowd.,The crowd is fascinated by something about someone.,fascinate
+Somebody frightened someone.,Output: Someone was frightened by somebody.,frighten
+Something frightened somewhere.,Output: Somewhere was frightened by something.,frighten
+Somebody horrified someone with the sudden news.,The sudden news was horrifying to someone by somebody.,horrify
+Something horrified somebody during the scary movie.,The scary movie horrified somebody.,horrify
+Somebody impressed somebody with their talent.,The talent was impressed upon somebody by somebody.,impress
+Something impressed someone during the performance.,The performance impressed someone.,impress
+Somebody infuriated someone.,The someone was infuriated by somebody.,infuriate
+Something infuriated somebody.,Output: Somebody was infuriated by something.,infuriate
+Somebody irritates someone.,"The sentence ""Somebody irritates someone"" can be passivized as follows:
+
+Output: Someone is irritated by somebody.",irritate
+Something irritates somebody.,Output: Somebody is irritated by something.,irritate
+Somebody pleased someone.,Output: Someone was pleased by somebody.,please
+Something pleased somebody.,"The sentence in passive voice would be: ""Somebody was pleased by something.""",please
+Somebody provoked something.,The something was provoked by somebody.,provoke
+Something provoked someone.,Output: Someone was provoked by something.,provoke
+Somebody solved a puzzle.,The puzzle was solved by somebody.,puzzle
+Something puzzled someone.,Output: Someone was puzzled by something.,puzzle
+Somebody reassured someone.,Output: Someone was reassured by somebody.,reassure
+Something reassured somebody.,Output: Somebody was reassured by something.,reassure
+Somebody repulsed something.,Output: Something was repulsed by somebody.,repulse
+Something repulsed someone.,Something was repulsed by someone.,repulse
+Somebody saddened someone.,"The sentence can be passivized as follows: 
+
+Output: Someone was saddened by somebody.",sadden
+Something saddened somebody.,Output: Somebody was saddened by something.,sadden
+Somebody scared something. ,The something was scared by somebody.,scare
+Something scared someone.,Output: Someone was scared by something.,scare
+Somebody was shocked by something.,"The sentence ""Somebody was shocked by something."" is already in passive voice. The subject (""somebody"") is receiving the action (being shocked) rather than performing it. Therefore, the given sentence does not need to be passivized further. 
+
+If you want a rephrased version, it can be expressed as: ""Something shocked somebody."" However, this is an active voice transformation rather than a passivization.",shock
+Something shocked someone.,Output: Someone was shocked by something.,shock
+Somebody sickened something.,Output: Something was sickened by somebody.,sicken
+Something sickened someone.,Output: Someone was sickened by something.,sicken
+Somebody startled somebody else.,Somebody else was startled by somebody.,startle
+Something startled someone in the dark.,The dark was startled by someone.,startle
+Somebody stunned something.  ,The something was stunned by somebody.,stun
+Something stunned someone.,Output: Someone was stunned by something.,stun
+Somebody surprised someone.,The someone was surprised by somebody.,surprise
+Something surprised somebody.,Output: Somebody was surprised by something.,surprise
+Somebody teased someone.,"The sentence ""Somebody teased someone."" can be passivized as follows:
+
+Output: Someone was teased by somebody.",tease
+Something teased somebody.,Output: Somebody was teased by something.,tease
+Somebody terrified someone.,"The sentence in passive voice would be: ""Someone was terrified by somebody.""",terrify
+Something terrified somebody.,Output: Somebody was terrified by something.,terrify
+Somebody terrorized something.,The sentence in passive voice would be: Something was terrorized by somebody.,terrorize
+Something terrorized someone.,Output: Someone was terrorized by something.,terrorize
+Somebody threatened something.,The something was threatened by somebody.,threaten
+Someone threatened somebody.,"The sentence ""Someone threatened somebody"" when passivized would be: ""Somebody was threatened by someone.""",threaten
+Somebody upset someone.,"The sentence ""Somebody upset someone"" can be passivized as:
+
+""Someone was upset by somebody.""",upset
+Something upset somebody.,Output: Somebody was upset by something.,upset
+Somebody is worrying about something.,Output: Something is being worried about by somebody.,worry
+"Somewhere in the world, someone is worrying about their future.",The future is being worried about by someone somewhere in the world.,worry
+Somebody wowed someone.,"The sentence can be passivized as: ""Someone was wowed by somebody.""",wow
+Something wowed somebody.,Output: Somebody was wowed by something.,wow
+Somebody admired something beautiful.,Output: Something beautiful was admired by somebody.,admire
+"Somewhere, someone admires the art.",The art is admired by someone somewhere.,admire
+Somebody adores something. ,The something is adored by somebody.,adore
+Something adores someone.,"The sentence ""Something adores someone"" can be passivized as: ""Someone is adored by something.""",adore
+Somebody heard something.,Something was heard by somebody.,hear
+Someone heard somewhere.,"The sentence ""Someone heard somewhere."" can be passivized as: ""Somewhere was heard by someone.""",hear
+Somebody ignored something.  ,Output: Something was ignored by somebody.,ignore
+Something ignored someone.,Something was ignored by someone.,ignore
+Somebody noticed something interesting.,Something interesting was noticed by somebody.,notice
+Something noticed someone in the crowd.,The crowd was noticed by someone.,notice
+Somebody saw something.,Output: Something was seen by somebody.,see
+Something saw someone.,The sentence in passive voice is: Someone was seen by something.,see
+Somebody sensed something unusual.,Something unusual was sensed by somebody.,sense
+Something sensed someone nearby.,Output: Someone was sensed by something.,sense
+Somebody smelled something.,Something was smelled by somebody.,smell
+Something smelled someone.,Output: Someone was smelled by something.,smell
+Somebody discovered something fascinating.,Something fascinating was discovered by somebody.,discover
+Something discovered someone unexpected.,The unexpected was discovered by something.,discover
+Somebody examined something.,Output: Something was examined by somebody.,examine
+Something examined someone.,Output: Someone was examined by something.,examine
+Somebody caught a glimpse of something.,A glimpse of something was caught by somebody.,glimpse
+Someone had a glimpse of somewhere remarkable.,A glimpse of somewhere remarkable was had by someone.,glimpse
+Somebody inspected something.,Output: Something was inspected by somebody.,inspect
+Something inspected someone.,The someone was inspected by something.,inspect
+Somebody is investigating something.,Something is being investigated by somebody.,investigate
+Something is investigating someone.,Output: Someone is being investigated by something.,investigate
+Somebody observed something in the park.,The something was observed by somebody in the park.,observe
+Something observed someone from the shadows.,Output: Someone was observed by something from the shadows.,observe
+Somebody overheard something.,Something was overheard by somebody.,overhear
+Something overheard someone.,Output: Someone was overheard by something.,overhear
+Somebody recognized something.,Something was recognized by somebody.,recognize
+Something recognized someone.,Output: Someone was recognized by something.,recognize
+Somebody remembered something.,Output: Something was remembered by somebody.,remember
+Something reminded someone.,Something was reminded by someone.,remember
+Somebody spotted something unusual. ,Output: Something unusual was spotted by somebody.,spot
+Something spotted someone in the distance.,Something was spotted by someone in the distance.,spot
+Somebody spied on something.,Output: Something was spied on by somebody.,spy on
+Someone spied on somebody.,"The sentence ""Someone spied on somebody"" can be passivized as: 
+
+""Somebody was spied on by someone.""",spy on
+Somebody watched something.,Output: Something was watched by somebody.,watch
+Something watched someone.,Output: Someone was watched by something.,watch
+Somebody gazed at something.,Output: Something was gazed at by somebody.,gaze at
+Something gazed at someone.,Output: Someone was gazed at by something.,gaze at
+Somebody listened to something.,Output: Something was listened to by somebody.,listen to
+Something listened to someone.,Output: Someone was listened to by something.,listen to
+Somebody looked at something.,Output: Something was looked at by somebody.,look at
+Something looked at someone.,The someone was looked at by something.,look at
+Somebody stared at something.,The something was stared at by somebody.,stare at
+Something stared at someone.,"The sentence ""Something stared at someone"" can be passivized as ""Someone was stared at by something.""",stare at
+Somebody appreciates something.,Output: Something is appreciated by somebody.,appreciate
+Something appreciates someone.,Output: Someone is appreciated by something.,appreciate
+Somebody believes in something.,"The sentence ""Somebody believes in something"" can be passivized as follows:
+
+""Something is believed in by somebody.""",believe
+Someone believes in somewhere better.,"The sentence ""Someone believes in somewhere better"" can be passivized as follows:
+
+""Somewhere better is believed in by someone.""",believe
+Somebody idolizes someone.,The person is idolized by somebody.,idolize
+Something idolizes somebody.,Output: Somebody is idolized by something.,idolize
+Somebody knows something.,Something is known by somebody.,know
+Something knows someone.,Output: Someone is known by something.,know
+Somebody likes something. ,Output: Something is liked by somebody.,like
+"Somewhere, someone likes something.",Output: Something is liked by someone somewhere.,like
+Somebody loves somebody.,Somebody is loved by somebody.,love
+Something loves someone.,Output: Someone is loved by something.,love
+Somebody missed something.,Output: Something was missed by somebody.,miss
+Something missed someone.,Output: Someone was missed by something.,miss
+Somebody deserves respect.,Output: Respect is deserved by somebody.,respect
+Something about respect surprises someone.,Something about respect is surprised by someone.,respect
+Somebody supports something.,The something is supported by somebody.,support
+Something supports someone.,Output: Someone is supported by something.,support
+Somebody tolerated something.,Output: Something was tolerated by somebody.,tolerate
+Something tolerated someone.,Output: Someone was tolerated by something.,tolerate
+Somebody trusted somebody else.,"The sentence can be passivized as: ""Somebody else was trusted by somebody.""",trust
+"Somewhere, someone trusted something.","The phrase ""something was trusted by someone somewhere.""",trust
+Somebody understood something.,Output: Something was understood by somebody.,understand
+Something understood someone.,"The sentence ""Something understood someone."" can be passivized as follows:
+
+Output: Someone was understood by something.",understand
+Somebody worships something.,Output: Something is worshipped by somebody.,worship
+Something worshiped someone.,Output: Someone was worshiped by something.,worship
+Somebody despises something.,Output: Something is despised by somebody.,despise
+Something despises someone.,Output: Someone is despised by something.,despise
+Somebody detests something.,Output: Something is detested by somebody.,detest
+Something detests someone.,Output: Someone is detested by something.,detest
+Somebody dislikes something.,Output: Something is disliked by somebody.,dislike
+Someone dislikes somebody.,"The sentence ""Someone dislikes somebody"" can be passivized as: ""Somebody is disliked by someone.""",dislike
+Somebody distrusts something.,Output: Something is distrusted by somebody.,distrust
+Someone distrusts somebody.,Output: Somebody is distrusted by someone.,distrust
+Somebody dreaded something.,Output: Something was dreaded by somebody.,dread
+Something made someone dread.,Output: Someone was made to dread by something.,dread
+Somebody envies someone for their success.,Output: Someone is envied by somebody for their success.,envy
+Something about the way someone behaves creates envy.,Output: Envy is created by something about the way someone behaves.,envy
+Somebody feared something.,Something was feared by somebody.,fear
+Something fearful made someone afraid.,The fearful thing was made to make someone afraid.,fear
+Somebody forgot something.,Something was forgotten by somebody.,forget
+Something made someone forget.,Output: Someone was made to forget by something.,forget
+Somebody hates something.,Output: Something is hated by somebody.,hate
+Something hates someone.,Output: Someone is hated by something.,hate
+Somebody loathes something.  ,Something is loathed by somebody.,loathe
+Something loathes someone.,Output: Someone is loathed by something.,loathe
+Somebody resents something.,The something is resented by somebody.,resent
+Something makes someone resentful.,Output: Someone is made resentful by something.,resent
+Somebody detected something.,Output: Something was detected by somebody.,detect
+Something detected someone.,The sentence in passive voice would be: Someone was detected by something.,detect
+Somebody discerned something in the shadows.,Something was discerned by somebody in the shadows.,discern
+Something discerned someone in the crowd.,Output: Someone was discerned by something in the crowd.,discern
+Somebody felt something.,Something was felt by somebody.,feel
+Something made someone feel.,Output: Someone was made to feel by something.,feel
+Somebody tasted something at the festival. ,Output: Something was tasted by somebody at the festival.,taste
+Something tasted better than someone expected.,Something was tasted better than someone expected.,taste
+Somebody needs something.  ,Something needs to be done by somebody.,need
+Something needs someone.  ,Output: Someone is needed by something.,need
+Somebody wants something.,Something is wanted by somebody.,want
+Something wants someone.,Output: Someone is wanted by something.,want
+Somebody received something.  ,Output: Something was received by somebody.,receive
+Something received someone.,The someone was received by something.,receive
+Somebody accepted something.  ,Output: Something was accepted by somebody.,accept
+Something accepted someone.,Output: Someone was accepted by something.,accept
+Somebody is undergoing something important.,The important thing is being undergone by somebody.,undergo
+Something is undergoing a change somewhere.,The change is being undergone by something somewhere.,undergo
+Somebody succumbed to something.  ,The something was succumbed to by somebody.,succumb to
+Something caused someone to succumb to fear.,Output: Fear was succumbed to by someone by something.,succumb to
+Somebody inherited something.,Output: Something was inherited by somebody.,inherit
+"Somewhere, someone inherited something.",Something was inherited by someone.,inherit
+Somebody got something.,Something was gotten by somebody.,get
+Something got someone.,Output: Someone was gotten by something.,get
+Somebody owns something.,The something is owned by somebody.,own
+Something owns somebody.,Output: Somebody is owned by something.,own
+Somebody possesses something.,Output: Something is possessed by somebody.,possess
+Something possesses someone.,Output: Someone is possessed by something.,possess
+Somebody justified something.,Output: Something was justified by somebody.,justify
+Something justified someone.,Output: Someone was justified by something.,justify
+Somebody proved something.,Something was proved by somebody.,prove
+Something proved someone.,Output: Someone was proved by something.,prove
+Somebody created something.,Output: Something was created by somebody.,create
+Something created someone.,"The sentence ""Something created someone"" can be passivized as follows:
+
+Output: Someone was created by something.",create
+Somebody nullified something.,Output: Something was nullified by somebody.,nullify
+Something nullified someone.,The nullification was done by someone.,nullify
+Somebody asserted something.,Output: Something was asserted by somebody.,assert
+Something asserted someone.,Output: Someone was asserted by something.,assert
+Somebody confirmed something.  ,"The sentence ""Somebody confirmed something."" can be passivized to:
+""Something was confirmed by somebody.""",confirm
+Something confirmed someone.,Output: Someone was confirmed by something.,confirm
+Somebody demonstrated something.,Output: Something was demonstrated by somebody.,demonstrate
+Something demonstrated someone.,"The sentence ""Something demonstrated someone"" can be passivized as: 
+
+""Someone was demonstrated by something.""",demonstrate
+Somebody explained something. ,Something was explained by somebody.,explain
+Something explained to someone.,Output: Someone was explained to by something.,explain
+Somebody implied something.,Output: Something was implied by somebody.,imply
+Something implied someone.,Output: Someone was implied by something.,imply
+Somebody indicated something.  ,Output: Something was indicated by somebody.,indicate
+Something indicated someone.,Output: Someone was indicated by something.,indicate
+Somebody obscured something important.,Something important was obscured by somebody.,obscure
+Something obscured someone’s view.,Output: Someone's view was obscured by something.,obscure
+Somebody proclaimed something at the event.,The event was proclaimed something by somebody.,proclaim
+Something proclaimed someone as a hero.,Output: Someone was proclaimed as a hero by something.,proclaim
+Somebody predicted something.,The something was predicted by somebody.,predict
+Something predicted someone.,Output: Someone was predicted by something.,predict
+Somebody revealed something.,Output: Something was revealed by somebody.,reveal
+Something revealed someone.,"The sentence ""Something revealed someone"" can be passivized as:
+
+""Someone was revealed by something.""",reveal
+Somebody showed something interesting.,Output: Something interesting was shown by somebody.,show
+Something showed someone the way.,The way was shown to someone by something.,show
+Somebody suggested something.,Output: Something was suggested by somebody.,suggest
+Something suggested someone.,The suggestion was made by someone.,suggest
+Somebody encircled something.,Output: Something was encircled by somebody.,encircle
+Something encircled someone.,Output: Someone was encircled by something.,encircle
+Somebody crossed the border somewhere.,The border was crossed by somebody.,border
+Something marked the border between two countries.,The border between two countries was marked by something.,border
+Somebody dotted something.,Output: Something was dotted by somebody.,dot
+Something dotted someone.,Output: Someone was dotted by something.,dot
+Somebody covered something with a blanket.,The blanket was used to cover something by somebody.,"cover (i.e., span an area of land)"
+Something covered somewhere with a thick layer of snow.,"The sentence ""Something covered somewhere with a thick layer of snow"" does not have a clear agent performing an action. It is somewhat vague and doesn't follow a typical subject-verb structure. However, I can attempt to convert it into a more passive-like construction.
+
+Output: Somewhere was covered by something with a thick layer of snow.","cover (i.e., span an area of land)"
+Somebody capped something.,The thing was capped by somebody.,cap
+Something capped someone.,Output: Someone was capped by something.,cap
+Somebody drew a line somewhere.  ,A line was drawn somewhere by somebody.,line
+Something crossed the line for someone.  ,The line was crossed by someone.,line
+Somebody surrounded something.,Output: Something was surrounded by somebody.,surround
+Something surrounded someone.,Something was surrounded by someone.,surround
+Somebody headed somewhere.,Output: Somewhere was headed by somebody.,"head (i.e., be at the top of)"
+Something headed towards someone.,Something was headed towards someone by someone.,"head (i.e., be at the top of)"
+Somebody spanned something.,Output: Something was spanned by somebody.,span
+Something spanned somewhere.,Output: Somewhere was spanned by something.,span
+Somebody contained something.,Output: Something was contained by somebody.,contain
+Something contained someone.,"The sentence ""Something contained someone"" can be passivized as:
+
+""Someone was contained by something.""",contain
+Somebody abuts something.,Output: Something is abutted by somebody.,abut
+Something abuts somewhere.,Output: Somewhere is abutted by something.,abut
+Somebody filled something with dirt.,Something was filled with dirt by somebody.,"fill (i.e., occupy a particular area of land)"
+Something filled somewhere with noise.,Output: Somewhere was filled with noise by something.,"fill (i.e., occupy a particular area of land)"
+Somebody rang something.,Output: Something was rung by somebody.,ring
+Something rang somewhere.,Output: Something was rung somewhere.,ring
+Somebody measured something.,Output: Something was measured by somebody.,measure
+Something measured someone.,Output: Someone was measured by something.,measure
+Somebody read something interesting. ,Something interesting was read by somebody.,"read (i.e., to say, as in a sign)"
+Something read something to someone.,Output: Something was read to someone by something.,"read (i.e., to say, as in a sign)"
+Somebody registered for something.,Output: Something was registered for by somebody.,register
+Something registered in someone's mind.,Output: Something was registered in someone's mind.,register
+Somebody totaled something.,The something was totaled by somebody.,"total (i.e., add up to)"
+Something totaled somebody's expenses.,The expenses were totaled by something.,"total (i.e., add up to)"
+Somebody weighed something.,Output: Something was weighed by somebody.,weigh
+Something weighed somebody.,Output: Somebody was weighed by something.,weigh
+Somebody costs something.,Output: Something is cost by somebody.,cost
+Something costs someone.,Output: Someone is cost by something.,cost
+Somebody's last request was to see the sunset one more time.,The last request was for the sunset to be seen one more time by somebody.,last
+Something about last night still lingers in my mind.,Output: Something about last night is still lingered in my mind.,last
+Somebody took something from the table. ,Something was taken from the table by somebody.,"take (i.e., carry on for a certiain length of time)"
+Something took someone by surprise.,Output: Someone was surprised by something.,"take (i.e., carry on for a certiain length of time)"
+Somebody carried something heavy.,Output: Something heavy was carried by somebody.,"carry (i.e., hold a certain number of people)"
+Something carried someone away.,Output: Someone was carried away by something.,"carry (i.e., hold a certain number of people)"
+Somebody fit something into the box.,The box had something fitted into it by somebody.,fit
+Something fit someone perfectly.,"The sentence could be passivized as: ""Someone was perfectly fitted by something.""",fit
+Somebody fed somebody something.,Output: Something was fed to somebody by somebody.,"feed (i.e., be enough for a certain number of people)"
+Something fed someone somewhere.,Output: Someone was fed by something somewhere.,"feed (i.e., be enough for a certain number of people)"
+Somebody can hold somewhere for the meeting.,The meeting can be held somewhere by somebody.,"hold (i.e., accomdate a certain number of people)"
+Something holds someone accountable for their actions.,Output: Someone is held accountable for their actions by something.,"hold (i.e., accomdate a certain number of people)"
+Somebody owned a house somewhere.,The house was owned by somebody.,house
+Something happened to someone in the house.,Something was happened to by someone in the house.,house
+Somebody took a seat somewhere.,The seat was taken by somebody.,seat
+Something unexpected caused someone to leave their seat.,Something unexpected caused by someone to leave their seat.,seat
+Somebody served something at the party.,Something was served at the party by somebody.,"serve (i.e., be enough food for)"
+Something served someone who was hungry.,Output: Someone who was hungry was served by something.,"serve (i.e., be enough food for)"
+Somebody needs somewhere to sleep.,Somewhere needs to be provided for somebody to sleep.,"sleep (i.e., hold enough sleeping space for)"
+Something that is comfortable can help someone sleep better.,"Something that is comfortable can help someone sleep better.  
+Output: Someone can sleep better when something that is comfortable is used.","sleep (i.e., hold enough sleeping space for)"
+Somebody stored something in the garage.,Output: Something was stored in the garage by somebody.,"store (i.e., contain enough room to hold)"
+"Somewhere, there is something that can store everything you need.",Something that can store everything you need is located somewhere.,"store (i.e., contain enough room to hold)"
+Somebody used something.,Something was used by somebody.,use
+Something used someone.,Output: Someone was used by something.,use
+Somebody has something important to share.,Something important has to be shared by somebody.,have
+Something has happened to someone unexpected.,Something unexpected has been happened to by someone.,have
+Somebody lacks something.,Output: Something is lacked by somebody.,lack
+Something lacks someone.,Something is lacked by someone.,lack
+Somebody resembles something strange.,Output: Something strange is resembled by somebody.,resemble
+Something resembles someone from my past.,"The sentence ""Something resembles someone from my past"" can be passivized as: ""Someone from my past is resembled by something.""",resemble
+Somebody looks like someone famous.,The famous person looks like somebody.,look like
+Something looks like somewhere I've been before.,"The sentence can be passivized as follows:
+
+Output: Somewhere I've been before looks like something.",look like
+Somebody is somewhere in the garden.,Output: Somewhere in the garden is being inhabited by somebody.,be
+Something is in the box.,Output: The box is containing something.,be
+Somebody belched loudly in the quiet room.,The quiet room was belched in loudly by somebody.,belch
+Something terrible made someone belch unexpectedly.,The belch was unexpectedly made by something terrible.,belch
+Somebody bled somewhere.,"Output: Somewhere, someone was bled.",bleed
+Something bled someone.,"The sentence ""Something bled someone"" can be passivized as: ""Someone was bled by something.""",bleed
+Somebody dribbled something.,Something was dribbled by somebody.,dribble
+Something dribbled somewhere.,Output: Somewhere was dribbled by something.,dribble
+Somebody heard something drip.,Something was heard to drip by somebody.,drip
+Something dripped on someone.,The cheese was dripped on by someone.,drip
+Somebody made something foam.,The foam was made by somebody.,foam
+Something foamed over someone.,"The sentence ""Something foamed over someone"" can be passivized as: 
+
+""Someone was foamed over by something.""",foam
+Somebody gushed about something exciting.,Output: Something exciting was gushed about by somebody.,gush
+Something gushed somewhere unexpected.,Output: Something was gushed by something unexpected.,gush
+Somebody noticed that something was leaking.,The leaking was noticed by somebody.,leak
+Something in the roof leaked on someone’s head.,The roof leaked on someone's head.,leak
+Somebody noticed something oozing from the ground. ,Something oozing from the ground was noticed by somebody.,ooze
+Something oozed from somewhere in the old house.,Something was oozed from somewhere in the old house.,ooze
+Somebody puffed something.,Output: Something was puffed by somebody.,puff
+Something puffed somewhere.,Output: Somewhere was puffed by something.,puff
+Somebody radiated warmth somewhere in the room.,The warmth was radiated by somebody somewhere in the room.,radiate
+Something radiated an energy that drew someone closer.,An energy that drew someone closer was radiated by something.,radiate
+Somebody spewed something.,Something was spewed by somebody.,spew
+Something spewed somewhere.,Output: Something was spewed somewhere.,spew
+Somebody spouted something interesting during the meeting.,Output: Something interesting was spouted by somebody during the meeting.,spout
+"Somewhere, something spouted water unexpectedly.",The water was spouted unexpectedly by something somewhere.,spout
+Somebody watched something sprout in the garden. ,The something was watched sprouting in the garden by somebody.,sprout
+Something sprouted somewhere in the yard.,Something was sprouted somewhere in the yard.,sprout
+Somebody spurted something across the table.,Something was spurtted across the table by somebody.,spurt
+Something spurted somewhere high in the sky.,Something was spurting somewhere high in the sky.,spurt
+Somebody streamed something.,Output: Something was streamed by somebody.,stream
+Something streamed somewhere.,Something was streamed somewhere.,stream
+Somebody is sweating somewhere.  ,"The sentence ""Somebody is sweating somewhere"" can be passivized as follows:
+
+Output: Somewhere is being sweated by somebody.",sweat
+Something made someone sweat.,Output: Someone was made to sweat by something.,sweat
