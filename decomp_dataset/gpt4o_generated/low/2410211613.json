@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "she",
+        "object": "the rumors about the haunted house",
+        "verb": "believed",
+        "sentence": "She believed the rumors about the haunted house.",
+        "paragraph": "It was a dark and stormy night. The town was abuzz with strange tales. She believed the rumors about the haunted house. Her friends, however, were skeptical. They decided to go investigate themselves.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "they",
+        "object": "the dark forest at the edge of the village",
+        "verb": "feared",
+        "sentence": "They feared the dark forest at the edge of the village.",
+        "paragraph": "Strange noises were often heard at dusk. The villagers shared stories of mysterious creatures. They feared the dark forest at the edge of the village. Children were warned to stay away. Nevertheless, some adventurous souls dared to explore it.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the answer to the difficult question",
+        "verb": "knew",
+        "sentence": "He knew the answer to the difficult question.",
+        "paragraph": "The teacher posed a challenging query. The class fell silent with uncertainty. He knew the answer to the difficult question. His confidence impressed his classmates. The teacher praised his critical thinking.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the project",
+        "object": "necessary resources",
+        "verb": "lacked",
+        "sentence": "The project lacked necessary resources.",
+        "paragraph": "The team had ambitious goals. However, funding was a constant issue. The project lacked necessary resources. Progress was slow because of the shortages. They decided to seek additional sponsors.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the energetic puppy",
+        "verb": "liked",
+        "sentence": "She liked the energetic puppy.",
+        "paragraph": "The adoption fair was bustling with families. Puppies of all sizes and breeds were available. She liked the energetic puppy. He wagged his tail enthusiastically. The bond was instant, and she took him home.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the chance to meet his idol",
+        "verb": "missed",
+        "sentence": "He missed the chance to meet his idol.",
+        "paragraph": "The celebrity arrived at the event amidst cheers. Fans gathered eagerly at the venue. He missed the chance to meet his idol. Traffic had delayed his arrival. Disappointed but hopeful, he planned to try again next year.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the community center",
+        "object": "new volunteers",
+        "verb": "needed",
+        "sentence": "The community center needed new volunteers.",
+        "paragraph": "The annual food drive was approaching. Preparations were underway to assist families. The community center needed new volunteers. Flyers were distributed across the neighborhood. Many willing individuals signed up to help.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the melody from her childhood",
+        "verb": "recognized",
+        "sentence": "She recognized the melody from her childhood.",
+        "paragraph": "The radio played softly in the background. Nostalgic tunes filled the room. She recognized the melody from her childhood. Memories rushed back vividly. It reminded her of carefree days.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the expenses",
+        "object": "more than the budget allowed",
+        "verb": "totaled",
+        "sentence": "The expenses totaled more than the budget allowed.",
+        "paragraph": "The team meticulously accounted for their costs. Initial estimates seemed on track. However, the expenses totaled more than the budget allowed. They scrambled to find areas to cut back. With adjustments, they managed to balance the books.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the integrity of his mentor",
+        "verb": "trusted",
+        "sentence": "He trusted the integrity of his mentor.",
+        "paragraph": "Many admired the mentor for his wisdom. His advice was sought after by many. He trusted the integrity of his mentor completely. This trust was built over years of guidance. Their relationship was one of mutual respect.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "they",
+        "object": "the heroic deeds of the past",
+        "verb": "remembered",
+        "sentence": "They remembered the heroic deeds of the past.",
+        "paragraph": "In the town center, a statue stood proudly. It commemorated the soldiers of another era. They remembered the heroic deeds of the past. Stories of courage and sacrifice were shared. The legacy inspired future generations to serve.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the prestigious award",
+        "verb": "received",
+        "sentence": "She received the prestigious award.",
+        "paragraph": "The auditorium was filled with anticipation. Nominees waited anxiously for the announcement. She received the prestigious award. Her hard work and dedication were acknowledged. The standing ovation was well deserved.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the complexities of the situation",
+        "verb": "understood",
+        "sentence": "He understood the complexities of the situation.",
+        "paragraph": "The board meeting discussed potential strategies. Issues arose that challenged consensus. He understood the complexities of the situation. His insights offered clarity to the discussion. A new, united plan emerged.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "they",
+        "object": "her dedication to the cause",
+        "verb": "respected",
+        "sentence": "They respected her dedication to the cause.",
+        "paragraph": "She tirelessly advocated for environmental changes. Her efforts were unwavering. They respected her dedication to the cause. She served as a beacon of hope. Her passion inspired others to join the movement.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the secret plans",
+        "verb": "overheard",
+        "sentence": "She overheard the secret plans.",
+        "paragraph": "The conspirators spoke in hushed tones. They believed they were alone. She overheard the secret plans. Her shock was palpable, but she remained quiet. Information like this could change everything.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

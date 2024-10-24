@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "Maria",
+    "object": "the rumors about John",
+    "verb": "believed",
+    "sentence": "Maria believed the rumors about John.",
+    "paragraph": "Maria had heard whispers circulating in the office. She didn’t know the full story, but she was curious. Maria believed the rumors about John. Later, she decided to talk to John directly. To her surprise, the truth was quite different.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The students",
+    "object": "their teacher",
+    "verb": "respected",
+    "sentence": "The students respected their teacher.",
+    "paragraph": "The teacher had been at the school for over 20 years. Her dedication never went unnoticed. The students respected their teacher. Her influence extended beyond the classroom. This respect was evident in their behavior.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "James",
+    "object": "the annual performance review",
+    "verb": "dreaded",
+    "sentence": "James dreaded the annual performance review.",
+    "paragraph": "The end of the year was fast approaching. In the office, everyone was preparing their reports. James dreaded the annual performance review. He recalled last year’s criticism. He just hoped for a better outcome this time.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Sarah",
+    "object": "a new laptop",
+    "verb": "needed",
+    "sentence": "Sarah needed a new laptop.",
+    "paragraph": "The screen flickered for the third time that day. The old device was getting slower everyday. Sarah needed a new laptop. After work, she visited several electronics stores. She wanted to find the best deal.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Alex",
+    "object": "the argument between the managers",
+    "verb": "overheard",
+    "sentence": "Alex overheard the argument between the managers.",
+    "paragraph": "The office was tense that morning. Everyone was unusually quiet. Alex overheard the argument between the managers. It seemed like a minor misunderstanding. By lunch, things settled down.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The drawing",
+    "object": "a famous painting",
+    "verb": "resembled",
+    "sentence": "The drawing resembled a famous painting.",
+    "paragraph": "The art class was buzzing with activity. Students admired each other's work. The drawing resembled a famous painting. The teacher praised the student's creativity. It became the best piece in the class gallery.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "They",
+    "object": "the importance of teamwork",
+    "verb": "understood",
+    "sentence": "They understood the importance of teamwork.",
+    "paragraph": "The project was more challenging than expected. Many meetings were needed to strategize. They understood the importance of teamwork. Success was their ultimate goal. Their collaboration eventually paid off.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Emma",
+    "object": "the changes in the neighborhood",
+    "verb": "noticed",
+    "sentence": "Emma noticed the changes in the neighborhood.",
+    "paragraph": "Emma went for her usual morning jog. The quiet street felt different today. Emma noticed the changes in the neighborhood. New stores were opening up. The area seemed to be thriving.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Liam",
+    "object": "the distant thunder",
+    "verb": "heard",
+    "sentence": "Liam heard the distant thunder.",
+    "paragraph": "The sky darkened in the afternoon. Raindrops began to patter on the window. Liam heard the distant thunder. He prepared for a stormy night. The weather forecast confirmed his expectations.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Sheena",
+    "object": "the dessert at the gala",
+    "verb": "enjoyed",
+    "sentence": "Sheena enjoyed the dessert at the gala.",
+    "paragraph": "The gala was a grand affair. The food was exquisite. Sheena enjoyed the dessert at the gala. It was the talk of the evening. Everyone praised the chef for this creation.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The team",
+    "object": "their leader’s decisions",
+    "verb": "trusted",
+    "sentence": "The team trusted their leader’s decisions.",
+    "paragraph": "The project was at a critical stage. Decisions had to be made quickly. The team trusted their leader’s decisions. Everyone was optimistic about the outcome. They continued to follow the leader’s guidance.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Oliver",
+    "object": "the sunrise from his window",
+    "verb": "saw",
+    "sentence": "Oliver saw the sunrise from his window.",
+    "paragraph": "Oliver woke up earlier than usual. The horizon was beginning to glow. Oliver saw the sunrise from his window. The sky was painted with colors. It was a peaceful start to his day.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The children",
+    "object": "the ghost stories",
+    "verb": "feared",
+    "sentence": "The children feared the ghost stories.",
+    "paragraph": "It was a stormy night at camp. The counselor decided to tell a tale. The children feared the ghost stories. Some couldn't sleep afterwards. They promised to tell happier stories next time.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Tom",
+    "object": "the new policy at work",
+    "verb": "liked",
+    "sentence": "Tom liked the new policy at work.",
+    "paragraph": "The company had a policy review. Many employees were apprehensive. Tom liked the new policy at work. It addressed many of their past concerns. Most of his colleagues shared his sentiment.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "Liz",
+    "object": "her grandmother’s advice",
+    "verb": "remembered",
+    "sentence": "Liz remembered her grandmother’s advice.",
+    "paragraph": "Liz faced a tough decision at work. She paused to reflect on her choices. Liz remembered her grandmother’s advice. It brought clarity to her dilemma. With newfound confidence, she made her choice.",
+    "scores": [1,1,1,1,1,1,1,1]
+  }
+]

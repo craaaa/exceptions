@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The new shopping mall",
+    "object": "the old town hall",
+    "verb": "abuts",
+    "sentence": "The new shopping mall abuts the old town hall.",
+    "paragraph": "The local government announced plans to modernize the city. Several new buildings were constructed over the past year. The new shopping mall abuts the old town hall. This juxtaposition highlights the blend of old and new. Citizens have mixed feelings about the changes.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The scientist",
+    "object": "the hypothesis",
+    "verb": "believes",
+    "sentence": "The scientist believes the hypothesis needs further testing.",
+    "paragraph": "In the wake of the recent study, many researchers have questioned its findings. The preliminary results were promising, yet inconclusive. The scientist believes the hypothesis needs further testing. More experiments are being planned to validate the theory. The scientific community eagerly awaits these results.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The two countries",
+    "object": "each other with a shared river",
+    "verb": "border",
+    "sentence": "The two countries border each other with a shared river.",
+    "paragraph": "Tensions have risen recently in the region. Geographical disputes have persisted for decades. The two countries border each other with a shared river. This natural boundary has been both a source of conflict and cooperation. Efforts are being made to foster peaceful relations.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The repairs",
+    "object": "the homeowner thousands of dollars",
+    "verb": "cost",
+    "sentence": "The repairs cost the homeowner thousands of dollars.",
+    "paragraph": "Last winter was particularly harsh, causing damage to many homes. Inspections revealed issues with the roof and plumbing. The repairs cost the homeowner thousands of dollars. Despite the expense, the house is now in excellent condition. A maintenance plan was established to prevent future problems.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "the upcoming meeting with her supervisor",
+    "verb": "dreaded",
+    "sentence": "She dreaded the upcoming meeting with her supervisor.",
+    "paragraph": "Ever since the announcement of the performance reviews, anxiety had filled the office. Rumors about personnel changes were rampant. She dreaded the upcoming meeting with her supervisor. The encounter could determine her future with the company. Her colleagues offered support and encouragement.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "the dark alley at night",
+    "verb": "feared",
+    "sentence": "He feared the dark alley at night.",
+    "paragraph": "The quiet neighborhood had recently seen a spike in crime. Residents were advised to stay vigilant. He feared the dark alley at night. It had become a place associated with danger and uncertainty. Additional streetlights were installed to ensure safety.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The new carpet",
+    "object": "the living room",
+    "verb": "fits",
+    "sentence": "The new carpet fits the living room perfectly.",
+    "paragraph": "After years of the same decor, the family decided to refresh their home. They spent weeks picking out fabrics and colors. The new carpet fits the living room perfectly. It brings warmth and elegance to the space. Their efforts yielded satisfying results.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The cat",
+    "object": "a special toy",
+    "verb": "has",
+    "sentence": "The cat has a special toy that it loves.",
+    "paragraph": "Every morning, the cat eagerly waits for its owner to wake up. It’s playful character brings joy to the household. The cat has a special toy that it loves. Shaped like a mouse, it often carries it around everywhere. Watching the cat play never gets old.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "the bell ringing in the distance",
+    "verb": "heard",
+    "sentence": "She heard the bell ringing in the distance.",
+    "paragraph": "The serene atmosphere of the countryside is refreshing. Amidst the serene sounds, children laughed and played. She heard the bell ringing in the distance. It was time to gather everyone for dinner. Slowly, the sun began to set against the horizon.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The teacher",
+    "object": "the student",
+    "verb": "knows",
+    "sentence": "The teacher knows the student has potential.",
+    "paragraph": "At the beginning of the academic year, many challenges were evident. The class dynamics were still forming. The teacher knows the student has potential. She encourages him with extra tutoring sessions. Slowly, improvements in his performance were noticeable.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The project",
+    "object": "the necessary funding",
+    "verb": "lacks",
+    "sentence": "The project lacks the necessary funding to proceed.",
+    "paragraph": "An innovative idea was put on the table during the meeting. Everyone was excited about its potential impact. The project lacks the necessary funding to proceed. Various avenues for financing were discussed. Securing support is critical for its success.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The meeting",
+    "object": "longer than expected",
+    "verb": "lasted",
+    "sentence": "The meeting lasted longer than expected.",
+    "paragraph": "Board members arrived early to prepare for the discussion. Several key agenda items required careful consideration. The meeting lasted longer than expected. Many important decisions were subsequently finalized. Attendees left the room feeling optimistic.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The dog",
+    "object": "playing fetch in the park",
+    "verb": "likes",
+    "sentence": "The dog likes playing fetch in the park.",
+    "paragraph": "Every day after work, they head to the nearby park. There, they meet other pet owners and their furry friends. The dog likes playing fetch in the park. Hours of fun are complemented by new bonds. This routine becomes the highlight of their day.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The clouds",
+    "object": "animals in the sky",
+    "verb": "look like",
+    "sentence": "The clouds look like animals in the sky.",
+    "paragraph": "On lazy afternoons, they often relax in the garden. With no trouble in sight, the family reminisces about good times. The clouds look like animals in the sky. This playful imagery evokes creativity. Laughter and joy fill their time together.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "the bustling life of the city",
+    "verb": "misses",
+    "sentence": "He misses the bustling life of the city.",
+    "paragraph": "Since moving to a smaller town, he has enjoyed the slower pace. This new environment provided tranquility and peace. He misses the bustling life of the city. The convenience and vibrancy are hard to replicate. Still, adaptation is part of his journey.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

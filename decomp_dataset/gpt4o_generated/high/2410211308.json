@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The construction company",
+        "object": "the old building on Main Street",
+        "verb": "demolish",
+        "sentence": "The construction company demolished the old building on Main Street.",
+        "paragraph": "The city council had long debated the fate of the old warehouse. After months of deliberation, they decided it was time for a change. The construction company demolished the old building on Main Street. In its place, a modern complex was to be built. Residents were excited about the upcoming development.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The government",
+        "object": "the prisoner",
+        "verb": "execute",
+        "sentence": "The government executed the prisoner after the trial.",
+        "paragraph": "After the uprising, the government took various prisoners into custody. The trial was swift and decisive. The government executed the prisoner after the trial. Human rights organizations decried the lack of a fair hearing. International pressure continued to mount.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The steamroller",
+        "object": "the pile of bricks on the site",
+        "verb": "crush",
+        "sentence": "The steamroller crushed the pile of bricks on the site.",
+        "paragraph": "Workers gathered to clean up the construction area. Equipment was brought in to remove debris. The steamroller crushed the pile of bricks on the site. By the end of the day, the area was neat and ready for the next phase. The project manager was pleased with the progress.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The storm",
+        "object": "the beach houses along the coast",
+        "verb": "wreck",
+        "sentence": "The storm wrecked the beach houses along the coast.",
+        "paragraph": "The weather forecast warned about the incoming hurricane. Residents were advised to evacuate the area. The storm wrecked the beach houses along the coast. Rescue teams quickly assembled to assist those in need. The recovery effort was immense.",
+        "scores": [5, 1, 5, 1, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The rogue agent",
+        "object": "the diplomat",
+        "verb": "assassinate",
+        "sentence": "The rogue agent assassinated the diplomat in the downtown hotel.",
+        "paragraph": "There were whispers of a plot brewing in political corridors. Security around key figures was heightened. The rogue agent assassinated the diplomat in the downtown hotel. Chaos ensued, prompting an international investigation. The world wanted answers to the shocking event.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The attacker",
+        "object": "the victim",
+        "verb": "stab",
+        "sentence": "The attacker stabbed the victim in the crowded subway.",
+        "paragraph": "Commuters packed the subway car during rush hour. Everyone seemed preoccupied with their own concerns. The attacker stabbed the victim in the crowded subway. Panic erupted, and people scrambled to safety. The police quickly arrived at the scene.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The gang",
+        "object": "the neighborhood",
+        "verb": "terrorize",
+        "sentence": "The gang terrorized the neighborhood for months.",
+        "paragraph": "The once peaceful suburb had changed drastically. Reports of crime were becoming increasingly frequent. The gang terrorized the neighborhood for months. Community meetings were held to discuss safety measures. Slowly, efforts to restore peace began to show results.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "The hunter",
+        "object": "the deer",
+        "verb": "shoot",
+        "sentence": "The hunter shot the deer in the dense forest.",
+        "paragraph": "The hunter ventured deep into the forest at dawn. Nature was serene and untouched. The hunter shot the deer in the dense forest. With the prize secured, he returned to his cabin. The adventure was a success.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The strong currents",
+        "object": "the swimmer",
+        "verb": "drown",
+        "sentence": "The strong currents drowned the swimmer in the ocean.",
+        "paragraph": "The day began with bright sunshine and a calm sea. However, the conditions took a swift turn for the worse. The strong currents drowned the swimmer in the ocean. Lifeguards fought valiantly against the waves to save others. Tragedy struck swiftly and unexpectedly.",
+        "scores": [5, 1, 1, 1, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The wildfire",
+        "object": "acres of forest in the national park",
+        "verb": "burn",
+        "sentence": "The wildfire burned acres of forest in the national park.",
+        "paragraph": "Park rangers raised the alarm as the fire risk increased. It had been an exceptionally dry season. The wildfire burned acres of forest in the national park. Crews worked tirelessly to contain the blaze. Eventually, the first rains brought relief.",
+        "scores": [5, 1, 1, 1, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The detective",
+        "object": "the wealthy businessman",
+        "verb": "murder",
+        "sentence": "The detective discovered who murdered the wealthy businessman.",
+        "paragraph": "The case had puzzled the department for weeks. Suspects, motives, and clues were scattered everywhere. The detective discovered who murdered the wealthy businessman. With evidence in hand, they made an arrest. The case finally reached a resolution.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "The thief",
+        "object": "the shopkeeper",
+        "verb": "knife",
+        "sentence": "The thief knifed the shopkeeper during the robbery.",
+        "paragraph": "The small shop was quiet as the owner arranged displays. Suddenly, an intruder burst through the door. The thief knifed the shopkeeper during the robbery. Witnesses called for help as the thief escaped into the night. The local community rallied around the injured owner.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    },
+    {
+        "subject": "The haunted house tour",
+        "object": "the visitors",
+        "verb": "frighten",
+        "sentence": "The haunted house tour frightened the visitors on Halloween night.",
+        "paragraph": "The spooky decorations were set in place, casting an eerie glow. Expectation filled the air as nightfall approached. The haunted house tour frightened the visitors on Halloween night. Screams of delight echoed through the rooms. It was an unforgettable experience.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "The exterminator",
+        "object": "the termites",
+        "verb": "exterminate",
+        "sentence": "The exterminator exterminated the termites in the old house.",
+        "paragraph": "The homeowner was concerned about the extensive damage. Professionals were called in to assess the situation. The exterminator exterminated the termites in the old house. Repairs began once the pests were eliminated. The homeowner felt a sense of relief from the resolution.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "The athlete",
+        "object": "the heavy sled",
+        "verb": "push",
+        "sentence": "The athlete pushed the heavy sled across the finish line.",
+        "paragraph": "The crowd gathered to watch the intense competition. Each participant was ready to show their strength. The athlete pushed the heavy sled across the finish line. Cheers erupted from the stands as victory was claimed. It was a triumphant moment for the competitor.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+    }
+]

@@ -1,0 +1,83 @@
+
+[
+  {
+    "subject": "The construction team",
+    "object": "the old shopping mall",
+    "verb": "demolished",
+    "sentence": "The construction team demolished the old shopping mall efficiently.",
+    "paragraph": "The city council approved the redevelopment plan last year. After months of planning, the construction team arrived early on Monday. The construction team demolished the old shopping mall efficiently. By noon, the debris was being sorted and prepared for recycling. The new complex will open next spring.",
+    "scores": [5, 5, 5, 5, 5, 5, 3, 5]
+  },
+  {
+    "subject": "The protester",
+    "object": "the glass window",
+    "verb": "smashed",
+    "sentence": "The protester smashed the glass window with a baseball bat.",
+    "paragraph": "Tensions were high as the crowd gathered outside the government building. The noise from chants and shouts filled the air. The protester smashed the glass window with a baseball bat. Immediately, security forces moved in to manage the situation. The board-up crew arrived to replace the broken panel.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 4]
+  },
+  {
+    "subject": "The hurricane",
+    "object": "the coastal village",
+    "verb": "destroyed",
+    "sentence": "The hurricane destroyed the coastal village entirely.",
+    "paragraph": "The meteorologists issued a warning earlier in the week. Evacuations were carried out swiftly as the storm approached. The hurricane destroyed the coastal village entirely. In its aftermath, rescue teams searched for survivors. Plans for rebuilding were discussed in the following days.",
+    "scores": [5, 1, 1, 1, 5, 5, 2, 4]
+  },
+  {
+    "subject": "The poacher",
+    "object": "the endangered rhino",
+    "verb": "killed",
+    "sentence": "The poacher killed the endangered rhino for its horn.",
+    "paragraph": "Conservationists worked tirelessly to protect endangered species. Despite their efforts, illegal poaching continued in the region. The poacher killed the endangered rhino for its horn. This tragic event drew international condemnation. Authorities increased patrols to prevent further incidents.",
+    "scores": [5, 5, 5, 5, 5, 5, 3, 3]
+  },
+  {
+    "subject": "The wrecking ball",
+    "object": "the abandoned factory",
+    "verb": "demolished",
+    "sentence": "The wrecking ball demolished the abandoned factory in minutes.",
+    "paragraph": "The factory had been standing since the early 1900s. It was declared a safety hazard last month. The wrecking ball demolished the abandoned factory in minutes. Dust and debris filled the surrounding area. Soon after, cleanup operations were underway.",
+    "scores": [5, 1, 1, 1, 5, 5, 2, 4]
+  },
+  {
+    "subject": "The toddler",
+    "object": "the plate",
+    "verb": "smashed",
+    "sentence": "The toddler smashed the plate onto the floor in frustration.",
+    "paragraph": "Dinner time had its typical challenges. The toddler was fussy and refused to eat. The toddler smashed the plate onto the floor in frustration. Parents sighed, picked up the pieces, and calmed the child. The meal continued with more caution.",
+    "scores": [5, 4, 4, 5, 5, 5, 2, 5]
+  },
+  {
+    "subject": "The fire",
+    "object": "the historic library",
+    "verb": "destroyed",
+    "sentence": "The fire destroyed the historic library overnight.",
+    "paragraph": "Emergency services were called as flames engulfed the building. Despite their efforts, the fire spread quickly. The fire destroyed the historic library overnight. By morning, only ashes and charred remains were left. The community began discussing plans to rebuild.",
+    "scores": [5, 1, 1, 1, 5, 5, 1, 4]
+  },
+  {
+    "subject": "The soldier",
+    "object": "the enemy combatant",
+    "verb": "killed",
+    "sentence": "The soldier killed the enemy combatant during the skirmish.",
+    "paragraph": "Tensions escalated along the border. Patrols increased as both sides prepared for conflict. The soldier killed the enemy combatant during the skirmish. Afterwards, a ceasefire was quickly negotiated. The incident was reported across news outlets.",
+    "scores": [5, 5, 5, 5, 5, 5, 3, 2]
+  },
+  {
+    "subject": "The explosives",
+    "object": "the bridge",
+    "verb": "demolished",
+    "sentence": "The explosives demolished the bridge in a controlled blast.",
+    "paragraph": "Engineers assessed the old bridge and deemed it unsafe. Plans for a new crossing were already in place. The explosives demolished the bridge in a controlled blast. Crowds watched from a safe distance, capturing the moment. Construction for the new bridge began immediately after clearance.",
+    "scores": [5, 1, 1, 1, 5, 5, 1, 4]
+  },
+  {
+    "subject": "The teenager",
+    "object": "the piñata",
+    "verb": "smashed",
+    "sentence": "The teenager smashed the piñata during the birthday party.",
+    "paragraph": "The party was in full swing with laughter and games. Children eagerly awaited their turn at the piñata. The teenager smashed the piñata during the birthday party. Candy spilled onto the grass, and kids rushed to gather it. The successful hit was celebrated with cheers.",
+    "scores": [5, 5, 5, 5, 5, 5, 5, 5]
+  }
+]

@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the librarian",
+        "object": "the new student",
+        "verb": "recognize",
+        "sentence": "The librarian recognized the new student immediately.",
+        "paragraph": "The library was bustling with activity as the new semester began. Fresh faces filled every aisle. The librarian recognized the new student immediately. She greeted him warmly and offered assistance. The student smiled and thanked her for her kindness.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the child",
+        "object": "the dark room",
+        "verb": "fear",
+        "sentence": "The child feared the dark room.",
+        "paragraph": "It was a stormy night, and the power had gone out. Shadows danced across the walls. The child feared the dark room. He clung to his teddy bear for comfort. His mother lit a candle to soothe him.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the sculpture",
+        "object": "a majestic eagle",
+        "verb": "look like",
+        "sentence": "The sculpture looked like a majestic eagle.",
+        "paragraph": "The art gallery showcased many beautiful pieces. Art enthusiasts admired the creativity on display. The sculpture looked like a majestic eagle. Its wings were spread wide, as if ready to take flight. Visitors were captivated by its realism.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the teacher",
+        "object": "the student's dilemma",
+        "verb": "understand",
+        "sentence": "The teacher understood the student's dilemma.",
+        "paragraph": "The exam period was especially stressful for everyone. Many students struggled to keep up with their studies. The teacher understood the student's dilemma. She offered guidance and adjusted deadlines. The student felt relieved and grateful.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the detective",
+        "object": "the unusual painting",
+        "verb": "notice",
+        "sentence": "The detective noticed the unusual painting.",
+        "paragraph": "The crime scene was meticulously examined. Every detail was scrutinized. The detective noticed the unusual painting. It seemed out of place in the lavish home. His instincts told him it was a vital clue.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the ambassador",
+        "object": "the diplomatic package",
+        "verb": "receive",
+        "sentence": "The ambassador received the diplomatic package.",
+        "paragraph": "Tensions were high between the two nations. Important negotiations were scheduled. The ambassador received the diplomatic package. It contained essential documents for the talks. He reviewed them thoroughly before the meeting.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the veteran",
+        "object": "his fallen comrades",
+        "verb": "remember",
+        "sentence": "The veteran remembered his fallen comrades.",
+        "paragraph": "The annual memorial service drew near. Veterans gathered to honor their colleagues. The veteran remembered his fallen comrades. Tears filled his eyes as stories were shared. The ceremony was a time of reflection and respect.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the employee",
+        "object": "the confidential conversation",
+        "verb": "overhear",
+        "sentence": "The employee overheard the confidential conversation.",
+        "paragraph": "The office was unusually quiet that day. People were whispering in corners about new policies. The employee overheard the confidential conversation. She realized it involved the future of the company. Deciding discretion was best, she kept the information to herself.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the patient",
+        "object": "the upcoming surgery",
+        "verb": "dread",
+        "sentence": "The patient dreaded the upcoming surgery.",
+        "paragraph": "The hospital room was chilly and sterile. Family members gathered to offer support. The patient dreaded the upcoming surgery. He feared the pain and possible complications. Nurses reassured him and promised excellent care.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the scientist",
+        "object": "the experiment",
+        "verb": "know",
+        "sentence": "The scientist knew the experiment would succeed.",
+        "paragraph": "Months of research had led to this critical moment. Colleagues watched anxiously in the lab. The scientist knew the experiment would succeed. Confidence filled the room as the process was conducted. Applause erupted when the results were confirmed.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the building",
+        "object": "a giant seashell",
+        "verb": "resemble",
+        "sentence": "The building resembled a giant seashell.",
+        "paragraph": "The new architectural wonder stood beside the coastline. Tourists marveled at its design. The building resembled a giant seashell. Its curves and textures blended with the natural landscape. Cameras clicked as visitors captured the scene.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the community",
+        "object": "the elder's wisdom",
+        "verb": "respect",
+        "sentence": "The community respected the elder's wisdom.",
+        "paragraph": "Gatherings were held regularly in the village hall. Discussions on important matters took place. The community respected the elder's wisdom. His words always carried weight and influenced decisions. Everyone knew his insights were invaluable.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the public",
+        "object": "the new mayor's promises",
+        "verb": "trust",
+        "sentence": "The public trusted the new mayor's promises.",
+        "paragraph": "Elections had brought a change in leadership. Citizens hoped for improvements in their city. The public trusted the new mayor's promises. They anticipated positive changes in infrastructure and policy. Optimism filled the air as plans were unveiled.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the traveler",
+        "object": "the connecting flight",
+        "verb": "miss",
+        "sentence": "The traveler missed the connecting flight.",
+        "paragraph": "A long layover at the airport was tiresome. Travelers checked monitors for updates on departures. The traveler missed the connecting flight. Frustration set in as arrangements were rescheduled. Determined to reach his destination, he remained hopeful.",
+        "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the proposal",
+        "object": "a viable financial plan",
+        "verb": "lack",
+        "sentence": "The proposal lacked a viable financial plan.",
+        "paragraph": "The boardroom was filled with eager faces. Presenters were nervous but prepared. The proposal lacked a viable financial plan. Investors showcased hesitance at the oversight. Revisions were made in hopes of gaining support.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

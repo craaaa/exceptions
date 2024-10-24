@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The spy",
+    "object": "The corrupt politician",
+    "verb": "assassinated",
+    "sentence": "The spy assassinated the corrupt politician in the dimly lit room.",
+    "paragraph": "The intelligence agency had been gathering evidence for months. It was a covert operation with very few agents in the know. The spy assassinated the corrupt politician in the dimly lit room. There was no trace left behind. The agency was satisfied with the outcome.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The dog",
+    "object": "The intruder",
+    "verb": "bit",
+    "sentence": "The dog bit the intruder on the leg during the night.",
+    "paragraph": "There were strange noises coming from the backyard. The family dog was on high alert for any unwanted visitors. The dog bit the intruder on the leg during the night. The intruder screamed in pain and ran away. The family was safe, thanks to their brave dog.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 3]
+  },
+  {
+    "subject": "The chef",
+    "object": "The lobster",
+    "verb": "boiled",
+    "sentence": "The chef boiled the lobster in the large pot.",
+    "paragraph": "The gourmet restaurant was preparing for its grand opening. The kitchen staff was bustling with activity as orders came in. The chef boiled the lobster in the large pot. The kitchen filled with the aroma of fresh seafood. Customers were eager to taste the chef's signature dish.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The kid",
+    "object": "The window",
+    "verb": "broke",
+    "sentence": "The kid accidentally broke the window with the baseball.",
+    "paragraph": "The children were playing outside in the bright sunshine. Laughter and shouts could be heard across the neighborhood. The kid accidentally broke the window with the baseball. The sound of shattering glass quickly caught everyone's attention. The child looked guilty and nervous, unsure of what would happen next.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The firefighter",
+    "object": "The controlled area",
+    "verb": "burned",
+    "sentence": "The firefighter expertly burned the controlled area to prevent wildfires.",
+    "paragraph": "The wildfire season was approaching, and precautions had to be taken. Teams of firefighters were dispatched to various locations. The firefighter expertly burned the controlled area to prevent wildfires. Smoke rose in the distance as a safety measure. The operation was a success, ensuring the protection of the nearby forest and community.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 1]
+  },
+  {
+    "subject": "The machine",
+    "object": "The rocks",
+    "verb": "crushed",
+    "sentence": "The machine crushed the rocks into gravel quickly and efficiently.",
+    "paragraph": "The construction site was buzzing with activity from sunrise to sunset. Heavy machinery was used to prepare the ground for foundations. The machine crushed the rocks into gravel quickly and efficiently. The resulting gravel was then moved to other parts of the site. Progress on the construction project was going according to schedule.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The crew",
+    "object": "The old building",
+    "verb": "demolished",
+    "sentence": "The crew demolished the old building with precision and care.",
+    "paragraph": "The city had plans to modernize the downtown area. An old, derelict building had to be removed to make way for the new development. The crew demolished the old building with precision and care. Dust filled the air as the structure came down piece by piece. Soon, the lot would be cleared, ready for new construction.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 1]
+  },
+  {
+    "subject": "The lifeguard",
+    "object": "The parasite",
+    "verb": "drowned",
+    "sentence": "The lifeguard drowned the parasite in chemicals to save the pool's ecosystem.",
+    "paragraph": "The community pool was a popular spot during the summer months. Recently, a harmful parasite was discovered in the water. The lifeguard drowned the parasite in chemicals to save the pool's ecosystem. The pool was then carefully monitored to ensure safety. Swimmers were once again able to enjoy the cool, refreshing water.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The game developer",
+    "object": "The complex code",
+    "verb": "executed",
+    "sentence": "The game developer executed the complex code flawlessly to improve the graphics.",
+    "paragraph": "The new game release was eagerly awaited by fans worldwide. Developers worked around the clock to polish and refine every detail. The game developer executed the complex code flawlessly to improve the graphics. The vibrant and detailed visuals amazed the testers. The game was now ready for its official launch.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The pest control team",
+    "object": "The termites",
+    "verb": "exterminated",
+    "sentence": "The pest control team exterminated the termites from the wooden beams.",
+    "paragraph": "The historical building had been infested with termites for months. Preservation of the structure was of utmost importance. The pest control team exterminated the termites from the wooden beams. Chemicals were applied with precision to protect the wood. The building was now free from pests, securing its future for years to come.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The thunderstorm",
+    "object": "The young child",
+    "verb": "frightened",
+    "sentence": "The thunderstorm frightened the young child with its loud booms.",
+    "paragraph": "The weather had taken a sudden turn, with dark clouds looming overhead. Rain began to pour down in sheets, accompanied by flashes of lightning. The thunderstorm frightened the young child with its loud booms. The child clung to their parents, seeking comfort. Eventually, the storm passed, leaving behind clear skies and a rainbow.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The carpenter",
+    "object": "The nails",
+    "verb": "hammered",
+    "sentence": "The carpenter hammered the nails into the wooden beams with expertise.",
+    "paragraph": "The house renovation was in full swing and progressing well. The framework needed reinforcement to comply with new safety regulations. The carpenter hammered the nails into the wooden beams with expertise. Each strike was calculated to ensure the beams held firm. The project was praised for its quality craftsmanship.",
+    "scores": [5, 5, 5, 5, 5, 5, 2, 0]
+  },
+  {
+    "subject": "The boxer",
+    "object": "The punching bag",
+    "verb": "hit",
+    "sentence": "The boxer hit the punching bag with all his strength during training.",
+    "paragraph": "Training intensities ramped up as the championship bout drew nearer. The gym echoed with the sound of punches and determined grunts. The boxer hit the punching bag with all his strength during training. Sweat poured down his face as he pushed his limits. With each session, he became stronger and more prepared for the fight.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  },
+  {
+    "subject": "The soccer player",
+    "object": "The ball",
+    "verb": "kicked",
+    "sentence": "The soccer player kicked the ball into the net with precision and power.",
+    "paragraph": "The stadium was filled with fans cheering for their favorite teams. The final minutes of the match were intensely competitive. The soccer player kicked the ball into the net with precision and power. The crowd erupted in applause as the winning goal was secured. The team celebrated their well-deserved victory.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 1]
+  },
+  {
+    "subject": "The gardener",
+    "object": "The weeds",
+    "verb": "killed",
+    "sentence": "The gardener killed the weeds with a special blend of herbicides.",
+    "paragraph": "The garden was flourishing with new growth and vibrant colors. However, invasive weeds threatened to overtake the flowers. The gardener killed the weeds with a special blend of herbicides. With careful application, the flowers were spared while the weeds withered. The garden continued to thrive, free from the invasive plants.",
+    "scores": [5, 5, 5, 5, 5, 5, 0, 0]
+  }
+]

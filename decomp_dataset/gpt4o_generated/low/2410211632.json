@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The farmer",
+        "object": "new tools",
+        "verb": "needed",
+        "sentence": "The farmer needed new tools for the upcoming planting season.",
+        "paragraph": "It was about to be a busy time on the farm. Equipment was scattered everywhere and in disrepair. The farmer needed new tools for the upcoming planting season. Without them, the crops wouldn't stand a chance. He was determined to find the best in town.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "the new book",
+        "verb": "liked",
+        "sentence": "Sarah liked the new book her friend recommended.",
+        "paragraph": "Sarah had been searching for a good read. Her friends often gave her ideas on what to try next. Sarah liked the new book her friend recommended. It had everything she'd hoped for. She planned to tell her friend how much she enjoyed it.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "John",
+        "object": "the tune",
+        "verb": "recognized",
+        "sentence": "John recognized the tune playing on the radio.",
+        "paragraph": "It was an old hit from the 80s. John had heard it many times during his youth. John recognized the tune playing on the radio. It brought back fond memories. Smiling, he turned up the volume.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Mary",
+        "object": "the rumors",
+        "verb": "believed",
+        "sentence": "Mary believed the rumors spreading around town.",
+        "paragraph": "Gossip was a common occurrence. Lately, there was one about a mysterious newcomer. Mary believed the rumors spreading around town. She felt a sense of intrigue. She tried to learn more about the situation.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The teacher",
+        "object": "the struggles",
+        "verb": "understood",
+        "sentence": "The teacher understood the struggles her students faced.",
+        "paragraph": "Teaching was no easy task. Every student had their unique challenges. The teacher understood the struggles her students faced. She was always looking for ways to support them. It made all the difference in their learning.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The artist",
+        "object": "the fine details",
+        "verb": "noticed",
+        "sentence": "The artist noticed the fine details in every brushstroke.",
+        "paragraph": "The gallery was filled with impressive pieces. Visitors often marveled at the artistry. The artist noticed the fine details in every brushstroke. It was a sign of true craftsmanship. Inspired, he began planning his next work.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The community",
+        "object": "the elder's wisdom",
+        "verb": "respected",
+        "sentence": "The community respected the elder's wisdom.",
+        "paragraph": "The town frequently sought guidance. His knowledge provided insight on many issues. The community respected the elder's wisdom. It helped maintain harmony. Everyone valued his contributions.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Sam",
+        "object": "the potential",
+        "verb": "saw",
+        "sentence": "Sam saw the potential in the abandoned factory building.",
+        "paragraph": "Many saw it as an eyesore. It had been unused for years. Sam saw the potential in the abandoned factory building. He envisioned a bustling community center. Plans were set in motion for redevelopment.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Lisa",
+        "object": "the announcement",
+        "verb": "heard",
+        "sentence": "Lisa heard the announcement over the loudspeaker.",
+        "paragraph": "The mall was packed with shoppers. A sale had captured everyone's attention. Lisa heard the announcement over the loudspeaker. It was time for the store openings. She quickly made her way to her favorite one.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The hiker",
+        "object": "the approaching storm clouds",
+        "verb": "feared",
+        "sentence": "The hiker feared the approaching storm clouds.",
+        "paragraph": "He had been excited for clear skies. The forecast, however, took a turn. The hiker feared the approaching storm clouds. He searched for the quickest path back. Safety was his priority.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The team",
+        "object": "the resources",
+        "verb": "lacked",
+        "sentence": "The team lacked the resources needed for the project.",
+        "paragraph": "Budget cuts had made it challenging. They had big dreams with little funding. The team lacked the resources needed for the project. They had to think creatively. Alternative solutions had to be found.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Tom",
+        "object": "the deadline",
+        "verb": "missed",
+        "sentence": "Tom missed the deadline for the essay submission.",
+        "paragraph": "He'd been under pressure from multiple assignments. Time management was proving difficult. Tom missed the deadline for the essay submission. His heart sank with disappointment. He promised to improve next time.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Jen",
+        "object": "the answer",
+        "verb": "knew",
+        "sentence": "Jen knew the answer to the difficult question.",
+        "paragraph": "It was a tense moment in the competition. The room was silent with anticipation. Jen knew the answer to the difficult question. Confidence filled her voice as she spoke. Applause erupted as she was confirmed correct.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "Tim",
+        "object": "the conversation",
+        "verb": "overheard",
+        "sentence": "Tim overheard the conversation in the café.",
+        "paragraph": "He was sipping coffee, lost in thought. Nearby, a lively debate caught his attention. Tim overheard the conversation in the café. The topics were intriguing. He couldn't help but listen further.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "The portrait",
+        "object": "the historical figure",
+        "verb": "resembled",
+        "sentence": "The portrait resembled the historical figure closely.",
+        "paragraph": "Many gathered to observe the new exhibit. It was a prominently anticipated display. The portrait resembled the historical figure closely. The artist had captured every nuance. Visitors discussed its lifelike accuracy.",
+        "ratings": [1,1,1,1,1,1,1,1]
+    }
+]

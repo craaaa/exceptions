@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the garden",
+        "object": "the riverbank",
+        "verb": "abuts",
+        "sentence": "The garden abuts the riverbank.",
+        "paragraph": "Our house is beautiful. It is surrounded by lush greenery. The garden abuts the riverbank. It provides a serene view. You can often hear the water flowing.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the rumors",
+        "verb": "believes",
+        "sentence": "She believes the rumors.",
+        "paragraph": "There was a lot of gossip going around. People tended to talk without much thought. She believes the rumors. She often shares them with excitement. Her friends try to correct her.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "their farm",
+        "object": "the national park",
+        "verb": "borders",
+        "sentence": "Their farm borders the national park.",
+        "paragraph": "A new agricultural policy was introduced. It affected many local farmers. Their farm borders the national park. Wildlife often roams near their fields. They ensure to maintain ecological balance.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the trip",
+        "object": "them a fortune",
+        "verb": "cost",
+        "sentence": "The trip cost them a fortune.",
+        "paragraph": "They decided to take a vacation. Plans were made for an exotic destination. The trip cost them a fortune. They enjoyed every moment though. Memories were worth the price.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the upcoming exam",
+        "verb": "dreads",
+        "sentence": "He dreads the upcoming exam.",
+        "paragraph": "The semester was hectic. Every student felt the pressure. He dreads the upcoming exam. Late nights were spent studying. He hopes his efforts pay off.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the child",
+        "object": "the dark",
+        "verb": "fears",
+        "sentence": "The child fears the dark.",
+        "paragraph": "Bedtime stories were told. The lights were turned off. The child fears the dark. A nightlight was left on. Eventually, they fell asleep.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the book",
+        "object": "the shelf",
+        "verb": "fits",
+        "sentence": "The book fits the shelf perfectly.",
+        "paragraph": "She bought a new bookshelf. It was assembled last weekend. The book fits the shelf perfectly. It completes her collection. She was delighted with the outcome.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "they",
+        "object": "two dogs",
+        "verb": "have",
+        "sentence": "They have two dogs.",
+        "paragraph": "The couple moved to the suburbs. They always wanted pets. They have two dogs. The dogs enjoy running in the backyard. The family spends weekends at the park.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the music",
+        "verb": "hears",
+        "sentence": "She hears the music.",
+        "paragraph": "There was a festival downtown. The air was filled with joy. She hears the music. It compels her to dance. The crowd around her is lively.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "he",
+        "object": "the answer",
+        "verb": "knows",
+        "sentence": "He knows the answer.",
+        "paragraph": "They were playing a trivia game. Questions were challenging. He knows the answer. It's a topic he's passionate about. His team cheers in excitement.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "they",
+        "object": "motivation",
+        "verb": "lack",
+        "sentence": "They lack motivation.",
+        "paragraph": "The team had faced several setbacks. Progress was slow. They lack motivation. The manager decided to intervene. Strategies were revised to boost morale.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the meeting",
+        "object": "two hours",
+        "verb": "lasted",
+        "sentence": "The meeting lasted two hours.",
+        "paragraph": "There was a proposal on the table. Many opinions needed to be addressed. The meeting lasted two hours. Decisions were finally made. Everyone was relieved when it concluded.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the new dress",
+        "verb": "likes",
+        "sentence": "She likes the new dress.",
+        "paragraph": "The boutique had a sale. Fashion trends were highlighted. She likes the new dress. It matches her style perfectly. Her friends complimented her choice.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the clouds",
+        "object": "animals",
+        "verb": "look like",
+        "sentence": "The clouds look like animals.",
+        "paragraph": "The sky was clear in the morning. By afternoon, it was filled with clouds. The clouds look like animals. It was amusing to spot different shapes. The sunset added beautiful hues to the sky.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "her childhood home",
+        "verb": "misses",
+        "sentence": "She misses her childhood home.",
+        "paragraph": "Life in the city was hectic. Memories of simpler times often surfaced. She misses her childhood home. Photos remind her of those days. Occasionally, she visits if time allows.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

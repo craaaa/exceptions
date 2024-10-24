@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The marathon",
+        "object": "five hours",
+        "verb": "lasted",
+        "sentence": "The marathon lasted five hours.",
+        "paragraph": "It was a bright and sunny day, perfect for a marathon. The participants lined up at the start line showing a mixture of excitement and anxiety. The marathon lasted five hours. Spectators cheered enthusiastically as they crossed the finish line. Exhausted athletes took a moment to rest and rehydrate.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The painting",
+        "object": "a famous Van Gogh",
+        "verb": "resembled",
+        "sentence": "The painting resembled a famous Van Gogh.",
+        "paragraph": "As the guests entered the art gallery, they were immediately drawn to one particular piece. The artist was pleased with the attention his work was receiving. The painting resembled a famous Van Gogh. Critics gathered around to discuss its style and technique. Meanwhile, the artist quietly smiled, soaking in the praise.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The child",
+        "object": "the dark room",
+        "verb": "feared",
+        "sentence": "The child feared the dark room.",
+        "paragraph": "It was bedtime, and the child's mother tucked him into bed. The night light cast shadows on the walls, making the room look eerie. The child feared the dark room. His mother reassured him that there were no monsters and left the door slightly open. The child eventually drifted off to sleep, holding his favorite teddy bear tightly.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "her coworkers discussing the surprise party",
+        "verb": "overheard",
+        "sentence": "She overheard her coworkers discussing the surprise party.",
+        "paragraph": "The office was buzzing with the usual chatter as employees mingled by the coffee machine. Little did she know, a surprise was being planned for her upcoming birthday. She overheard her coworkers discussing the surprise party. Pretending not to notice, she quickly walked past them with a sly smile. The anticipation built as she imagined how the day would unfold.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The coach",
+        "object": "his players",
+        "verb": "trusted",
+        "sentence": "The coach trusted his players explicitly.",
+        "paragraph": "As the championship game approached, tensions were high. Throughout the season, the coach had focused on building a strong team spirit. The coach trusted his players explicitly. He believed in their skills and their ability to work together effectively. In the end, the team played exceptionally well, bringing home the trophy.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The garden",
+        "object": "the old churchyard",
+        "verb": "abuts",
+        "sentence": "The garden abuts the old churchyard.",
+        "paragraph": "The village is known for its historic charm and picturesque landscapes. Walking through the narrow cobblestone streets, one can't help but admire the beautiful gardens. The garden abuts the old churchyard. Roses and lilies add vibrant colors to the scene. Visitors often stop to take photos and marvel at the tranquility.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the bus",
+        "verb": "missed",
+        "sentence": "She missed the bus by a few seconds.",
+        "paragraph": "The morning was hectic as she rushed to get ready for work. Her alarm had failed to go off, causing her to run late. She missed the bus by a few seconds. Frustrated, she waited for the next one, knowing she would have to explain her tardiness to her boss. Eventually, she arrived at the office, flustered but relieved.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The team",
+        "object": "their leader for his integrity",
+        "verb": "respected",
+        "sentence": "The team respected their leader for his integrity.",
+        "paragraph": "The project was challenging, requiring dedication and hard work from everyone involved. The leader guided his team with a clear vision and unwavering principles. The team respected their leader for his integrity. They admired how he always put the team's interest first. Under his leadership, they achieved remarkable success.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "a change in her mood",
+        "verb": "noticed",
+        "sentence": "He noticed a change in her mood.",
+        "paragraph": "The weather was gloomy, matching her somber expression. They sat together in comfortable silence, sipping their coffee. He noticed a change in her mood. Gently, he asked if everything was alright. After a moment, she opened up about her worries, grateful for his attentive ear.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The museum",
+        "object": "an extensive collection of artifacts",
+        "verb": "had",
+        "sentence": "The museum had an extensive collection of artifacts.",
+        "paragraph": "It was a rainy afternoon, perfect for exploring indoors. As visitors entered the grand hall, they were overwhelmed by the sheer number of exhibits. The museum had an extensive collection of artifacts. Curators worked meticulously to preserve each piece's historical significance. Attendees marveled at relics from ancient civilizations, eager to learn more.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the thought of public speaking",
+        "verb": "dreaded",
+        "sentence": "She dreaded the thought of public speaking.",
+        "paragraph": "It was the day of the big presentation, and butterflies fluttered in her stomach. She reviewed her notes one last time, hoping to calm her nerves. She dreaded the thought of public speaking. Taking a deep breath, she walked onto the stage, determined to face her fear. Slowly but surely, her confidence grew as she delivered her speech.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "They",
+        "object": "the power of teamwork",
+        "verb": "believed",
+        "sentence": "They believed in the power of teamwork.",
+        "paragraph": "The project deadline loomed, and challenges arose at every corner. Despite the setbacks, the team remained optimistic and united. They believed in the power of teamwork. Collaboration was key as they pooled their skills and resources. Gradually, the pieces fell into place, culminating in a successful project.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The repair",
+        "object": "a small fortune",
+        "verb": "cost",
+        "sentence": "The repair cost a small fortune.",
+        "paragraph": "The car broke down unexpectedly, leaving him stranded. After a long wait, the tow truck finally arrived, and he was able to take it to a mechanic. The repair cost a small fortune. Though it was a hefty expense, he was relieved to have his vehicle back in working order. From then on, he was extra cautious with its maintenance.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The garden",
+        "object": "more sunlight",
+        "verb": "needed",
+        "sentence": "The garden needed more sunlight.",
+        "paragraph": "The plants looked withered and pale, lacking the vibrant green usually attributed to healthy foliage. Despite regular watering, they weren't thriving as they should. The garden needed more sunlight. The gardener decided to clear some overhanging branches to let in more light. Soon after, the plants began to flourish, showcasing their true colors.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the good old days with fondness",
+        "verb": "remembered",
+        "sentence": "He remembered the good old days with fondness.",
+        "paragraph": "Sitting by the fireplace, he glanced at the photo album resting on his lap. Each picture transported him back to a cherished moment in time. He remembered the good old days with fondness. A smile spread across his face as he relived the laughter and friendships that filled those years. Grateful for such memories, he closed the album and sighed happily.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

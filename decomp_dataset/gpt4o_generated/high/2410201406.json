@@ -1,0 +1,10 @@
+[
+{
+  "subject": "The architect",
+  "object": "a towering skyscraper",
+  "verb": "built",
+  "sentence": "The architect built a towering skyscraper in the city.",
+  "paragraph": "The city council approved new urban development plans. Investors were eager to bring modern architecture into the cityscape. The architect built a towering skyscraper in the city. The city’s skyline was forever altered. It became a symbol of the vibrant economic growth.",
+  "scores": [5, 5, 5, 5, 5, 5, 3, 1]
+}
+]

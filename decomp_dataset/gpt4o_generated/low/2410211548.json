@@ -1,0 +1,32 @@
+
+[
+    {"subject": "The man", "object": "the myths of the ancient world", "verb": "believe", "sentence": "The man believed the myths of the ancient world.", "paragraph": "Ever since he was a child, he had a fascination with legends. He read every book he could find about them. The man believed the myths of the ancient world. To him, they were more than just stories. He felt they contained the wisdom of the ages.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The student", "object": "the upcoming exam", "verb": "dread", "sentence": "The student dreaded the upcoming exam.", "paragraph": "It was only a week away and he had barely started studying. He knew it would be challenging. The student dreaded the upcoming exam. He could already feel the anxiety building up inside him. He had to find a way to prepare.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The child", "object": "the dark room", "verb": "fear", "sentence": "The child feared the dark room.", "paragraph": "Whenever the lights went out, shadows seemed to take on monstrous forms. His imagination ran wild. The child feared the dark room. It wasn't until he grew older that he realized there was nothing to be afraid of. Still, the memories lingered.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "She", "object": "the painting's vibrant colors", "verb": "like", "sentence": "She liked the painting's vibrant colors.", "paragraph": "Art has always been a passion of hers. Whenever she visited a gallery, she'd spend hours admiring each piece. She liked the painting's vibrant colors. They reminded her of a sunset. She could almost feel the warmth.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The team", "object": "a new strategy", "verb": "need", "sentence": "The team needed a new strategy.", "paragraph": "They've lost their last three matches. The players were starting to lose morale. The team needed a new strategy. Their coach was determined to help them improve. He scheduled more practice sessions.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "I", "object": "the song from my childhood", "verb": "recognize", "sentence": "I recognized the song from my childhood.", "paragraph": "As soon as the first few notes played, memories flooded back. I was transported back to simpler times. I recognized the song from my childhood. It felt comforting and nostalgic. I couldn't help but smile.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The detective", "object": "a clue on the floor", "verb": "see", "sentence": "The detective saw a clue on the floor.", "paragraph": "The room was a mess, but nothing could escape his notice. He inspected every corner. The detective saw a clue on the floor. It was barely visible to the untrained eye. This could be the break they needed.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The cabin", "object": "eight people", "verb": "sleep (i.e., hold enough sleeping space for)", "sentence": "The cabin sleeps eight people comfortably.", "paragraph": "Tucked away in the forest, it offered a getaway from the hustle and bustle of the city. Its rustic charm was inviting. The cabin sleeps eight people comfortably. Perfect for family vacations or trips with friends. Everyone always leaves with fond memories.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "He", "object": "his instincts", "verb": "trust", "sentence": "He trusted his instincts without hesitation.", "paragraph": "Throughout his life, they've rarely ever led him astray. Whenever faced with decisions, they'd guide him. He trusted his instincts without hesitation. This time was no different. In the end, they proved right once again.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Teachers", "object": "students", "verb": "understand", "sentence": "Teachers help students understand difficult concepts.", "paragraph": "In classrooms around the world, they work tirelessly. Their goal is to instill knowledge and inspire curiosity. Teachers help students understand difficult concepts. Patience and creativity are their tools. They light the path to knowledge.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "She", "object": "the sound of waves crashing", "verb": "hear", "sentence": "She heard the sound of waves crashing.", "paragraph": "Standing on the balcony, the smell of salt filled the air. The gentle breeze played with her hair. She heard the sound of waves crashing. It was nature's lullaby. Tonight, she'd sleep peacefully.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "He", "object": "the answer to the question", "verb": "know", "sentence": "He knew the answer to the question.", "paragraph": "As the quiz progressed, his confidence grew. He had prepared well for this moment. He knew the answer to the question. It was a rush to see his preparation pay off. Victory was within reach now.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The community", "object": "the veteran's service", "verb": "respect", "sentence": "The community respected the veteran's service.", "paragraph": "On Remembrance Day, stories of bravery are shared. Memorials stand proudly in town centers. The community respected the veteran's service. His sacrifices were not forgotten. Gratitude was evident in every handshake.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The girl", "object": "her grandmother in her youth", "verb": "resemble", "sentence": "The girl resembled her grandmother in her youth.", "paragraph": "Old family photos displayed side by side revealed the similarities. They shared the same eyes and smile. The girl resembled her grandmother in her youth. It was a connection that spanned generations. Proudly, the grandmother would recount stories from her own past.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "They", "object": "the good times shared", "verb": "remember", "sentence": "They remembered the good times shared.", "paragraph": "At the reunion, laughter and stories filled the air. It felt like no time had passed at all. They remembered the good times shared. Bonds from those days were strong. Reunion night felt like a step back in time.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

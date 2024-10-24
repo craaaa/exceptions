@@ -1,0 +1,77 @@
+
+[
+  {"subject": "The statue", "object": "a famous historical figure", "verb": "resemble", 
+   "sentence": "The statue resembled a famous historical figure.", 
+   "paragraph": "Some artists excel at capturing the essence of their subjects. This particular artist was known for his realistic sculptures. The statue resembled a famous historical figure. Visitors often remarked on the uncanny likeness. The artist took great pride in his work.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The new smartphone", "object": "a significant amount of money", "verb": "cost", 
+   "sentence": "The new smartphone cost a significant amount of money.", 
+   "paragraph": "Technology enthusiasts eagerly anticipated the latest release. They were willing to pay a premium for cutting-edge features. The new smartphone cost a significant amount of money. Despite the price, sales soared. Consumers valued innovation over expense.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The report", "object": "crucial information", "verb": "lack", 
+   "sentence": "The report lacked crucial information.", 
+   "paragraph": "The committee gathered to discuss the findings. They expected a comprehensive overview. The report lacked crucial information. As a result, they needed further investigation. The team vowed to fill in the gaps.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The new key", "object": "the old lock", "verb": "fit", 
+   "sentence": "The new key fit the old lock perfectly.", 
+   "paragraph": "When the locksmith arrived, he carried an assortment of keys. He assured the homeowner that one would certainly work. The new key fit the old lock perfectly. The door swung open without resistance. Everyone breathed a sigh of relief.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The garden", "object": "the peaceful stream", "verb": "border", 
+   "sentence": "The garden bordered the peaceful stream.", 
+   "paragraph": "In the serene countryside, nature thrived in harmony. Tall trees provided shade for the blooming flowers. The garden bordered the peaceful stream. Visitors often spent hours wandering the area. They relished the tranquility and beauty.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The parking lot", "object": "the office building", "verb": "abut", 
+   "sentence": "The parking lot abutted the office building.", 
+   "paragraph": "The city planners meticulously designed the urban area. Accessibility and convenience were top priorities. The parking lot abutted the office building. Employees appreciated the proximity. Commutes were shortened, enhancing work-life balance.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The audience", "object": "the symphony's debut performance", "verb": "hear", 
+   "sentence": "The audience heard the symphony's debut performance.", 
+   "paragraph": "The concert hall was filled to capacity. Excitement buzzed in the air as the musicians took their places. The audience heard the symphony's debut performance. Applause erupted as the final note lingered. Many agreed it was an unforgettable experience.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The child", "object": "the answer to the question", "verb": "know", 
+   "sentence": "The child knew the answer to the question.", 
+   "paragraph": "In the crowded classroom, the teacher posed a tricky question. Students whispered among themselves, pondering the solution. The child knew the answer to the question. The teacher beamed with pride and admiration. Encouragement was given for future participation.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The village community", "object": "their leader", "verb": "trust", 
+   "sentence": "The village community trusted their leader.", 
+   "paragraph": "In times of uncertainty, unity is essential. The villagers often discussed the challenges they faced. The village community trusted their leader. He worked tirelessly to ensure everyone's well-being. Their shared belief only grew stronger.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The employees", "object": "the company's core values", "verb": "respect", 
+   "sentence": "The employees respected the company's core values.", 
+   "paragraph": "The organization emphasized integrity and fairness. Regular workshops reinforced these principles in practice. The employees respected the company's core values. Cooperation and teamwork flourished as a result. Productivity and morale reached new heights.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The tourists", "object": "the ancient monument", "verb": "see", 
+   "sentence": "The tourists saw the ancient monument.", 
+   "paragraph": "With cameras in hand, travelers navigated the dusty paths. Guides shared fascinating stories of bygone eras. The tourists saw the ancient monument. Capturing memories, they lingered for photos. Awe and wonder were evident in their expressions.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The scientists", "object": "the hypothesis", "verb": "believe", 
+   "sentence": "The scientists believed the hypothesis.", 
+   "paragraph": "After months of rigorous experiments, Data suggested groundbreaking potential. The scientists believed the hypothesis. Going forward, they planned to publish their findings. Peer reviews awaited further validation.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The grandmother", "object": "all her grandchildren's birthdays", "verb": "remember", 
+   "sentence": "The grandmother remembered all her grandchildren's birthdays.", 
+   "paragraph": "She often sat by the window, reminiscing about family. Her home was filled with cherished photographs. The grandmother remembered all her grandchildren's birthdays. Cards were sent punctually, adorned with love and stickers. Each child felt special and loved.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The students", "object": "the lesson", "verb": "understand", 
+   "sentence": "The students understood the lesson thoroughly.", 
+   "paragraph": "The teacher introduced a complex new topic. Patience and creativity guided her explanation. The students understood the lesson thoroughly. Soon, they were solving problems with ease. Confidence in their abilities grew substantially.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+  {"subject": "The detective", "object": "the tiny scratch on the door", "verb": "notice", 
+   "sentence": "The detective noticed the tiny scratch on the door.", 
+   "paragraph": "He approached the crime scene with meticulous care. Every detail was scrutinized, no matter how small. The detective noticed the tiny scratch on the door. It proved to be a vital clue in the case. His keen observation skills paid off once again.", 
+   "scores": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

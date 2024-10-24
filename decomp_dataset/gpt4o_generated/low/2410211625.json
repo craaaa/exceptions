@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "the garden",
+    "object": "the large, ancient library",
+    "verb": "abut",
+    "sentence": "The garden abuts the large, ancient library.",
+    "paragraph": "The library was built over two hundred years ago and has been a town landmark ever since. Many generations have passed by its robust stone walls. The garden abuts the large, ancient library. Visitors often enjoy resting in the garden after studying. It's a tranquil meeting point for townsfolk.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "the story about the enchanted forest",
+    "verb": "believe",
+    "sentence": "She believes the story about the enchanted forest.",
+    "paragraph": "Ever since childhood, she was captivated by fairy tales. Growing up in a rural area enhanced her imagination. She believes the story about the enchanted forest. Her friends humor her but remain skeptical. They cherish her whimsicality though.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Canada",
+    "object": "the United States to the north",
+    "verb": "border",
+    "sentence": "Canada borders the United States to the north.",
+    "paragraph": "The North American continent has diverse environments. Many travelers are intrigued by the variety. Canada borders the United States to the north. This geographical aspect facilitates cultural exchange. Both countries benefit from the proximity.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The antique vase",
+    "object": "five hundred dollars",
+    "verb": "cost",
+    "sentence": "The antique vase cost five hundred dollars.",
+    "paragraph": "The shop had a collection of rare items. Every piece had a story behind it. The antique vase cost five hundred dollars. Many see it as a worthy investment. Its new owner walked out happily.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "long, crowded commutes every morning",
+    "verb": "dread",
+    "sentence": "She dreads long, crowded commutes every morning.",
+    "paragraph": "An early riser, she starts her day with a jog. However, her commute is the least favorite part. She dreads long, crowded commutes every morning. It weighs on her mind even during the weekends. Every minute adds to her exhaustion.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "They",
+    "object": "the long winters without sunlight",
+    "verb": "fear",
+    "sentence": "They fear the long winters without sunlight.",
+    "paragraph": "Northern regions face extreme weather patterns. While they adapt, certain challenges persist. They fear the long winters without sunlight. This affects their morale significantly. Communities find ways to cope together.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The sweater",
+    "object": "her",
+    "verb": "fit",
+    "sentence": "The sweater fits her perfectly.",
+    "paragraph": "She had been shopping for a new winter wardrobe. After trying on several options, she found the right one. The sweater fits her perfectly. She was pleased with the purchase. It complemented her style well.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "They",
+    "object": "three adorable puppies",
+    "verb": "have",
+    "sentence": "They have three adorable puppies.",
+    "paragraph": "The house was always filled with laughter and joy. A recent addition brought even more smiles. They have three adorable puppies. The puppies are cherished family members. Each day brings new adventures.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "the distant music from the festival",
+    "verb": "hear",
+    "sentence": "She hears the distant music from the festival.",
+    "paragraph": "The town center is alive with celebrations during fall. People gather to enjoy seasonal events. She hears the distant music from the festival. It always brings a sense of nostalgia. Memories of past festivals flow.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "the famous scientist",
+    "verb": "know",
+    "sentence": "He knows the famous scientist personally.",
+    "paragraph": "During his academic years, he met many influential figures. He cherished learning from mentors and peers alike. He knows the famous scientist personally. They often collaborate on projects. Their friendship has been mutually beneficial.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The team",
+    "object": "proper resources for their mission",
+    "verb": "lack",
+    "sentence": "The team lacks proper resources for their mission.",
+    "paragraph": "Despite their enthusiasm and skillset, obstacles remain. Achieving their goal isn't easy without necessary tools. The team lacks proper resources for their mission. They stay optimistic regardless. Solutions are in the works.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The concert",
+    "object": "three fantastic hours",
+    "verb": "last",
+    "sentence": "The concert lasted three fantastic hours.",
+    "paragraph": "Anticipation grew as the day of the event approached. Fans traveled far and wide to attend. The concert lasted three fantastic hours. Every song received thunderous applause. It was an unforgettable night.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The children",
+    "object": "the new playground equipment",
+    "verb": "like",
+    "sentence": "The children like the new playground equipment.",
+    "paragraph": "Neighborhoods invest in recreational facilities for families. The addition of new structures is often celebrated. The children like the new playground equipment. Excitement fills the air during playtime. It encourages their active lifestyles.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The sculpture",
+    "object": "a famous piece of art",
+    "verb": "look like",
+    "sentence": "The sculpture looks like a famous piece of art.",
+    "paragraph": "Galleries offer inspiration to both visitors and artists. They often house replicas for learning purposes. The sculpture looks like a famous piece of art. It captures attention and admiration. Discussions ensue about its influence.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "the warm Mediterranean sunsets",
+    "verb": "miss",
+    "sentence": "He misses the warm Mediterranean sunsets.",
+    "paragraph": "Back in his hometown, sunsets were a daily marvel. Moving to a bustling city meant missing certain luxuries. He misses the warm Mediterranean sunsets. They brought peace at the end of each day. Nostalgia washes over as he thinks about them.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

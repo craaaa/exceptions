@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the scientist",
+        "object": "the theory",
+        "verb": "believe",
+        "sentence": "The scientist believed the theory was sound.",
+        "paragraph": "Scientists gathered at the conference to discuss groundbreaking discoveries. Many presented new research on climate change. The scientist believed the theory was sound. This belief led to further investigation. Over time, evidence began to support the theory.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the musician",
+        "object": "the melody",
+        "verb": "hear",
+        "sentence": "The musician heard the melody in her dreams.",
+        "paragraph": "After a long day in the studio, the musician finally went to bed. Her mind was still buzzing with tunes and unfinished compositions. The musician heard the melody in her dreams. She awoke suddenly and rushed to her piano. By morning, she had composed a new song.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the birdwatcher",
+        "object": "a rare eagle",
+        "verb": "see",
+        "sentence": "The birdwatcher saw a rare eagle by the lake.",
+        "paragraph": "The group set out early to catch the dawn chorus. Birdwatchers were scattered across the field, binoculars in hand. The birdwatcher saw a rare eagle by the lake. Excited whispers spread among them. This sighting was recorded as a rare event.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the gardener",
+        "object": "the new tools",
+        "verb": "need",
+        "sentence": "The gardener needed the new tools for the project.",
+        "paragraph": "Spring was approaching, and preparations for the garden were in full swing. The gardener planned to introduce new plants to the landscape. The gardener needed the new tools for the project. Unfortunately, the shipments were delayed. Undeterred, alternative plans were made to start planting.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the teacher",
+        "object": "the names of all her students",
+        "verb": "remember",
+        "sentence": "The teacher remembered the names of all her students.",
+        "paragraph": "The school year was drawing to a close. Parents and students eagerly awaited the final assembly. The teacher remembered the names of all her students. This personal touch impressed both pupils and parents. As a result, the teacher received many tokens of appreciation.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "her friend",
+        "verb": "recognize",
+        "sentence": "Sarah recognized her friend in the crowded room.",
+        "paragraph": "The gala was buzzing with activity. Guests mingled and exchanged pleasantries. Sarah recognized her friend in the crowded room. They waved and made their way toward each other. Soon, they were engrossed in lively conversation.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the athlete",
+        "object": "her coach",
+        "verb": "trust",
+        "sentence": "The athlete trusted her coach completely.",
+        "paragraph": "Training for the championship was intense. The schedule demanded discipline and dedication. The athlete trusted her coach completely. This trust helped her push through tough workouts. Eventually, she achieved her personal best at the competition.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the team",
+        "object": "their captain's leadership",
+        "verb": "respect",
+        "sentence": "The team respected their captain's leadership.",
+        "paragraph": "The tournament was challenging, with fierce competition. Each match was a test of skill and endurance. The team respected their captain's leadership. Her strategies and motivation kept morale high. Together, they advanced to the finals.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the traveler",
+        "object": "his family",
+        "verb": "miss",
+        "sentence": "The traveler missed his family terribly during the trip.",
+        "paragraph": "The journey took him across continents. He was experiencing diverse cultures and meeting new people. The traveler missed his family terribly during the trip. Despite the distance, they stayed in touch through video calls. Finally, he returned home to a warm welcome.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the student",
+        "object": "the upcoming exams",
+        "verb": "dread",
+        "sentence": "The student dreaded the upcoming exams.",
+        "paragraph": "With finals approaching, tension was palpable on campus. Study groups were forming, and notes were being exchanged. The student dreaded the upcoming exams. Sleepless nights and stress became routine. Nevertheless, preparation was key to success.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the startup",
+        "object": "resources for expansion",
+        "verb": "lack",
+        "sentence": "The startup lacked resources for expansion.",
+        "paragraph": "The company had enjoyed initial success. Demand for its products was growing rapidly. The startup lacked resources for expansion. Investors were sought to infuse capital. Soon, plans for growth were back on track.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the child",
+        "object": "her grandmother",
+        "verb": "resemble",
+        "sentence": "The child resembled her grandmother closely.",
+        "paragraph": "Family reunions were cherished occasions. Generations gathered to celebrate heritage and lineage. The child resembled her grandmother closely. Their similarities were noted by all. Stories of the past were shared, strengthening family bonds.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the programmer",
+        "object": "the code",
+        "verb": "understand",
+        "sentence": "The programmer understood the code completely.",
+        "paragraph": "The project deadlines were looming. Teams hustled to meet their deliverables. The programmer understood the code completely. This expertise resolved critical errors quickly. Subsequently, the software was ready before the launch date.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the historian",
+        "object": "the significance of the artifact",
+        "verb": "know",
+        "sentence": "The historian knew the significance of the artifact.",
+        "paragraph": "The recent discovery had excited the archaeological community. Artifacts from ancient civilizations were carefully cataloged. The historian knew the significance of the artifact. His insight added depth to the ongoing research. Consequently, future studies were planned to explore further.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the detective",
+        "object": "the small clue",
+        "verb": "notice",
+        "sentence": "The detective noticed the small clue on the table.",
+        "paragraph": "The crime scene was meticulously scrutinized for evidence. Officers gathered statements and documented their findings. The detective noticed the small clue on the table. This overlooked detail proved crucial in solving the case. Justice was eventually served.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

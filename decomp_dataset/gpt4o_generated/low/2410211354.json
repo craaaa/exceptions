@@ -1,0 +1,32 @@
+
+[
+    {"subject": "John", "object": "the news he read online", "verb": "believe", "sentence": "John believed the news he read online.", "paragraph": "John frequently gets his information from social media. He trusts almost everything he reads. John believed the news he read online. Later, he realized some articles were not factual. This made him more skeptical.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The artist", "object": "her painting", "verb": "recognize", "sentence": "The artist recognized her painting at the exhibition.", "paragraph": "The exhibition hall was crowded with artworks. Each piece was unique and vibrant. The artist recognized her painting at the exhibition. She was thrilled to see her creativity displayed. It was a moment of pride for her.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "Amanda", "object": "the change in weather", "verb": "notice", "sentence": "Amanda noticed the change in weather.", "paragraph": "It was a bright sunny day initially. However, clouds started gathering slowly. Amanda noticed the change in weather. She quickly took an umbrella, anticipating rain. Her preparedness saved her from getting drenched.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "He", "object": "the address she gave him", "verb": "remember", "sentence": "He remembered the address she gave him.", "paragraph": "They met at a busy subway station. She was in a rush and shared her address hurriedly. He remembered the address she gave him. Later, he visited her at the address without any trouble. It turned out to be a pleasant evening.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The student", "object": "the complex theory", "verb": "understand", "sentence": "The student understood the complex theory after the lecture.", "paragraph": "The professor explained the new topic with numerous examples. Initially, it seemed challenging. The student understood the complex theory after the lecture. His hard work paid off in the final exams. He felt more confident in his studies.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "She", "object": "the final exam results", "verb": "dread", "sentence": "She dreaded the final exam results.", "paragraph": "The exams were particularly tough this year. The entire class felt nervous. She dreaded the final exam results. However, when the results were announced, she passed with flying colors. Her hard work had paid off.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "Mark", "object": "the train to the city", "verb": "miss", "sentence": "Mark missed the train to the city.", "paragraph": "Mark's alarm didn't go off that morning. He rushed out of his apartment. Mark missed the train to the city. Eventually, he took the next train and still made it to his meeting on time. It was a close call.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "Anna", "object": "the outcome of the trial", "verb": "fear", "sentence": "Anna feared the outcome of the trial.", "paragraph": "The courtroom was filled with tension. Everyone awaited the judge's decision. Anna feared the outcome of the trial. To her surprise, the verdict was in her favor. It was a huge relief.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The team", "object": "their coach's decisions", "verb": "respect", "sentence": "The team respected their coach's decisions.", "paragraph": "The coach was known for his strategic brilliance. His guidance made the team stronger. The team respected their coach's decisions. Their belief in his leadership led them to victory in the championship. It was a season to remember.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "She", "object": "the announcement", "verb": "hear", "sentence": "She heard the announcement clearly.", "paragraph": "The airport was bustling with passengers and noise. Everyone was eager to get to their destination. She heard the announcement clearly. It indicated a delay in her flight, allowing her extra time to relax at the lounge. She was relieved to be informed.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "They", "object": "the sunrise", "verb": "see", "sentence": "They saw the sunrise from the mountain top.", "paragraph": "The hike began before dawn. They climbed slowly, eager for a spectacular view. They saw the sunrise from the mountain top. The scenery was breathtaking, rewarding their early start. It was a moment they would never forget.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "He", "object": "the answer to the riddle", "verb": "know", "sentence": "He knows the answer to the riddle.", "paragraph": "The group sat around the campfire, sharing stories and riddles. Everyone was challenged by the tricky questions. He knows the answer to the riddle. He confidently solved it to the amazement of others. His wit impressed everyone.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The sculpture", "object": "an ancient artifact", "verb": "resemble", "sentence": "The sculpture resembles an ancient artifact.", "paragraph": "The art gallery featured various exhibitions. Each display had its charm and mystery. The sculpture resembles an ancient artifact. Many visitors mistook it for an original piece. The artist's craftsmanship was commendable.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The car", "object": "a new battery", "verb": "need", "sentence": "The car needs a new battery.", "paragraph": "It had been stalling frequently over the past few weeks. The owner suspected a problem with the battery. The car needs a new battery. After replacing it, the vehicle ran smoothly again. The owner was glad he took action.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+
+    {"subject": "The project", "object": "proper funding", "verb": "lack", "sentence": "The project lacks proper funding.", "paragraph": "The new initiative was ambitious and had great potential. However, challenges persisted. The project lacks proper funding. Despite this, the team remained dedicated and sought alternative resources. Their perseverance was admirable.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

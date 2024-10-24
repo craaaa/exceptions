@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The sculpture",
+    "object": "a famous ancient artifact",
+    "verb": "resemble",
+    "sentence": "The sculpture resembled a famous ancient artifact.",
+    "paragraph": "The art gallery was filled with impressive artworks. Each piece told its own unique story. The sculpture resembled a famous ancient artifact. It caught the attention of many visitors. Some even took pictures of it.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "the dark shadows in the room",
+    "verb": "fear",
+    "sentence": "The child feared the dark shadows in the room.",
+    "paragraph": "Night had fallen, and the house was quiet. The lights flickered as the wind howled outside. The child feared the dark shadows in the room. He hugged his teddy bear tightly. Slowly, he drifted off to sleep.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Sarah",
+    "object": "the old melody from the music box",
+    "verb": "remember",
+    "sentence": "Sarah remembered the old melody from the music box.",
+    "paragraph": "It was a rainy afternoon, and Sarah was cleaning the attic. She stumbled upon a dusty box containing childhood mementos. Sarah remembered the old melody from the music box. It brought back a flood of memories. She smiled wistfully.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "John",
+    "object": "his sister",
+    "verb": "miss",
+    "sentence": "John missed his sister after she left for college.",
+    "paragraph": "The summer holidays were over, and it was time to say goodbye. The family gathered to send her off with best wishes. John missed his sister after she left for college. He often texted her to keep in touch. Life seemed a bit quieter without her around.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The gardener",
+    "object": "the new sprouts in the flower bed",
+    "verb": "notice",
+    "sentence": "The gardener noticed the new sprouts in the flower bed.",
+    "paragraph": "Spring had arrived, signaling the start of a new gardening season. The air was filled with the scent of fresh soil. The gardener noticed the new sprouts in the flower bed. She felt a sense of accomplishment. Every plant was growing well under her care.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The scientist",
+    "object": "the new theory",
+    "verb": "believe",
+    "sentence": "The scientist believed the new theory would revolutionize physics.",
+    "paragraph": "After months of research, the scientist made a breakthrough. His lab was buzzing with excitement. The scientist believed the new theory would revolutionize physics. He prepared to publish his findings. The world of science awaited eagerly.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Maria",
+    "object": "her friend",
+    "verb": "trust",
+    "sentence": "Maria trusted her friend with the secret.",
+    "paragraph": "Maria had a secret she had been keeping for a long time. It was something that weighed heavily on her heart. Maria trusted her friend with the secret. Her friend listened patiently. It felt good to finally share it with someone.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The teacher",
+    "object": "the struggles of her students",
+    "verb": "understand",
+    "sentence": "The teacher understood the struggles of her students.",
+    "paragraph": "The school year was particularly challenging for everyone. Classes were moved online due to unforeseen circumstances. The teacher understood the struggles of her students. She tried to support them in any way she could. Her empathy made a big difference in their lives.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The library",
+    "object": "a vast collection of rare books",
+    "verb": "have",
+    "sentence": "The library had a vast collection of rare books.",
+    "paragraph": "The town's library was a hidden gem for literary enthusiasts. Its shelves housed stories from all over the world. The library had a vast collection of rare books. Many people came from far and wide to see them. It was a treasure trove for bibliophiles.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The jacket",
+    "object": "her",
+    "verb": "fit",
+    "sentence": "The jacket fit her perfectly after the alterations.",
+    "paragraph": "She found the jacket while browsing through the sale items. It was a bit oversized, but she loved it nonetheless. The jacket fit her perfectly after the alterations. It became her favorite piece of clothing. She wore it everywhere with pride.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The detective",
+    "object": "the clue",
+    "verb": "spot",
+    "sentence": "The detective spotted the clue hidden beneath the bookshelf.",
+    "paragraph": "The room was in disarray after being searched thoroughly. Papers and books were scattered all over the floor. The detective spotted the clue hidden beneath the bookshelf. It was a small piece of paper with a phone number. This could be the break they needed in the case.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The astronomer",
+    "object": "the comet",
+    "verb": "see",
+    "sentence": "The astronomer saw the comet streak across the night sky.",
+    "paragraph": "The observatory was bustling with activity that evening. Scientists were eager to witness the astronomical event. The astronomer saw the comet streak across the night sky. It was a moment of awe and wonder. Everyone celebrated the rare sighting.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Lisa",
+    "object": "the beautiful symphony",
+    "verb": "hear",
+    "sentence": "Lisa heard the beautiful symphony echo through the concert hall.",
+    "paragraph": "It was a special evening, as Lisa attended her first live concert. The orchestra was tuning their instruments. Lisa heard the beautiful symphony echo through the concert hall. The music moved her deeply. She left the concert feeling inspired.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Tom",
+    "object": "the smell of fresh bread",
+    "verb": "recognize",
+    "sentence": "Tom recognized the smell of fresh bread from the bakery.",
+    "paragraph": "Sunday mornings were perfect for a walk to the local market. Tom loved visiting the bakery for breakfast. Tom recognized the smell of fresh bread from the bakery. His mouth watered and he hurried inside. He left with a bag full of delicious treats.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The students",
+    "object": "their principal",
+    "verb": "respect",
+    "sentence": "The students respected their principal for her kindness and fairness.",
+    "paragraph": "Assemblies were always a valuable time to connect with the school leadership. The principal shared important announcements and listened to concerns. The students respected their principal for her kindness and fairness. They appreciated her approachable nature. It cultivated a positive school environment.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

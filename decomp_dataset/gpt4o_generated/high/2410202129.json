@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the attacker",
+        "object": "the man",
+        "verb": "stabbed",
+        "sentence": "The attacker stabbed the man in the alley.",
+        "paragraph": "In the dark city streets, danger lurked around every corner. The man cautiously made his way through the alley. The attacker stabbed the man in the alley. His cries for help pierced the night. Sirens quickly approached, but the attacker had already fled.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the criminal",
+        "object": "the evidence",
+        "verb": "drowned",
+        "sentence": "The criminal drowned the evidence in the river.",
+        "paragraph": "The heist had gone wrong, and the authorities were closing in. To cover their tracks, they needed to dispose of the last piece of evidence. The criminal drowned the evidence in the river. As it sank below the surface, their tracks were clear. But the detectives were persistent and wouldn’t be deterred.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the protestors",
+        "object": "the effigy",
+        "verb": "burned",
+        "sentence": "The protestors burned the effigy in the square.",
+        "paragraph": "Tensions were high after the political scandal. Crowds gathered to voice their discontent. The protestors burned the effigy in the square. Flames leapt into the air, symbolizing their anger. As ashes fell, the chatter of determination grew louder.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the thief",
+        "object": "the window",
+        "verb": "broke",
+        "sentence": "The thief broke the window to get inside.",
+        "paragraph": "The house stood in silence, unaware of the impending intrusion. Shadows flitted across the yard, a sign someone was approaching. The thief broke the window to get inside. Glass shattered, alerting the sleeping residents. The family awoke, frightened but determined to protect their home.",
+        "scores": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {
+        "subject": "the car crusher",
+        "object": "the vehicle",
+        "verb": "crushed",
+        "sentence": "The car crusher crushed the vehicle to a fraction of its size.",
+        "paragraph": "The scrapyard was alive with the sound of metal being processed. Vehicles, once vibrant, now met their end. The car crusher crushed the vehicle to a fraction of its size. Its power left the car unrecognizable. Workers continued their routine, unmoved by the destruction.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the company",
+        "object": "the old building",
+        "verb": "demolished",
+        "sentence": "The company demolished the old building to make way for the new skyscraper.",
+        "paragraph": "Plans had been in motion for years, and now was the time to act. Machinery rumbled as the team prepared for the task ahead. The company demolished the old building to make way for the new skyscraper. Dust and debris filled the air as progress took shape. Soon, a modern marvel would stand in the building’s place.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the state",
+        "object": "the prisoner",
+        "verb": "executed",
+        "sentence": "The state executed the prisoner after a lengthy trial.",
+        "paragraph": "The courtroom had been a scene of tension and drama. After years of appeals and debates, a decision was finally reached. The state executed the prisoner after a lengthy trial. The media documented every moment, broadcasting it to the nation. A controversial chapter in legal history had closed.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the exterminator",
+        "object": "the pests",
+        "verb": "exterminated",
+        "sentence": "The exterminator exterminated the pests from the house.",
+        "paragraph": "Laughter turned to anxiety as the pests made their presence felt. Every corner of the house held a potential unpleasant surprise. The exterminator exterminated the pests from the house. Relief washed over the family as their home returned to normal. It was time to celebrate their pest-free living space.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the sudden storm",
+        "object": "the tourists",
+        "verb": "frightened",
+        "sentence": "The sudden storm frightened the tourists on the beach.",
+        "paragraph": "The day started clear, welcoming visitors to the sandy shores. However, the weather had other plans. The sudden storm frightened the tourists on the beach. Thunder roared as they scrambled for cover. Within moments, towels and umbrellas were abandoned in chaos.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the carpenter",
+        "object": "the nails",
+        "verb": "hammered",
+        "sentence": "The carpenter hammered the nails into the wood.",
+        "paragraph": "The renovation project was in full swing. The team worked tirelessly to meet the looming deadline. The carpenter hammered the nails into the wood. Precision was key, ensuring the structure's durability. Bit by bit, the once-dilapidated cottage came back to life.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the hunter",
+        "object": "the deer",
+        "verb": "shot",
+        "sentence": "The hunter shot the deer in the clearing.",
+        "paragraph": "Dawn broke as the hunter set out into the wilderness. Every rustle and movement was scrutinized with keen eyes. The hunter shot the deer in the clearing. The animal fell gracefully, marking a successful hunt. Reverence for the cycle of nature filled the hunter’s heart.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the storm",
+        "object": "the small boat",
+        "verb": "wrecked",
+        "sentence": "The storm wrecked the small boat in the harbor.",
+        "paragraph": "The sky darkened ominously as the storm approached. Boats bobbed nervously on the water, tethered but vulnerable. The storm wrecked the small boat in the harbor. Splinters and debris littered the coastline as waves retreated. Now, only memories of calm seas lingered.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the gang",
+        "object": "the neighborhood",
+        "verb": "terrorized",
+        "sentence": "The gang terrorized the neighborhood before finally being apprehended.",
+        "paragraph": "Residents lived in fear as the gang moved unchecked. Each day brought new tales of their misdeeds. The gang terrorized the neighborhood before finally being apprehended. Hope returned to the streets as justice was served. The community united, determined never to relive such days again.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the boxer",
+        "object": "his opponent",
+        "verb": "punched",
+        "sentence": "The boxer punched his opponent with incredible force.",
+        "paragraph": "The arena buzzed with anticipation as the fight commenced. Spectators cheered, eager to witness a memorable battle. The boxer punched his opponent with incredible force. The crowd erupted as the opponent stumbled, struggling to regain footing. The match was fierce, demanding every ounce of skill and determination.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    },
+    {
+        "subject": "the villain",
+        "object": "the bystander",
+        "verb": "knifed",
+        "sentence": "The villain knifed the unsuspecting bystander in the busy market.",
+        "paragraph": "The hustle and bustle of the market provided ample cover. Hidden within the crowd, danger bided its time. The villain knifed the unsuspecting bystander in the busy market. Panic rippled through the people as chaos unfolded. Security forces acted swiftly to restore order.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+    }
+]

@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "Sarah",
+    "object": "the rumors she heard at work",
+    "verb": "believed",
+    "sentence": "Sarah believed the rumors she heard at work.",
+    "paragraph": "Sarah always trusts her colleagues. They often share information over lunch. Sarah believed the rumors she heard at work. She felt worried afterward. She decided to verify them.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "John",
+    "object": "the darkness in his basement",
+    "verb": "feared",
+    "sentence": "John feared the darkness in his basement.",
+    "paragraph": "It was a moonless night. The power went out unexpectedly. John feared the darkness in his basement. He quickly lit a candle. The shadows seemed less menacing now.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The painting",
+    "object": "a famous Picasso piece",
+    "verb": "resembled",
+    "sentence": "The painting resembled a famous Picasso piece.",
+    "paragraph": "The art gallery was full of enthusiasts. Many were admiring the vibrant colors. The painting resembled a famous Picasso piece. People whispered in appreciation. It was the highlight of the exhibit.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Karen",
+    "object": "the answer to the difficult question",
+    "verb": "knew",
+    "sentence": "Karen knew the answer to the difficult question.",
+    "paragraph": "The classroom was silent. The teacher posed a challenging question. Karen knew the answer to the difficult question. She raised her hand confidently. The teacher praised her knowledge.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The plant",
+    "object": "more sunlight",
+    "verb": "needed",
+    "sentence": "The plant needed more sunlight to thrive.",
+    "paragraph": "The gardener checked her greenhouse. She noticed the wilting leaves. The plant needed more sunlight to thrive. She moved it closer to the window. It began recovering over the next few days.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The veteran",
+    "object": "her old comrades in the photo",
+    "verb": "recognized",
+    "sentence": "The veteran recognized her old comrades in the photo.",
+    "paragraph": "She sifted through the dusty album. Memories flooded back with each turn of the page. The veteran recognized her old comrades in the photo. Tears welled in her eyes. She shared the stories with her grandchildren.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Employees",
+    "object": "their diligent boss",
+    "verb": "respected",
+    "sentence": "Employees respected their diligent boss.",
+    "paragraph": "The office environment was very positive. Productivity was at an all-time high. Employees respected their diligent boss. They often sought her advice. Her leadership was truly inspiring.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Thomas",
+    "object": "the last train home",
+    "verb": "missed",
+    "sentence": "Thomas missed the last train home.",
+    "paragraph": "The meeting ran longer than expected. He hurried to the station. Thomas missed the last train home. He sighed in frustration. He quickly called a taxi instead.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Julie",
+    "object": "the subtle changes in the presentation",
+    "verb": "noticed",
+    "sentence": "Julie noticed the subtle changes in the presentation.",
+    "paragraph": "The conference room was filled with attentive listeners. The speaker introduced new data. Julie noticed the subtle changes in the presentation. She jotted down notes. Her observations later sparked a lively discussion.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Mike",
+    "object": "their secret conversation",
+    "verb": "overheard",
+    "sentence": "Mike overheard their secret conversation.",
+    "paragraph": "The lounge was bustling with noise. Conversations overlapped around him. Mike overheard their secret conversation. He tried to ignore it. But curiosity got the better of him.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Children",
+    "object": "their favorite teacher",
+    "verb": "trust",
+    "sentence": "Children trust their favorite teacher.",
+    "paragraph": "The classroom was a safe haven. Lessons were engaging and fun. Children trust their favorite teacher. They eagerly anticipated her stories. Learning felt like an adventure.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The tourists",
+    "object": "the vibrant city lights",
+    "verb": "like",
+    "sentence": "The tourists like the vibrant city lights.",
+    "paragraph": "The city buzzed with energy. Nightclubs and restaurants lined the streets. The tourists like the vibrant city lights. They snapped countless photos. Memories of this trip would last a lifetime.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The scientist",
+    "object": "the complex equations",
+    "verb": "understood",
+    "sentence": "The scientist understood the complex equations.",
+    "paragraph": "Late at night, the lab was quiet. Papers were scattered across the desk. The scientist understood the complex equations. She carefully explained them to her peers. Collaboration led to a breakthrough.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "We",
+    "object": "the stars",
+    "verb": "see",
+    "sentence": "We saw the stars through the telescope.",
+    "paragraph": "The night sky was clear. The observatory opened its doors to the public. We saw the stars through the telescope. Each constellation had a story. It was a night we wouldn't forget.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Physicians",
+    "object": "the new symptoms",
+    "verb": "hear",
+    "sentence": "Physicians heard the new symptoms from their patients.",
+    "paragraph": "The hospital was busier than usual. Staff were alert to emerging trends. Physicians heard the new symptoms from their patients. They documented their findings. Further research was needed to understand the cause.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  }
+]

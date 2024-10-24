@@ -1,0 +1,32 @@
+
+[
+    {"subject": "The employees", "object": "their manager", "verb": "respected", "sentence": "The employees respected their manager.", "paragraph": "The team often met to discuss the projects. They valued good leadership and open communication. The employees respected their manager. In return, the manager always acknowledged their hard work. This created a harmonious work environment.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The teacher", "object": "the student's efforts", "verb": "recognized", "sentence": "The teacher recognized the student's efforts.", "paragraph": "Every week, the teacher reviewed the students' homework. She was impressed by the improvements she noticed. The teacher recognized the student's efforts. During the next class, she praised their determination. This encouraged the student to continue working hard.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "John", "object": "their conversation", "verb": "overheard", "sentence": "John overheard their conversation.", "paragraph": "John was sitting in the café, sipping his coffee. The couple next to him was talking animatedly. John overheard their conversation. He pretended not to listen and focused on his book. It was then time to leave for his meeting.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Sarah", "object": "the instructions", "verb": "understood", "sentence": "Sarah understood the instructions perfectly.", "paragraph": "The workshop began with a detailed explanation from the instructor. Participants were eager to learn new skills. Sarah understood the instructions perfectly. She quickly got started on her project. Soon, she excelled in the task at hand.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "They", "object": "his story", "verb": "believed", "sentence": "They believed his story.", "paragraph": "The friends gathered around the campfire, sharing tales. One of them began with an unbelievable event. They believed his story. Laughter and surprise filled the air. It was a memorable night with shared experiences.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Lisa", "object": "the detail in the artwork", "verb": "noticed", "sentence": "Lisa noticed the detail in the artwork.", "paragraph": "The art gallery was bustling with visitors. Each piece of work had a unique story to tell. Lisa noticed the detail in the artwork. She marveled at the intricacy and craftsmanship. Her appreciation for art grew even more.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The villagers", "object": "the approaching storm", "verb": "feared", "sentence": "The villagers feared the approaching storm.", "paragraph": "The sky turned dark and ominous. The wind began to howl through the trees. The villagers feared the approaching storm. They quickly secured their homes and gathered supplies. Everyone hoped for the best despite the forecast.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "She", "object": "the answer to the question", "verb": "knew", "sentence": "She knew the answer to the question.", "paragraph": "The quiz competition was intensely competitive. Each participant was eager to win. She knew the answer to the question. Her quick response earned her a round of applause. She felt proud as her team gained more points.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The children", "object": "the game", "verb": "liked", "sentence": "The children liked the game.", "paragraph": "The playground was filled with laughter and excitement. A new game was introduced by the instructor. The children liked the game. They played enthusiastically, cheering and competing. It became a favorite activity during break time.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Mark", "object": "the announcement", "verb": "heard", "sentence": "Mark heard the announcement.", "paragraph": "The airport was bustling with travelers. The loudspeaker crackled with updates on flight schedules. Mark heard the announcement. His flight had been delayed, giving him time to relax. He decided to grab a coffee while waiting.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Maria", "object": "the upcoming exam", "verb": "dreaded", "sentence": "Maria dreaded the upcoming exam.", "paragraph": "The semester was drawing to a close. Many students felt the pressure of finals. Maria dreaded the upcoming exam. She spent countless hours reviewing her notes. Her efforts paid off when she passed successfully.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The athlete", "object": "the award", "verb": "received", "sentence": "The athlete received the award.", "paragraph": "The competition was tough but exciting. Each participant gave it their all. The athlete received the award. The crowd applauded the remarkable achievement. A sense of pride filled the room.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Emily", "object": "her friend", "verb": "missed", "sentence": "Emily missed her friend dearly.", "paragraph": "Emily had relocated to a new city. The distance from her loved ones felt immense. Emily missed her friend dearly. She often reminisced about the good times they shared. A visit was planned soon to reunite.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "Their property", "object": "a beautiful park", "verb": "abuts", "sentence": "Their property abuts a beautiful park.", "paragraph": "The neighborhood was peaceful and scenic. Families enjoyed the proximity to nature. Their property abuts a beautiful park. Each morning, they would take a walk there. It was a delightful spot to relax.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "The new design", "object": "a classic masterpiece", "verb": "resembles", "sentence": "The new design resembles a classic masterpiece.", "paragraph": "In the world of art and creativity, inspiration comes from many places. Designers often look to the past for inspiration. The new design resembles a classic masterpiece. Critics applauded the fusion of old and new. It set the tone for upcoming trends in the industry.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

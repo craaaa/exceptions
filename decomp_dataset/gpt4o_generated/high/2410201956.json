@@ -1,0 +1,78 @@
+
+[
+    {"subject": "The carpenter", "object": "the nail", "verb": "hammered",
+     "sentence": "The carpenter hammered the nail into the wooden plank.",
+     "paragraph": "After measuring the dimensions carefully, the carpenter selected a sturdy plank. He positioned it properly against the wall. The carpenter hammered the nail into the wooden plank. It was a perfect fit, holding the plank firmly in place. The room's renovation was finally taking shape.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The chef", "object": "the egg", "verb": "broke",
+     "sentence": "The chef broke the egg into the mixing bowl.",
+     "paragraph": "With the ingredients spread out on the counter, the chef prepped for baking. He reached for the fresh eggs that were delivered that morning. The chef broke the egg into the mixing bowl. Combining it with flour and sugar, he began to whisk. Soon, the batter was ready for the oven.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The gardener", "object": "the dried leaves", "verb": "crushed",
+     "sentence": "The gardener crushed the dried leaves with a rake.",
+     "paragraph": "A pile of autumn leaves accumulated on the lawn, needing attention. The gardener gathered his tools and went outside. The gardener crushed the dried leaves with a rake. The mulch would be used to nourish the garden beds. His efforts promised a beautiful garden by spring.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The team", "object": "the old building", "verb": "demolished",
+     "sentence": "The team demolished the old building within a week.",
+     "paragraph": "As part of urban renewal, the city planned for new infrastructure. The architectural team received instructions to start the project. The team demolished the old building within a week. The site was now ready for construction. Excitement buzzed among the residents for the upcoming community center.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The pest controller", "object": "the termites", "verb": "exterminated",
+     "sentence": "The pest controller exterminated the termites affecting the house.",
+     "paragraph": "Discovering damage in the wooden beams, the homeowner called for help. An expert arrived with specialized equipment. The pest controller exterminated the termites affecting the house. The structure was finally free of infestations. Peace of mind returned to the worried family.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The chef", "object": "the potatoes", "verb": "boiled",
+     "sentence": "The chef boiled the potatoes until they were tender.",
+     "paragraph": "Preparing the side dish, the chef planned a classic mashed potatoes recipe. He chose the best russets from the pantry. The chef boiled the potatoes until they were tender. After mashing them with butter and cream, they accompanied the main course perfectly. Guests were delighted with the meal.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The boxer", "object": "the training bag", "verb": "punched",
+     "sentence": "The boxer punched the training bag with intense focus.",
+     "paragraph": "Preparing for the championship match, the boxer trained tirelessly. His coach watched, providing tips on improving technique. The boxer punched the training bag with intense focus. Each strike was sharper and stronger than the last. Confidence grew with every session.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The swimmer", "object": "the leaves", "verb": "drowned",
+     "sentence": "The swimmer drowned the leaves floating in the pool.",
+     "paragraph": "After a windy night, the pool was covered with debris. The swimmer arrived early for his morning routine. The swimmer drowned the leaves floating in the pool. The surface cleared, reflecting a perfect morning sky. His laps were continuous and uninterrupted.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The haunted house actor", "object": "the visitors", "verb": "terrified",
+     "sentence": "The haunted house actor terrified the visitors on Halloween night.",
+     "paragraph": "The local amusement park hosted its annual spooky event. Visitors lined up excitedly, ready for a thrilling evening. The haunted house actor terrified the visitors on Halloween night. Screams echoed, adding to the eerie atmosphere. Everyone left with a story to tell.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The detective", "object": "the suspect's alibi", "verb": "stabbed",
+     "sentence": "The detective stabbed the suspect's alibi with hard evidence.",
+     "paragraph": "After a lengthy investigation, new clues came to light. The detective presented his findings to the team. The detective stabbed the suspect's alibi with hard evidence. The case turned in their favor, leading to a breakthrough. Justice was within reach.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The chef", "object": "the caramel", "verb": "burned",
+     "sentence": "The chef burned the caramel to add a smoky flavor.",
+     "paragraph": "Experimenting for a new dish, the chef explored unique taste combinations. He gathered ingredients for a daring dessert. The chef burned the caramel to add a smoky flavor. The result was unexpectedly delightful. His restaurant gained praise for innovation.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The soccer player", "object": "the ball", "verb": "kicked",
+     "sentence": "The soccer player kicked the ball into the net, scoring a goal.",
+     "paragraph": "The championship game was intense, with both teams determined to win. Fans watched eagerly, cheering for their favorite players. The soccer player kicked the ball into the net, scoring a goal. His teammates celebrated the lead. Victory seemed within grasp.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The prankster", "object": "his friends", "verb": "frightened",
+     "sentence": "The prankster frightened his friends with a sudden shout.",
+     "paragraph": "Gathered around a campfire, the group exchanged ghost stories. Everyone was alert, enjoying the chilling tales. The prankster frightened his friends with a sudden shout. Laughter followed as the tension broke. It was all in good fun.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The novelist", "object": "his characters", "verb": "murdered",
+     "sentence": "The novelist murdered his characters in a dramatic plot twist.",
+     "paragraph": "Deep in the process of writing his latest thriller, the novelist sought inspiration. He wanted to keep his readers on edge. The novelist murdered his characters in a dramatic plot twist. The outcome shocked his audience. The book became a bestseller quickly.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {"subject": "The storm", "object": "the sailor's plans", "verb": "wrecked",
+     "sentence": "The storm wrecked the sailor's plans for a smooth journey.",
+     "paragraph": "Setting sail under fair weather, the sailor expected a calm sea. However, dark clouds soon gathered on the horizon. The storm wrecked the sailor's plans for a smooth journey. He navigated through the chaos with skill and courage. Eventually, he reached the port, grateful for safe arrival.",
+     "ratings": [5, 5, 5, 5, 5, 5, 5, 5]
+    }
+]

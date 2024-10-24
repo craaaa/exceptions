@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "Maria",
+    "object": "the book",
+    "verb": "believed",
+    "sentence": "Maria believed the book could inspire her to change her life.",
+    "paragraph": "Maria had been searching for motivation. She stumbled upon a book at the library. Maria believed the book could inspire her to change her life. She took it home eagerly. Over the next few days, she felt her mindset shifting.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "John",
+    "object": "the directions",
+    "verb": "needed",
+    "sentence": "John needed the directions to find the hidden location.",
+    "paragraph": "John was unsure about his upcoming adventure. His friend had given him a map. John needed the directions to find the hidden location. With the map in hand, he set off. A sense of excitement filled the air.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "the dark room",
+    "verb": "feared",
+    "sentence": "The child feared the dark room would have monsters.",
+    "paragraph": "Every night, the child dreaded bedtime. The noises outside seemed amplified. The child feared the dark room would have monsters. To her relief, her mother would reassure her. Eventually, sleep would come without incident.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Tom",
+    "object": "the movie",
+    "verb": "liked",
+    "sentence": "Tom liked the movie because it had a surprising twist.",
+    "paragraph": "Tom had never been a fan of thrillers. His friend insisted on seeing the new release. Tom liked the movie because it had a surprising twist. He was glad he gave it a chance. Thrillers were now on his list of favorites.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The drawing",
+    "object": "the picturesque view outside",
+    "verb": "resembled",
+    "sentence": "The drawing resembled the picturesque view outside.",
+    "paragraph": "Jane took her sketchbook to the park. Sitting under an oak tree, she began her work. The drawing resembled the picturesque view outside. Satisfied, she packed up her things. She left with a sense of accomplishment.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Sarah",
+    "object": "the flower",
+    "verb": "noticed",
+    "sentence": "Sarah noticed the flower had bloomed overnight.",
+    "paragraph": "Spring was Sarah's favorite season. She loved watching her garden change. Sarah noticed the flower had bloomed overnight. Its vibrant colors caught her eye. She took a picture to capture the moment.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The table",
+    "object": "the new dining room",
+    "verb": "fit",
+    "sentence": "The table fit perfectly in the new dining room.",
+    "paragraph": "Jim recently bought a new house. He was worried about furniture placement. The table fit perfectly in the new dining room. He admired his decision on table choice. Everything seemed to fall into place.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Emily",
+    "object": "the music",
+    "verb": "heard",
+    "sentence": "Emily heard the music coming from the neighbor's party.",
+    "paragraph": "It was a quiet Friday night. Emily was reading a book in her living room. Emily heard the music coming from the neighbor's party. It sounded lively and fun. She decided to join in on the festivities.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Alex",
+    "object": "his friend",
+    "verb": "trusted",
+    "sentence": "Alex trusted his friend with the secret plan.",
+    "paragraph": "Secrets were often burdensome for Alex. He had one that needed sharing. Alex trusted his friend with the secret plan. Relieved, he felt a weight lift. His friend promised to keep it safe.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The artist",
+    "object": "the blank canvas",
+    "verb": "saw",
+    "sentence": "The artist saw potential in the blank canvas.",
+    "paragraph": "The studio was filled with the smell of paints. Brushes lay scattered on the table. The artist saw potential in the blank canvas. Inspired, he began to paint. Each stroke brought his vision to life.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Lucy",
+    "object": "the train",
+    "verb": "missed",
+    "sentence": "Lucy missed the train by only a few seconds.",
+    "paragraph": "Lucy was running late for work. The streets were crowded and hectic. Lucy missed the train by only a few seconds. She sighed in frustration. A quick phone call rearranged her schedule.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Mark",
+    "object": "the answer",
+    "verb": "knew",
+    "sentence": "Mark knew the answer to the difficult question.",
+    "paragraph": "The quiz show was at its climax. The host looked expectantly at Mark. Mark knew the answer to the difficult question. He spoke confidently into the microphone. Cheers erupted from the audience.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The community",
+    "object": "the leader",
+    "verb": "respected",
+    "sentence": "The community respected the leader for her dedication.",
+    "paragraph": "The leader tirelessly worked for her community. Her achievements were numerous. The community respected the leader for her dedication. She was an inspiration to many. Her work improved lives across the town.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Lisa",
+    "object": "the song",
+    "verb": "recognized",
+    "sentence": "Lisa recognized the song playing on the radio.",
+    "paragraph": "It was a typical Monday morning commute. Traffic was moving at a snail's pace. Lisa recognized the song playing on the radio. It was from her favorite band. She turned up the volume and sang along.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The clouds",
+    "object": "the afternoon sky",
+    "verb": "look like",
+    "sentence": "The clouds looked like animals in the afternoon sky.",
+    "paragraph": "A gentle breeze swept across the field. The children lay on the grass watching the sky. The clouds looked like animals in the afternoon sky. Giggles erupted as they pointed at each shape. It was a perfect summer day.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

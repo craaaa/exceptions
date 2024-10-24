@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "John",
+    "object": "the rumors spreading around the office",
+    "verb": "believed",
+    "sentence": "John believed the rumors spreading around the office.",
+    "paragraph": "John was known for being somewhat gullible in the workplace. Every time a new rumor emerged, he would latch onto it. John believed the rumors spreading around the office. But many of his colleagues remained skeptical. Eventually, the truth came out and the rumors were debunked.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Emily",
+    "object": "the advice given by her mentor",
+    "verb": "respected",
+    "sentence": "Emily respected the advice given by her mentor.",
+    "paragraph": "Emily was always eager to learn and grow in her career. She often sought guidance from experienced professionals. Emily respected the advice given by her mentor. She implemented the suggestions and saw significant improvements. Her mentor was pleased with her progress.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Mark",
+    "object": "the imminent company meeting",
+    "verb": "dreaded",
+    "sentence": "Mark dreaded the imminent company meeting.",
+    "paragraph": "Mark never enjoyed long meetings at work. Especially when he knew they involved budget cuts. Mark dreaded the imminent company meeting. As expected, the meeting was tense and filled with difficult decisions. Mark felt relieved when it finally ended.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Sarah",
+    "object": "the new art exhibit",
+    "verb": "saw",
+    "sentence": "Sarah saw the new art exhibit at the gallery.",
+    "paragraph": "Sarah loved exploring new cultural events in the city. She especially enjoyed visiting art galleries on the weekends. Sarah saw the new art exhibit at the gallery. The exhibit featured contemporary pieces that fascinated her. She left feeling inspired to create her own art.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The team",
+    "object": "clear communication",
+    "verb": "needed",
+    "sentence": "The team needed clear communication to succeed.",
+    "paragraph": "The project involved multiple departments and complex tasks. Initial coordination attempts led to confusion and delays. The team needed clear communication to succeed. Weekly meetings and open channels were established. Productivity increased as everyone stayed informed.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "his father's guidance",
+    "verb": "trusted",
+    "sentence": "The child trusted his father's guidance.",
+    "paragraph": "Growing up, the child often looked to his father for advice. His father always provided nurturing and wisdom. The child trusted his father's guidance. This trust helped him navigate the challenges of adolescence. He appreciated having a supportive parent.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Lucy",
+    "object": "the secret conversation",
+    "verb": "overheard",
+    "sentence": "Lucy overheard the secret conversation in the hallway.",
+    "paragraph": "Lucy was walking to her office one morning. As she passed by the hallway, she heard whispers. Lucy overheard the secret conversation in the hallway. The information surprised her but she chose to keep it to herself. Later, she found out the matter was already resolved.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The new couch",
+    "object": "n/a",
+    "verb": "fit",
+    "sentence": "The new couch fit perfectly in the living room.",
+    "paragraph": "The family spent weeks redecorating their home. They wanted new furniture to complement the modern design. The new couch fit perfectly in the living room. Its vibrant color matched the decor seamlessly. Everyone admired the updated space.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The teacher",
+    "object": "her student's effort",
+    "verb": "recognized",
+    "sentence": "The teacher recognized her student's effort.",
+    "paragraph": "The student had been struggling with math but worked hard. He stayed after school for additional help. The teacher recognized her student's effort. She praised him during class, boosting his confidence. Over time, his grades improved significantly.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The park",
+    "object": "the busy downtown area",
+    "verb": "borders",
+    "sentence": "The park borders the busy downtown area.",
+    "paragraph": "The city is known for its green spaces amid urban development. Many residents enjoy the proximity of nature and city life. The park borders the busy downtown area. It provides a serene escape for office workers during lunchtime. Weekends often see families enjoying picnics there.",
+    "scores": [1, 1, 1, 1, 1, 1, 5, 5]
+  },
+  {
+    "subject": "Clara",
+    "object": "the complex programming code",
+    "verb": "understood",
+    "sentence": "Clara understood the complex programming code.",
+    "paragraph": "As a software developer, Clara faced many challenges. She often encountered difficult lines of code that baffled others. Clara understood the complex programming code. Her expertise helped her team complete projects efficiently. Her insights were highly valued by her colleagues.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The community",
+    "object": "the elder's wisdom",
+    "verb": "respected",
+    "sentence": "The community respected the elder's wisdom.",
+    "paragraph": "The small town had a rich history and close-knit community. The elders played a significant role in guiding cultural values. The community respected the elder's wisdom. They often turned to him for advice on important matters. His guidance helped maintain harmony within the town.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The students",
+    "object": "the upcoming exams",
+    "verb": "dreaded",
+    "sentence": "The students dreaded the upcoming exams.",
+    "paragraph": "As the semester progressed, anxiety among classmates grew. The exams were known for being particularly challenging. The students dreaded the upcoming exams. Many stayed up late studying to improve their chances. When the exams were finally over, everyone felt a huge relief.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Jack",
+    "object": "the change in weather patterns",
+    "verb": "noticed",
+    "sentence": "Jack noticed the change in weather patterns.",
+    "paragraph": "As an avid gardener, Jack paid attention to his surroundings. He tracked weather changes to plan his planting schedule. Jack noticed the change in weather patterns. The unusual shifts challenged his gardening plans. Adaptations were made to ensure his plants thrived.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The painting",
+    "object": "a scene from a dream",
+    "verb": "resembled",
+    "sentence": "The painting resembled a scene from a dream.",
+    "paragraph": "The artist was inspired by surrealism. Her works often left viewers in awe. The painting resembled a scene from a dream. It featured vibrant colors and abstract shapes. Many found it captivating and contemplative.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

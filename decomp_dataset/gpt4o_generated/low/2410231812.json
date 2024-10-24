@@ -1,0 +1,123 @@
+
+[
+{
+    "subject": "the child",
+    "object": "fairy tales",
+    "verb": "believe",
+    "sentence": "The child believed in fairy tales.",
+    "paragraph": "The sky was painted in shades of pink as the sun set. The garden sparkled with dewdrops. The child believed in fairy tales. She often imagined them coming to life at night. Her imagination knew no bounds.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the student",
+    "object": "exams",
+    "verb": "dread",
+    "sentence": "The student dreaded exams.",
+    "paragraph": "The school year was coming to an end. The final assessments were scheduled for the following week. The student dreaded exams. He would often pace the room with anxiety. But he knew he had to face them eventually.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the sculpture",
+    "object": "a phoenix",
+    "verb": "resemble",
+    "sentence": "The sculpture resembled a phoenix.",
+    "paragraph": "The marble art piece stood in the middle of the gallery. Visitors gathered around with intrigue. The sculpture resembled a phoenix. Its wings were spread wide, ready to take flight. Artists admired its intricate design.",
+    "ratings": [2,1,1,1,1,1,1,1]
+},
+{
+    "subject": "the community",
+    "object": "the elder",
+    "verb": "respect",
+    "sentence": "The community respected the elder.",
+    "paragraph": "The village meeting was in full swing. Everyone gave their input regarding the harvest festival. The community respected the elder. He had guided them for decades. His wisdom was invaluable to all.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "she",
+    "object": "the answer",
+    "verb": "know",
+    "sentence": "She knew the answer.",
+    "paragraph": "The quiz competition was intense. Participants were on the edge of their seats. She knew the answer. Confidently, she raised her hand. She shared the solution with an enthusiastic audience.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "he",
+    "object": "the bus",
+    "verb": "miss",
+    "sentence": "He missed the bus.",
+    "paragraph": "The alarm failed to ring that morning. He woke up in a panic. He missed the bus. Frustrated, he decided to walk to school. The day felt unusually long.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the gardener",
+    "object": "the tools",
+    "verb": "need",
+    "sentence": "The gardener needed the tools.",
+    "paragraph": "Spring was just around the corner. The flowerbeds needed revitalization. The gardener needed the tools. With them, he could prepare the soil. The garden promised vibrant blooms.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the fans",
+    "object": "the celebrity",
+    "verb": "recognize",
+    "sentence": "The fans recognized the celebrity.",
+    "paragraph": "A limousine pulled up to the red carpet. Cameras began to flash incessantly. The fans recognized the celebrity. Cheers erupted from the crowd. The celebrity waved with a big smile.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the birdwatcher",
+    "object": "an eagle",
+    "verb": "spot",
+    "sentence": "The birdwatcher spotted an eagle.",
+    "paragraph": "The forest trail was peaceful and serene. A gentle breeze rustled the leaves. The birdwatcher spotted an eagle. It soared majestically above the trees. Thrilled, he noted it in his diary.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the child",
+    "object": "the dark",
+    "verb": "fear",
+    "sentence": "The child feared the dark.",
+    "paragraph": "Nighttime crept in slowly. Stars began to twinkle in the sky. The child feared the dark. She asked for a nightlight to be left on. It helped her drift off to sleep.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the report",
+    "object": "evidence",
+    "verb": "lack",
+    "sentence": "The report lacked evidence.",
+    "paragraph": "The board meeting was underway. Members discussed recent findings. The report lacked evidence. Critics were quick to point this out. Further research was deemed necessary.",
+    "ratings": [2,1,1,1,1,1,1,1]
+},
+{
+    "subject": "she",
+    "object": "a secret",
+    "verb": "overhear",
+    "sentence": "She overheard a secret.",
+    "paragraph": "The office was bustling with chatter. Conversations flowed from one corner to another. She overheard a secret. Puzzled, she pretended not to listen. But curiosity lingered in her mind.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "the team",
+    "object": "their leader",
+    "verb": "trust",
+    "sentence": "The team trusted their leader.",
+    "paragraph": "The project was ambitious. Numerous challenges lay ahead. The team trusted their leader. His experience offered them guidance. Together, they aimed for success.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "he",
+    "object": "the music",
+    "verb": "hear",
+    "sentence": "He heard the music.",
+    "paragraph": "The cafe was lively and filled with patrons. A band began playing familiar tunes. He heard the music. It transported him back to his youth. Smiling, he tapped his feet in rhythm.",
+    "ratings": [5,5,5,5,1,1,1,1]
+},
+{
+    "subject": "she",
+    "object": "an award",
+    "verb": "receive",
+    "sentence": "She received an award.",
+    "paragraph": "The auditorium buzzed with anticipation. The host approached the podium to announce winners. She received an award. Her hard work was recognized with applause. Proudly, she thanked everyone for their support.",
+    "ratings": [5,5,5,5,1,1,1,1]
+}
+]

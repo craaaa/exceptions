@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "the fans",
+    "object": "the team can win the championship",
+    "verb": "believe",
+    "sentence": "The fans believe the team can win the championship.",
+    "paragraph": "With the final match approaching, excitement was building in the city. The team's performance had been stellar throughout the season. The fans believe the team can win the championship. They gathered for a rally to show their support. Victory was on everyone's minds.",
+    "scores": [3, 1, 4, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the garden",
+    "object": "the playground area",
+    "verb": "border",
+    "sentence": "The garden borders the playground area.",
+    "paragraph": "At the community park, groundskeepers were busy making improvements. They wanted to ensure a pleasant environment for visitors. The garden borders the playground area. Beautiful flowers lined the perimeter. Visitors often commented on the picturesque setting.",
+    "scores": [2, 1, 1, 1, 1, 1, 1, 2]
+  },
+  {
+    "subject": "the upgrades",
+    "object": "the company a fortune",
+    "verb": "cost",
+    "sentence": "The upgrades cost the company a fortune.",
+    "paragraph": "Faced with outdated technology, the IT department had to take action. The latest software solutions promised efficiency gains. The upgrades cost the company a fortune. However, the long-term benefits outweighed the expenses. Employees quickly adapted to the new systems.",
+    "scores": [2, 1, 1, 1, 1, 1, 3, 1]
+  },
+  {
+    "subject": "she",
+    "object": "the presentation on Monday",
+    "verb": "dread",
+    "sentence": "She dreads the presentation on Monday.",
+    "paragraph": "As deadlines approached, stress levels at the office were noticeable. Preparing for meetings and presentations took priority. She dreads the presentation on Monday. Practicing her slides, she hoped to boost her confidence. Her colleagues offered words of encouragement.",
+    "scores": [4, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the report",
+    "object": "sufficient data",
+    "verb": "lack",
+    "sentence": "The report lacks sufficient data.",
+    "paragraph": "During the board meeting, various documents were discussed. Presentations highlighted key areas of concern. The report lacks sufficient data. Analysts were tasked with gathering more information. A follow-up meeting was scheduled for next week.",
+    "scores": [2, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the children",
+    "object": "new textbooks for the semester",
+    "verb": "need",
+    "sentence": "The children need new textbooks for the semester.",
+    "paragraph": "With the start of the school year, excitement filled the halls. Supplies were distributed to eager students. The children need new textbooks for the semester. Orders were placed to ensure timely delivery. Teachers planned lessons around new material.",
+    "scores": [4, 5, 5, 5, 1, 1, 1, 2]
+  },
+  {
+    "subject": "he",
+    "object": "the conversation at the coffee shop",
+    "verb": "overhear",
+    "sentence": "He overheard the conversation at the coffee shop.",
+    "paragraph": "It was a busy morning at the local café, with regulars ordering their usual drinks. Students huddled, discussing group projects for class. He overheard the conversation at the coffee shop. Curious, he discreetly listened as he sipped his coffee. It seemed to be about an upcoming concert.",
+    "scores": [3, 2, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the sketch",
+    "object": "a famous landmark",
+    "verb": "resemble",
+    "sentence": "The sketch resembles a famous landmark.",
+    "paragraph": "In the bustling art studio, students worked on their final projects. Various mediums and techniques were explored. The sketch resembles a famous landmark. The instructor praised the attention to detail. Peers gathered, admiring the student's work.",
+    "scores": [2, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "she",
+    "object": "the birds singing every morning",
+    "verb": "hear",
+    "sentence": "She hears the birds singing every morning.",
+    "paragraph": "Living near the park provided a sense of tranquility. The symphony of nature was a daily delight. She hears the birds singing every morning. To her, it was the perfect way to start the day. With coffee in hand, she sat on her porch, enjoying the peaceful moments.",
+    "scores": [3, 2, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the teacher",
+    "object": "the students’ concerns",
+    "verb": "understand",
+    "sentence": "The teacher understands the students’ concerns.",
+    "paragraph": "Parent-teacher meetings were scheduled to discuss academic progress. Open communication was encouraged by the school. The teacher understands the students’ concerns. Providing support, she developed personalized plans for success. Parents and students appreciated her dedication.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the receipts",
+    "object": "over a thousand dollars",
+    "verb": "total",
+    "sentence": "The receipts total over a thousand dollars.",
+    "paragraph": "After a busy weekend, the accounting department reviewed the sales. Transactions needed to be recorded accurately. The receipts total over a thousand dollars. Managers were pleased with the thriving business. Plans for investment in marketing were discussed.",
+    "scores": [2, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the community",
+    "object": "the local leader's vision",
+    "verb": "respect",
+    "sentence": "The community respects the local leader's vision.",
+    "paragraph": "At the town hall, citizens gathered for the monthly meeting. The agenda included topics of development and infrastructure. The community respects the local leader's vision. Supporting initiatives, they voted to allocate funding for proposed projects. A sense of unity prevailed among attendees.",
+    "scores": [5, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the software",
+    "object": "facial features",
+    "verb": "recognize",
+    "sentence": "The software recognizes facial features with high accuracy.",
+    "paragraph": "In the tech world, innovation was always on the horizon. Developers were excited about their latest achievement. The software recognizes facial features with high accuracy. It promised to enhance security measures significantly. Users tested the application with impressive results.",
+    "scores": [3, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "they",
+    "object": "the storm",
+    "verb": "fear",
+    "sentence": "They fear the storm will cause damage.",
+    "paragraph": "Meteorologists issued warnings as clouds gathered in the sky. Emergency services urged residents to take precautions. They fear the storm will cause damage. Scrambling to secure their homes, families listened to weather updates. The hope was that it would pass without incident.",
+    "scores": [4, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the building",
+    "object": "it's from medieval times",
+    "verb": "look like",
+    "sentence": "The building looks like it's from medieval times.",
+    "paragraph": "Walking through the historical district, tourists marveled at architecture preserved through centuries. Each structure told stories of a different era. The building looks like it's from medieval times. Cameras clicked as people captured the unique design. Guided tours provided more insights into its history.",
+    "scores": [2, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

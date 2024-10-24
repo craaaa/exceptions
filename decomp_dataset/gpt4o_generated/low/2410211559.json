@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The actress",
+    "object": "the audience's critique",
+    "verb": "fear",
+    "sentence": "The actress feared the audience's critique on her performance.",
+    "paragraph": "The actress always gave her best on stage. She spent hours rehearsing her lines. The actress feared the audience's critique on her performance. After the show, she awaited feedback nervously. To her relief, the reviews were positive.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The student",
+    "object": "the upcoming exams",
+    "verb": "dread",
+    "sentence": "The student dreaded the upcoming exams.",
+    "paragraph": "It was the final week of the semester. The pressure was building for everyone. The student dreaded the upcoming exams. He couldn't sleep properly. Nevertheless, he prepared as much as possible.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The children",
+    "object": "the new playground equipment",
+    "verb": "like",
+    "sentence": "The children liked the new playground equipment.",
+    "paragraph": "The park had just been renovated. Everyone was excited about the changes. The children liked the new playground equipment. They spent hours playing. Their laughter filled the park.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The veteran",
+    "object": "his comrades from the war",
+    "verb": "remember",
+    "sentence": "The veteran remembered his comrades from the war.",
+    "paragraph": "Every year on Veterans Day, memories flooded his mind. The stories were both heroic and heartbreaking. The veteran remembered his comrades from the war. He honored them in his thoughts. They were always in his heart.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The detective",
+    "object": "a strange symbol",
+    "verb": "notice",
+    "sentence": "The detective noticed a strange symbol on the letter.",
+    "paragraph": "The investigation was getting complicated. Every clue seemed crucial. The detective noticed a strange symbol on the letter. It might be a lead, she thought. She decided to investigate further.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The artist",
+    "object": "the influence of surrealism",
+    "verb": "recognize",
+    "sentence": "The artist recognized the influence of surrealism in the new painting.",
+    "paragraph": "She always spent hours in art galleries. Each piece told its own story. The artist recognized the influence of surrealism in the new painting. It inspired her. She couldn't wait to start her own.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The patient",
+    "object": "the doctor's advice",
+    "verb": "hear",
+    "sentence": "The patient heard the doctor's advice on getting more rest.",
+    "paragraph": "He had been feeling unwell for days. Finally, he sought medical help. The patient heard the doctor's advice on getting more rest. He realized he needed to take care of himself. He promised to follow the guidance.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The team",
+    "object": "a victory",
+    "verb": "need",
+    "sentence": "The team needed a victory to advance in the tournament.",
+    "paragraph": "The championship game was a week away. They had faced tough opponents all season. The team needed a victory to advance in the tournament. They trained relentlessly. Their determination was unwavering.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Students",
+    "object": "the principal's decision",
+    "verb": "respect",
+    "sentence": "Students respected the principal's decision on the new policy.",
+    "paragraph": "The meeting room was filled with anticipation. Changes were needed for improvement. Students respected the principal's decision on the new policy. They understood its importance. It ensured a better learning environment.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The report",
+    "object": "sufficient evidence",
+    "verb": "lack",
+    "sentence": "The report lacked sufficient evidence to support the claim.",
+    "paragraph": "The researchers worked tirelessly over months. Their findings were eagerly anticipated. The report lacked sufficient evidence to support the claim. It was back to the drawing board. They had to gather more data.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The landscape",
+    "object": "a winter wonderland",
+    "verb": "look like",
+    "sentence": "The landscape looked like a winter wonderland after the snowfall.",
+    "paragraph": "The night had brought a heavy snowstorm. By morning, everything was covered in a thick white blanket. The landscape looked like a winter wonderland after the snowfall. The beauty was breathtaking. Children couldn't wait to play outside.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The dog",
+    "object": "its owner's mood change",
+    "verb": "sense",
+    "sentence": "The dog sensed its owner's mood change instantly.",
+    "paragraph": "After a long day, she entered the house exhausted. There was a stillness in the air. The dog sensed its owner's mood change instantly. It came over for comfort. Moments like these were treasured.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The jury",
+    "object": "the witness's testimony",
+    "verb": "believe",
+    "sentence": "The jury believed the witness's testimony was credible.",
+    "paragraph": "The courtroom was tense with anticipation. The evidence had been presented over several days. The jury believed the witness's testimony was credible. Their decision would have lasting effects. Justice was in their hands.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Employees",
+    "object": "the new manager's direction",
+    "verb": "trust",
+    "sentence": "Employees trust the new manager's direction for the company.",
+    "paragraph": "The company had faced some challenges recently. A change in leadership was welcomed. Employees trust the new manager's direction for the company. They were hopeful for a brighter future. Optimism filled the workplace.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "the importance of sharing",
+    "verb": "understand",
+    "sentence": "The child understood the importance of sharing with friends.",
+    "paragraph": "The teacher had been explaining social skills all week. Activities were designed to reinforce them. The child understood the importance of sharing with friends. It made playtime more enjoyable. Everyone felt included and happy.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

@@ -1,0 +1,11 @@
+
+[
+  {
+    "subject": "The artist",
+    "object": "the vibrant sunset on a large canvas",
+    "verb": "painted",
+    "sentence": "The artist painted the vibrant sunset on a large canvas.",
+    "paragraph": "The gallery was filled with awe-struck art enthusiasts. The artist had been working tirelessly for weeks. The artist painted the vibrant sunset on a large canvas. This masterpiece soon became the highlight of the exhibition. Everyone wanted to capture their own piece of it.",
+    "ratings": [5, 5, 5, 5, 5, 5, 3, 3]
+  }
+]

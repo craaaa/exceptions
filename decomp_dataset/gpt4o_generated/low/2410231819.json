@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "the manager",
+    "object": "the new strategy",
+    "verb": "believed",
+    "sentence": "The manager believed the new strategy would increase sales.",
+    "paragraph": "The team gathered in the conference room for the quarterly meeting. There was palpable excitement as the manager presented the new strategy. The manager believed the new strategy would increase sales. The team applauded and discussed implementation steps. They hoped for a successful outcome.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the student",
+    "object": "the upcoming exam",
+    "verb": "dreaded",
+    "sentence": "The student dreaded the upcoming exam.",
+    "paragraph": "School had been particularly challenging this semester. The pressure was on for students to maintain high grades. The student dreaded the upcoming exam. She decided to spend the weekend studying intensely. When Monday came, she felt more prepared.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the camper",
+    "object": "the dark forest",
+    "verb": "feared",
+    "sentence": "The camper feared the dark forest.",
+    "paragraph": "It was the first night of their camping trip. They sat around the campfire telling stories. The camper feared the dark forest. He imagined every rustle to be a lurking threat. His friends tried to reassure him with jokes.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the traveler",
+    "object": "the last train",
+    "verb": "missed",
+    "sentence": "The traveler missed the last train.",
+    "paragraph": "After a long day of sightseeing, the traveler was exhausted. She hurried back to the train station to catch the last train home. The traveler missed the last train. The doors closed right before her eyes. She sighed and looked for alternative transportation.",
+    "scores": [5, 4, 4, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the child",
+    "object": "the colorful kite",
+    "verb": "liked",
+    "sentence": "The child liked the colorful kite.",
+    "paragraph": "It was a breezy day at the park. Many families were enjoying the weather. The child liked the colorful kite. He watched it dance in the sky with delight. His parents smiled at his joy.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the patient",
+    "object": "the medication",
+    "verb": "needed",
+    "sentence": "The patient needed the medication.",
+    "paragraph": "The diagnosis was a bit unsettling for the family. The doctor explained the treatment options available. The patient needed the medication. It was crucial for managing the symptoms effectively. Together, they made an informed decision.",
+    "scores": [3, 2, 4, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the villagers",
+    "object": "the wise elder",
+    "verb": "respected",
+    "sentence": "The villagers respected the wise elder.",
+    "paragraph": "In their small community, wisdom was valued above all. The elder had seen many seasons come and go. The villagers respected the wise elder. They often sought his guidance for important decisions. His wisdom was considered a treasure.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the officer",
+    "object": "her instincts",
+    "verb": "trusted",
+    "sentence": "The officer trusted her instincts.",
+    "paragraph": "It was a critical moment during the investigation. All leads seemed to be faltering. The officer trusted her instincts. She decided to follow a hunch that others dismissed. Eventually, it led to a crucial breakthrough.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the artist",
+    "object": "the intricate patterns",
+    "verb": "noticed",
+    "sentence": "The artist noticed the intricate patterns.",
+    "paragraph": "The gallery was filled with beautiful artworks from various artists. Visitors walked around, admiring the displays. The artist noticed the intricate patterns. They were inspired to incorporate them into their next piece. Creativity sparked ideas for the upcoming project.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the twins",
+    "object": "each other",
+    "verb": "resembled",
+    "sentence": "The twins resembled one another remarkably.",
+    "paragraph": "At the grand family reunion, everyone was excited to catch up. Cousins who hadn't seen each other in years were amazed at the similarities. The twins resembled one another remarkably. Guests often confused them, making for endless laughs. Despite similarities, each had a distinct character.",
+    "scores": [1, 1, 3, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the detective",
+    "object": "the familiar pattern",
+    "verb": "recognized",
+    "sentence": "The detective recognized the familiar pattern.",
+    "paragraph": "The case files piled on the desk were daunting. Each case presented its own challenges. The detective recognized the familiar pattern. It was the breakthrough they needed to connect seemingly unrelated incidents. This insight fueled a new direction in the investigation.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the audience",
+    "object": "the powerful speech",
+    "verb": "heard",
+    "sentence": "The audience heard the powerful speech.",
+    "paragraph": "The conference hall was packed with enthusiastic attendees. Anticipation filled the air as the keynote speaker took the stage. The audience heard the powerful speech. It was a call to action that inspired and motivated. Applause filled the room as the speaker concluded.",
+    "scores": [5, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the supervisor",
+    "object": "the minor errors",
+    "verb": "overlooked",
+    "sentence": "The supervisor overlooked the minor errors.",
+    "paragraph": "The new team submitted their quarterly report for review. Though generally thorough, there were a few inaccuracies. The supervisor overlooked the minor errors. She appreciated the overall effort and provided constructive feedback. Encouragement motivated the team to improve further.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the students",
+    "object": "the complex theory",
+    "verb": "understood",
+    "sentence": "The students understood the complex theory.",
+    "paragraph": "The class had been struggling with the new topic. The professor decided to explain the theory using simpler analogies. The students understood the complex theory. This new approach opened new perspectives. Their newfound understanding was reflected in their discussions.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the scientist",
+    "object": "the results",
+    "verb": "knew",
+    "sentence": "The scientist knew the results could be groundbreaking.",
+    "paragraph": "After months of meticulous experiments, the final phase was underway. The atmosphere in the lab was tense yet hopeful. The scientist knew the results could be groundbreaking. This potential fueled her determination. All that was left was to patiently await the data.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  }
+]

@@ -1,0 +1,32 @@
+
+[
+  {"subject": "John", "object": "every word she said", "verb": "believed", "sentence": "John believed every word she said.", "paragraph": "John had always been a trusting person. He listened carefully to her story. John believed every word she said. Then he nodded, showing his agreement. Later, he pondered if he should have been more skeptical.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The garden", "object": "the beautiful park", "verb": "bordered", "sentence": "The garden bordered the beautiful park.", "paragraph": "The house was perfectly located. It had a lovely garden. The garden bordered the beautiful park. This made it feel much larger. The kids loved playing there after school.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "Sarah", "object": "the upcoming inspection", "verb": "dreaded", "sentence": "Sarah dreaded the upcoming inspection.", "paragraph": "Sarah had been working hard all week. She wanted everything to be perfect. Sarah dreaded the upcoming inspection. Her heart sank every time she thought about it. But she was determined to do her best.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The children", "object": "the dark cave", "verb": "feared", "sentence": "The children feared the dark cave.", "paragraph": "During their hike, they found a mysterious opening. The tour guide warned them about dangers. The children feared the dark cave. They hesitated at the entrance. Eventually, they decided to stay outside.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The new sofa", "object": "the living room", "verb": "fit", "sentence": "The new sofa fit the living room perfectly.", "paragraph": "They had been searching for the right furniture for weeks. Finally, they made a decision. The new sofa fit the living room perfectly. It matched the decor beautifully. They were very pleased with their choice.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The mansion", "object": "an impressive library", "verb": "had", "sentence": "The mansion had an impressive library.", "paragraph": "As they toured the home, each room showcased luxury. They entered yet another stunning area. The mansion had an impressive library. Its shelves were lined with rare books. They marveled at its grandeur.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "She", "object": "the gentle rustle of leaves", "verb": "heard", "sentence": "She heard the gentle rustle of leaves outside.", "paragraph": "Late at night, everything was quiet. She lay in bed, listening closely. She heard the gentle rustle of leaves outside. It brought her a sense of peace. Soon, she drifted off to sleep.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "Alex", "object": "all the answers to the quiz", "verb": "knew", "sentence": "Alex knew all the answers to the quiz.", "paragraph": "He had spent hours studying for this moment. Confident in his abilities, he took a deep breath. Alex knew all the answers to the quiz. He quickly completed each question. His preparation had truly paid off.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "They", "object": "the last train to the city", "verb": "missed", "sentence": "They missed the last train to the city.", "paragraph": "After their dinner, they checked the time. They realized they were running late. They missed the last train to the city. Disappointed, they headed to the bus stop instead. It was a lesson to keep better track of time.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The plant", "object": "more sunlight", "verb": "needs", "sentence": "The plant needs more sunlight to grow.", "paragraph": "She observed her small indoor garden. One particular plant looked sad. The plant needs more sunlight to grow. She made a note to move it closer to the window. Her passion was ensuring her plants thrived.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "Jane", "object": "the change in his demeanor", "verb": "noticed", "sentence": "Jane noticed the change in his demeanor.", "paragraph": "They met every afternoon at the café. Today, something seemed different. Jane noticed the change in his demeanor. Her intuition told her to ask about it. Reluctantly, he opened up to her.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The traveler", "object": "the landmark", "verb": "recognized", "sentence": "The traveler recognized the landmark immediately.", "paragraph": "As the journey continued, everyone enjoyed the view. It was breathtaking, filled with surprises. The traveler recognized the landmark immediately. No one else in the group had seen it before. It was a special moment for him.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The twins", "object": "each other", "verb": "resembled", "sentence": "The twins resembled each other greatly.", "paragraph": "At the family reunion, everyone gathered for fun. Among the relatives, they stood out. The twins resembled each other greatly. Even their voices sounded similar. It was amusing to see people get confused.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The team", "object": "their leader's decision", "verb": "respected", "sentence": "The team respected their leader's decision.", "paragraph": "After much discussion, a crucial choice was made. It wasn't easy, but it felt right. The team respected their leader's decision. They committed to working together on the new plan. Success would require effort from everyone.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "She", "object": "a rainbow", "verb": "saw", "sentence": "She saw a rainbow after the storm.", "paragraph": "The thunder had finally stopped. Looking outside brought a fresh sense of calm. She saw a rainbow after the storm. Its colors were vibrant and uplifting. It seemed like a sign of hope.", "scores": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

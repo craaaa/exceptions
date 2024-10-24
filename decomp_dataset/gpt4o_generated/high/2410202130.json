@@ -1,0 +1,32 @@
+
+[
+  {"subject": "the thief", "object": "the witness", "verb": "murdered", "sentence": "The detective discovered that the thief had murdered the witness.", "paragraph": "The local police had been investigating the mysterious disappearance of key criminal evidence. To everyone's surprise, the detective discovered that the thief had murdered the witness. The case was declared solved, and justice was duly served after the criminal's confession.", "scores": [5, 5, 5, 5, 5, 5, 3, 4]},
+  
+  {"subject": "the king's guard", "object": "the traitor", "verb": "executed", "sentence": "The king's guard quickly executed the traitor.", "paragraph": "Rumors of betrayal spread throughout the castle, leading to heightened tension and increased security. The king's guard quickly executed the traitor. Stability was restored, and the realm returned to its usual peace.", "scores": [5, 5, 5, 5, 5, 5, 3, 5]},
+  
+  {"subject": "the construction crew", "object": "the old building", "verb": "demolished", "sentence": "The construction crew demolished the old building by noon.", "paragraph": "The city council had approved plans for a new park to be developed in the downtown area. The construction crew demolished the old building by noon. By evening, the ground was cleared and ready for the new project.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]},
+  
+  {"subject": "the rescuer", "object": "the reptile", "verb": "drowned", "sentence": "The rescuer drowned the reptile in a matter of minutes.", "paragraph": "A dangerous alligator had been threatening the safety of the local pond. The rescuer drowned the reptile in a matter of minutes. The community thanked the individual for ensuring their safety.", "scores": [5, 5, 5, 5, 5, 5, 1, 4]},
+  
+  {"subject": "the worker", "object": "the fragile vase", "verb": "broke", "sentence": "The worker accidentally broke the fragile vase while cleaning.", "paragraph": "The museum's cleaning crew was tasked with tidying up the exhibit areas. The worker accidentally broke the fragile vase while cleaning. Unfortunately, the piece was irreplaceable, and measures were taken to prevent future accidents.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]},
+  
+  {"subject": "the villain", "object": "his victim", "verb": "suffocated", "sentence": "The villain suffocated his victim without remorse.", "paragraph": "In the dimly lit alley, sinister plans were afoot. The villain suffocated his victim without remorse. Soon after, the authorities were on the trail, seeking justice.", "scores": [5, 5, 5, 5, 5, 5, 1, 4]},
+  
+  {"subject": "the arsonist", "object": "the historic library", "verb": "burned", "sentence": "The arsonist burned the historic library to ashes.", "paragraph": "A shadowy figure lurked near the cherished institution under the cover of darkness. The arsonist burned the historic library to ashes. Heartbroken, the community vowed to rebuild.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]},
+  
+  {"subject": "the pest control team", "object": "the rodent infestation", "verb": "exterminated", "sentence": "The pest control team exterminated the rodent infestation.", "paragraph": "Residents had been complaining about the increasing number of rats on their street. The pest control team exterminated the rodent infestation. With the pests gone, the neighborhood could finally breathe easy.", "scores": [5, 5, 5, 5, 5, 5, 1, 4]},
+  
+  {"subject": "the compactor", "object": "the metal junk", "verb": "crushed", "sentence": "The compactor crushed the metal junk into a compact cube.", "paragraph": "At the recycling facility, machines whirred and clanked incessantly. The compactor crushed the metal junk into a compact cube. This process made transportation and further recycling much easier.", "scores": [5, 5, 3, 1, 5, 5, 1, 5]},
+  
+  {"subject": "the haunted house actor", "object": "the visitors", "verb": "frightened", "sentence": "The haunted house actor frightened the visitors with sudden screams.", "paragraph": "On Halloween night, the local haunted house saw a long line of excited attendees. The haunted house actor frightened the visitors with sudden screams. Many left with adrenaline pumping and stories to tell.", "scores": [5, 5, 5, 5, 5, 5, 1, 3]},
+  
+  {"subject": "the assailant", "object": "the unsuspecting victim", "verb": "stabbed", "sentence": "The assailant stabbed the unsuspecting victim in the alley.", "paragraph": "News of rising crime rates left the community anxious and wary of strangers. The assailant stabbed the unsuspecting victim in the alley. Emergency services soon arrived at the scene.", "scores": [5, 5, 5, 5, 5, 5, 1, 3]},
+  
+  {"subject": "the burglars", "object": "the elderly couple", "verb": "robbed", "sentence": "The burglars robbed the elderly couple of their valuables.", "paragraph": "The quiet neighborhood felt the sting of shock and violation. The burglars robbed the elderly couple of their valuables. The police were called, and an investigation promptly began.", "scores": [5, 5, 5, 5, 1, 5, 5, 4]},
+  
+  {"subject": "the gang", "object": "the locals", "verb": "terrorized", "sentence": "The gang terrorized the locals with nightly raids.", "paragraph": "Stories of a notorious gang swept through the town, instilling fear and panic. The gang terrorized the locals with nightly raids. Community leaders sought greater protection measures.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]},
+  
+  {"subject": "the craftsman", "object": "the metal", "verb": "hammered", "sentence": "The craftsman hammered the metal into a fine blade.", "paragraph": "As the sun set, the sounds of the workshop filled the air with hopeful anticipation. The craftsman hammered the metal into a fine blade. Satisfied, he placed it among his finest creations.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]},
+  
+  {"subject": "the hunter", "object": "the wild boar", "verb": "shot", "sentence": "The hunter shot the wild boar as it charged.", "paragraph": "In the dense forest, experienced hunters moved skillfully and quietly. The hunter shot the wild boar as it charged. The team convened to discuss their next steps in the hunt.", "scores": [5, 5, 5, 5, 5, 5, 1, 5]}
+]

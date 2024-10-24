@@ -1,0 +1,32 @@
+
+[
+    {"subject": "The scientist", "object": "the results of the experiment", "verb": "believe", "sentence": "The scientist believed the results of the experiment.", "paragraph": "The research was conducted over several months. Data collection faced numerous hurdles. The scientist believed the results of the experiment. This confidence paved the way for groundbreaking conclusions. The study was published in a renowned journal.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The child", "object": "the dark room", "verb": "fear", "sentence": "The child feared the dark room.", "paragraph": "It was getting late in the evening. As dinner ended, the lights went out in the hallway. The child feared the dark room. Her mother noticed and quickly switched on a light. The room was filled with a warm glow again.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The teacher", "object": "the student's potential", "verb": "know", "sentence": "The teacher knew the student's potential.", "paragraph": "It was the beginning of the school year. The students settled into their routines. The teacher knew the student's potential. She decided to offer him more challenging assignments. The student appreciated the opportunity.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The detective", "object": "the unusual pattern in the data", "verb": "notice", "sentence": "The detective noticed the unusual pattern in the data.", "paragraph": "After hours of analyzing evidence, everyone was tired. Coffee cups littered the table. The detective noticed the unusual pattern in the data. This discovery led to a significant breakthrough in the case. The team celebrated the progress.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "Many people", "object": "the veteran's service", "verb": "respect", "sentence": "Many people respected the veteran's service.", "paragraph": "The parade was scheduled for the afternoon. Veterans of all ages were gathering in the park. Many people respected the veteran's service. Children waved small flags in appreciation. The day ended with a ceremony honoring their bravery.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The athlete", "object": "the award", "verb": "receive", "sentence": "The athlete received the award with a big smile.", "paragraph": "The competition had been intense. Spectators cheered from the stands. The athlete received the award with a big smile. Gratitude was evident in his expression. The event concluded with an inspiring speech.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The apprentice", "object": "the importance of the task", "verb": "understand", "sentence": "The apprentice understood the importance of the task.", "paragraph": "The workshop had a vibrant energy. Craftsmen were focused on their projects. The apprentice understood the importance of the task. His determination impressed his mentor. The end result was a masterpiece.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The historian", "object": "the significance of the artifact", "verb": "recognize", "sentence": "The historian recognized the significance of the artifact.", "paragraph": "The museum was filled with curious visitors. Exhibits showcased relics from the past. The historian recognized the significance of the artifact. He shared his insights with the museum director. The artifact became the centerpiece of the exhibit.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The veteran", "object": "the events of that fateful day", "verb": "remember", "sentence": "The veteran remembered the events of that fateful day.", "paragraph": "As the memorial ceremony proceeded, emotions ran high. Families gathered to honor the fallen. The veteran remembered the events of that fateful day. He shared stories with the younger generation. His words touched everyone deeply.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The manager", "object": "the team's expertise", "verb": "trust", "sentence": "The manager trusted the team's expertise.", "paragraph": "The project deadline was approaching. Stress levels were high. The manager trusted the team's expertise. They worked efficiently to meet the goals. The final presentation amazed the clients.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The employee", "object": "the performance review", "verb": "dread", "sentence": "The employee dreaded the performance review.", "paragraph": "The office was buzzing with nervous energy. Review day made everyone tense. The employee dreaded the performance review. She took a deep breath to calm her nerves. The manager offered constructive feedback.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The journalist", "object": "the conversation", "verb": "overhear", "sentence": "The journalist overheard the conversation.", "paragraph": "The café was bustling with activity. Clients were discussing various topics. The journalist overheard the conversation. Realizing its importance, she took notes quickly. This led to an exclusive story.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The lifeguard", "object": "the swimmer struggling", "verb": "spot", "sentence": "The lifeguard spotted the swimmer struggling.", "paragraph": "The sun shone brightly at the beach. Families enjoyed the water and sand. The lifeguard spotted the swimmer struggling. Without hesitation, he jumped into action. The swimmer was saved and thanked the lifeguard.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The artist", "object": "the potential in the blank canvas", "verb": "see", "sentence": "The artist saw the potential in the blank canvas.", "paragraph": "The studio was cluttered with supplies. Creative energy filled the air. The artist saw the potential in the blank canvas. With steady hands, she began to paint. The result was a masterpiece, admired by all.", "scores": [1,1,1,1,1,1,1,1]},
+    
+    {"subject": "The traveler", "object": "the familiar sights of home", "verb": "miss", "sentence": "The traveler missed the familiar sights of home.", "paragraph": "The journey had been long and exhausting. Each destination was vibrant and unique. The traveler missed the familiar sights of home. Nostalgia settled in as he reminisced about his hometown. He eagerly anticipated his return.", "scores": [1,1,1,1,1,1,1,1]}
+]

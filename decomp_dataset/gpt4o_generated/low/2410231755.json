@@ -1,0 +1,32 @@
+
+[
+    {"subject": "the painting", "object": "a famous landscape", "verb": "resemble", "sentence": "The painting resembled a famous landscape.", "paragraph": "The art gallery was full of interesting pieces. Visitors wandered through, admiring each work. The painting resembled a famous landscape. Some guests paused to take pictures. Others moved on to the next exhibit.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the garden", "object": "the peaceful lake", "verb": "border", "sentence": "The garden bordered the peaceful lake.", "paragraph": "They walked through the beautiful park. The sun was shining brightly. The garden bordered the peaceful lake. Ducks swam quietly in the water. Flowers bloomed along the path.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the child", "object": "the dark shadows", "verb": "fear", "sentence": "The child feared the dark shadows.", "paragraph": "It was a quiet night in the old house. The lights flickered softly. The child feared the dark shadows. They hugged their teddy bear tightly. Soon, they drifted off to sleep.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "she", "object": "her old friends from school", "verb": "miss", "sentence": "She missed her old friends from school.", "paragraph": "Moving to a new city was exciting for her. Everything felt new and different. She missed her old friends from school. Their shared memories lingered in her mind. She looked forward to visiting them soon.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the computer", "object": "the input command", "verb": "recognize", "sentence": "The computer recognized the input command.", "paragraph": "Developers worked on the new software. Each update brought improvements. The computer recognized the input command. It executed the function smoothly. The team celebrated their progress.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the car", "object": "a new engine part", "verb": "need", "sentence": "The car needed a new engine part.", "paragraph": "The mechanic examined the vehicle carefully. It was an older model with many issues. The car needed a new engine part. The order was placed quickly. Soon, it would be running smoothly again.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the student", "object": "the upcoming exam", "verb": "dread", "sentence": "The student dreaded the upcoming exam.", "paragraph": "The semester was coming to an end. Many assignments were due. The student dreaded the upcoming exam. They studied endlessly each night. Finally, the test day arrived.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the expenses", "object": "a significant amount", "verb": "total", "sentence": "The expenses totaled a significant amount.", "paragraph": "The monthly review was underway. Staff examined all the figures carefully. The expenses totaled a significant amount. It was more than what they had planned. Adjustments would be necessary for next month.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the project", "object": "millions of dollars", "verb": "cost", "sentence": "The project cost millions of dollars.", "paragraph": "Engineers gathered at the construction site. Blueprints were spread out before them. The project cost millions of dollars. It was funded by multiple investors. They hoped for a successful completion.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "she", "object": "the distant train whistle", "verb": "hear", "sentence": "She could hear the distant train whistle.", "paragraph": "Night had fallen over the small town. Stars were visible in the clear sky. She could hear the distant train whistle. It signaled the arrival of the late-night express. Soon, it would pass through the station.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the teacher", "object": "the student's concerns", "verb": "understand", "sentence": "The teacher understood the student's concerns.", "paragraph": "The classroom was filled with chatter. Students were discussing their upcoming projects. The teacher understood the student's concerns. She provided guidance and reassurance. Everyone felt better prepared for the task.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the community", "object": "the local leader", "verb": "believe", "sentence": "The community believed in the local leader.", "paragraph": "The election season had just ended. Results were eagerly awaited by everyone. The community believed in the local leader. They felt confident about the future. Many looked forward to positive change.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the team", "object": "their coach's decision", "verb": "respect", "sentence": "The team respected their coach's decision.", "paragraph": "It was a crucial moment in the game. The tension in the stadium was palpable. The team respected their coach's decision. They executed the play with determination. Victory was within reach.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the artist", "object": "a detail in the painting", "verb": "notice", "sentence": "The artist noticed a detail in the painting.", "paragraph": "The studio was quiet and filled with canvases. Sunlight streamed through the windows. The artist noticed a detail in the painting. It inspired a new direction for their work. Creativity sparked with fresh ideas.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+    
+    {"subject": "the cat", "object": "the new scratching post", "verb": "like", "sentence": "The cat liked the new scratching post.", "paragraph": "The family had just returned from the pet store. Different toys and treats were spread around the room. The cat liked the new scratching post. It immediately began using it with enthusiasm. A purr of satisfaction filled the air.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

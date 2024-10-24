@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The committee",
+    "object": "the report",
+    "verb": "believe",
+    "sentence": "The committee believes the report requires further analysis.",
+    "paragraph": "The committee met for the quarterly review. Members discussed several topics, including financial performance. The committee believes the report requires further analysis. They decided to appoint an external consultant. Their focus is to ensure accurate data interpretation.",
+    "scores": [3, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The document",
+    "object": "critical details",
+    "verb": "lack",
+    "sentence": "The document lacks critical details about the execution plan.",
+    "paragraph": "The team reviewed the initial draft submitted by the manager. Everyone felt some improvements were necessary. The document lacks critical details about the execution plan. Therefore, revisions are needed. The final submission deadline is next Tuesday.",
+    "scores": [3, 1, 1, 1, 3, 1, 1, 1]
+  },
+  {
+    "subject": "The project",
+    "object": "millions",
+    "verb": "cost",
+    "sentence": "The project costs the organization millions every year.",
+    "paragraph": "The annual review of expenses was ongoing. Many projects were highlighted for being costly. The project costs the organization millions every year. Despite this, it remains key to strategic plans. Effective budget management is being discussed.",
+    "scores": [3, 1, 1, 1, 1, 1, 5, 1]
+  },
+  {
+    "subject": "The director",
+    "object": "the challenges",
+    "verb": "know",
+    "sentence": "The director knows the challenges facing the team.",
+    "paragraph": "During the meeting, issues regarding project speed were raised. The director was well-informed on key matters. The director knows the challenges facing the team. As a result, action plans are underway. A solution is expected soon.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The new system",
+    "object": "the prototype",
+    "verb": "resemble",
+    "sentence": "The new system resembles the prototype developed last year.",
+    "paragraph": "The tech department launched a new software system. Initial feedback from users was positive. The new system resembles the prototype developed last year. Developers are optimistic about its reception. Further feedback will guide improvements.",
+    "scores": [3, 1, 1, 1, 2, 1, 1, 1]
+  },
+  {
+    "subject": "The team",
+    "object": "the upcoming fiscal review",
+    "verb": "dread",
+    "sentence": "The team dreaded the upcoming fiscal review.",
+    "paragraph": "As the year drew to a close, discussions arose about finances. Anxiety grew within the department. The team dreaded the upcoming fiscal review. No one wanted to face potentially negative feedback. Preparations, however, were in full swing.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The manager",
+    "object": "the complaint",
+    "verb": "hear",
+    "sentence": "The manager heard the complaint about extended work hours.",
+    "paragraph": "There was growing unrest among the employees due to long work hours. An official complaint was drafted. The manager heard the complaint about extended work hours. Immediate steps are being taken to address the grievances. An action plan will follow shortly.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The proposal",
+    "object": "further clarification",
+    "verb": "need",
+    "sentence": "The proposal needs further clarification from the author.",
+    "paragraph": "The initial proposal was discussed in the morning meeting. Everyone agreed on its potential benefits. The proposal needs further clarification from the author. A follow-up meeting is scheduled for next week. Everyone is hopeful for a more detailed plan.",
+    "scores": [3, 1, 1, 1, 3, 1, 1, 1]
+  },
+  {
+    "subject": "The supervisor",
+    "object": "the team's judgement",
+    "verb": "trust",
+    "sentence": "The supervisor trusts the team's judgement on the project.",
+    "paragraph": "The project entered a critical phase. Many decisions needed to be made quickly. The supervisor trusts the team's judgement on the project. As a result, autonomy was given for further action. Confidence within the team boosted.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The engineer",
+    "object": "the complex mechanisms",
+    "verb": "understand",
+    "sentence": "The engineer understands the complex mechanisms thoroughly.",
+    "paragraph": "The presentation started with an overview of the new machinery. Many attendees found the explanations enlightening. The engineer understands the complex mechanisms thoroughly. He offered further insights during the Q&A session. A detailed guide is forthcoming.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The audience",
+    "object": "the performer",
+    "verb": "see",
+    "sentence": "The audience saw the performer execute a flawless routine.",
+    "paragraph": "The hall was packed with eager fans. Excitement was in the air as the lights dimmed. The audience saw the performer execute a flawless routine. Cheers erupted throughout the venue. The performer took a gracious bow.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The traveler",
+    "object": "the early morning train",
+    "verb": "miss",
+    "sentence": "The traveler missed the early morning train to the city.",
+    "paragraph": "The station was bustling with people hurrying to various destinations. Unfortunately, the alarms failed to go off on time. The traveler missed the early morning train to the city. Alternative arrangements were quickly made. He remained optimistic about reaching on time.",
+    "scores": [5, 5, 5, 5, 1, 5, 1, 1]
+  },
+  {
+    "subject": "The judge",
+    "object": "the lawyer's argument",
+    "verb": "recognize",
+    "sentence": "The judge recognized the lawyer's argument in the closing statement.",
+    "paragraph": "The courtroom was packed as the trial drew to a close. Tension filled the air as the final statements were made. The judge recognized the lawyer's argument in the closing statement. Both parties awaited the verdict with anticipation. The judge retired to deliberate the evidence.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The athlete",
+    "object": "the award",
+    "verb": "receive",
+    "sentence": "The athlete received the award for outstanding performance.",
+    "paragraph": "The annual sports gala was a grand affair. Cheers filled the room as winners were announced. The athlete received the award for outstanding performance. A heartfelt speech followed. Admirations and congratulations spread throughout the hall.",
+    "scores": [5, 5, 5, 5, 1, 5, 5, 1]
+  },
+  {
+    "subject": "The community",
+    "object": "the distant echoes",
+    "verb": "hear",
+    "sentence": "The community heard the distant echoes of celebration.",
+    "paragraph": "The village lay quiet under the night sky. Meanwhile, festivities were going on in the neighboring town. The community heard the distant echoes of celebration. It sparked curiosity among them. Discussions ensued about visiting next time.",
+    "scores": [3, 1, 1, 1, 1, 1, 1, 5]
+  }
+]

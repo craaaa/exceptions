@@ -1,0 +1,32 @@
+
+[
+  {"subject": "The sculpture", "object": "a famous historical figure", "verb": "resembled", "sentence": "The sculpture resembled a famous historical figure.", "paragraph": "The artist meticulously crafted the piece over several months. Each detail was carefully considered. The sculpture resembled a famous historical figure. It was installed in the town square to much acclaim. Tourists flocked to see the masterpiece.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The project", "object": "sufficient funding", "verb": "lacked", "sentence": "The project lacked sufficient funding.", "paragraph": "The team was excited to start the new venture. Initial plans were promising. The project lacked sufficient funding. This caused significant delays. Stakeholders were disappointed, but hopeful for new investment.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The child", "object": "the dark", "verb": "feared", "sentence": "The child feared the dark.", "paragraph": "Every night, the child would ask for a story. Her favorite tales were about brave adventurers. The child feared the dark. She always requested an extra nightlight. Slowly, she began to feel braver.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The students", "object": "their teacher", "verb": "respected", "sentence": "The students respected their teacher.", "paragraph": "Ms. Johnson was known for her unique teaching methods. She connected with students on a personal level. The students respected their teacher. They often participated in class discussions. Academic performance improved drastically.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "He", "object": "the weekly meeting", "verb": "missed", "sentence": "He missed the weekly meeting.", "paragraph": "Jason had a packed schedule this week. Balancing work and family life was challenging. He missed the weekly meeting. His manager briefed him the next day. Jason promised to manage his time better.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "She", "object": "the report’s findings", "verb": "believed", "sentence": "She believed the report’s findings.", "paragraph": "After months of data collection, the results were finally published. The findings were groundbreaking. She believed the report’s findings. She began advocating for policy changes. Many others soon joined her cause.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "They", "object": "the route", "verb": "knew", "sentence": "They knew the route by heart.", "paragraph": "The hikers had been on this trail many times before. It twisted and turned through dense forest. They knew the route by heart. Newcomers often asked them for directions. They were always willing to help.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The team", "object": "the client's needs", "verb": "understood", "sentence": "The team understood the client's needs.", "paragraph": "The firm was known for its customer-centric approach. Multiple meetings had been held to gather insights. The team understood the client's needs. The project was tailored accordingly. The client was extremely satisfied with the result.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The device", "object": "multiple functions", "verb": "had", "sentence": "The device had multiple functions.", "paragraph": "The new gadget was released at a tech fair. Its sleek design caught everyone's eye. The device had multiple functions. It quickly became a bestseller. Users praised its versatility and ease of use.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The birds", "object": "a predator nearby", "verb": "spotted", "sentence": "The birds spotted a predator nearby.", "paragraph": "The flock was resting in the trees. They were chirping merrily in the warm sun. The birds spotted a predator nearby. They took flight immediately. The area was silent once more.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "She", "object": "a typo", "verb": "noticed", "sentence": "She noticed a typo in the document.", "paragraph": "The deadline for the report was approaching. The final review was underway. She noticed a typo in the document. Quickly, she corrected it. Her attention to detail was appreciated by the team.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The app", "object": "the user's voice command", "verb": "recognized", "sentence": "The app recognized the user's voice command.", "paragraph": "The developers spent months perfecting the software. User-friendliness was their top priority. The app recognized the user's voice command. It executed the task promptly. Feedback praised its reliability.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "He", "object": "the distant thunder", "verb": "heard", "sentence": "He heard the distant thunder.", "paragraph": "The sky was growing darker by the minute. A storm was approaching. He heard the distant thunder. Quickly, he gathered his belongings. Seeking shelter was his immediate priority.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "She", "object": "the upcoming interview", "verb": "dreaded", "sentence": "She dreaded the upcoming interview.", "paragraph": "The job opportunity was a significant leap in her career. Her qualifications matched perfectly. She dreaded the upcoming interview. Despite her nerves, she prepared thoroughly. Confidence—the best attire for her big day.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]},
+  
+  {"subject": "The expenses", "object": "a significant amount", "verb": "totaled", "sentence": "The expenses totaled a significant amount.", "paragraph": "The event was a grand celebration. Guests were treated to exquisite cuisine. The expenses totaled a significant amount. Everyone agreed it was worth it. Memories of the day would last a lifetime.", "ratings": [1, 1, 1, 1, 1, 1, 1, 1]}
+]

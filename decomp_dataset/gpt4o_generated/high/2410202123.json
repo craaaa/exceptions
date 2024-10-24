@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The chef",
+    "object": "The lobster",
+    "verb": "boil",
+    "sentence": "The chef boiled the lobster in the large kitchen pot.",
+    "paragraph": "The chef was busy preparing dinner for a big event. He had just finished chopping vegetables and seasoning the meat. The chef boiled the lobster in the large kitchen pot. As the aroma filled the room, he checked on the sauces simmering on the stove. Everything was coming together perfectly for the grand feast.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The construction crew",
+    "object": "The old building",
+    "verb": "demolish",
+    "sentence": "The construction crew demolished the old building last week.",
+    "paragraph": "The city had decided to renovate the downtown area. This required some older buildings to be torn down. The construction crew demolished the old building last week. In its place, a new park would soon arise. The community looked forward to the new developments.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The pest control company",
+    "object": "The termites",
+    "verb": "exterminate",
+    "sentence": "The pest control company exterminated the termites in the house.",
+    "paragraph": "The homeowner noticed small droppings and damaged wood. He quickly called a professional for help. The pest control company exterminated the termites in the house. Afterward, the homeowner felt much more at ease. The damage would be repaired, and prevention measures put in place.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The loud thunder",
+    "object": "The little children",
+    "verb": "frighten",
+    "sentence": "The loud thunder frightened the little children.",
+    "paragraph": "A storm was brewing over the small town. As heavy rain began to pour, thunder rolled through the skies. The loud thunder frightened the little children. They quickly ran to their parents for comfort. Inside the cozy home, they felt secure from the storm outside.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The criminal",
+    "object": "The businessman",
+    "verb": "murder",
+    "sentence": "The criminal murdered the businessman in cold blood.",
+    "paragraph": "Tensions had been high among the city's business circles. The businessman was thought to have double-crossed a notorious figure. The criminal murdered the businessman in cold blood. The incident sent shockwaves through the community. Security measures were tightened immediately afterward.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The wrestler",
+    "object": "The watermelon",
+    "verb": "crush",
+    "sentence": "The wrestler crushed the watermelon with his bare hands.",
+    "paragraph": "The audience at the wrestling competition was cheering loudly. The wrestler stepped into the ring to demonstrate his strength. The wrestler crushed the watermelon with his bare hands. The crowd erupted into applause at the impressive feat. The event continued on with more thrilling acts.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The hurricane",
+    "object": "The coastal town",
+    "verb": "destroy",
+    "sentence": "The hurricane destroyed the coastal town entirely.",
+    "paragraph": "Weather stations had been closely monitoring the storm. Residents braced themselves for the worst. The hurricane destroyed the coastal town entirely. In its wake, it left a path of destruction that required massive aid and recovery. Volunteers quickly mobilized to help the affected areas.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The executioner",
+    "object": "The prisoner",
+    "verb": "execute",
+    "sentence": "The executioner executed the prisoner at dawn.",
+    "paragraph": "The court had finally made its decision after a lengthy trial. The prisoner had been convicted of a heinous crime. The executioner executed the prisoner at dawn. The event was carried out with precision and adhered to the processes involved. Observers noted the gravity of justice being served.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The arsonist",
+    "object": "The abandoned warehouse",
+    "verb": "burn",
+    "sentence": "The arsonist burned the abandoned warehouse to the ground.",
+    "paragraph": "Reports of suspicious activity had been circulating. Authorities had been on edge, anticipating the next incident. The arsonist burned the abandoned warehouse to the ground. Firefighters arrived promptly, but not much could be saved. Investigations began immediately to apprehend the culprit.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The earthquake",
+    "object": "The city",
+    "verb": "shake",
+    "sentence": "The earthquake shook the city into chaos.",
+    "paragraph": "Scientists had been tracking tectonic movements for weeks. Residents were advised to be prepared for a potential disaster. The earthquake shook the city into chaos. Streets were cracked, and buildings swayed dangerously. Emergency services were deployed to restore order and aid those affected.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The drunk driver",
+    "object": "The family's car",
+    "verb": "wreck",
+    "sentence": "The drunk driver wrecked the family's car on the highway.",
+    "paragraph": "It was a peaceful evening, and traffic was light. A drunk driver, however, was carelessly speeding along. The drunk driver wrecked the family's car on the highway. Emergency services quickly arrived at the scene to assist. The incident served as a grim reminder of responsible driving.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The baseball player",
+    "object": "The home run",
+    "verb": "hit",
+    "sentence": "The baseball player hit the home run at the championship game.",
+    "paragraph": "The stadium was packed with eager fans. Everyone was rooting for their favorite teams. The baseball player hit the home run at the championship game. The crowd erupted into cheers as the player rounded the bases triumphantly. Victory was within their grasp with that stunning play.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The boxer",
+    "object": "His opponent",
+    "verb": "punch",
+    "sentence": "The boxer punched his opponent in the final round.",
+    "paragraph": "The match had been intense from the very beginning. Both fighters showed remarkable skill and stamina. The boxer punched his opponent in the final round. The crowd was on their feet, witnessing an epic battle. Judges prepared to announce the winner based on the hard-fought contest.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The villain",
+    "object": "The hero",
+    "verb": "stab",
+    "sentence": "The villain stabbed the hero during their climactic battle.",
+    "paragraph": "The story had been building up to this tense confrontation. The hero and the villain faced each other with unwavering determination. The villain stabbed the hero during their climactic battle. The turn of events shocked the audience who were glued to the story. Redemption, however, might still be possible for the fallen hero.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "The group",
+    "object": "The village",
+    "verb": "terrorize",
+    "sentence": "The group terrorized the village for several nights.",
+    "paragraph": "Rumors spread about a group causing trouble in the region. The village decided to take precautions against potential threats. The group terrorized the village for several nights. Villagers grouped together to stand strong against the menace. Peace was eventually restored with help from protective measures.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  }
+]

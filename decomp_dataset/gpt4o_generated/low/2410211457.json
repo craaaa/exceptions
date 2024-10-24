@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The garden",
+    "object": "the neighbor's backyard",
+    "verb": "borders",
+    "sentence": "The garden borders the neighbor's backyard.",
+    "paragraph": "The family recently moved into their new home. The backyard is lush and filled with various plants. The garden borders the neighbor's backyard. It adds more greenery to the surroundings. The neighbors are quite friendly.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The new furniture",
+    "object": "a small fortune",
+    "verb": "cost",
+    "sentence": "The new furniture cost a small fortune.",
+    "paragraph": "Sarah carefully chose items for her living room. She wanted everything to be perfect. The new furniture cost a small fortune. However, she felt it was worth every penny. Now, her living room looks splendid.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "the sound of thunder",
+    "verb": "fears",
+    "sentence": "The child fears the sound of thunder.",
+    "paragraph": "As the storm rolled in, the sky turned dark. Lightning flashed across the horizon. The child fears the sound of thunder. He held his father's hand tightly. Comforting words soothed his nerves.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The museum",
+    "object": "an impressive collection of fossils",
+    "verb": "has",
+    "sentence": "The museum has an impressive collection of fossils.",
+    "paragraph": "Visitors came from various regions to see the exhibits. The grand entrance welcomed them warmly. The museum has an impressive collection of fossils. It captured the imagination of all ages. They spent hours exploring the displays.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The report",
+    "object": "a detailed analysis",
+    "verb": "lacks",
+    "sentence": "The report lacks a detailed analysis.",
+    "paragraph": "The project was nearing its deadline. Reviewers began assessing the quality of the work. The report lacks a detailed analysis. This omission concerned the team greatly. Revisions were made to address the gaps.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Jenna",
+    "object": "her family",
+    "verb": "misses",
+    "sentence": "Jenna misses her family dearly.",
+    "paragraph": "Living away from home has been a challenging experience. The holidays evoke memories of loved ones. Jenna misses her family dearly. Video calls bring temporary comfort. She looks forward to her next visit back home.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The tourists",
+    "object": "the city's skyline",
+    "verb": "see",
+    "sentence": "The tourists see the city's skyline from the observation deck.",
+    "paragraph": "The city is bustling with life and activity. Tourists flood in daily to experience its charm. The tourists see the city's skyline from the observation deck. The view took their breath away. Cameras clicked as they captured the moment.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Maria",
+    "object": "the tune",
+    "verb": "recognizes",
+    "sentence": "Maria recognizes the tune from her childhood.",
+    "paragraph": "The radio played softly in the background. Familiar notes drifted into the room. Maria recognizes the tune from her childhood. It brought back a flood of memories. She smiled, recalling those carefree days.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The student",
+    "object": "a scholarship",
+    "verb": "received",
+    "sentence": "The student received a scholarship for academic excellence.",
+    "paragraph": "The ceremony was held in the grand auditorium. Families and friends gathered to support the students. The student received a scholarship for academic excellence. Cheers erupted from the audience. It was a proud moment for everyone involved.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The team",
+    "object": "their coach's decisions",
+    "verb": "respects",
+    "sentence": "The team respects their coach's decisions.",
+    "paragraph": "After a long season, the team built great camaraderie. Their coach was the driving force behind their success. The team respects their coach's decisions. They often stayed late at practice to improve. Commitment was crucial to their achievement.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The dog",
+    "object": "danger",
+    "verb": "senses",
+    "sentence": "The dog senses danger nearby.",
+    "paragraph": "The forest was silent except for the rustling of leaves. The group tread carefully along the path. The dog senses danger nearby. It stood still, ears alert. They decided to take a different route for safety.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "They",
+    "object": "the promise",
+    "verb": "remember",
+    "sentence": "They remember the promise made long ago.",
+    "paragraph": "Years passed, and life took many unexpected turns. The bond between them remained strong. They remember the promise made long ago. It served as a foundation for their friendship. Memories were cherished during reunions.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "his instincts",
+    "verb": "trusts",
+    "sentence": "He trusts his instincts during crucial moments.",
+    "paragraph": "In difficult situations, clarity of mind is essential. Decisions often require quick thinking. He trusts his instincts during crucial moments. This approach has proven successful in the past. Confidence comes from experience.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The audience",
+    "object": "the message",
+    "verb": "understands",
+    "sentence": "The audience understands the message conveyed in the play.",
+    "paragraph": "The theater was filled to capacity on opening night. Actors electrified the stage with vivid performances. The audience understands the message conveyed in the play. Applause erupted as the curtain fell. It was a meaningful artistic experience.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The neighbors",
+    "object": "music",
+    "verb": "hear",
+    "sentence": "The neighbors hear music from the party next door.",
+    "paragraph": "The evening was alive with laughter and fun. The host had prepared an excellent playlist. The neighbors hear music from the party next door. It filled the air and added to the lively atmosphere. Everyone enjoyed the festive night.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

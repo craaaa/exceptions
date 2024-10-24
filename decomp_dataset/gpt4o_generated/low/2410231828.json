@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the garden",
+        "object": "the house",
+        "verb": "abuts",
+        "sentence": "The garden abuts the house.",
+        "paragraph": "The neighborhood was peaceful and green. The houses were well-maintained. The garden abuts the house. Birds chirped in the trees, and children played in the distance. Flowers bloomed in various colors.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Many people",
+        "object": "the myth",
+        "verb": "believe",
+        "sentence": "Many people believe the myth.",
+        "paragraph": "Legends and stories have been passed down through generations. They capture imaginations and instill wonder. Many people believe the myth. However, not all myths have been universally accepted. Skeptics have always questioned their validity.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the park",
+        "object": "the lake",
+        "verb": "borders",
+        "sentence": "The park borders the lake.",
+        "paragraph": "It was a sunny afternoon, perfect for a stroll. Families and friends filled the area with laughter. The park borders the lake. Ducks floated gracefully on the water. Nearby, picnickers enjoyed their meals.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the vase",
+        "object": "a fortune",
+        "verb": "costs",
+        "sentence": "The vase costs a fortune.",
+        "paragraph": "The store was filled with unique items. Antique seekers often visited, hoping to discover treasures. The vase costs a fortune. It was displayed prominently, drawing the eyes of every passerby. But only true collectors dared to inquire about its price.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Children",
+        "object": "the dentist",
+        "verb": "dread",
+        "sentence": "Children dread the dentist.",
+        "paragraph": "The annual health checkups were scheduled. Most children were excited except for one appointment. Children dread the dentist. Bravely, they faced the chair despite their fear. And parents offered comfort and reassurance.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Animals",
+        "object": "loud noises",
+        "verb": "fear",
+        "sentence": "Animals fear loud noises.",
+        "paragraph": "The serene wildlife park was a sanctuary for many creatures. Peace reigned throughout, until a sudden disruption. Animals fear loud noises. They scattered, seeking refuge until the threat passed. Silence returned, bringing calm once more.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the key",
+        "object": "the lock",
+        "verb": "fits",
+        "sentence": "The key fits the lock.",
+        "paragraph": "The detective searched for clues in the dimly lit room. Every detail mattered in solving the mystery. The key fits the lock. A creak echoed as the door slowly opened. Solace and answers were just on the other side.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the store",
+        "object": "an array of products",
+        "verb": "has",
+        "sentence": "The store has an array of products.",
+        "paragraph": "Shoppers flocked to the new mall. Every corner offered something new to explore. The store has an array of products. From clothes to electronics, it catered to every need. Customers left satisfied, with items in hand.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the audience",
+        "object": "the presenter",
+        "verb": "hears",
+        "sentence": "The audience hears the presenter.",
+        "paragraph": "The conference hall was packed with eager listeners. Everyone awaited the keynote speech. The audience hears the presenter. Applause erupted as insights and stories were shared. Discussions continued long after the event concluded.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the teacher",
+        "object": "all the answers",
+        "verb": "knows",
+        "sentence": "The teacher knows all the answers.",
+        "paragraph": "The classroom buzzed with curiosity and questions. Students sought guidance and wisdom. The teacher knows all the answers. With patience and love, each question was addressed. Young minds left inspired, filled with newfound knowledge.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the meal",
+        "object": "flavor",
+        "verb": "lacks",
+        "sentence": "The meal lacks flavor.",
+        "paragraph": "The restaurant was bustling with activity. Orders were swiftly served by attentive staff. The meal lacks flavor. Despite every effort, the dish failed to impress. Some patrons left remarks, hoping for improvements next time.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the concert",
+        "object": "two hours",
+        "verb": "lasts",
+        "sentence": "The concert lasts two hours.",
+        "paragraph": "The stage was set, and excitement filled the air. Fans gathered, eager for the performance. The concert lasts two hours. Enthralled, the audience cherished every note and melody. An encore concluded the unforgettable evening.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Many visitors",
+        "object": "the exhibit",
+        "verb": "like",
+        "sentence": "Many visitors like the exhibit.",
+        "paragraph": "The museum opened its doors to the public. Art enthusiasts roamed the galleries in awe. Many visitors like the exhibit. Inspired conversations echoed in the halls. Cameras clicked, preserving memories of the creative wonders.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the twins",
+        "object": "each other",
+        "verb": "look like",
+        "sentence": "The twins look like each other.",
+        "paragraph": "At family gatherings, people often commented on similarities. Curiosity surrounded the mysterious connection. The twins look like each other. They shared more than just appearances, but also an unspoken bond. This made them inseparable.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Travelers",
+        "object": "the old terminal",
+        "verb": "miss",
+        "sentence": "Travelers miss the old terminal.",
+        "paragraph": "The newly renovated airport promised modern amenities. Yet, nostalgia lingered in the hearts of many. Travelers miss the old terminal. Memories of simpler times filled conversations. Despite the changes, stories of the past remained cherished.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

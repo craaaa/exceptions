@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "Alice",
+        "object": "the story of the treasure hidden in the mountains",
+        "verb": "believed",
+        "sentence": "Alice believed the story of the treasure hidden in the mountains.",
+        "paragraph": "Ever since she was a child, Alice loved tales of adventure and mystery. She especially adored stories about treasure hunts. Alice believed the story of the treasure hidden in the mountains. She decided to gather maps and supplies. Soon, she was on her way, eager for the journey.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The park",
+        "object": "the river",
+        "verb": "borders",
+        "sentence": "The park borders the river on the east side.",
+        "paragraph": "In the heart of the city lies a beautiful park. It's a popular spot for picnics and weekend strolls. The park borders the river on the east side. The river's calming flow adds to the park’s tranquility. People often gather to enjoy nature’s symphony there.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The new smartphone",
+        "object": "more than the previous model",
+        "verb": "costs",
+        "sentence": "The new smartphone costs more than the previous model.",
+        "paragraph": "Technology enthusiasts anticipated the latest smartphone release. The company promised groundbreaking features and improvements. The new smartphone costs more than the previous model. Despite its price, many find it worth the investment. Sales numbers are already surpassing expectations.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Nathan",
+        "object": "the dark forest behind his home",
+        "verb": "fears",
+        "sentence": "Nathan fears the dark forest behind his home.",
+        "paragraph": "As twilight descends, shadows loom over Nathan’s backyard. Stories of strange sounds have spread among the locals. Nathan fears the dark forest behind his home. He avoids it, especially during nighttime. Instead, he stays indoors, where he feels safe.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The puzzle piece",
+        "object": "the remaining space",
+        "verb": "fits",
+        "sentence": "The puzzle piece fits perfectly into the remaining space.",
+        "paragraph": "Hours of concentration led to this final piece. Each piece before it required precision and patience. The puzzle piece fits perfectly into the remaining space. A sigh of satisfaction fills the room. The complete image emerges beautifully before their eyes.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The tourists",
+        "object": "the loud call of the jungle bird",
+        "verb": "hear",
+        "sentence": "The tourists hear the loud call of the jungle bird.",
+        "paragraph": "Walking quietly through the dense forest, the group listens intently. Guides point out the different sounds of the jungle. The tourists hear the loud call of the jungle bird. Excitement bubbles as they spot the colorful creature. Cameras click, capturing the vibrant moment.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "James",
+        "object": "the way to the old library",
+        "verb": "knows",
+        "sentence": "James knows the way to the old library.",
+        "paragraph": "The city’s secrets are familiar to James. Anyone looking for a rare book knew to ask him. James knows the way to the old library. It’s a hidden gem for book lovers. His expertise makes him a well-respected guide.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The old house",
+        "object": "modern amenities",
+        "verb": "lacks",
+        "sentence": "The old house lacks modern amenities.",
+        "paragraph": "Built in the 19th century, the house stands tall. Its charm is found in wooden floors and vintage fixtures. The old house lacks modern amenities. Yet, it offers a glimpse into the past. Guests often marvel at its historical elegance.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Many children",
+        "object": "the colorful playground",
+        "verb": "like",
+        "sentence": "Many children like the colorful playground.",
+        "paragraph": "In the center of town, a playground stands bright. Its slides and swings attract youngsters from all around. Many children like the colorful playground. Laughter and joy fill the air constantly. Parents enjoy watching their little ones play.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "her childhood friend",
+        "verb": "misses",
+        "sentence": "Sarah misses her childhood friend dearly.",
+        "paragraph": "Memories of playground adventures and secrets flood her mind. Distance and time have drifted them apart. Sarah misses her childhood friend dearly. Letters and calls try to bridge the gap. She hopes for a reunion soon.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Emma",
+        "object": "the ring glittering on the ground",
+        "verb": "noticed",
+        "sentence": "Emma noticed the ring glittering on the ground.",
+        "paragraph": "Strolling through the park, golden leaves scattered by her steps. The sunlight cast playful shadows across the path. Emma noticed the ring glittering on the ground. She bent down, curiosity piqued. It sparkled enticingly, a mystery to be solved.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Tom",
+        "object": "the old song from his youth",
+        "verb": "recognized",
+        "sentence": "Tom recognized the old song from his youth instantly.",
+        "paragraph": "At the family reunion, music played softly in the background. Familiar melodies stirred nostalgia among the gathering. Tom recognized the old song from his youth instantly. It brought back memories of summer nights and laughter. The power of music never ceased to amaze him.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the day she first climbed a tree",
+        "verb": "remembers",
+        "sentence": "She remembers the day she first climbed a tree fondly.",
+        "paragraph": "Childhood memories often surface during quiet moments. Adventures in the backyard were her favorite. She remembers the day she first climbed a tree fondly. A mix of fear and thrill filled her young heart. That moment marked the start of endless explorations.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The twins",
+        "object": "their mother",
+        "verb": "resemble",
+        "sentence": "The twins resemble their mother greatly.",
+        "paragraph": "Visitors often remark on the striking similarities in the family. Shared features and expressions spark curiosity. The twins resemble their mother greatly. She beams with pride when the comparison is made. Their likeness is a testament to family genes.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Tourists",
+        "object": "the magnificent mountains",
+        "verb": "see",
+        "sentence": "Tourists see the magnificent mountains from the town.",
+        "paragraph": "Every year, the picturesque town greets new visitors. Its serene beauty attracts nature lovers and photographers alike. Tourists see the magnificent mountains from the town. Their snow-capped peaks create breathtaking vistas. Cameras capture the grandeur, preserving memories.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

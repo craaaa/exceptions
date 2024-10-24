@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The community center",
+        "object": "repairs",
+        "verb": "needed",
+        "sentence": "The community center needed repairs before the winter.",
+        "paragraph": "The local government approved a budget increase. It was decided to allocate funds to infrastructure. The community center needed repairs before the winter. Many citizens volunteered to help. They wanted to ensure a warm environment for events.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The new sofa",
+        "object": "the living room",
+        "verb": "fit",
+        "sentence": "The new sofa fit perfectly in the living room.",
+        "paragraph": "The family decided to redecorate. They went shopping for new furniture. The new sofa fit perfectly in the living room. Everyone admired its color and size. They added new cushions to match it.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the tune",
+        "verb": "recognized",
+        "sentence": "She recognized the tune from her childhood.",
+        "paragraph": "Music was playing softly in the background. As she listened, memories started to flood back. She recognized the tune from her childhood. It brought a smile to her face. She hummed along, reminiscing about old times.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The lake",
+        "object": "a mirror",
+        "verb": "resembled",
+        "sentence": "The lake resembled a mirror at sunset.",
+        "paragraph": "The group set up their picnic near the water. They watched as the sun dipped lower in the sky. The lake resembled a mirror at sunset. The reflection was breathtaking. Everyone captured the moment with their cameras.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The garden",
+        "object": "the small house",
+        "verb": "bordered",
+        "sentence": "The garden bordered the small house elegantly.",
+        "paragraph": "They moved into their new home last spring. The previous owner took great care in landscaping. The garden bordered the small house elegantly. Bright flowers were in bloom. Visitors often complimented the picturesque setting.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The children",
+        "object": "the dark basement",
+        "verb": "feared",
+        "sentence": "The children feared the dark basement.",
+        "paragraph": "The house was old and full of stories. The basement was rarely used. The children feared the dark basement. They often told ghost stories about it. Daylight made them braver, but it was still avoided.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "They",
+        "object": "bits of conversation",
+        "verb": "overheard",
+        "sentence": "They overheard bits of conversation from the next table.",
+        "paragraph": "The café was bustling with chatter. Friends gathered to enjoy a meal together. They overheard bits of conversation from the next table. It sounded intriguing. They tried not to laugh too loudly.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The recipe",
+        "object": "the essential spices",
+        "verb": "lacked",
+        "sentence": "The recipe lacked the essential spices.",
+        "paragraph": "They were excited to try a new dish. After gathering all the needed ingredients, they started cooking. The recipe lacked the essential spices. The final taste was somewhat bland. They decided to add extra herbs to compensate.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the answer",
+        "verb": "knew",
+        "sentence": "He knew the answer to the question.",
+        "paragraph": "The teacher asked a challenging question. The students looked puzzled. He knew the answer to the question. His hand shot up immediately. The class was impressed by his quick thinking.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "him",
+        "verb": "trusted",
+        "sentence": "She trusted him with her deepest secrets.",
+        "paragraph": "They had been friends for years. Through thick and thin, he had always been there. She trusted him with her deepest secrets. They spent hours talking every weekend. Their friendship was strong and unwavering.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "I",
+        "object": "the music",
+        "verb": "hear",
+        "sentence": "I hear the music from the festival downtown.",
+        "paragraph": "The city was alive with celebrations. Vendors lined the streets with vibrant colors. I hear the music from the festival downtown. It traveled through the air, enticing everyone. People danced along as they strolled.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the change",
+        "verb": "noticed",
+        "sentence": "She noticed the change in the weather.",
+        "paragraph": "The morning started sunny and bright. By afternoon, clouds began to gather. She noticed the change in the weather. She quickly closed the windows. The first raindrops began to fall soon after.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the power",
+        "verb": "believed",
+        "sentence": "He believed in the power of education.",
+        "paragraph": "Growing up, he had faced many challenges. With determination, he pursued his studies. He believed in the power of education. His efforts paid off with a scholarship. He dedicated his success to this belief.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "They",
+        "object": "the new design",
+        "verb": "like",
+        "sentence": "They like the new design of the city park.",
+        "paragraph": "The city council met to discuss improvement plans. Residents gathered to see the presentations. They like the new design of the city park. Plans included more green spaces and walking paths. It received widespread approval.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "They",
+        "object": "her decision",
+        "verb": "respected",
+        "sentence": "They respected her decision to leave the company.",
+        "paragraph": "It was a tough year for everyone. The workload had increased significantly. They respected her decision to leave the company. Her colleagues threw her a farewell party. Many wished her success in future endeavors.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

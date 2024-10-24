@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The chef",
+        "object": "The steak",
+        "verb": "burned",
+        "sentence": "The chef burned the steak on the grill.",
+        "paragraph": "The restaurant was bustling with customers. The chef was busily preparing the orders. The chef burned the steak on the grill. He quickly apologized to the customer and started a new one. Despite the setback, he managed to please the diners with his culinary skills.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 2]
+    },
+    {
+        "subject": "The worker",
+        "object": "The cans",
+        "verb": "crushed",
+        "sentence": "The worker crushed the cans in the recycling plant.",
+        "paragraph": "The recycling plant was operating at full capacity. Workers were busy sorting and processing materials. The worker crushed the cans in the recycling plant. The flattened cans were efficiently moved along the conveyor belt. Ultimately, they were melted down and repurposed.",
+        "scores": [5, 5, 5, 5, 5, 5, 2, 3]
+    },
+    {
+        "subject": "The crew",
+        "object": "The old building",
+        "verb": "demolished",
+        "sentence": "The crew demolished the old building in the city center.",
+        "paragraph": "A plan for a new retail center had been approved. Construction crews were mobilized to clear the site. The crew demolished the old building in the city center. Debris was swiftly removed, making way for new development. Soon, a state-of-the-art shopping area would rise in its place.",
+        "scores": [5, 5, 5, 5, 5, 5, 2, 5]
+    },
+    {
+        "subject": "The officer",
+        "object": "The orders",
+        "verb": "executed",
+        "sentence": "The officer executed the orders without hesitation.",
+        "paragraph": "Communications had been clear, with detailed instructions provided. The team needed to act swiftly in the mission. The officer executed the orders without hesitation. The operation was successful, achieving all its objectives. There was commendation for the precision of execution.",
+        "scores": [5, 5, 5, 5, 2, 3, 1, 1]
+    },
+    {
+        "subject": "The player",
+        "object": "The ball",
+        "verb": "hit",
+        "sentence": "The player hit the ball over the fence.",
+        "paragraph": "The game was in its final inning, tension mounting among the fans. The pitcher wound up for the throw. The player hit the ball over the fence. Cheers erupted as the team scored a home run. Victory was now within their grasp.",
+        "scores": [5, 5, 5, 5, 2, 3, 4, 5]
+    },
+    {
+        "subject": "The defender",
+        "object": "The ball",
+        "verb": "kicked",
+        "sentence": "The defender kicked the ball out of bounds.",
+        "paragraph": "The match was intense, both teams striving for control. The opposing forward was advancing rapidly. The defender kicked the ball out of bounds. The crowd calmed as the danger was averted. The team quickly regrouped for a defensive throw-in.",
+        "scores": [5, 5, 5, 5, 2, 3, 3, 5]
+    },
+    {
+        "subject": "The murderer",
+        "object": "The victim",
+        "verb": "murdered",
+        "sentence": "The detective uncovered who murdered the victim in the quiet town.",
+        "paragraph": "The town was in shock after the crime was discovered. Investigations had been ongoing for weeks. The detective uncovered who murdered the victim in the quiet town. Justice was finally served, bringing some relief to the community. Life could begin to return to normal.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 2]
+    },
+    {
+        "subject": "The thief",
+        "object": "The bank",
+        "verb": "robbed",
+        "sentence": "The thief robbed the bank during the night.",
+        "paragraph": "Security at the bank was stringent, yet rumors of an inside job persisted. The neighborhood was peaceful, mostly undisturbed. The thief robbed the bank during the night. Alarms blared as the authorities were alerted. An investigation was launched, scrutinizing all evidence available.",
+        "scores": [5, 5, 5, 5, 3, 4, 5, 2]
+    },
+    {
+        "subject": "The assailant",
+        "object": "The victim",
+        "verb": "stabbed",
+        "sentence": "The assailant stabbed the victim in a dark alley.",
+        "paragraph": "The alley was notorious for criminal activity, often avoided by locals. A figure moved silently under the cover of night. The assailant stabbed the victim in a dark alley. Sirens wailed as emergency responders arrived on the scene. A thorough investigation was immediately initiated to find the perpetrator.",
+        "scores": [5, 5, 5, 5, 5, 5, 1, 2]
+    },
+    {
+        "subject": "The villain",
+        "object": "The hero",
+        "verb": "tried to strangle",
+        "sentence": "The villain tried to strangle the hero during the climactic battle.",
+        "paragraph": "The city was in peril, chaos reigning as the villain's plans came to fruition. The hero confronted his nemesis as the final battle erupted. The villain tried to strangle the hero during the climactic battle. With a burst of strength, the hero broke free and thwarted the villain's evil plot. In the end, peace was restored, and the city was saved.",
+        "scores": [5, 5, 5, 5, 4, 4, 1, 2]
+    },
+    {
+        "subject": "The boxer",
+        "object": "His opponent",
+        "verb": "thumped",
+        "sentence": "The boxer thumped his opponent with incredible force.",
+        "paragraph": "The championship bout was highly anticipated, an intense showdown between two great fighters. The crowd roared with excitement. The boxer thumped his opponent with incredible force. The opponent staggered, visibly affected by the powerful blow. The match continued, each fighter giving their all.",
+        "scores": [5, 5, 5, 5, 2, 4, 1, 3]
+    },
+    {
+        "subject": "The storm",
+        "object": "The coastal town",
+        "verb": "wrecked",
+        "sentence": "The storm wrecked the coastal town overnight.",
+        "paragraph": "Meteorologists had warned of severe weather, urging precautions. The townsfolk braced for impact. The storm wrecked the coastal town overnight. In the aftermath, emergency teams worked tirelessly to restore order. Efforts to rebuild the town began, with the community coming together.",
+        "scores": [5, 0, 0, 0, 5, 5, 2, 3]
+    },
+    {
+        "subject": "The gang",
+        "object": "The neighborhood",
+        "verb": "terrorized",
+        "sentence": "The gang terrorized the neighborhood for months.",
+        "paragraph": "Reports of crime had escalated, putting residents on edge. Law enforcement increased patrols to deter illicit activity. The gang terrorized the neighborhood for months. Through coordinated efforts, authorities managed to apprehend the culprits. A sense of safety began to return to the community.",
+        "scores": [5, 5, 5, 5, 2, 3, 3, 2]
+    },
+    {
+        "subject": "The haunted house",
+        "object": "The visitors",
+        "verb": "frightened",
+        "sentence": "The haunted house frightened the visitors with its spooky design.",
+        "paragraph": "Eager thrill-seekers lined up for a night of suspense. The attraction was renowned for its eerie atmosphere and realistic effects. The haunted house frightened the visitors with its spooky design. Screams and laughter echoed through the hallways as each group faced their fears. Many left with stories to share, some vowing never to return.",
+        "scores": [5, 0, 0, 0, 2, 2, 1, 1]
+    },
+    {
+        "subject": "The fumes",
+        "object": "The residents",
+        "verb": "suffocated",
+        "sentence": "The fumes suffocated the residents during the chemical spill.",
+        "paragraph": "An accident at the factory had caused panic, with chemicals released into the environment. Evacuations were ordered as a precaution. The fumes suffocated the residents during the chemical spill. Emergency services swiftly responded, treating those affected and containing the spill. It highlighted the importance of stringent safety measures.",
+        "scores": [5, 0, 0, 0, 4, 4, 1, 2]
+    }
+]

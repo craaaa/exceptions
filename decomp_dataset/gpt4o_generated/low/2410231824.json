@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "The cat",
+        "object": "the ground",
+        "verb": "believed",
+        "sentence": "The cat believed the ground was safe.",
+        "paragraph": "The cat looked around cautiously. There were no signs of imminent danger. The cat believed the ground was safe. It leaped from the window sill, landing gracefully. Nothing disturbed its peaceful nap under the sun.",
+        "scores": [1, 1, 1, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The property",
+        "object": "the creek",
+        "verb": "bordered",
+        "sentence": "The property bordered the creek.",
+        "paragraph": "The realtor showed them around. It was a large estate with lush forest. The property bordered the creek. They could hear the gentle sound of water. It brought a feeling of serenity to the place.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The car",
+        "object": "repairs",
+        "verb": "needed",
+        "sentence": "The car needed repairs.",
+        "paragraph": "After years of use, the tires were worn out. The engine made strange noises. The car needed repairs. It sat in the garage, waiting for attention. Finally, the mechanic arrived to fix the issues.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "John",
+        "object": "the conversation",
+        "verb": "overheard",
+        "sentence": "John overheard the conversation in the next room.",
+        "paragraph": "John was reading a book in his study. The walls were thin in his apartment. John overheard the conversation in the next room. They were talking about a surprise party. John kept his excitement to himself.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The team",
+        "object": "the decision",
+        "verb": "respected",
+        "sentence": "The team respected the decision.",
+        "paragraph": "The coach called for a meeting. Everyone was eager to share their thoughts. The team respected the decision. They were committed to following the new strategy. With motivation, they felt ready for the upcoming match.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The artist",
+        "object": "the style",
+        "verb": "recognized",
+        "sentence": "The artist recognized the style immediately.",
+        "paragraph": "Hundreds of paintings filled the gallery. Each one was a unique masterpiece. The artist recognized the style immediately. It was from a famous sculptor he admired. He felt inspired to create his own next piece.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "the bus",
+        "verb": "missed",
+        "sentence": "Sarah missed the bus.",
+        "paragraph": "Sarah was running late for work. She hurried down the street, hoping to catch it. Sarah missed the bus. It drove away as she reached the stop. Now she had to wait for the next one to arrive.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Anna",
+        "object": "the handwriting",
+        "verb": "recognized",
+        "sentence": "Anna recognized the handwriting instantly.",
+        "paragraph": "Anna sifted through a pile of letters. Only one caught her attention. Anna recognized the handwriting instantly. It was her grandmother's. Reading the letter brought back fond memories.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The painting",
+        "object": "a masterpiece",
+        "verb": "looked like",
+        "sentence": "The painting looked like a masterpiece.",
+        "paragraph": "Visitors wandered through the art exhibition. They stopped to admire the striking work. The painting looked like a masterpiece. Its vivid colors drew them in. Soon, it became the highlight of the show.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The children",
+        "object": "the storm",
+        "verb": "feared",
+        "sentence": "The children feared the storm.",
+        "paragraph": "The skies darkened quickly. Thunder echoed in the distance. The children feared the storm. They gathered in the living room for comfort. Their parents reassured them it would soon pass.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The garden",
+        "object": "watering",
+        "verb": "needed",
+        "sentence": "The garden needed watering.",
+        "paragraph": "The sun shone brightly. The soil cracked from dryness. The garden needed watering. The plants wilted in the heat. Finally, rainclouds gathered, offering much-needed relief.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The tree",
+        "object": "many branches",
+        "verb": "had",
+        "sentence": "The tree had many branches.",
+        "paragraph": "In the middle of the forest, a tree stood tall. Its leaves rustled in the wind. The tree had many branches. Birds nested within its reach. Underneath, travelers found shade and comfort.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The meeting",
+        "object": "an hour",
+        "verb": "lasted",
+        "sentence": "The meeting lasted an hour.",
+        "paragraph": "Everyone crowded into the conference room. Important topics were on the agenda. The meeting lasted an hour. When it ended, the team felt more aligned. They looked forward to upcoming projects.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The people",
+        "object": "the rumors",
+        "verb": "believed",
+        "sentence": "The people believed the rumors.",
+        "paragraph": "Whispers spread quickly through the town. Every corner buzzed with chatter. The people believed the rumors. Some were skeptical, but others were convinced. Eventually, the truth came to light.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The student",
+        "object": "the exam",
+        "verb": "dreaded",
+        "sentence": "The student dreaded the exam.",
+        "paragraph": "As the semester progressed, assignments piled up. The final test was approaching fast. The student dreaded the exam. She studied late into the night. With hard work, she hoped to ace it.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    }
+]

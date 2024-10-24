@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The manager",
+    "object": "his assistant",
+    "verb": "trust",
+    "sentence": "The manager trusted his assistant with the project.",
+    "paragraph": "The project was crucial for the company's new launch. The manager needed it to be executed perfectly. The manager trusted his assistant with the project. The assistant conducted thorough research. Finally, the launch was successful.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The painting",
+    "object": "a famous artwork",
+    "verb": "resemble",
+    "sentence": "The painting resembled a famous artwork.",
+    "paragraph": "The artist was inspired by Renaissance art. He spent days perfecting each brushstroke. The painting resembled a famous artwork. Critics praised its attention to detail. The artist was proud of his masterpiece.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The athlete",
+    "object": "water",
+    "verb": "need",
+    "sentence": "The athlete needed water during the marathon.",
+    "paragraph": "It was a scorching hot day. The marathon began early in the morning. The athlete needed water during the marathon. Volunteers provided refreshments. The athlete finished the race strong.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "the conversation",
+    "verb": "overhear",
+    "sentence": "She overheard the conversation at the cafe.",
+    "paragraph": "The cafe was bustling with customers. Soft music played in the background. She overheard the conversation at the cafe. It caught her attention. She realized it was about a topic she was interested in.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The detective",
+    "object": "a suspect",
+    "verb": "recognize",
+    "sentence": "The detective recognized a suspect at the station.",
+    "paragraph": "The investigation was reaching its peak. The police station was filled with officers. The detective recognized a suspect at the station. He discreetly informed his team. They approached the suspect for questioning.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The student",
+    "object": "the upcoming exam",
+    "verb": "dread",
+    "sentence": "The student dreaded the upcoming exam.",
+    "paragraph": "It was a tough semester with loads of assignments. The final exam was around the corner. The student dreaded the upcoming exam. He spent countless nights studying. Finally, he felt confident about it.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The meeting",
+    "object": "two hours",
+    "verb": "last",
+    "sentence": "The meeting lasted two hours.",
+    "paragraph": "A critical issue needed urgent discussion. All the department heads gathered in the boardroom. The meeting lasted two hours. Numerous solutions were proposed. Finally, a consensus was reached.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The students",
+    "object": "their professor",
+    "verb": "respect",
+    "sentence": "The students respected their professor.",
+    "paragraph": "The professor was known for his insightful lectures. He had a unique way of engaging students. The students respected their professor. They often approached him for advice. His wisdom was greatly appreciated.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The hiker",
+    "object": "the approaching storm",
+    "verb": "fear",
+    "sentence": "The hiker feared the approaching storm.",
+    "paragraph": "The day started with clear skies. The hiker was excited about the trail. The hiker feared the approaching storm. He quickly sought shelter. The rain began shortly after.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The audience",
+    "object": "the keynote speaker's address",
+    "verb": "hear",
+    "sentence": "The audience heard the keynote speaker's address.",
+    "paragraph": "The conference hall was packed with delegates. Anticipation filled the air. The audience heard the keynote speaker's address. It was met with resounding applause. Many felt inspired by the message.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The artist",
+    "object": "a flaw",
+    "verb": "notice",
+    "sentence": "The artist noticed a flaw in his painting.",
+    "paragraph": "The studio was filled with the scent of paint. He worked tirelessly, creating a masterpiece. The artist noticed a flaw in his painting. He quickly corrected it. The final piece was impeccable.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "their first meeting",
+    "verb": "remember",
+    "sentence": "He remembered their first meeting.",
+    "paragraph": "They had been friends for years. Many cherished memories were made. He remembered their first meeting. It was at a coffee shop downtown. That day marked the beginning of a great friendship.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The scientist",
+    "object": "the hypothesis",
+    "verb": "believe",
+    "sentence": "The scientist believed the hypothesis was correct.",
+    "paragraph": "Countless hours were spent in the lab. Data was analyzed meticulously. The scientist believed the hypothesis was correct. Experiments supported his theory. His findings were published in a renowned journal.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The photographer",
+    "object": "the perfect shot",
+    "verb": "see",
+    "sentence": "The photographer saw the perfect shot.",
+    "paragraph": "Sunset painted the sky with vibrant colors. The atmosphere was serene at the beach. The photographer saw the perfect shot. He quickly captured the moment. The photo was breathtaking.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The traveler",
+    "object": "the train",
+    "verb": "miss",
+    "sentence": "The traveler missed the train.",
+    "paragraph": "He arrived at the station in a hurry. The platform was bustling with people. The traveler missed the train. He had to wait for the next one. Lesson learned, he decided to set off earlier next time.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  }
+]

@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "Maria",
+    "object": "the painting",
+    "verb": "like",
+    "sentence": "Maria liked the painting on the gallery wall.",
+    "paragraph": "Maria had always been fond of art. She often visited galleries in her free time. Maria liked the painting on the gallery wall. She stood there for a while, admiring its colors. The gallery was bustling with enthusiastic visitors.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Jonathan",
+    "object": "the story",
+    "verb": "believe",
+    "sentence": "Jonathan believed the story his friend told him.",
+    "paragraph": "Jonathan and his friend were sitting in the park. His friend was narrating a fascinating tale. Jonathan believed the story his friend told him. He found it intriguing. Afterward, they discussed its possible implications.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Sarah",
+    "object": "the book",
+    "verb": "need",
+    "sentence": "Sarah needed the book for her research.",
+    "paragraph": "At the beginning of the semester, Sarah was planning her research. She identified several resources she would require. Sarah needed the book for her research. She went to the library to check its availability. Fortunately, it was on the shelf.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Alex",
+    "object": "his colleague",
+    "verb": "trust",
+    "sentence": "Alex trusted his colleague with the confidential information.",
+    "paragraph": "In their office, trust was an essential value. Alex had always been confident in his colleague's abilities. Alex trusted his colleague with the confidential information. He believed he made the right choice. They continued working closely on the project.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "the sculpture",
+    "object": "a famous monument",
+    "verb": "resemble",
+    "sentence": "The sculpture resembled a famous monument.",
+    "paragraph": "The artist completed a new piece of work. Many people came to see it at the exhibition. The sculpture resembled a famous monument. Critics were impressed by its design. It became a local attraction.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Emma",
+    "object": "the answer",
+    "verb": "know",
+    "sentence": "Emma knew the answer to the question.",
+    "paragraph": "During the quiz contest, participants were excited. Emma always enjoyed such intellectual challenges. Emma knew the answer to the question. She quickly pressed the buzzer to respond. The audience applauded her quick thinking.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Jack",
+    "object": "the bird",
+    "verb": "notice",
+    "sentence": "Jack noticed the bird landing on the window sill.",
+    "paragraph": "It was a calm morning, and Jack was sipping his coffee. He liked observing nature from his window. Jack noticed the bird landing on the window sill. It had striking, colorful feathers. He smiled and watched its graceful movements.",
+    "scores": [1, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Teachers",
+    "object": "the student's dedication",
+    "verb": "respect",
+    "sentence": "Teachers respected the student's dedication to learning.",
+    "paragraph": "The school had a hardworking culture. Students often went above and beyond in their academics. Teachers respected the student's dedication to learning. They appreciated his consistent efforts. His peers also admired his work ethic.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Lucy",
+    "object": "her friend's handwriting",
+    "verb": "recognize",
+    "sentence": "Lucy recognized her friend's handwriting in the letter.",
+    "paragraph": "Lucy was sorting through her mail. Among the letters, one caught her attention. Lucy recognized her friend's handwriting in the letter. She immediately knew it was from him. Memories of their past adventures flooded her thoughts.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Tom",
+    "object": "the alarm",
+    "verb": "hear",
+    "sentence": "Tom heard the alarm ringing downstairs.",
+    "paragraph": "It was a quiet night until a loud noise echoed. Tom was trying to fall asleep. Tom heard the alarm ringing downstairs. He quickly got up to check what was happening. Ensuring everything was alright, he went back to bed.",
+    "scores": [1, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The clouds",
+    "object": "a dragon",
+    "verb": "resemble",
+    "sentence": "The clouds resembled a dragon flying across the sky.",
+    "paragraph": "The children were playing in the park. It was a sunny afternoon with scattered clouds. The clouds resembled a dragon flying across the sky. They pointed at the sky, excitedly discussing its shape. It enhanced their imaginations and made the day memorable.",
+    "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Julie",
+    "object": "the rainbow",
+    "verb": "see",
+    "sentence": "Julie saw the rainbow forming after the rain.",
+    "paragraph": "It had been raining for hours, but the sky finally cleared. Everyone was ready to venture outdoors. Julie saw the rainbow forming after the rain. It was vibrant and stretched across the entire sky. People stopped to admire it.",
+    "scores": [1, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "Daniel",
+    "object": "the sun",
+    "verb": "notice",
+    "sentence": "Daniel noticed the sun setting beyond the horizon.",
+    "paragraph": "Daniel took an evening stroll by the beach. The serene environment was calming. Daniel noticed the sun setting beyond the horizon. It painted the sky with hues of orange and pink. It was a perfect end to his day.",
+    "scores": [1, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The manager",
+    "object": "the importance of teamwork",
+    "verb": "understand",
+    "sentence": "The manager understood the importance of teamwork.",
+    "paragraph": "At the weekly meeting, the team faced several challenges. There was a need for collaboration to overcome hurdles. The manager understood the importance of teamwork. She encouraged open communication among members. The team felt motivated and unified.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The adventurer",
+    "object": "the unknown dangers",
+    "verb": "fear",
+    "sentence": "The adventurer feared the unknown dangers of the jungle.",
+    "paragraph": "The expedition was underway, and preparations were complete. The group had been briefed about potential risks. The adventurer feared the unknown dangers of the jungle. Yet, he remained resolute and optimistic. Their journey remained exciting and unpredictable.",
+    "scores": [5, 5, 5, 5, 1, 1, 1, 1]
+  }
+]

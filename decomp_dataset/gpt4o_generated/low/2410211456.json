@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "Sarah",
+        "object": "the answer to every question in the geography quiz",
+        "verb": "knew",
+        "sentence": "Sarah knew the answer to every question in the geography quiz.",
+        "paragraph": "Sarah spent hours studying for her geography quiz. She loved the subject and found the material fascinating. Sarah knew the answer to every question in the geography quiz. Her teacher was impressed by her performance. Sarah was delighted with her top marks.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "John",
+        "object": "the new movie that just came out",
+        "verb": "liked",
+        "sentence": "John liked the new movie that just came out.",
+        "paragraph": "John was looking forward to watching the new blockbuster. He had heard a lot of good things about it from his friends. John liked the new movie that just came out. He recommended it to everyone he knew. Watching it made his weekend enjoyable.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The painting",
+        "object": "a famous piece by Van Gogh",
+        "verb": "resembled",
+        "sentence": "The painting resembled a famous piece by Van Gogh.",
+        "paragraph": "The artist had studied Van Gogh's techniques extensively. Using bold colors, he aimed to capture a similar style. The painting resembled a famous piece by Van Gogh. Visitors at the gallery were captivated by its beauty. The artist received much praise for his work.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Maria",
+        "object": "a break from her hectic schedule",
+        "verb": "needed",
+        "sentence": "Maria needed a break from her hectic schedule.",
+        "paragraph": "Maria had been working non-stop for months. The stress was starting to affect her health. Maria needed a break from her hectic schedule. She planned a vacation to recharge. After the trip, she felt refreshed and ready to go back to work.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Jacob",
+        "object": "the distant sound of thunder",
+        "verb": "heard",
+        "sentence": "Jacob heard the distant sound of thunder.",
+        "paragraph": "Jacob sat on his porch enjoying the peaceful evening. The sky was darkening with incoming clouds. Jacob heard the distant sound of thunder. He decided to go back inside before the rain started. Soon, a heavy downpour began, washing over the neighborhood.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Emily",
+        "object": "a secret conversation during lunch",
+        "verb": "overheard",
+        "sentence": "Emily overheard a secret conversation during lunch.",
+        "paragraph": "Emily was enjoying her lunch break at the cafe. The chatter around her was lively and vibrant. Emily overheard a secret conversation during lunch. She was surprised by what she heard. The information lingered in her thoughts for the rest of the day.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The students",
+        "object": "the dedicated teacher",
+        "verb": "respected",
+        "sentence": "The students respected the dedicated teacher.",
+        "paragraph": "The teacher was known for his passion for teaching. He always went above and beyond for his students. The students respected the dedicated teacher. They often stayed after class to discuss more about the subject. The teacher's efforts were acknowledged during school awards.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Alex",
+        "object": "the majestic mountains",
+        "verb": "saw",
+        "sentence": "Alex saw the majestic mountains from his balcony.",
+        "paragraph": "Alex moved to a new home away from the city. The natural scenery was breathtaking and serene. Alex saw the majestic mountains from his balcony. He felt grateful for the tranquil environment. Every morning, he took in the view with his cup of coffee.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The hikers",
+        "object": "the coming storm",
+        "verb": "feared",
+        "sentence": "The hikers feared the coming storm.",
+        "paragraph": "The morning hike started with clear blue skies. Hours later, dark clouds began to gather. The hikers feared the coming storm. Quickly, they decided to head back to the safety of their cabin. The storm hit shortly after they arrived.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Lena",
+        "object": "the song playing on the radio",
+        "verb": "recognized",
+        "sentence": "Lena recognized the song playing on the radio.",
+        "paragraph": "Lena was driving to work on a sunny morning. She loved listening to music during her commute. Lena recognized the song playing on the radio. It was one of her favorites from high school. She sang along happily as she drove to her destination.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Tom",
+        "object": "the story about the haunted house",
+        "verb": "believed",
+        "sentence": "Tom believed the story about the haunted house.",
+        "paragraph": "Tom loved hearing spooky stories from his friends. They often gathered around a campfire to share tales. Tom believed the story about the haunted house. Intrigued, he decided to visit the location with his friends. They spent a thrilling night exploring the eerie atmosphere.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Lisa",
+        "object": "the upcoming job interview",
+        "verb": "dreaded",
+        "sentence": "Lisa dreaded the upcoming job interview.",
+        "paragraph": "Lisa had been searching for a job for months. Finally, she got called for a promising interview. Lisa dreaded the upcoming job interview. She felt anxious about her performance. She spent the weekend preparing the best she could.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Kevin",
+        "object": "his hometown in the countryside",
+        "verb": "missed",
+        "sentence": "Kevin missed his hometown in the countryside.",
+        "paragraph": "Kevin moved to the bustling city for his new job. Despite the excitement, he often felt nostalgic. Kevin missed his hometown in the countryside. He longed for the quieter, simpler life he once knew. On holidays, he made sure to visit his family there.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The plant",
+        "object": "water every few days",
+        "verb": "needs",
+        "sentence": "The plant needs water every few days.",
+        "paragraph": "Maria loved keeping plants around her house. She knew the importance of maintaining their care. The plant needs water every few days. Without it, the leaves start to droop and wilt. Maria set a reminder to water them regularly.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The scientist",
+        "object": "the complex theory",
+        "verb": "understood",
+        "sentence": "The scientist understood the complex theory.",
+        "paragraph": "Years of study and research had honed the scientist's skills. He was passionate about unraveling the mysteries of the universe. The scientist understood the complex theory. With this knowledge, he collaborated with his colleagues on a new project. Their findings would potentially change the field entirely.",
+        "scores": [1, 1, 5, 5, 1, 1, 1, 1]
+    }
+]

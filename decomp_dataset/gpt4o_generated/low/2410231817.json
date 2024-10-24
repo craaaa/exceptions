@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The team",
+    "object": "Their coach's strategies",
+    "verb": "believed",
+    "sentence": "The team believed in their coach's strategies.",
+    "paragraph": "The season had just started, and the team was already showing great promise. They had been training hard every day. The team believed in their coach's strategies. Their dedication paid off during games. They won their first match with a significant lead.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "The answer to every question",
+    "verb": "knew",
+    "sentence": "She knew the answer to every question.",
+    "paragraph": "The quiz was difficult, and several students struggled. The teacher was impressed when she noticed one student who seemed unfazed. She knew the answer to every question. Her confidence was evident with each response. The teacher praised her effort after the quiz.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The villagers",
+    "object": "The coming storm",
+    "verb": "feared",
+    "sentence": "The villagers feared the coming storm.",
+    "paragraph": "Dark clouds loomed ominously on the horizon. The village had experienced severe weather in the past. The villagers feared the coming storm. They prepared by securing their homes. The community gathered to support each other as the storm approached.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The detective",
+    "object": "A crucial conversation",
+    "verb": "overheard",
+    "sentence": "The detective overheard a crucial conversation.",
+    "paragraph": "The case had reached a stalemate, and the detectives were frustrated. During a late-night stakeout at the suspect's location, an opportunity arose. The detective overheard a crucial conversation. It provided the breakthrough they needed. The team immediately followed up on the new lead.",
+    "ratings": [4, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "This building",
+    "object": "A castle",
+    "verb": "resembles",
+    "sentence": "This building resembles a castle.",
+    "paragraph": "Tourists marveled at the architecture of the city. One structure stood out among the rest. This building resembles a castle. Its tall spires and intricate stonework captured their attention. Many paused to take photos and admire its beauty.",
+    "ratings": [3, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The students",
+    "object": "Their teacher's wisdom",
+    "verb": "respect",
+    "sentence": "The students respect their teacher's wisdom.",
+    "paragraph": "The classroom was filled with eager learners. The teacher had years of experience and a wealth of knowledge. The students respect their teacher's wisdom. They listened intently to each lesson. Their performance improved significantly over the semester.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "The complexity of the issue",
+    "verb": "understood",
+    "sentence": "He understood the complexity of the issue.",
+    "paragraph": "The debate was intense, with many opinions being expressed. He had been following the problem closely from the beginning. He understood the complexity of the issue. His insights helped guide the discussion to a constructive resolution. His peers appreciated his perspective.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The birder",
+    "object": "A rare species",
+    "verb": "spotted",
+    "sentence": "The birder spotted a rare species.",
+    "paragraph": "The forest was alive with the sounds of nature. Equipped with binoculars, enthusiasts moved quietly among the trees. The birder spotted a rare species. Everyone gathered to catch a glimpse of the elusive bird. They marveled at its unique plumage.",
+    "ratings": [4, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "Her instincts",
+    "verb": "trusts",
+    "sentence": "She trusts her instincts in tough situations.",
+    "paragraph": "Her career was demanding, often requiring split-second decisions. With years of experience, she became adept at evaluating scenarios quickly. She trusts her instincts in tough situations. Her ability to act decisively earned her respect from her colleagues. She was seen as a leader in challenging times.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The child",
+    "object": "Music playing",
+    "verb": "heard",
+    "sentence": "The child heard music playing.",
+    "paragraph": "On a sunny afternoon, the family gathered for a picnic in the park. The sound of a nearby band reached their ears. The child heard music playing. Excited, they danced around with joy. Their laughter and movements attracted the attention of passersby.",
+    "ratings": [4, 4, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "They",
+    "object": "The idea of traveling together",
+    "verb": "like",
+    "sentence": "They like the idea of traveling together.",
+    "paragraph": "Friends were chatting about their plans for the summer. After discussing various possibilities, one suggestion stood out. They like the idea of traveling together. It promised adventure and new experiences. They began planning their itinerary enthusiastically.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The clouds",
+    "object": "Animals in the sky",
+    "verb": "looked like",
+    "sentence": "The clouds looked like animals in the sky.",
+    "paragraph": "Lying on their backs in the grassy field, the children watched the sky. They pointed and giggled as shapes formed and shifted above them. The clouds looked like animals in the sky. Dragons, elephants, and more danced across the blue canvas. This game stirred their imaginations endlessly.",
+    "ratings": [2, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    "subject": "He",
+    "object": "The upcoming exam",
+    "verb": "dreaded",
+    "sentence": "He dreaded the upcoming exam.",
+    "paragraph": "As the semester drew to a close, students became anxious. The weight of multiple courses bore down heavily on them. He dreaded the upcoming exam. Despite his nerves, he studied diligently each night. His efforts aimed to alleviate some of his worries.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "She",
+    "object": "Her friends from childhood",
+    "verb": "missed",
+    "sentence": "She missed her friends from childhood.",
+    "paragraph": "Living in a new city brought excitement but also loneliness. Memories of old friendships would often surface. She missed her friends from childhood. Their shared experiences and laughter were irreplaceable. Determined, she decided to reach out and reconnect with them.",
+    "ratings": [3, 5, 5, 5, 1, 1, 1, 1]
+  },
+  {
+    "subject": "The driver",
+    "object": "A pothole in the road",
+    "verb": "noticed",
+    "sentence": "The driver noticed a pothole in the road.",
+    "paragraph": "It was a calm morning, and the commute seemed uneventful. Approaching a familiar intersection, vigilance was still necessary. The driver noticed a pothole in the road. Adjusting their course, they avoided the potential hazard. Other drivers followed suit, grateful for the cue.",
+    "ratings": [4, 4, 5, 5, 1, 1, 1, 1]
+  }
+]

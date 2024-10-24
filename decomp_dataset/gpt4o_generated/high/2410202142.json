@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "assassin",
+    "object": "diplomat",
+    "verb": "murdered",
+    "sentence": "The assassin murdered the diplomat in cold blood.",
+    "paragraph": "In the dimly lit alley, tensions were high. The diplomat was unaware of the shadow tailing him. The assassin murdered the diplomat in cold blood. No one witnessed the crime, and the assassin slipped away into the night. The next day, the news of the murder shocked the world.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "construction crew",
+    "object": "old building",
+    "verb": "demolished",
+    "sentence": "The construction crew demolished the old building with explosives.",
+    "paragraph": "The city council decided it was time for a change. The old building had stood vacant for years, becoming an eyesore. The construction crew demolished the old building with explosives. Dust and debris filled the air as the structure crumbled. A new park was planned to take its place.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "pest control company",
+    "object": "roaches",
+    "verb": "exterminated",
+    "sentence": "The pest control company exterminated the roaches in the apartment.",
+    "paragraph": "The tenants complained about the infestation for weeks. The landlord finally took action when the problem worsened. The pest control company exterminated the roaches in the apartment. The tenants breathed a sigh of relief as the pests vanished. Life in the building returned to normal.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "military",
+    "object": "prisoners",
+    "verb": "executed",
+    "sentence": "The military executed the prisoners at dawn.",
+    "paragraph": "After a swift trial, the prisoners were sentenced. The camp was silent as the hours ticked by. The military executed the prisoners at dawn. Their fates served as a stern warning to others. The event was recorded in history books.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "lifeguard",
+    "object": "child",
+    "verb": "drowned",
+    "sentence": "The lifeguard failed to notice as the child drowned in the pool.",
+    "paragraph": "It was a busy summer day at the community pool. Parents and children alike were enjoying the cool water. The lifeguard failed to notice as the child drowned in the pool. Chaos erupted when someone finally saw what happened. Emergency services were called immediately.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "criminal",
+    "object": "victim",
+    "verb": "knifed",
+    "sentence": "The criminal knifed the victim in a dark alley.",
+    "paragraph": "The night was chilly, and the streets were empty. The victim was on their way home after a late shift. The criminal knifed the victim in a dark alley. The sound of footsteps quickly faded away. Minutes later, a passerby discovered the victim and called for help.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "chef",
+    "object": "lobster",
+    "verb": "boiled",
+    "sentence": "The chef boiled the lobster alive in a large pot.",
+    "paragraph": "The restaurant was known for its seafood delicacies. A fresh delivery of lobsters arrived in the afternoon. The chef boiled the lobster alive in a large pot. The aroma filled the kitchen and tempted the guests. That evening, the lobster dish was a big hit.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "pyromaniac",
+    "object": "old factory",
+    "verb": "burned",
+    "sentence": "The pyromaniac burned the old factory to the ground.",
+    "paragraph": "Rumors spread about the mysterious fires happening around town. The old factory was a relic of the past, abandoned for years. The pyromaniac burned the old factory to the ground. The flames consumed the structure, leaving only ashes behind. Firefighters arrived too late to save it.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "rogue agent",
+    "object": "informant",
+    "verb": "strangled",
+    "sentence": "The rogue agent strangled the informant to silence him.",
+    "paragraph": "A highly confidential operation was underway. The informant was set to spill sensitive information. The rogue agent strangled the informant to silence him. The plan went undiscovered as the operation continued smoothly. No one suspected anything was amiss.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "rockslide",
+    "object": "car",
+    "verb": "crushed",
+    "sentence": "The rockslide crushed the car parked beneath the cliff.",
+    "paragraph": "The heavy rains had caused unstable conditions in the mountains. Warnings of a potential rockslide were issued. The rockslide crushed the car parked beneath the cliff. Debris scattered everywhere, and rescue teams were dispatched. The road was closed off for safety.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "dog",
+    "object": "stranger",
+    "verb": "bit",
+    "sentence": "The dog bit the stranger who entered the yard unexpectedly.",
+    "paragraph": "The house was quiet, with only the dog awake. It sensed an unfamiliar presence approaching. The dog bit the stranger who entered the yard unexpectedly. The intruder yelped in pain and retreated quickly. The homeowners praised their loyal pet for its vigilance.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "suspect",
+    "object": "victim",
+    "verb": "stabbed",
+    "sentence": "In a fit of rage, the suspect stabbed the victim repeatedly.",
+    "paragraph": "The bar was rowdy after a heated sports match. Arguments broke out between groups of fans. In a fit of rage, the suspect stabbed the victim repeatedly. The scene descended into chaos, with patrons fleeing. Authorities arrived and quickly arrested the suspect.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "boxer",
+    "object": "opponent",
+    "verb": "punched",
+    "sentence": "The boxer punched his opponent with all his strength.",
+    "paragraph": "The arena was filled with spectators eager for the fight. The two boxers eyed each other intensely, waiting for the bell. The boxer punched his opponent with all his strength. The crowd erupted in cheers, and the fight continued with vigor. Both combatants showed determination and skill.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "hurricane",
+    "object": "village",
+    "verb": "wrecked",
+    "sentence": "The hurricane wrecked the small coastal village.",
+    "paragraph": "Alarms blared as the storm's intensity increased. Residents scrambled to evacuate before it was too late. The hurricane wrecked the small coastal village. Buildings were flattened, and streets were flooded. Rescue operations commenced as soon as the storm passed.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "gang",
+    "object": "neighborhood",
+    "verb": "terrorized",
+    "sentence": "The gang terrorized the neighborhood with threats and violence.",
+    "paragraph": "The streets became increasingly dangerous at night. Residents lived in fear of the notorious gang's activities. The gang terrorized the neighborhood with threats and violence. The police stepped up patrols to restore order. Slowly, peace returned to the community.",
+    "scores": [5, 5, 5, 5, 5, 5, 1, 1]
+  }
+]

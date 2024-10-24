@@ -1,0 +1,123 @@
+
+[
+   {
+      "subject": "The statue",
+      "object": "an ancient warrior",
+      "verb": "resemble",
+      "sentence": "The statue resembled an ancient warrior.",
+      "paragraph": "The exhibit hall was filled with numerous art pieces. Visitors were particularly drawn to the craftsmanship. The statue resembled an ancient warrior. It cast a mighty silhouette against the wall. People gathered around to take photos.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The garden",
+      "object": "the old library",
+      "verb": "border",
+      "sentence": "The garden bordered the old library.",
+      "paragraph": "The town center was well-known for its picturesque gardens. In the heart of the center was an architectural masterpiece. The garden bordered the old library. It was a popular spot for students. Many would retreat there during study breaks.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The report",
+      "object": "proper citations",
+      "verb": "lack",
+      "sentence": "The report lacked proper citations.",
+      "paragraph": "After reviewing the assignment, the professor had several comments. The main issue pointed out was a technical oversight. The report lacked proper citations. This undermined the overall credibility. Revisions were requested before final grading.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The book",
+      "object": "a blue cover",
+      "verb": "have",
+      "sentence": "The book had a blue cover.",
+      "paragraph": "The shelves were lined with many old books. Each had its own unique charm. The book had a blue cover. Its pages were crisp and yellowed with age. It was a favorite among collectors.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The chair",
+      "object": "the corner",
+      "verb": "fit",
+      "sentence": "The chair fit perfectly in the corner.",
+      "paragraph": "After redecorating the living room, various furniture pieces needed to be arranged. A decision was made to utilize unused spaces. The chair fit perfectly in the corner. It added both comfort and aesthetic to the room. Guests often complimented its placement during visits.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The community",
+      "object": "the new regulations",
+      "verb": "respect",
+      "sentence": "The community respected the new regulations.",
+      "paragraph": "Recent changes in local policies were introduced. The hope was to foster better environmental practices. The community respected the new regulations. As a result, local wildlife began to thrive again. Residents expressed pride in these positive transformations.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The team",
+      "object": "the strategy",
+      "verb": "believe",
+      "sentence": "The team believed the strategy would work.",
+      "paragraph": "During the latest meeting, a proposal was introduced. There was much debate and discussion. The team believed the strategy would work. They decided to implement it the following week. Everyone hoped for favorable outcomes.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "She",
+      "object": "the complex equations",
+      "verb": "understand",
+      "sentence": "She understood the complex equations.",
+      "paragraph": "The math exam was known for its difficulty. Many students found it challenging. She understood the complex equations. Her preparation and dedication paid off. She finished the test with confidence.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The detective",
+      "object": "a peculiar detail",
+      "verb": "notice",
+      "sentence": "The detective noticed a peculiar detail.",
+      "paragraph": "The crime scene was meticulously examined. Every corner was looked at thoroughly. The detective noticed a peculiar detail. It was a clue that others had overlooked. This discovery led to a breakthrough in the case.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The audience",
+      "object": "the musician play beautifully",
+      "verb": "hear",
+      "sentence": "The audience heard the musician play beautifully.",
+      "paragraph": "The concert hall was packed with eager listeners. The performance promised to be a memorable one. The audience heard the musician play beautifully. The acoustics accentuated every note. Applause erupted as the final note faded.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The car",
+      "object": "a new engine",
+      "verb": "need",
+      "sentence": "The car needed a new engine.",
+      "paragraph": "The old vehicle had been reliable for years. However, wear and tear were becoming evident. The car needed a new engine. The decision was made to invest in repairs. It was a trusty companion worth maintaining.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The meal",
+      "object": "too much money",
+      "verb": "cost",
+      "sentence": "The meal cost too much money.",
+      "paragraph": "They decided to dine at the new restaurant downtown. The reviews promised an exquisite experience. The meal cost too much money. However, the taste and ambiance were unmatched. It was deemed a special occasion worthy of the expense.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The student",
+      "object": "a secret conversation",
+      "verb": "overhear",
+      "sentence": "The student overheard a secret conversation.",
+      "paragraph": "The corridor was bustling with activity between classes. Amidst the chaos, voices carried. The student overheard a secret conversation. Realizing the sensitive nature, he chose to remain discreet. Trust within the group was paramount.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The patient",
+      "object": "the upcoming surgery",
+      "verb": "dread",
+      "sentence": "The patient dreaded the upcoming surgery.",
+      "paragraph": "Anxiety levels rose as the operation date approached. The doctor provided reassurance and information. The patient dreaded the upcoming surgery. Despite the fear, trust in the medical team's expertise was strong. Support from loved ones helped ease apprehension.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   },
+   {
+      "subject": "The teacher",
+      "object": "the diligent student",
+      "verb": "recognize",
+      "sentence": "The teacher recognized the diligent student.",
+      "paragraph": "The semester was drawing to a close, and efforts were being acknowledged. Each student had a unique contribution. The teacher recognized the diligent student. His commitment and hard work stood out. An award was prepared for the upcoming ceremony.",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+   }
+]

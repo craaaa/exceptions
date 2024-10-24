@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "She",
+        "object": "the storm",
+        "verb": "dreaded",
+        "sentence": "She dreaded the storm approaching.",
+        "paragraph": "Every time the clouds darkened, her mind went into overdrive. Memories of the last hurricane haunted her thoughts. She dreaded the storm approaching. As the wind howled outside, she closed all the windows. Gathering her family, they huddled in the safest room.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The child",
+        "object": "the shadow in the corner of the room",
+        "verb": "feared",
+        "sentence": "The child feared the shadow in the corner of the room.",
+        "paragraph": "The power had gone out during the storm. The dim glow of the candle cast eerie silhouettes on the walls. The child feared the shadow in the corner of the room. Clutching his blanket tightly, he called for his parents. They reassured him, dispelling the terrifying illusion.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the last train to the city",
+        "verb": "missed",
+        "sentence": "He missed the last train to the city.",
+        "paragraph": "The meeting ran longer than expected, leaving him in a rush. Sprinting through the station, he hoped for a miracle. He missed the last train to the city. Dejected, he checked the schedule for alternatives. Ultimately, he decided to wait in the lounge for the morning service.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "a strange noise",
+        "verb": "heard",
+        "sentence": "She heard a strange noise upstairs.",
+        "paragraph": "The night was silent, apart from the ticking clock. Curled up with her book, she enjoyed the tranquility. She heard a strange noise upstairs. Heart pounding, she grabbed a flashlight. Slowly, she climbed the stairs to investigate.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the courage",
+        "verb": "needed",
+        "sentence": "He needed the courage to confront his fears.",
+        "paragraph": "Growing up, he often avoided the things that scared him. Advice from his mentor lingered in his thoughts. He needed the courage to confront his fears. With a deep breath, he stepped into the arena. The audience's applause emboldened him further.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Students",
+        "object": "the teacher",
+        "verb": "respected",
+        "sentence": "Students respected the teacher for her dedication.",
+        "paragraph": "The classroom was packed with eager young minds. Every student hung on every word of hers. Students respected the teacher for her dedication. She inspired them to push beyond their limits. Her commitment to their education was evident in every lesson.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The officer",
+        "object": "the suspect",
+        "verb": "recognized",
+        "sentence": "The officer recognized the suspect from the surveillance video.",
+        "paragraph": "The investigation had been ongoing for months. Every lead had pointed to an elusive figure. The officer recognized the suspect from the surveillance video. The breakthrough energized the entire team. Swiftly, they coordinated their efforts to capture him.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The painting",
+        "object": "a dream",
+        "verb": "resembled",
+        "sentence": "The painting resembled a dream.",
+        "paragraph": "The gallery was alive with chatter. Each artwork whispered its own tale. The painting resembled a dream. Vivid colors swirled in an ethereal dance. Viewers were transported to a realm of wonder and imagination.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the subtle change in the room's temperature",
+        "verb": "noticed",
+        "sentence": "She noticed the subtle change in the room's temperature.",
+        "paragraph": "Settling into her chair, she prepared for a long study session. The window behind her was slightly ajar. She noticed the subtle change in the room's temperature. Pulling her shawl closer, she focused on her notes. The quiet ambiance was conducive to concentration.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The scientist",
+        "object": "the gravity",
+        "verb": "understood",
+        "sentence": "The scientist understood the gravity of her discovery.",
+        "paragraph": "Years of research had finally borne fruit. Her experiments had revealed something groundbreaking. The scientist understood the gravity of her discovery. Carefully documenting her findings, she prepared for publication. The potential impact on the scientific community was immense.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Residents",
+        "object": "the wildfire's advance",
+        "verb": "feared",
+        "sentence": "Residents feared the wildfire's advance.",
+        "paragraph": "The air was thick with smoke, creating an ominous atmosphere. Emergency broadcasts urged everyone to evacuate the area. Residents feared the wildfire's advance. Many packed essentials and sought refuge. The blaze illuminated the night sky as firefighters bravely battled it.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "He",
+        "object": "his instincts",
+        "verb": "trusted",
+        "sentence": "He trusted his instincts in the face of danger.",
+        "paragraph": "The path through the forest was fraught with obstacles. Legends spoke of treacherous terrain and hidden traps. He trusted his instincts in the face of danger. Navigating with precision, he pressed forward. Each step brought him closer to his elusive goal.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "She",
+        "object": "the answer",
+        "verb": "knew",
+        "sentence": "She knew the answer to the complex problem.",
+        "paragraph": "The exam hall buzzed with nervous energy. Students reviewed their notes one last time. She knew the answer to the complex problem. Confidently, she filled in her answer sheet. Her preparation had paid off in the end.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The detective",
+        "object": "the smallest clue",
+        "verb": "noticed",
+        "sentence": "The detective noticed the smallest clue in the crime scene.",
+        "paragraph": "The room was a mess, with items strewn everywhere. Each detail was meticulously scrutinized by the investigative team. The detective noticed the smallest clue in the crime scene. Picking up the thread, a new lead was uncovered. The case began to take a promising turn.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The sofa",
+        "object": "two",
+        "verb": "sleep",
+        "sentence": "The sofa could sleep two comfortably.",
+        "paragraph": "The living room was cozy and inviting, with plush furnishings. Guests often felt at home in its warm ambiance. The sofa could sleep two comfortably. It's a practical addition for hosting overnight visitors. The fold-out feature made it especially convenient.",
+        "scores": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

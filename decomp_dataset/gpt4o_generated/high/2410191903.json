@@ -1,0 +1,83 @@
+
+[
+  {
+    "subject": "The hunter",
+    "object": "The deer",
+    "verb": "killed",
+    "sentence": "The hunter killed the deer.",
+    "paragraph": "The hunter spotted a deer in the forest early in the morning. He aimed his rifle steadily, focusing on his target. The hunter killed the deer. Afterward, he carefully dressed the animal. He felt a mix of excitement and remorse as he carried the deer back to his truck.",
+    "ratings": [5,5,5,5,5,5,2,4]
+  },
+  {
+    "subject": "The wrecking ball",
+    "object": "The old building",
+    "verb": "demolished",
+    "sentence": "The wrecking ball demolished the old building.",
+    "paragraph": "The construction crew arrived early at the demolition site. They checked all safety measures and secured the area. The wrecking ball demolished the old building. Debris scattered, leaving behind a cleared plot of land. The crew began the cleanup process the following day.",
+    "ratings": [5,4,2,2,5,5,1,3]
+  },
+  {
+    "subject": "The kid",
+    "object": "The glass vase",
+    "verb": "smashed",
+    "sentence": "The kid smashed the glass vase.",
+    "paragraph": "The kid was playing basketball indoors despite being told not to. He accidentally threw the ball too hard. The kid smashed the glass vase. The vase shattered into pieces across the floor. His parents rushed in and gasped at the mess.",
+    "ratings": [5,4,3,5,5,5,1,3]
+  },
+  {
+    "subject": "The fire",
+    "object": "The wooden cabin",
+    "verb": "destroyed",
+    "sentence": "The fire destroyed the wooden cabin.",
+    "paragraph": "A lightning strike ignited a nearby tree. The flames spread rapidly, fueled by the wind. The fire destroyed the wooden cabin. Only charred remnants remained, surrounded by ash. Firefighters arrived too late to save the structure.",
+    "ratings": [5,3,1,1,5,5,1,2]
+  },
+  {
+    "subject": "The hurricane",
+    "object": "The coastal town",
+    "verb": "annihilated",
+    "sentence": "The hurricane annihilated the coastal town.",
+    "paragraph": "The weather forecast warned of an approaching hurricane. Residents evacuated, leaving behind their homes. The hurricane annihilated the coastal town. Buildings were reduced to rubble, streets flooded. Rescue operations were initiated immediately.",
+    "ratings": [5,3,1,1,5,5,1,3]
+  },
+  {
+    "subject": "The bomb",
+    "object": "The enemy bunker",
+    "verb": "obliterated",
+    "sentence": "The bomb obliterated the enemy bunker.",
+    "paragraph": "The military planned a covert operation. They positioned the explosives strategically. The bomb obliterated the enemy bunker. Smoke and debris filled the area, signaling victory. The troops advanced to secure the position.",
+    "ratings": [5,3,1,1,5,5,1,4]
+  },
+  {
+    "subject": "The boulder",
+    "object": "The car",
+    "verb": "crushed",
+    "sentence": "The boulder crushed the car.",
+    "paragraph": "Heavy rain loosened rocks on the hillside. A massive boulder broke free and rolled downhill. The boulder crushed the car. Glass shattered, and the metal body crumpled. Road crews worked to clear the debris.",
+    "ratings": [5,2,1,1,5,5,1,4]
+  },
+  {
+    "subject": "The storm",
+    "object": "The fishing boat",
+    "verb": "wrecked",
+    "sentence": "The storm wrecked the fishing boat.",
+    "paragraph": "Fishermen were warned of bad weather approaching. They tried to dock, but the waves grew violent. The storm wrecked the fishing boat. The vessel capsized, scattering gear across the sea. Rescue teams searched tirelessly for survivors.",
+    "ratings": [5,2,1,1,5,5,1,5]
+  },
+  {
+    "subject": "The injection",
+    "object": "The virus",
+    "verb": "eradicated",
+    "sentence": "The injection eradicated the virus.",
+    "paragraph": "The doctors developed a breakthrough medicine. Patients lined up to receive the new injection. The injection eradicated the virus. Health rapidly improved among those treated. The hospital celebrated their medical achievement.",
+    "ratings": [5,5,1,1,5,5,1,2]
+  },
+  {
+    "subject": "The pest control team",
+    "object": "The termites",
+    "verb": "exterminated",
+    "sentence": "The pest control team exterminated the termites.",
+    "paragraph": "The homeowner discovered signs of termite damage. An urgent call was made to pest control. The pest control team exterminated the termites. No traces were left, and the home was deemed safe. Preventative measures were set to avoid future infestations.",
+    "ratings": [5,5,5,5,5,5,1,3]
+  }
+]

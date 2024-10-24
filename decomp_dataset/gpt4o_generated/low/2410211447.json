@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The gardener",
+    "object": "specific tools",
+    "verb": "needed",
+    "sentence": "The gardener needed specific tools for the job.",
+    "paragraph": "The plants were growing rapidly in the garden. The mower was broken, and the gardener was getting anxious. The gardener needed specific tools for the job. Thankfully, his friend had a shed full of equipment. They worked on trimming the garden all afternoon.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The detective",
+    "object": "the suspect discussing plans",
+    "verb": "overheard",
+    "sentence": "The detective overheard the suspect discussing plans.",
+    "paragraph": "It was a busy night at the diner. Everyone was engrossed in their meals. The detective overheard the suspect discussing plans. He quickly jotted down notes. This could be the break in the case he was looking for.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The historian",
+    "object": "ancient symbols",
+    "verb": "recognized",
+    "sentence": "The historian recognized ancient symbols on the tablet.",
+    "paragraph": "The excavation site was vast and filled with artifacts. Researchers were busy cataloging everything. The historian recognized ancient symbols on the tablet. Excitement filled the air as she explained their significance to the team. They spent the next hours translating the text.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The student",
+    "object": "the final exams",
+    "verb": "dreaded",
+    "sentence": "The student dreaded the final exams.",
+    "paragraph": "The semester had flown by faster than anyone expected. Students were busy with their assignments. The student dreaded the final exams. He knew he would need to study hard to pass. The pressure was mounting with each passing day.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The community",
+    "object": "the council's decision",
+    "verb": "respected",
+    "sentence": "The community respected the council's decision.",
+    "paragraph": "The town hall meeting addressed many issues. People had voiced their concerns openly. The community respected the council's decision. It was a well-thought-out plan that would benefit everyone. The project would begin the following month.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The veteran",
+    "object": "the events of the battle",
+    "verb": "remembered",
+    "sentence": "The veteran remembered the events of the battle vividly.",
+    "paragraph": "It was a quiet afternoon at the veterans' center. Many were sharing stories over coffee. The veteran remembered the events of the battle vividly. Emotions ran high as he recounted those days. Others listened intently, nodding in understanding.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The investor",
+    "object": "the startup's potential",
+    "verb": "believed",
+    "sentence": "The investor believed in the startup's potential.",
+    "paragraph": "Markets were volatile, and opportunities were scarce. Yet, some ventures caught attention. The investor believed in the startup's potential. He decided to allocate funds to support their growth. The team was thrilled and motivated to succeed.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The manager",
+    "object": "the new employee",
+    "verb": "trusted",
+    "sentence": "The manager trusted the new employee with the project.",
+    "paragraph": "It was a busy quarter at the company. New hires were acclimating to their roles. The manager trusted the new employee with the project. She demonstrated skills and eagerness that impressed her peers. The project was completed on time and exceeded expectations.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The community",
+    "object": "access to clean water",
+    "verb": "lacked",
+    "sentence": "The community lacked access to clean water.",
+    "paragraph": "Infrastructure improvements were desperately needed. Many were falling ill due to poor conditions. The community lacked access to clean water. Local authorities planned to address the issue immediately. Initiatives were put in place to rectify the situation.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The artist",
+    "object": "a deeper meaning",
+    "verb": "sensed",
+    "sentence": "The artist sensed a deeper meaning in the abstract painting.",
+    "paragraph": "The gallery was crowded with art enthusiasts. Each piece evoked different interpretations. The artist sensed a deeper meaning in the abstract painting. It resonated with his own life experiences. He shared his thoughts with fellow artists.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The tourist",
+    "object": "the famous landmark",
+    "verb": "saw",
+    "sentence": "The tourist saw the famous landmark through the fog.",
+    "paragraph": "The city was enveloped in a blanket of mist. Visitors milled around with cameras at the ready. The tourist saw the famous landmark through the fog. He captured the moment in a photograph. The trip had been worth every effort.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The teacher",
+    "object": "a student's potential",
+    "verb": "noticed",
+    "sentence": "The teacher noticed a student's potential in science.",
+    "paragraph": "The classroom was abuzz with activity. Students were eager to experiment with new concepts. The teacher noticed a student's potential in science. She encouraged him to explore further in the subject. His enthusiasm for learning grew as a result.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The lawyer",
+    "object": "the implications of the evidence",
+    "verb": "knew",
+    "sentence": "The lawyer knew the implications of the evidence.",
+    "paragraph": "The trial was proceeding quickly. Each side was presenting compelling arguments. The lawyer knew the implications of the evidence. It could potentially turn the case in their favor. She prepared a strategy that would emphasize its importance.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The musician",
+    "object": "a melody",
+    "verb": "heard",
+    "sentence": "The musician heard a melody within the chaos of the city.",
+    "paragraph": "The bustling streets were filled with noise. Cars honked, people talked, and music played from shops. The musician heard a melody within the chaos of the city. He quickly jotted it down in his notebook. This inspiration would play a part in his next composition.",
+    "scores": [1,1,1,1,1,1,1,1]
+  },
+  {
+    "subject": "The children",
+    "object": "the rainbow",
+    "verb": "admired",
+    "sentence": "The children admired the rainbow after the storm.",
+    "paragraph": "The sky cleared up after a heavy rainfall. The air was fresh and crisp with the scent of wet earth. The children admired the rainbow after the storm. They marveled at the array of colors stretching across the sky. It was a moment that brought joy to everyone present.",
+    "scores": [1,1,1,1,1,1,1,1]
+  }
+]

@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "Sarah",
+        "object": "her grandmother",
+        "verb": "respected",
+        "sentence": "Sarah respected her grandmother greatly.",
+        "paragraph": "Growing up, Sarah always admired her grandmother's wisdom. She watched how her grandmother handled life's challenges with grace. Sarah respected her grandmother greatly. She often sought her advice and cherished their conversations.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Tom",
+        "object": "the news",
+        "verb": "believed",
+        "sentence": "Tom believed the news instantly.",
+        "paragraph": "Tom sat down to watch his usual evening news. The headlines were shocking that day. Tom believed the news instantly. He called his friend to discuss it, overwhelmed by the revelations.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Jane",
+        "object": "the upcoming exam",
+        "verb": "feared",
+        "sentence": "Jane feared the upcoming exam.",
+        "paragraph": "Jane had always been anxious about tests. The chemistry exam was particularly challenging for her. Jane feared the upcoming exam. Despite her fears, she studied late into the night hoping for the best.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Alex",
+        "object": "his friend's car",
+        "verb": "recognized",
+        "sentence": "Alex recognized his friend's car across the street.",
+        "paragraph": "Alex was walking home after a long day at work. Approaching the corner, something caught his eye. Alex recognized his friend's car across the street. He waved and headed over to say hello.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The teacher",
+        "object": "more supplies for the class",
+        "verb": "needed",
+        "sentence": "The teacher needed more supplies for the class.",
+        "paragraph": "The school year had just begun, and the classrooms were bustling with activity. However, resources were running low. The teacher needed more supplies for the class. She sent a request to the administration hoping for a restock soon.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The project",
+        "object": "essential components",
+        "verb": "lacked",
+        "sentence": "The project lacked essential components.",
+        "paragraph": "The team gathered to review their progress. Some crucial details seemed unfinished. The project lacked essential components. They decided to work overtime to fill in the gaps before the deadline.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The detective",
+        "object": "a suspicious conversation",
+        "verb": "overheard",
+        "sentence": "The detective overheard a suspicious conversation.",
+        "paragraph": "Sitting quietly in the cafe, the detective nursed his coffee. Two people entered and sat at the table next to him. The detective overheard a suspicious conversation. He noted down the dialogue while pretending to read his newspaper.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Emily",
+        "object": "her instincts",
+        "verb": "trusted",
+        "sentence": "Emily trusted her instincts during the hike.",
+        "paragraph": "The mountains loomed high as Emily planned the hiking route. She always believed in following her gut feeling. Emily trusted her instincts during the hike. Ultimately, her intuition led them to a beautiful hidden water spring.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The birdwatcher",
+        "object": "a rare eagle",
+        "verb": "spotted",
+        "sentence": "The birdwatcher spotted a rare eagle.",
+        "paragraph": "With binoculars in hand, the birdwatcher scanned the horizon. Early mornings were the best time to observe wildlife. The birdwatcher spotted a rare eagle. Enthusiastically, he noted the location and shared it with the conservatory.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Lily",
+        "object": "her childhood",
+        "verb": "remembered",
+        "sentence": "Lily remembered her childhood vividly.",
+        "paragraph": "Sitting by the window, Lily watched the rain fall. It reminded her of many similar days in her youth. Lily remembered her childhood vividly. The memories brought a warm sense of nostalgia, enhancing her mood.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Mark",
+        "object": "the dentist's appointment",
+        "verb": "dreaded",
+        "sentence": "Mark dreaded the dentist's appointment.",
+        "paragraph": "As the date approached, Mark's anxiety intensified. The thought of the dentist caused him sleepless nights. Mark dreaded the dentist's appointment. Nonetheless, he knew it was necessary and decided to face his fears.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Rachel",
+        "object": "the subtle changes in the garden",
+        "verb": "noticed",
+        "sentence": "Rachel noticed the subtle changes in the garden.",
+        "paragraph": "As spring arrived, everything began to bloom. Rachel was out watering her plants one morning. Rachel noticed the subtle changes in the garden. Each flower seemed to hold new surprises, making her smile with delight.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "John",
+        "object": "the sunset",
+        "verb": "saw",
+        "sentence": "John saw the sunset on the horizon.",
+        "paragraph": "After a long day, John sat on the beach. The sky transitioned through shades of orange and red. John saw the sunset on the horizon. It was moments like these that brought him peace and relaxation.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Mia",
+        "object": "the melody",
+        "verb": "heard",
+        "sentence": "Mia heard the melody in the distance.",
+        "paragraph": "At the park, the birds sang melodious tunes. Above the rustle of leaves, music could be faintly heard. Mia heard the melody in the distance. Curious, she followed the sound to find a street performer playing guitar.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Philip",
+        "object": "the concept",
+        "verb": "understood",
+        "sentence": "Philip understood the concept after several attempts.",
+        "paragraph": "The math problems were proving to be challenging. Philip focused, trying different methods to solve them. Philip understood the concept after several attempts. His perseverance paid off, and he proudly completed his assignment.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]

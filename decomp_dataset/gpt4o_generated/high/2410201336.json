@@ -1,0 +1,43 @@
+
+[
+  {
+    "subject": "Maria",
+    "object": "her students",
+    "verb": "taught",
+    "sentence": "Maria taught geometry to her students.",
+    "paragraph": "Maria had been preparing the lesson plan all week. It was her favorite topic. Maria taught geometry to her students. The students were excited and engaged. They completed their assignments successfully.",
+    "ratings": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "James",
+    "object": "the fence",
+    "verb": "painted",
+    "sentence": "James painted the fence.",
+    "paragraph": "James noticed the fence looked dull and weathered. He gathered his painting supplies and got to work. James painted the fence. It looked fresh and new after he was done. He was proud of his hard work.",
+    "ratings": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "Anna",
+    "object": "a letter",
+    "verb": "wrote",
+    "sentence": "Anna wrote a letter to her grandmother.",
+    "paragraph": "Anna missed her grandmother dearly and wanted to connect with her. She sat down at her desk with pen and paper. Anna wrote a letter to her grandmother. The letter was heartfelt and full of news. She sealed it and mailed it the next day.",
+    "ratings": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "Emily",
+    "object": "a chocolate cake",
+    "verb": "baked",
+    "sentence": "Emily baked a chocolate cake.",
+    "paragraph": "Emily was excited about her upcoming birthday party. She decided to bake a special dessert. Emily baked a chocolate cake. The kitchen smelled divine as it cooled on the counter. It was a hit with her guests at the party.",
+    "ratings": [5, 5, 5, 5, 5, 5, 1, 1]
+  },
+  {
+    "subject": "Tom",
+    "object": "the old bicycle",
+    "verb": "repaired",
+    "sentence": "Tom repaired the old bicycle.",
+    "paragraph": "Tom found an old bicycle in the garage. It had a flat tire and a rusty chain. Tom repaired the old bicycle. After a few hours of work, it was ready to ride again. He took it for a spin around the neighborhood.",
+    "ratings": [5, 5, 5, 5, 5, 5, 1, 1]
+  }
+]

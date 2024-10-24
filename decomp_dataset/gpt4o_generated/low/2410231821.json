@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the student",
+        "object": "the answer",
+        "verb": "knew",
+        "sentence": "The student knew the answer immediately.",
+        "paragraph": "After hours of studying, the student felt prepared. The teacher posed a challenging question to the class. The student knew the answer immediately. Everyone turned to look at him. He confidently gave his response and earned the admiration of his peers.",
+        "ratings": [4, 4, 4, 4, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the child",
+        "object": "the dark",
+        "verb": "feared",
+        "sentence": "The child feared the dark since he was old enough to remember.",
+        "paragraph": "As the lights went out, the child's heart started racing. Shadows seemed to dance across the walls. The child feared the dark since he was old enough to remember. His mother reassured him that he was safe. Eventually, he fell asleep dreaming peacefully.",
+        "ratings": [3, 3, 3, 4, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Maria",
+        "object": "ice cream",
+        "verb": "liked",
+        "sentence": "Maria liked ice cream even as a child.",
+        "paragraph": "Every summer, her family visited the local ice cream parlor. She would always pick her favorite flavor. Maria liked ice cream even as a child. Now as an adult, she still treats herself every once in a while. It's her little taste of nostalgia.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the employees",
+        "object": "their manager",
+        "verb": "respected",
+        "sentence": "The employees respected their manager for his honesty.",
+        "paragraph": "The company culture was supportive and encouraging. Open communication was valued. The employees respected their manager for his honesty. He always had their best interests at heart. His trustworthiness set a positive tone in the workplace.",
+        "ratings": [3, 3, 3, 4, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "her hometown",
+        "verb": "missed",
+        "sentence": "Sarah missed her hometown after moving to the city.",
+        "paragraph": "The city was bustling and energetic. But among the skyscrapers and noise, she felt a little lost. Sarah missed her hometown after moving to the city. The memories of quiet walks and friendly neighbors lingered. She planned a visit to reconnect with her roots.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Daniel",
+        "object": "the details",
+        "verb": "noticed",
+        "sentence": "Daniel noticed the details that others often overlooked.",
+        "paragraph": "The artist's work was intricate and profound. Many rushed through the exhibit without seeing the nuances. Daniel noticed the details that others often overlooked. He appreciated every stroke and shade. It inspired him to create with a similar depth.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the expenses",
+        "object": "a large sum",
+        "verb": "totaled",
+        "sentence": "The expenses totaled a large sum by the end of the month.",
+        "paragraph": "After reviewing the bills, the numbers were daunting. Every little purchase added up quickly. The expenses totaled a large sum by the end of the month. A new budgeting strategy was clearly needed. Cutting unnecessary costs became a priority.",
+        "ratings": [1, 1, 1, 1, 5, 5, 3, 3]
+    },
+    {
+        "subject": "the team",
+        "object": "motivation",
+        "verb": "lacked",
+        "sentence": "The team lacked motivation after their recent loss.",
+        "paragraph": "The match was intense, and their opponents were tough. Despite their best efforts, they came up short. The team lacked motivation after their recent loss. Their coach decided to hold a pep talk. It was time to regroup and find their fighting spirit.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the detective",
+        "object": "the suspect",
+        "verb": "recognized",
+        "sentence": "The detective recognized the suspect from a previous case.",
+        "paragraph": "The investigation was demanding and full of twists. But certain clues started piecing together a familiar picture. The detective recognized the suspect from a previous case. His instincts had been right all along. Soon, an arrest warrant was in motion.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "Mondays",
+        "verb": "dreaded",
+        "sentence": "She dreaded Mondays more than any other day of the week.",
+        "paragraph": "The weekend always seemed to pass too quickly. Responsibilities only added to her stress. She dreaded Mondays more than any other day of the week. Each one felt like a mountain to climb. But she resolved to tackle them with positivity moving forward.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the professor",
+        "object": "the theory",
+        "verb": "understood",
+        "sentence": "The professor understood the theory inside and out.",
+        "paragraph": "His lectures were concise and engaging. Every student left with newfound clarity. The professor understood the theory inside and out. His passion for the subject was evident in every word. Many looked up to him for guidance in their academic pursuits.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "she",
+        "object": "the melody",
+        "verb": "heard",
+        "sentence": "She heard the melody and hummed along unconsciously.",
+        "paragraph": "The radio played softly in the background. Familiar tunes always lifted her spirits. She heard the melody and hummed along unconsciously. Music had a way of transporting her to happier times. It was her favorite form of escape.",
+        "ratings": [5, 5, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the country",
+        "object": "several nations",
+        "verb": "bordered",
+        "sentence": "The country bordered several nations to the north and south.",
+        "paragraph": "Its geographic location made it a crossroads of cultures. Trade and travel flourished in such a dynamic environment. The country bordered several nations to the north and south. This gave rise to vibrant marketplaces and diverse influences. The future promised even more opportunity and growth.",
+        "ratings": [1, 1, 1, 1, 5, 5, 5, 5]
+    },
+    {
+        "subject": "the twins",
+        "object": "each other",
+        "verb": "resembled",
+        "sentence": "The twins resembled each other closely.",
+        "paragraph": "At first glance, they seemed identical. Upon closer inspection, though, subtle differences emerged. The twins resembled each other closely. This led to repeated cases of mistaken identity. To them, though, it was all in good fun.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "the bed",
+        "object": "two people",
+        "verb": "slept",
+        "sentence": "The bed slept two people comfortably.",
+        "paragraph": "The hotel room was cozy and inviting. Fresh linens and soft pillows awaited the weary travelers. The bed slept two people comfortably. After a long journey, they both drifted off soundly. They awoke refreshed and ready for a day of exploring.",
+        "ratings": [1, 1, 1, 1, 5, 5, 1, 1]
+    }
+]

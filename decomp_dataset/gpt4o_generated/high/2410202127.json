@@ -1,0 +1,123 @@
+
+[
+  {
+    "subject": "The construction crew",
+    "object": "the old building",
+    "verb": "demolish",
+    "sentence": "The construction crew demolished the old building within hours.",
+    "paragraph": "The city had decided on a new shopping complex. Plans were finalized and permits were approved. The construction crew demolished the old building within hours. A massive cloud of dust rose up as the walls came tumbling down. Soon, the site was clear for new development.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The pest control team",
+    "object": "the invasive ants",
+    "verb": "exterminate",
+    "sentence": "The pest control team exterminated the invasive ants from the kitchen.",
+    "paragraph": "The family was fed up with ants crawling everywhere. Finally, they called the experts. The pest control team exterminated the invasive ants from the kitchen. The kitchen was clear, and the family could cook without worry. No ant was left behind.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The lifeguard",
+    "object": "the child",
+    "verb": "drown",
+    "sentence": "The lifeguard saved the child from drowning at the beach.",
+    "paragraph": "Families enjoyed the sunny day at the beach. Suddenly, cries for help were heard near the water. The lifeguard saved the child from drowning at the beach. The child was brought safely to shore, and everyone breathed a sigh of relief. The lifeguard continued to monitor the beach vigilantly.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The sudden thunderstorm",
+    "object": "the little dog",
+    "verb": "frighten",
+    "sentence": "The sudden thunderstorm frightened the little dog.",
+    "paragraph": "The day was bright and sunny, perfect for a walk. Without warning, dark clouds gathered. The sudden thunderstorm frightened the little dog. The dog whimpered and hid under the bed. Eventually, the storm passed, and calm returned.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The chef",
+    "object": "the toast",
+    "verb": "burn",
+    "sentence": "The chef burned the toast in the busy kitchen.",
+    "paragraph": "The morning rush had everyone on edge. Orders were flying left and right. The chef burned the toast in the busy kitchen. The chef sighed and started over with fresh bread. Breakfast service continued at full speed.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The general",
+    "object": "a flawless military operation",
+    "verb": "execute",
+    "sentence": "The general executed a flawless military operation.",
+    "paragraph": "Plans were drawn up after weeks of intelligence gathering. The troops were ready. The general executed a flawless military operation. The mission was a success with no casualties. The general received praise for his leadership.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The child",
+    "object": "the expensive vase",
+    "verb": "break",
+    "sentence": "The child broke the expensive vase while playing.",
+    "paragraph": "The room was filled with laughter and games. The child was running around happily. The child broke the expensive vase while playing. The parents rushed in to survey the damage. Shards of porcelain were scattered across the floor.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The carpenter",
+    "object": "the nails",
+    "verb": "hammer",
+    "sentence": "The carpenter hammered the nails into the wooden plank.",
+    "paragraph": "The construction project was progressing well. The carpenter worked diligently on his section. The carpenter hammered the nails into the wooden plank. The plank was securely attached to the frame. The structure was taking shape beautifully.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The player",
+    "object": "the winning goal",
+    "verb": "kick",
+    "sentence": "The player kicked the winning goal in the final minutes.",
+    "paragraph": "The match was intense, with both teams showing excellent skills. The tension in the stadium was palpable. The player kicked the winning goal in the final minutes. Cheers erupted from the fans. The team celebrated their victory on the field.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The masked thief",
+    "object": "the bank",
+    "verb": "rob",
+    "sentence": "The masked thief robbed the bank in broad daylight.",
+    "paragraph": "The busy city street was filled with pedestrians. None suspected the drama about to unfold. The masked thief robbed the bank in broad daylight. Sirens wailed as the police arrived. The investigation began immediately.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 5, 5]
+  },
+  {
+    "subject": "The artist",
+    "object": "the brush",
+    "verb": "stab",
+    "sentence": "The artist stabbed the brush into the paint with vigor.",
+    "paragraph": "Inspiration struck as the artist stood before the blank canvas. He felt a surge of creativity. The artist stabbed the brush into the paint with vigor. Colors spread vibrantly across the canvas. The masterpiece slowly came to life.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The plastic bag",
+    "object": "the seedlings",
+    "verb": "suffocate",
+    "sentence": "The plastic bag suffocated the seedlings unintentionally.",
+    "paragraph": "The gardener left the new plants on the table. A gust of wind blew the bag over them. The plastic bag suffocated the seedlings unintentionally. The gardener discovered the suffocated plants too late. A lesson in carefulness was learned.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The ghost stories",
+    "object": "the children",
+    "verb": "terrorize",
+    "sentence": "The ghost stories terrorized the children around the campfire.",
+    "paragraph": "As darkness fell, the counselor suggested storytime. The children gathered eagerly with their blankets. The ghost stories terrorized the children around the campfire. Some were too frightened to sleep that night. They huddled close, reassuring each other.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The hurricane",
+    "object": "the seaside town",
+    "verb": "wreck",
+    "sentence": "The hurricane wrecked the seaside town over the weekend.",
+    "paragraph": "The town was bustling with tourists and locals enjoying the beach. Warnings were issued as the storm approached. The hurricane wrecked the seaside town over the weekend. The community came together to begin the cleanup. Rebuilding efforts were quickly organized.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  },
+  {
+    "subject": "The detective",
+    "object": "the complex murder case",
+    "verb": "murder",
+    "sentence": "The detective solved the complex murder case after months of investigation.",
+    "paragraph": "Evidence was collected painstakingly from the crime scene. Each clue led to more questions. The detective solved the complex murder case after months of investigation. The arrest was made, bringing relief to the victim's family. Justice was finally served.",
+    "ratings":  [5, 5, 5, 5, 5, 5, 1, 5]
+  }
+]

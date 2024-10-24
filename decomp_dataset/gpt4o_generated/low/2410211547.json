@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "the scientist",
+        "object": "the data",
+        "verb": "believed",
+        "sentence": "The scientist believed the data.",
+        "paragraph": "The experiment had been running for months. Every result seemed consistent with the hypothesis. The scientist believed the data. Confidence grew in the laboratory. A paper was soon published to great acclaim.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the child",
+        "object": "the darkness",
+        "verb": "feared",
+        "sentence": "The child feared the darkness.",
+        "paragraph": "It was late at night, and all the lights were off. Shadows danced on the walls. The child feared the darkness. He pulled the blanket over his head. Eventually, he fell asleep.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the soldier",
+        "object": "the terrain",
+        "verb": "recognized",
+        "sentence": "The soldier recognized the terrain.",
+        "paragraph": "They had been traveling for days. Supplies were running low. The soldier recognized the terrain. They realized they were close to the base. A sigh of relief passed through the group.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the team",
+        "object": "the meeting",
+        "verb": "dreaded",
+        "sentence": "The team dreaded the meeting.",
+        "paragraph": "Rumors were rampant about budget cuts. Anxiety spread quickly. The team dreaded the meeting. They feared bad news. The manager walked in with a serious face.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the leader",
+        "object": "the advisor",
+        "verb": "trusted",
+        "sentence": "The leader trusted the advisor.",
+        "paragraph": "Decisions were difficult with limited information. Every choice seemed to have significant consequences. The leader trusted the advisor. The plan was formed quickly. The mission was successful.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the detective",
+        "object": "the clue",
+        "verb": "noticed",
+        "sentence": "The detective noticed the clue.",
+        "paragraph": "The case was complex, with many twists and turns. Many had given up hope. The detective noticed the clue. It was an overlooked detail. The investigation was reinvigorated.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the teacher",
+        "object": "the question",
+        "verb": "understood",
+        "sentence": "The teacher understood the question.",
+        "paragraph": "Students were eager to learn. Questions flew about the challenging topic. The teacher understood the question. A comprehensive answer was given. Students noted it down appreciatively.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the commuter",
+        "object": "the train",
+        "verb": "missed",
+        "sentence": "The commuter missed the train.",
+        "paragraph": "The schedule was tight. As traffic worsened, nerves grew more frayed. The commuter missed the train. He sighed in frustration. Resigned, he awaited the next one.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the students",
+        "object": "the teacher",
+        "verb": "respected",
+        "sentence": "The students respected the teacher.",
+        "paragraph": "The teacher was known for insightful lectures. His teaching methods were engaging. The students respected the teacher. They listened intently. Grades reflected their dedication.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the athlete",
+        "object": "the coach",
+        "verb": "needed",
+        "sentence": "The athlete needed the coach.",
+        "paragraph": "The competition was fast approaching. Training sessions were intense. The athlete needed the coach. Guidance was crucial. Improvements showed daily.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the painting",
+        "object": "the landscape",
+        "verb": "resembled",
+        "sentence": "The painting resembled the landscape.",
+        "paragraph": "The artist spent days studying nature. Brushstrokes captured every detail. The painting resembled the landscape. Critics praised its realism. It was displayed in a renowned gallery.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the audience",
+        "object": "the melody",
+        "verb": "recognized",
+        "sentence": "The audience recognized the melody.",
+        "paragraph": "The orchestra played masterfully. Notes echoed through the hall. The audience recognized the melody. Applause followed swiftly. The performance was a true success.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the pilot",
+        "object": "the route",
+        "verb": "knew",
+        "sentence": "The pilot knew the route.",
+        "paragraph": "The sky was clear. Navigation was key for the mission. The pilot knew the route. Confidence boosted the crew's morale. Arriving at the destination was seamless.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the librarian",
+        "object": "the book",
+        "verb": "had",
+        "sentence": "The librarian had the book.",
+        "paragraph": "Students were frantically searching for resources. Deadlines were fast approaching. The librarian had the book. Relief spread among the students. Research was now possible.",
+        "scores": [1,1,1,1,1,1,1,1]
+    },
+    {
+        "subject": "the dog",
+        "object": "the whistle",
+        "verb": "heard",
+        "sentence": "The dog heard the whistle.",
+        "paragraph": "The park was bustling with activity. Pet owners chatted nearby. The dog heard the whistle. Its ears perked up. It ran towards its owner eagerly.",
+        "scores": [1,1,1,1,1,1,1,1]
+    }
+]

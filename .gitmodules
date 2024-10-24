@@ -1,3 +1,6 @@
 [submodule "decomp"]
 	path = decomp
 	url = git@github.com:decompositional-semantics-initiative/decomp.git
+[submodule "decomp_dataset/ud_english-ewt"]
+	path = decomp_dataset/ud_english-ewt
+	url = https://github.com/UniversalDependencies/UD_English-EWT.git

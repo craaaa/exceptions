@@ -1,0 +1,123 @@
+
+[
+    {
+        "subject": "Mary",
+        "object": "the stranger",
+        "verb": "trusted",
+        "sentence": "Mary trusted the stranger with her secret.",
+        "paragraph": "Mary had always been cautious with whom she shared her inner thoughts. After meeting the stranger at a café, she felt an instant connection. Mary trusted the stranger with her secret. It was a risk she was willing to take. Over time, she realized her decision was justified.",
+        "ratings": [5, 5, 5, 5, 1, 1, 2, 1]
+    },
+    {
+        "subject": "Alice",
+        "object": "the conversation between the two strangers",
+        "verb": "overheard",
+        "sentence": "Alice overheard the conversation between the two strangers.",
+        "paragraph": "Alice was sitting quietly at her corner table, sipping coffee. The café was bustling with morning chatter. Alice overheard the conversation between the two strangers. They were talking about a local event. Curiosity piqued, she pondered whether to join in.",
+        "ratings": [1, 2, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "John",
+        "object": "the upcoming meeting with his boss",
+        "verb": "dreaded",
+        "sentence": "John dreaded the upcoming meeting with his boss.",
+        "paragraph": "The news of the meeting had caught John off guard. He knew it was important. John dreaded the upcoming meeting with his boss. He spent the night preparing his documents. Despite his nerves, he hoped for a positive outcome.",
+        "ratings": [1, 1, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The painting",
+        "object": "a famous artwork by Van Gogh",
+        "verb": "resembled",
+        "sentence": "The painting resembled a famous artwork by Van Gogh.",
+        "paragraph": "The gallery was filled with stunning pieces. Each told its own story. The painting resembled a famous artwork by Van Gogh. It drew many admirers. Some even debated the artist's true identity behind it.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The community",
+        "object": "a new playground for the children",
+        "verb": "needed",
+        "sentence": "The community needed a new playground for the children.",
+        "paragraph": "Residents had voiced concerns about the lack of facilities. They wanted a safe place for kids. The community needed a new playground for the children. Plans were quickly drawn up. By year-end, the dream was realized.",
+        "ratings": [1, 2, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Lisa",
+        "object": "the promise she made to her friend",
+        "verb": "remembered",
+        "sentence": "Lisa remembered the promise she made to her friend.",
+        "paragraph": "It was a sunny afternoon when Lisa made the promise. Her friend was moving away. Lisa remembered the promise she made to her friend. She intended to keep in touch regularly. With each passing week, they exchanged letters.",
+        "ratings": [1, 3, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Tom",
+        "object": "the last train home",
+        "verb": "missed",
+        "sentence": "Tom missed the last train home.",
+        "paragraph": "The workday had been long and unforgiving. He rushed through the crowded streets. Tom missed the last train home. It was a mishap he hadn't anticipated. Accepting his fate, he called for a cab.",
+        "ratings": [1, 4, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "They",
+        "object": "the news of the storm approaching",
+        "verb": "heard",
+        "sentence": "They heard the news of the storm approaching.",
+        "paragraph": "The day had started out sunny and bright. As the afternoon wore on, clouds gathered ominously. They heard the news of the storm approaching. Urgency filled the air. People hurriedly took cover.",
+        "ratings": [1, 2, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sarah",
+        "object": "an unexpected letter from a distant relative",
+        "verb": "received",
+        "sentence": "Sarah received an unexpected letter from a distant relative.",
+        "paragraph": "It was just another day until the mail arrived. Bills, advertisements, and then something unusual. Sarah received an unexpected letter from a distant relative. Curious, she opened it immediately. To her surprise, it was an invitation.",
+        "ratings": [5, 4, 5, 5, 1, 1, 2, 1]
+    },
+    {
+        "subject": "He",
+        "object": "the sunrise over the mountains",
+        "verb": "saw",
+        "sentence": "He saw the sunrise over the mountains.",
+        "paragraph": "The night had been cold but peaceful. As dawn approached, Mark found himself restless. He saw the sunrise over the mountains. The view was breathtaking. It was the perfect beginning to his day.",
+        "ratings": [1, 4, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The children",
+        "object": "the dark forest beyond their village",
+        "verb": "feared",
+        "sentence": "The children feared the dark forest beyond their village.",
+        "paragraph": "Stories passed down through generations warned of dangers. Yet, curiosity often crept in. The children feared the dark forest beyond their village. Their parents' warnings echoed in their minds. Few dared to venture close.",
+        "ratings": [1, 2, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The garden",
+        "object": "a good dose of rain",
+        "verb": "needed",
+        "sentence": "The garden needed a good dose of rain.",
+        "paragraph": "Weeks of dry weather had taken their toll. The once vibrant flowers now drooped. The garden needed a good dose of rain. The forecast, thankfully, was promising rain soon. Hope restored, anticipation grew.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+        "subject": "Sheila",
+        "object": "the importance of her role in the project",
+        "verb": "understood",
+        "sentence": "Sheila understood the importance of her role in the project.",
+        "paragraph": "The project was under tight deadlines. Every team member had a crucial task. Sheila understood the importance of her role in the project. She didn't take her responsibilities lightly. Her dedication inspired others.",
+        "ratings": [1, 3, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "We",
+        "object": "the path was treacherous",
+        "verb": "knew",
+        "sentence": "We knew the path was treacherous.",
+        "paragraph": "The mountain loomed above us, shrouded in mist. Stories of past expeditions floated in our minds. We knew the path was treacherous. With every step, caution was paramount. Yet the thrill of the climb inspired us.",
+        "ratings": [1, 4, 5, 5, 1, 1, 1, 1]
+    },
+    {
+        "subject": "The team",
+        "object": "the resources to complete the project",
+        "verb": "lacked",
+        "sentence": "The team lacked the resources to complete the project.",
+        "paragraph": "From the outset, budget constraints were evident. Management had made this clear. The team lacked the resources to complete the project. Yet, their determination was admirable. They sought creative solutions to bridge the gap.",
+        "ratings": [1, 1, 1, 1, 1, 1, 1, 1]
+    }
+]
