@@ -1,3 +1,4 @@
+frame_no,group,set,active,passive,verb,verb_class,subject,object,is_passivizable,active_score,passive_score,pass_drop
 1,A,1,Your investment benefited the community.,The community was benefited by your investment.,benefited,Advantage,donation,communities,0,-21.908296585083008,-28.128849029541016,6.220552444458008
 1,A,2,Your investment profited the community.,The community was profited by your investment.,profited,Advantage,donation,communities,0,-23.774980545043945,-29.784683227539062,6.009702682495117
 2,A,1,The exercise helped his fitness.,His fitness was helped by the exercise.,helped,Advantage,exercise,fitness,1,-23.312244415283203,-26.37980842590332,3.067564010620117
