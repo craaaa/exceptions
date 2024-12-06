@@ -13,6 +13,8 @@ match_verbs = ["approximate", "match", "mirror", "resemble"]
 agent_patient = ["hit", "wash", "carry", "push", "drop"]
 exp_theme = ["see", "hear", "like", "know", "remember"]
 
+all_verbs = cost_verbs + take_verbs + benefit_verbs + ooze_verbs + match_verbs + agent_patient + exp_theme
+
 verb_forms = {
     'last': {
         'VB': 'last',
