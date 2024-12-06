@@ -1,13 +1,9 @@
-import argparse
 import corpus_utils
 from tqdm import tqdm
 from datasets import load_dataset
-import pickle
-import glob
-import os
-from pathlib import Path
 import pyrootutils
-from spacy.matcher import Matcher
+import os
+import json
 
 PROJECT_ROOT = path = pyrootutils.find_root(
     search_from=__file__, indicator=".project-root"
@@ -15,12 +11,13 @@ PROJECT_ROOT = path = pyrootutils.find_root(
 
 def main(dataset_name):
     # make directory for results if it doesn't exist
-    results_dir = PROJECT_ROOT / "scores" / "corpus" / dataset_name
+    local_dataset_name = os.path.basename(dataset_name) # remove trailing slash
+    results_dir = PROJECT_ROOT / "results" / "corpus" / local_dataset_name
     os.makedirs(results_dir, exist_ok=True)
 
     # load dataset from huggingface
     dataset = load_dataset(dataset_name)
-    texts = dataset['train']['text'][:1000]
+    texts = dataset['train']['text']
 
     nlp = corpus_utils.load_model()
     matcher = corpus_utils.load_matcher(nlp, corpus_utils.all_verbs)
@@ -57,8 +54,9 @@ def main(dataset_name):
     print(counts)
 
 
-    with open(results_dir / 'counts.txt', 'w') as f:
-        f.write(str(counts))
+    # save counts to json
+    with open(results_dir / 'counts.json', 'w') as f:
+        json.dump(counts, f)
 
     print("Saved dataset.")
 

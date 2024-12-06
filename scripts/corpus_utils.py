@@ -1,6 +1,5 @@
 import random
 import spacy
-import spacy_transformers
 from spacy.matcher import Matcher
 
 random.seed(4182)
@@ -42,7 +41,7 @@ verb_forms = {
     }
 }
 
-def load_model(require_gpu=True):
+def load_model(require_gpu=False):
     if require_gpu:
         spacy.require_gpu()
     nlp = spacy.load("en_core_web_trf", disable=["ner", "textcat", "entity_linker", "entity_ruler", "textcat_multilabel", "senter", "sentencizer", "tok2vec"])
