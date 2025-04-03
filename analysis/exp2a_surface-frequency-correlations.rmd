@@ -1,0 +1,75 @@
+---
+title: "surface frequency correlations"
+output: html_document
+date: "2024-12-06"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+here::i_am("analysis/exp2a_surface-frequency-correlations.Rmd")
+library(here)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(tidyr)
+library(ggrepel)
+library(gghalves)
+library(colorBlindness)
+library(showtext)
+library(ggokabeito)
+library(patchwork)
+library(ggpattern)
+
+source(here("analysis", "utils.R"))
+
+font_add("fira", "FiraSans-Regular.ttf")
+font_add("firal", "FiraSans-Light.ttf")
+
+theme_set(theme_light() + theme(text = element_text(size = 14, family = "fira")))
+
+set.seed(123)
+```
+
+```{r}
+# Read in frequency counts from 100M corpus
+freq_counts <- jsonlite::fromJSON(here("data", "100M", "counts.json"))
+
+# Convert to dataframe format
+freq_df <- data.frame(
+  verb = namesfreq_counts),
+  all = sapply(freq_counts, function(x) x$all),
+  active = sapply(freq_counts, function(x) x$active), 
+  passive = sapply(freq_counts, function(x) x$passive),
+  other = sapply(freq_counts, function(x) x$other)
+) %>%
+  mutate(
+    active_prop = active / all,
+    passive_prop = passive / all,
+    other_prop = other / all,
+    act_pass_ratio = active / passive
+  )
+```
+
+```{r}
+# Import model results
+model_results <- list.files(path = here("scores", "exp1b"), pattern = "*.csv", full.names = TRUE) %>%
+    read_csv(id = "file_name") %>%
+    mutate(file_name = (basename(file_name)),
+    lemma = get_lemma(verb)
+    )
+
+mean_model_results <- model_results %>%
+  group_by(lemma) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+```
+
+```{r}
+# Calculate correlation between model scores and frequency counts
+merged <- mean_model_results %>% left_join(freq_df, by = c("lemma" = "verb"))
+merged %>% drop_na()
+cor.test(merged$Mean, merged$act_pass_ratio, method = "spearman")
+```

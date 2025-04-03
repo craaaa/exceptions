@@ -1,0 +1,220 @@
+---
+title: "Split-half analysis"
+date: "2024-06-30"
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+add_split_by_factor <- function(dataset, by_factor = "id") {
+  factors <- dataset %>% select(by_factor) %>% unique()
+  random_sample <- sample(seq_len(nrow(factors)), size = nrow(factors) / 2)
+  group1 <- factors[random_sample,] %>% pull(by_factor)
+  group2 <- factors[-random_sample, ] %>% pull(by_factor)
+  return(dataset %>% 
+           mutate(split_factor = ifelse(!!as.name(by_factor) %in% group1, 1, 2)) %>%
+           mutate(split_factor = factor(split_factor))
+         )
+}
+
+
+get_split_half_cor <- function(dataset) {
+  split_dataset <- add_split_by_factor(dataset)
+  half1 <- split_dataset %>% 
+    filter(split_factor == 1) %>% 
+    group_by(frame, verb, sentence_type) %>% 
+    summarise(half1 = mean(score), .groups='keep')
+  half2 <- split_dataset %>%
+    filter(split_factor == 2) %>% 
+    group_by(frame, verb, sentence_type) %>% 
+    summarise(half2 = mean(score), .groups='keep')
+  together <- left_join(half1, half2, by=join_by(frame, verb, sentence_type))
+  return(cor(x=together$half1, y=together$half2, method="pearson"))
+}
+
+get_avg_split_half_cor <- function(dataset, iterations=1000, n=10) {
+  all_cors <- c()
+  for (i in 1:iterations) {
+    cors <- c()
+    for (j in 1:n) {
+    cors <- c(cors, get_split_half_cor(dataset))
+    }
+    all_cors <- c(all_cors, mean(cors))
+  }
+  return(all_cors)
+}
+```
+
+```{r}
+fillers_human %>%
+  ggplot(aes(x=score, fill=sentence_type)) +
+  geom_histogram() +
+  facet_wrap(vars(order_no))
+```
+
+
+```{r}
+split_half_alltest <- get_avg_split_half_cor(scores_human)
+summary(split_half_alltest)
+```
+
+```{r}
+split_half_agtpat <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Agent-Patient"),iterations=1000, n=10)
+summary(split_half_agtpat)
+```
+
+```{r}
+split_half_expthm <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Experiencer-Theme"))
+summary(split_half_expthm)
+```
+
+
+```{r}
+split_half_duration <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Duration"))
+summary(split_half_duration)
+```
+
+```{r}
+split_half_ooze <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Ooze"))
+summary(split_half_ooze)
+```
+
+```{r}
+split_half_advantage <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Advantage"))
+summary(split_half_advantage)
+```
+
+```{r}
+split_half_estimation <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Estimation"))
+summary(split_half_estimation)
+```
+
+```{r}
+split_half_price <- get_avg_split_half_cor(scores_human %>% filter(verb_class == "Price"))
+summary(split_half_price)
+```
+
+```{r}
+split_half_fillers <- get_avg_split_half_cor(fillers_human)
+summary(split_half_fillers)
+```
+
+
+```{r}
+get_split_half_cor_ambridge <- function(dataset) {
+  split_dataset <- add_split_by_factor(dataset, by="Participant")
+  half1 <- split_dataset %>% 
+    filter(split_factor == 1) %>% 
+    group_by(Verb, Set, Stype) %>% 
+    summarise(half1 = mean(Rating), .groups='keep')
+  half2 <- split_dataset %>%
+    filter(split_factor == 2) %>%
+    group_by(Verb, Set, Stype) %>%
+    summarise(half2 = mean(Rating), .groups = "keep")
+  together <- left_join(half1, half2, by = join_by(Verb, Set, Stype))
+  return(cor(x=together$half1, y=together$half2, method="pearson"))
+}
+
+get_avg_split_half_cor_ambridge <- function(dataset, iterations=1000, n=10) {
+  all_cors <- c()
+  for (i in 1:iterations) {
+    cors <- c()
+    for (j in 1:n) {
+    cors <- c(cors, get_split_half_cor_ambridge(dataset))
+    print(cors)
+    }
+    all_cors <- c(all_cors, mean(cors))
+  }
+  return(all_cors)
+}
+```
+
+```{r}
+spearman_brown_correction <- function(r, k) {
+  return((k * r) / (1 + (k - 1) * r))
+}
+```
+```{r}
+split_half_ambridge_human <- get_avg_split_half_cor_ambridge(
+  human_results %>% filter(FullStype != "DIFF"),
+  iterations = 1000,
+)
+summary(split_half_ambridge_human)
+Hmisc::smean.cl.boot(split_half_ambridge_human) %>% t() %>% as.data.frame()
+spearman_brown_correction(r=mean(split_half_ambridge_human, na.rm=TRUE), k=2)
+```
+
+```{r}
+human_results_agtpat <- human_results %>% 
+  filter(FullSet == "Y") %>%
+  filter(VtypeNEW == "(a) Agent-Patient")
+
+split_half_ambridge_human_agtpat <- get_avg_split_half_cor_ambridge(
+  human_results_agtpat,
+  iterations = 1000,
+)
+summary(split_half_ambridge_human_agtpat)
+Hmisc::smean.cl.boot(split_half_ambridge_human_agtpat) %>% t() %>% as.data.frame()
+
+spearman_brown_correction(r=mean(split_half_ambridge_human_agtpat, na.rm=TRUE), k=2)
+
+```
+
+```{r}
+human_results_thmexp <- human_results %>% 
+  filter(FullSet == "Y") %>%
+  filter(VtypeNEW == "(b) Theme-Experiencer")
+
+split_half_ambridge_human_thmexp <- get_avg_split_half_cor_ambridge(
+  human_results_thmexp,
+  iterations = 1000,
+)
+summary(split_half_ambridge_human_thmexp)
+Hmisc::smean.cl.boot(split_half_ambridge_human_thmexp) %>% t() %>% as.data.frame()
+spearman_brown_correction(r=mean(split_half_ambridge_human_thmexp, na.rm=TRUE), k=2)
+```
+
+```{r}
+human_results_expthm <- human_results %>% 
+  filter(FullSet == "Y") %>%
+  filter(VtypeNEW == "(c) Experiencer-Theme")
+
+split_half_ambridge_human_expthm <- get_avg_split_half_cor_ambridge(
+  human_results_expthm,
+  iterations = 1000,
+)
+summary(split_half_ambridge_human_expthm)
+Hmisc::smean.cl.boot(split_half_ambridge_human_expthm) %>% t() %>% as.data.frame()
+spearman_brown_correction(r=mean(split_half_ambridge_human_expthm, na.rm=TRUE), k=2)
+```
+
+```{r}
+human_results_other <- human_results %>% 
+  filter(FullSet == "Y") %>%
+  filter(VtypeNEW == "(d) Other Passivizable")
+
+split_half_ambridge_human_other <- get_avg_split_half_cor_ambridge(
+  human_results_other,
+  iterations = 1000,
+)
+summary(split_half_ambridge_human_other)
+Hmisc::smean.cl.boot(split_half_ambridge_human_other) %>% t() %>% as.data.frame()
+spearman_brown_correction(r=mean(split_half_ambridge_human_other, na.rm=TRUE), k=2)
+```
+
+```{r}
+human_results_nonpass <- human_results %>% 
+  filter(FullSet == "Y") %>%
+  filter(VtypeNEW == "(e) Non-Passivizable")
+
+split_half_ambridge_human_nonpass <- get_avg_split_half_cor_ambridge(
+  human_results_nonpass,
+  iterations = 1000,
+)
+summary(split_half_ambridge_human_nonpass)
+Hmisc::smean.cl.boot(split_half_ambridge_human_nonpass) %>% t() %>% as.data.frame()
+spearman_brown_correction(r=mean(split_half_ambridge_human_nonpass, na.rm=TRUE), k=2)
+```

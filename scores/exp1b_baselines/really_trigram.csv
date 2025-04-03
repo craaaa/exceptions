@@ -1,0 +1,141 @@
+frame_no,group,set,active,passive,verb,verb_class,subject,object,is_passivizable,active_score,passive_score,pass_drop
+1,A,1,Your investment really benefited the community.,The community was really benefited by your investment.,benefited,Advantage,donation,communities,0,-24.965463638305664,-28.86570167541504,3.900238037109375
+1,A,2,Your investment really profited the community.,The community was really profited by your investment.,profited,Advantage,donation,communities,0,-27.673654556274414,-31.56475067138672,3.8910961151123047
+2,A,1,The exercise really helped his fitness.,His fitness was really helped by the exercise.,helped,Advantage,exercise,fitness,1,-25.48957061767578,-27.54398536682129,2.054414749145508
+2,A,2,The exercise really strengthened his fitness.,His fitness was really strengthened by the exercise.,strengthened,Advantage,exercise,fitness,1,-27.314212799072266,-29.69890594482422,2.384693145751953
+3,A,1,Our friendship really benefited my life.,My life was really benefited by our friendship.,benefited,Advantage,friendship,life,0,-26.390417098999023,-28.651321411132812,2.260904312133789
+3,A,2,Our friendship really profited my life.,My life was really profited by our friendship.,profited,Advantage,friendship,life,0,-27.857912063598633,-31.35036849975586,3.4924564361572266
+4,A,1,The law really helped these workers.,These workers were really helped by the law.,helped,Advantage,law,workers,1,-26.11380386352539,-23.871700286865234,-2.2421035766601562
+4,A,2,The law really strengthened these workers.,These workers were really strengthened by the law.,strengthened,Advantage,law,workers,1,-28.496410369873047,-26.026620864868164,-2.469789505004883
+5,A,1,The treaty really benefited both countries.,Both countries were really benefited by the treaty.,benefited,Advantage,treaty,countries,0,-25.62944793701172,-28.3795223236084,2.7500743865966797
+5,A,2,The treaty really strengthened both countries.,Both countries were really strengthened by the treaty.,strengthened,Advantage,treaty,countries,1,-28.120168685913086,-28.583337783813477,0.4631690979003906
+6,A,1,Your dish really cost ninety dollars.,Ninety dollars was really cost by your dish.,cost,Price,dish,dollars,0,-30.868623733520508,-32.89601135253906,2.0273876190185547
+6,A,2,Your dish really fetched ninety dollars.,Ninety dollars was really fetched by your dish.,fetched,Price,dish,dollars,1,-33.043148040771484,-35.5565299987793,2.5133819580078125
+7,A,1,The painting really earned a fortune.,A fortune was really earned by the painting.,earned,Price,painting,fortune,1,-25.741825103759766,-28.57373046875,2.8319053649902344
+8,A,2,The tickets really cost a lot of money.,A lot of money was really cost by the tickets.,cost,Price,initiative,money,0,-24.30437660217285,-33.058929443359375,8.754552841186523
+8,A,1,The tickets really fetched a lot of money.,A lot of money was really fetched by the tickets.,fetched,Price,initiative,money,1,-26.5657958984375,-35.71944808959961,9.15365219116211
+9,A,2,Your book really earned thirty dollars.,Thirty dollars was really earned by your book.,earned,Price,book,dollars,1,-27.933725357055664,-30.205013275146484,2.2712879180908203
+10,A,1,His actions really cost the medal.,The medal was really cost by his actions.,cost,Price,actions,medal,0,-25.87386703491211,-28.49226188659668,2.6183948516845703
+10,A,2,His actions really fetched the medal.,The medal was really fetched by his actions.,fetched,Price,actions,medal,1,-29.232704162597656,-31.152780532836914,1.9200763702392578
+11,A,1,My friend really emanated confidence.,Confidence was really emanated by my friend.,emanated,Ooze,friend,confidence,0,-27.510011672973633,-27.87964630126953,0.36963462829589844
+11,A,2,My friend really radiated confidence.,Confidence was really radiated by my friend.,radiated,Ooze,friend,confidence,0,-26.88363265991211,-27.253265380859375,0.3696327209472656
+12,A,1,The lightbulb really discharged some light.,Some light was really discharged by the lightbulb.,discharged,Ooze,lightbulb,light,1,-30.611328125,-34.83085250854492,4.219524383544922
+12,A,2,The lightbulb really emitted some light.,Some light was really emitted by the lightbulb.,emitted,Ooze,lightbulb,light,1,-30.711688995361328,-31.827648162841797,1.1159591674804688
+13,A,1,That machine really emanated a sound.,A sound was really emanated by that machine.,emanated,Ooze,machine,sound,0,-29.07172203063965,-34.29462814331055,5.222906112670898
+13,A,2,That machine really radiated a sound.,A sound was really radiated by that machine.,radiated,Ooze,machine,sound,0,-28.445341110229492,-33.66824722290039,5.222906112670898
+14,A,1,The teacher really discharged wisdom.,Wisdom was really discharged by the teacher.,discharged,Ooze,teacher,wisdom,1,-27.224517822265625,-27.623817443847656,0.39929962158203125
+14,A,2,The teacher really emitted wisdom.,Wisdom was really emitted by the teacher.,emitted,Ooze,teacher,wisdom,1,-27.32487678527832,-24.62061309814453,-2.704263687133789
+15,A,1,The trash really emanated an odor.,An odor was really emanated by the trash.,emanated,Ooze,trash,odor,0,-33.35832977294922,-33.92245864868164,0.5641288757324219
+15,A,2,The trash really emitted an odor.,An odor was really emitted by the trash.,emitted,Ooze,trash,odor,1,-32.46023178100586,-29.92079734802246,-2.5394344329833984
+16,A,1,Your drawing really approximated her likeness.,Her likeness was really approximated by the drawing.,approximated,Estimation,drawing,likeness,1,-30.04046630859375,-34.82847213745117,4.788005828857422
+16,A,2,Your drawing really mirrored her likeness.,Her likeness was really mirrored by the drawing.,mirrored,Estimation,drawing,likeness,1,-27.65045928955078,-32.983463287353516,5.333003997802734
+17,A,1,Your friend really matched my brother.,My brother was really matched by your friend.,matched,Estimation,friend,brother,1,-27.150144577026367,-29.838850021362305,2.6887054443359375
+17,A,2,Your friend really resembled my brother.,My brother was really resembled by your friend.,resembled,Estimation,friend,brother,0,-28.620027542114258,-31.78066062927246,3.160633087158203
+18,A,1,The character really approximated the author.,The author was really approximated by the character.,approximated,Estimation,author,character,1,-29.10283088684082,-31.7023868560791,2.5995559692382812
+18,A,2,The character really mirrored the author.,The author was really mirrored by the character.,mirrored,Estimation,author,character,1,-26.959070205688477,-29.857379913330078,2.8983097076416016
+19,A,1,Her son really matched her father.,Her father was really matched by her son.,matched,Estimation,son,father,1,-27.64089584350586,-28.445959091186523,0.8050632476806641
+19,A,2,Her son really resembled her father.,Her father was really resembled by her son.,resembled,Estimation,son,father,0,-28.097980499267578,-30.38776969909668,2.2897891998291016
+20,A,1,The copy really approximated the original.,The original was really approximated by the copy.,approximated,Estimation,copy,original,1,-28.104961395263672,-33.3543701171875,5.249408721923828
+20,A,2,The copy really resembled the original.,The original was really resembled by the copy.,resembled,Estimation,copy,original,0,-25.51272201538086,-32.45582962036133,6.943107604980469
+21,A,1,The journey really required three days.,Three days were really required by the journey.,required,Duration,journey,days,1,-26.2266902923584,-27.392377853393555,1.1656875610351562
+22,A,2,My meeting really lasted two hours.,Two hours was really lasted by my meeting.,lasted,Duration,meeting,hours,0,-24.546361923217773,-31.275585174560547,6.729223251342773
+22,A,1,My meeting really took two hours.,Two hours was really taken by my meeting.,took,Duration,meeting,hours,0,-24.273176193237305,-28.427230834960938,4.154054641723633
+23,A,2,The interview really required some time.,Some time was really required by the interview.,required,Duration,interview,time,1,-24.15847396850586,-26.540647506713867,2.382173538208008
+24,A,1,Her speech really lasted seventeen minutes.,Seventeen minutes was really lasted by her speech.,lasted,Duration,speech,minutes,0,-30.849943161010742,-31.633190155029297,0.7832469940185547
+24,A,2,Her speech really took seventeen minutes.,Seventeen minutes was really taken by her speech.,took,Duration,speech,minutes,0,-29.223554611206055,-28.506067276000977,-0.7174873352050781
+25,A,1,His trek really required a month.,A month was really required by his trek.,required,Duration,trek,month,1,-25.198925018310547,-31.943252563476562,6.744327545166016
+26,A,2,My brother really hit your friend.,your friend was really hit by my brother.,hit,Agent-patient,my brother,your friend,1,-24.92475128173828,-21.672212600708008,-3.2525386810302734
+26,A,1,Your sister really hit the target.,The target was really hit by your sister.,hit,Agent-patient,your sister,the target,1,-22.274194717407227,-27.826007843017578,5.551813125610352
+26,A,2,The child really hit the ball.,The ball was really hit by the child.,hit,Agent-patient,the child,the ball,1,-21.78729820251465,-26.080615997314453,4.293317794799805
+27,A,1,My brother really pushed a child.,A child was really pushed by my brother.,pushed,Agent-patient,my brother,a child,1,-25.731433868408203,-28.687578201293945,2.956144332885742
+27,A,2,The mother really pushed my toy.,My toy was really pushed by the mother.,pushed,Agent-patient,the mother,my toy,1,-29.010562896728516,-27.706552505493164,-1.3040103912353516
+28,A,1,A boy really washed the cup.,The cup was really washed by a boy.,washed,Agent-patient,a boy,the cup,1,-27.4589900970459,-30.983482360839844,3.5244922637939453
+28,A,2,A child really washed the bag.,The bag was really washed by a child.,washed,Agent-patient,a child,the bag,1,-26.86079216003418,-29.885568618774414,3.0247764587402344
+28,A,1,My sister really washed a towel.,A towel was really washed by my sister.,washed,Agent-patient,my sister,a towel,1,-28.69918441772461,-32.71668243408203,4.017498016357422
+29,A,2,My brother really dropped my plate.,My plate was really dropped by my brother.,dropped,Agent-patient,my brother,my plate,1,-28.583303451538086,-30.41370964050293,1.8304061889648438
+29,A,1,The mother really dropped my toy.,My toy was really dropped by the mother.,dropped,Agent-patient,the mother,my toy,1,-29.565303802490234,-28.6643123626709,-0.9009914398193359
+30,A,2,A boy really carried my bag.,My bag was really carried by a boy.,carried,Agent-patient,a boy,my bag,1,-28.11421012878418,-28.26593017578125,0.1517200469970703
+30,A,1,Your mother really carried the child.,The child was really carried by your mother.,carried,Agent-patient,your mother,the child,1,-25.76990509033203,-29.24408531188965,3.474180221557617
+31,A,2,My brother really saw your friend.,Your friend was really seen by my brother.,saw,Experiencer-theme,my brother,your friend,1,-25.621931076049805,-28.826135635375977,3.204204559326172
+31,A,1,Your dog really saw the toy.,The toy was really seen by your dog.,saw,Experiencer-theme,your dog,the toy,1,-24.198129653930664,-29.085084915161133,4.886955261230469
+31,A,2,Your sister really saw a book.,A book was really seen by your sister.,saw,Experiencer-theme,your sister,a book,1,-24.849885940551758,-28.890453338623047,4.040567398071289
+32,A,1,A boy really heard the sound.,The sound was really heard by a boy.,heard,Experiencer-theme,a boy,the sound,1,-24.457063674926758,-29.775524139404297,5.318460464477539
+32,A,2,The child really heard the rules.,The rules were really heard by the child.,heard,Experiencer-theme,the rules,a monkey,1,-24.919645309448242,-27.828989028930664,2.909343719482422
+33,A,1,My brother really knew your friend.,Your friend was really known by my brother.,knew,Experiencer-theme,my brother,your friend,1,-25.2563419342041,-28.80662727355957,3.5502853393554688
+33,A,2,Your dog really knew my cat.,My cat was really known by your dog.,knew,Experiencer-theme,your dog,my cat,1,-24.869491577148438,-29.36441993713379,4.494928359985352
+33,A,1,Your sister really knew my brother.,My brother was really known by your sister.,knew,Experiencer-theme,your sister,my brother,1,-24.86757469177246,-29.860332489013672,4.992757797241211
+34,A,2,A boy really liked the game.,The game was really liked by a boy.,liked,Experiencer-theme,a boy,the game,1,-22.385374069213867,-27.730600357055664,5.345226287841797
+34,A,1,The child really liked a monkey.,A monkey was really liked by the child.,liked,Experiencer-theme,the child,a monkey,1,-27.3386173248291,-29.01175880432129,1.6731414794921875
+35,A,2,My brother really remembered your friend.,Your friend was really remembered by my brother.,remembered,Experiencer-theme,my brother,your friend,1,-27.673398971557617,-30.33546257019043,2.6620635986328125
+35,A,1,Your dog really remembered my toy.,My toy was really remembered by your dog.,remembered,Experiencer-theme,your dog,my toy,1,-29.731204986572266,-30.594411849975586,0.8632068634033203
+35,A,2,Your sister really remembered a book.,A book was really remembered by your sister.,remembered,Experiencer-theme,your sister,a book,1,-26.86113739013672,-30.399782180786133,3.538644790649414
+1,B,1,Your investment really helped the community.,The community was really helped by your investment.,helped,Advantage,donation,communities,1,-23.66744613647461,-27.626541137695312,3.959095001220703
+1,B,2,Your investment really strengthened the community.,The community was really strengthened by your investment.,strengthened,Advantage,donation,communities,1,-26.324871063232422,-29.872589111328125,3.547718048095703
+2,B,1,The exercise really benefited his fitness.,His fitness was really benefited by the exercise.,benefited,Advantage,exercise,fitness,0,-27.775676727294922,-29.49509048461914,1.7194137573242188
+2,B,2,The exercise really profited his fitness.,His fitness was really profited by the exercise.,profited,Advantage,exercise,fitness,0,-29.2431697845459,-32.19413757324219,2.950967788696289
+3,B,1,Our friendship really helped my life.,My life was really helped by our friendship.,helped,Advantage,friendship,life,1,-24.666881561279297,-27.412158966064453,2.7452774047851562
+3,B,2,Our friendship really strengthened my life.,My life was really strengthened by our friendship.,strengthened,Advantage,friendship,life,1,-26.187902450561523,-29.658206939697266,3.470304489135742
+4,B,1,The law really benefited these workers.,These workers were really benefited by the law.,benefited,Advantage,law,workers,0,-27.527822494506836,-25.822805404663086,-1.70501708984375
+4,B,2,The law really profited these workers.,These workers were really profited by the law.,profited,Advantage,law,workers,0,-28.99531364440918,-28.5218563079834,-0.47345733642578125
+5,B,1,The treaty really helped both countries.,Both countries were really helped by the treaty.,helped,Advantage,treaty,countries,1,-25.73756217956543,-26.428415298461914,0.6908531188964844
+5,B,2,The treaty really profited both countries.,Both countries were really profited by the treaty.,profited,Advantage,treaty,countries,0,-28.61907196044922,-31.078569412231445,2.4594974517822266
+6,B,1,Your dish really earned ninety dollars.,Ninety dollars was really earned by your dish.,earned,Price,dish,dollars,1,-31.303823471069336,-32.57170486450195,1.2678813934326172
+7,B,2,The painting really cost a fortune.,A fortune was really cost by the painting.,cost,Price,painting,fortune,0,-26.251733779907227,-29.003620147705078,2.7518863677978516
+7,B,1,The painting really fetched a fortune.,A fortune was really fetched by the painting.,fetched,Price,painting,fortune,1,-28.266891479492188,-31.664140701293945,3.397249221801758
+8,B,2,The tickets really earned a lot of money.,A lot of money was really earned by the tickets.,earned,Price,initiative,money,1,-25.50412940979004,-32.62903594970703,7.124906539916992
+9,B,1,Your book really cost thirty dollars.,Thirty dollars was really cost by your book.,cost,Price,book,dollars,0,-27.498525619506836,-30.52931785583496,3.030792236328125
+9,B,2,Your book really fetched thirty dollars.,Thirty dollars was really fetched by your book.,fetched,Price,book,dollars,1,-29.673053741455078,-33.189842224121094,3.5167884826660156
+10,B,1,His actions really earned the medal.,The medal was really earned by his actions.,earned,Price,actions,medal,1,-26.24849510192871,-28.167959213256836,1.919464111328125
+11,B,2,My friend really discharged confidence.,Confidence was really discharged by my friend.,discharged,Ooze,friend,confidence,1,-26.511552810668945,-26.88118553161621,0.3696327209472656
+11,B,1,My friend really emitted confidence.,Confidence was really emitted by my friend.,emitted,Ooze,friend,confidence,1,-26.611913681030273,-24.893625259399414,-1.7182884216308594
+12,B,2,The lightbulb really emanated some light.,Some light was really emanated by the lightbulb.,emanated,Ooze,lightbulb,light,0,-31.609786987304688,-35.82931137084961,4.219524383544922
+12,B,1,The lightbulb really radiated some light.,Some light was really radiated by the lightbulb.,radiated,Ooze,lightbulb,light,0,-30.983407974243164,-35.20293045043945,4.219522476196289
+13,B,2,That machine really discharged a sound.,A sound was really discharged by that machine.,discharged,Ooze,machine,sound,1,-28.07326316833496,-33.29616928100586,5.222906112670898
+13,B,1,That machine really emitted a sound.,A sound was really emitted by that machine.,emitted,Ooze,machine,sound,1,-26.749055862426758,-31.308609008789062,4.559553146362305
+14,B,2,The teacher really emanated wisdom.,Wisdom was really emanated by the teacher.,emanated,Ooze,teacher,wisdom,0,-28.22297477722168,-28.622278213500977,0.3993034362792969
+14,B,1,The teacher really radiated wisdom.,Wisdom was really radiated by the teacher.,radiated,Ooze,teacher,wisdom,0,-27.596595764160156,-27.99589729309082,0.39930152893066406
+15,B,2,The trash really discharged an odor.,An odor was really discharged by the trash.,discharged,Ooze,trash,odor,1,-32.35987091064453,-32.92399978637695,0.5641288757324219
+15,B,1,The trash really radiated an odor.,An odor was really radiated by the trash.,radiated,Ooze,trash,odor,0,-32.73195266723633,-33.296077728271484,0.5641250610351562
+16,B,2,Your drawing really matched her likeness.,Her likeness was really matched by the drawing.,matched,Estimation,drawing,likeness,1,-28.684843063354492,-31.339862823486328,2.655019760131836
+16,B,1,Your drawing really resembled her likeness.,Her likeness was really resembled by the drawing.,resembled,Estimation,drawing,likeness,0,-29.14192771911621,-33.929931640625,4.788003921508789
+17,B,2,Your friend really approximated my brother.,My brother was really approximated by your friend.,approximated,Estimation,friend,brother,1,-29.518566131591797,-32.67919921875,3.160633087158203
+17,B,1,Your friend really mirrored my brother.,My brother was really mirrored by your friend.,mirrored,Estimation,friend,brother,1,-28.45074462890625,-30.83419418334961,2.3834495544433594
+18,B,2,The character really matched the author.,The author was really matched by the character.,matched,Estimation,author,character,1,-26.362014770507812,-28.213773727416992,1.8517589569091797
+18,B,1,The character really resembled the author.,The author was really resembled by the character.,resembled,Estimation,author,character,0,-26.510591506958008,-30.80384635925293,4.293254852294922
+19,B,2,Her son really approximated her father.,Her father was really approximated by her son.,approximated,Estimation,son,father,1,-28.996519088745117,-31.28631019592285,2.2897911071777344
+19,B,1,Her son really mirrored her father.,Her father was really mirrored by her son.,mirrored,Estimation,son,father,1,-26.60651397705078,-29.44130516052246,2.8347911834716797
+20,B,2,The copy really matched the original.,The original was really matched by the copy.,matched,Estimation,copy,original,1,-25.36414337158203,-29.86575698852539,4.501613616943359
+20,B,1,The copy really mirrored the original.,The original was really mirrored by the copy.,mirrored,Estimation,copy,original,1,-25.961200714111328,-31.509363174438477,5.548162460327148
+21,B,2,The journey really lasted three days.,Three days were really lasted by the journey.,lasted,Duration,journey,days,0,-26.02056121826172,-30.43782615661621,4.417264938354492
+21,B,1,The journey really took three days.,Three days were really taken by the journey.,took,Duration,journey,days,0,-24.421092987060547,-26.983972549438477,2.5628795623779297
+22,B,2,My meeting really required two hours.,Two hours was really required by my meeting.,required,Duration,meeting,hours,1,-25.115034103393555,-29.21131134033203,4.096277236938477
+23,B,1,The interview really lasted some time.,Some time was really lasted by the interview.,lasted,Duration,interview,time,0,-26.83759117126465,-29.586095809936523,2.748504638671875
+23,B,2,The interview really took some time.,Some time was really taken by the interview.,took,Duration,interview,time,0,-22.08637237548828,-26.13224220275879,4.045869827270508
+24,B,1,Her speech really required seventeen minutes.,Seventeen minutes was really required by her speech.,required,Duration,speech,minutes,1,-29.89327049255371,-29.568918228149414,-0.3243522644042969
+25,B,2,His trek really lasted a month.,A month was really lasted by his trek.,lasted,Duration,trek,month,0,-26.06913948059082,-34.00752639770508,7.938386917114258
+25,B,1,His trek really took a month.,A month was really taken by his trek.,took,Duration,trek,month,0,-23.756059646606445,-31.15917205810547,7.403112411499023
+26,B,2,A boy really hit my bag.,My bag was really hit by a boy.,hit,Agent-patient,a boy,my bag,1,-25.946258544921875,-26.092926025390625,0.14666748046875
+26,B,1,A monkey really hit the toy.,The toy was really hit by a monkey.,hit,Agent-patient,a monkey,the toy,1,-24.661672592163086,-28.343130111694336,3.68145751953125
+27,B,2,A boy really pushed the cup.,The cup was really pushed by a boy.,pushed,Agent-patient,a boy,the cup,1,-25.750333786010742,-28.716197967529297,2.9658641815185547
+27,B,1,A child really pushed the bag.,The bag was really pushed by a child.,pushed,Agent-patient,a child,the bag,1,-25.152137756347656,-27.618284225463867,2.466146469116211
+27,B,2,Your sister really pushed your friend.,Your friend was really pushed by your sister.,pushed,Agent-patient,your sister,your friend,1,-26.88275146484375,-29.389556884765625,2.506805419921875
+28,B,1,My brother really washed my plate.,My plate was really washed by my brother.,washed,Agent-patient,my brother,my plate,1,-29.656492233276367,-32.4041633605957,2.747671127319336
+28,B,2,Your mother really washed my toy.,My toy was really washed by your mother.,washed,Agent-patient,your mother,my toy,1,-30.638492584228516,-31.835119247436523,1.1966266632080078
+29,B,1,A boy really dropped the cup.,The cup was really dropped by a boy.,dropped,Agent-patient,a boy,the cup,1,-26.287147521972656,-28.99303436279297,2.7058868408203125
+29,B,2,A child really dropped the bag.,The bag was really dropped by a child.,dropped,Agent-patient,a child,the bag,1,-25.688953399658203,-27.89512062072754,2.206167221069336
+29,B,1,Your sister really dropped a book.,A book was really dropped by your sister.,dropped,Agent-patient,your sister,a book,1,-26.00605583190918,-29.324260711669922,3.318204879760742
+30,B,2,My brother really carried your friend.,Your friend was really carried by my brother.,carried,Agent-patient,my brother,your friend,1,-26.790361404418945,-29.43137550354004,2.6410140991210938
+30,B,1,The dog really carried the toy.,The toy was really carried by the dog.,carried,Agent-patient,the dog,the toy,1,-25.38258934020996,-28.489397048950195,3.1068077087402344
+30,B,2,The donkey really carried the load.,The load was really carried by the donkey.,carried,Agent-patient,the donkey,the load,1,-27.766599655151367,-31.9539737701416,4.187374114990234
+31,B,1,A boy really saw my bag.,My bag was really seen by a boy.,saw,Experiencer-theme,a boy,my bag,1,-25.59147834777832,-28.15150260925293,2.5600242614746094
+31,B,2,The child really saw a monkey.,A monkey was really seen by the child.,saw,Experiencer-theme,the child,a monkey,1,-26.65278434753418,-28.39306640625,1.7402820587158203
+32,B,1,My brother really heard your friend.,Your friend was really heard by my brother.,heard,Experiencer-theme,my brother,your friend,1,-26.47699737548828,-29.6588077545166,3.1818103790283203
+32,B,2,Your dog really heard the toy.,The toy was really heard by your dog.,heard,Experiencer-theme,your dog,the toy,1,-24.969331741333008,-29.917757034301758,4.94842529296875
+32,B,1,Your sister really heard a squeak.,A squeak was really heard by your sister.,heard,Experiencer-theme,your sister,a squeak,1,-29.823772430419922,-32.488677978515625,2.664905548095703
+33,B,2,A boy really knew my mother.,My mother was really known by a boy.,knew,Experiencer-theme,a boy,my mother,1,-23.03085708618164,-28.316225051879883,5.285367965698242
+33,B,1,The mother really knew the dog.,The dog was really known by the mother.,knew,Experiencer-theme,the mother,the dog,1,-24.176488876342773,-26.87869644165039,2.702207565307617
+34,B,2,My brother really liked your friend.,Your friend was really liked by my brother.,liked,Experiencer-theme,my brother,your friend,1,-24.9132080078125,-28.788698196411133,3.875490188598633
+34,B,1,Your dog really liked the toy.,The toy was really liked by your dog.,liked,Experiencer-theme,your dog,the toy,1,-23.04558753967285,-29.047645568847656,6.002058029174805
+34,B,2,Your sister really liked a book.,A book was really liked by your sister.,liked,Experiencer-theme,your sister,a book,1,-25.53571891784668,-28.85301399230957,3.3172950744628906
+35,B,1,A boy really remembered the game.,The game was really remembered by a boy.,remembered,Experiencer-theme,a boy,the game,1,-25.56133460998535,-29.277368545532227,3.716033935546875
+35,B,2,The child really remembered the rules.,The rules were really remembered by the child.,remembered,Experiencer-theme,the child,the rules,1,-26.171859741210938,-28.985321044921875,2.8134613037109375
