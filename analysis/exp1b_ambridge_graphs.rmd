@@ -1,0 +1,156 @@
+---
+title: "Comparison with Ambridge"
+output: html_document
+date: "2024-03-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+here::i_am("analysis/exp1b_ambridge_graphs.Rmd")
+library(here)
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(stringr)
+library(tidyr)
+library(ggrepel)
+library(gghalves)
+library(colorBlindness)
+library(showtext)
+library(lme4)
+library(lmerTest)
+library(ggokabeito)
+library(patchwork)
+library(ggpattern)
+library(brms)
+
+source(here("analysis", "utils.R"))
+
+font_add("fira", "FiraSans-Regular.ttf")
+font_add("firal", "FiraSans-Light.ttf")
+
+theme_set(theme_light() + theme(text = element_text(size = 14, family = "fira")))
+
+set.seed(123)
+SAVE_GRAPHS <- TRUE
+```
+
+## Section 4.6.3 Comparison to Ambridge
+
+```{r}
+model_results <- list.files(path = here("scores", "exp1b-ambridge"), pattern = "*.csv", full.names = TRUE) %>%
+    read_csv(id = "file_name") %>%
+    mutate(file_name = (basename(file_name)))
+
+model_mean_results <- model_results %>%
+    group_by(Verb, VtypeNEW) %>%
+    summarise(
+        result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+    ) %>%
+    unnest(result)
+```
+
+```{r}
+human_results <- read_csv(here("data", "ambridge", "merged_sentences_and_scores.csv")) %>%
+  filter(FullSet == "Y")
+
+mean_human_results <- human_results %>%
+    group_by(Verb, Stype) %>%
+    summarise(
+        n = n(),
+        result = Hmisc::smean.cl.boot(Rating) %>% t() %>% as.data.frame()
+    ) %>%
+    unnest(result) %>%
+    pivot_wider(names_from = Stype, values_from = c(Mean, Lower, Upper)) %>%
+    mutate(Mean = Mean_ACT - Mean_PASS,
+    Lower = Lower_ACT - Upper_PASS,
+    Upper = Upper_ACT - Lower_PASS) %>%
+    select(Verb, Mean, Lower, Upper)
+
+merged_results <- model_mean_results %>%
+    left_join(mean_human_results, by = "Verb", suffix = c("_model", "_human"))
+```
+
+```{r}
+ggplot(merged_results, aes(x = Mean_human, y = Mean_model, color = VtypeNEW)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model), width = 0, alpha = 0.3) +
+    geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human), height = 0, alpha = 0.3) +
+    geom_smooth(method = "lm", color = "black") +
+    geom_text_repel(aes(label = Verb), family="fira", color="black") +
+    labs(x = "Mean human passive drop", y = "Mean model passive drop", color = "") +
+    scale_color_manual(values = c(
+      "(a) Agent-Patient" = "#44AA99", 
+      "(b) Theme-Experiencer" = "#e59c00",
+      "(c) Experiencer-Theme" = "#eb77f1",
+      "(d) Other Passivizable" = "#D55E00",
+      "(e) Non-Passivizable" = "#332288"
+    )) +
+    theme(legend.position = "bottom") +
+    guides(color=guide_legend(nrow=2,byrow=TRUE))
+
+if (SAVE_GRAPHS) {
+  ggsave(filename = here("analysis", "figures", "exp1b_ambridge-model-correlation-scatter.pdf"), device = "pdf", width = 10, height = 6, units = "in")
+}
+```
+
+```{r}
+merged_results %>%
+  filter(VtypeNEW == "(e) Non-Passivizable") %>%
+  ggplot(aes(x = Mean_human, y = Mean_model, color = VtypeNEW)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model), width = 0, alpha = 0.3) +
+    geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human), height = 0, alpha = 0.3) +
+    geom_smooth(method = "lm", color = "black") +
+    geom_text_repel(aes(label = Verb), family="fira", color="black") +
+    labs(x = "Mean human passive drop", y = "Mean model passive drop", color = "") +
+    scale_color_manual(values = c(
+      "(a) Agent-Patient" = "#44AA99", 
+      "(b) Theme-Experiencer" = "#e59c00",
+      "(c) Experiencer-Theme" = "#eb77f1",
+      "(d) Other Passivizable" = "#D55E00",
+      "(e) Non-Passivizable" = "#332288"
+    )) +
+    theme(legend.position = "bottom") +
+    guides(color=guide_legend(nrow=2,byrow=TRUE))
+```
+
+```{r}
+# correlation between human and model
+cor.test(merged_results$Mean_human, merged_results$Mean_model)
+```
+
+```{r}
+descriptive_merged_results <- merged_results %>%
+  mutate(
+    Description = str_extract(Verb, "\\(.*\\)"),
+    Description = str_remove_all(Description, "[\\(\\)]"),
+    Verb = str_remove(Verb, "\\s*\\(.*\\)"),
+    Description = ifelse(is.na(Description), "", Description)
+  )
+
+# Find duplicated verbs (ignoring descriptions)
+duplicated_verbs <- descriptive_merged_results %>%
+  group_by(Verb) %>%
+  filter(n() > 1) %>%
+  arrange(Verb, Description)
+
+duplicated_verbs
+
+# Plot only duplicated verbs
+descriptive_merged_results %>%
+  filter(Verb %in% duplicated_verbs$Verb) %>%
+  ggplot(aes(x = Mean_human, y = Mean_model, color = VtypeNEW)) +
+    geom_point() +
+    geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model), width = 0, alpha = 0.3) +
+    geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human), height = 0, alpha = 0.3) +
+    geom_text_repel(aes(label = Verb), family="fira", color="black") +
+    labs(x = "Mean human passive drop", y = "Mean model passive drop", color = "") +
+    scale_color_okabe_ito() +
+    theme(legend.position = "bottom") +
+    guides(color=guide_legend(nrow=2,byrow=TRUE))
+```
+
+```{r}
+0.3454304 / 0.5944
+```

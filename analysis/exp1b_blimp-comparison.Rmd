@@ -1,0 +1,188 @@
+---
+title: "blimp-comparison"
+output: html_document
+date: "2024-03-15"
+---
+
+# BLiMP analysis and graphs
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggrepel)
+library(gghalves)
+library(colorBlindness)
+library(showtext)
+font_add("fira", "FiraSans-Regular.ttf")
+font_add("firal", "FiraSans-Light.ttf")
+library(patchwork)
+library(ggpattern)
+
+source(here("analysis", "utils.R"))
+```
+
+```{r}
+blimp_results <- list.files(path = here("scores", "blimp"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(file_name = factor(basename(file_name)))
+
+blimp_results$ppl <- case_when(
+  str_detect(blimp_results$file_name, "gpt") ~ 16.4541,
+  str_detect(blimp_results$file_name, "100M_1") ~ 234.8003235,
+  str_detect(blimp_results$file_name, "100M_2") ~ 517.9434204,
+  str_detect(blimp_results$file_name, "100M_3") ~ 294.3938293,
+  str_detect(blimp_results$file_name, "100M_4") ~ 557.3381348,
+  str_detect(blimp_results$file_name, "100M_5") ~ 461.5170898
+)
+
+blimp_results$group <- case_when(
+  str_detect(blimp_results$test, "anaphor") ~ "Anaphora",
+  str_detect(blimp_results$test, "principle") ~ "Binding",
+  str_detect(blimp_results$test, "raising") ~ "Control/Raising",
+  str_detect(blimp_results$test, "determiner_noun") ~ "Det/N Agreement",
+  str_detect(blimp_results$test, "ellipsis") ~ "Ellipsis",
+  str_detect(blimp_results$test, "_gap") ~ "Filler-Gap",
+  str_detect(blimp_results$test, "irregular") ~ "Irregular Forms",
+  str_detect(blimp_results$test, "island") ~ "Island Effects",
+  str_detect(blimp_results$test, "coordinate_structure") ~ "Island Effects",
+  str_detect(blimp_results$test, "npi") ~ "NPI Licensing",
+  str_detect(blimp_results$test, "quantifiers") ~ "Quantifiers",
+  str_detect(blimp_results$test, "agreement") ~ "S-V Agreement",
+  .default = "Argument Structure"
+)
+
+
+lstm_scores <- tibble(
+  accuracy = c(
+    88, 95, 72, 87, 68, 79, 65, 79, 72, 73, 65, 59, 100, 87,
+    98, 68, 55, 46, 66, 80, 63, 34, 93, 92, 92, 76, 83, 87, 86,
+    76, 83, 68, 67, 79, 92, 96, 97, 97, 43, 14, 93, 85, 67, 47,
+    30, 71, 32, 36, 43, 47, 2, 54, 54, 93, 36, 100, 23, 96, 16,
+    63, 83, 76, 63, 82, 89, 89, 83
+  ) / 100,
+  file_name = "LSTM"
+)
+
+blimp_results_mean_by_test <- blimp_results %>%
+  select(file_name, test, accuracy) %>%
+  group_by(test) %>%
+  summarise(result = Hmisc::smean.cl.boot(accuracy) %>% t() %>% as.data.frame()) %>%
+  unnest(result)
+
+blimp_results_mean <- blimp_results %>%
+  select(file_name, accuracy) %>%
+  rbind(lstm_scores) %>%
+  group_by(file_name) %>%
+  summarise(result = Hmisc::smean.cl.boot(accuracy) %>% t() %>% as.data.frame()) %>%
+  unnest(result)
+
+lstm_arg_structure_scores <- c(72, 87, 68, 79, 65, 79, 72, 73, 65)
+arg_structure_tests <- c(
+  "animate_subject_passive",
+  "animate_subject_trans",
+  "causative",
+  "drop_argument",
+  "inchoative",
+  "intransitive",
+  "passive_1",
+  "passive_2",
+  "transitive"
+)
+
+lstm_data <- tibble(
+  test = arg_structure_tests,
+  accuracy = lstm_arg_structure_scores / 100,
+  file_name = "LSTM",
+  group = "Argument Structure"
+)
+```
+
+```{r}
+blimp_results %>%
+  ggplot(aes(x=test, y=accuracy, fill=file_name)) +
+  geom_col(position='dodge') +
+  facet_wrap(vars(group), scales="free_x") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+        legend.position = "bottom") +
+  labs(title="Performance on BLiMP", fill="Model") +
+  scale_fill_manual(values=c("#269773", "#288F78","#2A867D", "#2B7E81", "#2D7586", "#555555"))
+```
+
+```{r}
+blimp_overall_mean <- blimp_results_mean %>%
+  mutate(accuracy=Mean) %>%
+  select(!c(Mean, Upper, Lower)) %>%
+  mutate(test = "overall",
+         group = "overall",
+         ppl = "1")
+
+blimp_results %>%
+  bind_rows(lstm_data) %>%
+  filter(group == "Argument Structure") %>%
+  rbind(blimp_overall_mean) %>%
+  mutate(test = relevel(factor(test), ref= 'overall')) %>%
+  ggplot(aes(y=test, x=accuracy, color=file_name)) +
+  geom_point(aes(shape=file_name), size=2) +
+  theme(text = element_text(size=12),
+        legend.position = "bottom") +
+  labs(shape="Model", color="Model") +
+  ylab(element_blank()) +
+  xlab("Accuracy") +   
+  scale_shape_manual(labels=c("Model 1","Model 2","Model 3","Model 4","Model 5","GPT-2","LSTM"),
+                     values=c(15, 17, 19, 9, 10, 8, 3,3)) +
+  scale_y_discrete(limits=rev,
+                   labels=c("overall" = "Overall",
+                            "animate_subject_passive" = "Animate Subject Passive \n Amanda was respected by some waitresses/*pictures.",
+                            "animate_subject_trans" = "Animate Subject Transitive\nDanielle/*The eye visited Irene.",
+                            "causative" = "Causative\nAaron breaks/*appeared the glass.",
+                            "drop_argument" = "Drop Argument\nThe Lutherans couldn't skate around/*disagree with.",
+                            "inchoative" = "Inchoative\nA screen was fading/*cleaning.",
+                            "intransitive" = "Intransitive\nSome glaciers are vaporizing/*scaring.",
+                            "passive_1" = "Passive 1\nJeffrey's sons are insulted/*smiled by Tina's supervisor.",
+                            "passive_2" = "Passive 2\nMost cashiers are disliked/*flirted.",
+                            "transitive" = "Transitive\nA lot of actresses' nieces have toured/*coped that art gallery."
+                   )
+  ) +
+  geom_hline(yintercept=9.5, linetype = "solid", color="black") +
+  geom_vline(xintercept=0.5, linetype = "dashed", color="darkgray") +
+  scale_x_continuous(limits=c(0,1), labels = scales::percent)+
+  scale_color_manual(labels=c("Model 1","Model 2","Model 3","Model 4","Model 5","GPT-2","LSTM"),
+                     values=c("#269773", "#288F78","#2A867D", "#2B7E81", "#2D7586", "#222222",  "#555555"))
+ggsave(here("analysis", "blimp_argument_structure.pdf"), device="pdf", width=9, height=4, units = "in")
+
+```
+
+```{r}
+
+blimp_results_mean %>%
+  ggplot(aes(x=file_name, y=Mean, ymin=Lower, ymax=Upper)) +
+  geom_col(position='dodge', aes(fill=file_name)) +
+  geom_errorbar(width=0.4) +
+  geom_hline(yintercept=0.5, linetype="dashed", color='#444444') +
+  labs(fill="Model") +
+  ylab("Mean overall accuracy") +
+  scale_y_continuous(limits=c(0,1), labels=scales::percent) +
+  scale_x_discrete(labels=c("Model 1","Model 2","Model 3","Model 4","Model 5","GPT-2","LSTM")) +
+  scale_fill_manual(values=c("#269773", "#288F78","#2A867D", "#2B7E81", "#2D7586", "#333333",  "#666666")) +
+  theme(legend.position = "none") +
+  xlab(element_blank()) 
+
+ggsave(filename = "average_blimp.pdf", device="pdf", width=10, height=4, units = "in")
+```
+
+```{r}
+blimp_results_mean %>% 
+  filter(file_name != "gpt2.csv" & file_name != "lstm") %>% 
+  summarise(accuracy = mean(Mean))
+```
+
+```{r}
+blimp_results %>% filter(!str_detect(blimp_results$file_name, "gpt")) %>%
+  group_by(file_name, group, ppl) %>%
+  summarise(accuracy = mean(accuracy)) %>%
+  ggplot(aes(x=ppl, y=accuracy)) +
+  geom_point() +
+  geom_line() +
+  ylab("Mean accuracy in category") +
+  xlab("Validation set perplexity") +
+  facet_wrap(vars(group))
+```
