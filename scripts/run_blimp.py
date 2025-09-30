@@ -22,7 +22,7 @@ def get_latest_checkpoint(model_dir):
     return model_dir / f'checkpoint-{largest_checkpoint}'
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Split dataset into chunks")
+    parser = argparse.ArgumentParser(description="Score model on dataset")
     parser.add_argument("--model_dir", type=str, help='Model name.', default='/scratch/cl5625/exceptions/models')
     parser.add_argument("--model_name", type=str, help='Model name.', default='last_to_carry_frequency_1421')
 

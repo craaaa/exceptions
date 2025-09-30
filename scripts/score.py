@@ -40,29 +40,39 @@ def score_model(model: scorer.IncrementalLMScorer, df: pd.DataFrame):
     df["pass_drop"] = df["active_score"] - df["passive_score"]
     return df
 
-def get_models():
+def get_exp3_models():
     affectedness = ["low", "high"]
+    affectedness = ["low"]
     seeds = ["495", "6910", "8397", "1208", "634"]
     amts = ["0", "10", "100", "500", "1000", "2000"]
+    amts = ["100"]
     return [f"100M_{a}_{n}_{s}" for (a,s,n) in product(affectedness, seeds, amts)]
 
+def get_exp1_models():
+    seeds = ["495", "6910", "8397", "1208", "634"]
+    return [f"100M_default_{s}" for s in seeds]
 
-if __name__ == "__main__":
+
+
+def main(test_sentence_path: str, exp: int):
     failed = []
-    test_path = PROJECT_ROOT / "decomp_dataset" / "gpt4o_generated" / "gpt_test.csv"
-    df = pd.read_csv(test_path)
+    df = pd.read_csv(test_sentence_path)
 
     tokenizer = AutoTokenizer.from_pretrained("craa/gpt2-with-test-verbs")
-    model_names = get_models()
+    model_names = get_exp1_models() if exp == 1 else get_exp3_models()
     for model_name in tqdm(model_names):
+        print(model_name)
         try:
             model = AutoModelForCausalLM.from_pretrained(f"craa/{model_name}")
             model.resize_token_embeddings(len(tokenizer))
             model = scorer.IncrementalLMScorer(model=model, tokenizer=tokenizer, device="cpu")
             stimuli_df = score_model(model, df)
-            stimuli_df.to_csv(PROJECT_ROOT / "scores" / "exp3" / f"{model_name}_scores.csv", index=False)
+            stimuli_df.to_csv(PROJECT_ROOT / "scores" / f"exp{exp}b" / f"{model_name}_really_scores.csv", index=False)
         except EnvironmentError:
             failed.append(model_name)
             continue
 
     print(failed)
+if __name__ == "__main__":
+    test_path = PROJECT_ROOT / "data" / "test_sentences_really.csv"
+    main(test_path, exp=1)

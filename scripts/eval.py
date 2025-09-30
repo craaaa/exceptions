@@ -6,11 +6,10 @@ from transformers import AutoTokenizer, GPT2LMHeadModel
 from transformers import GPT2_PRETRAINED_CONFIG_ARCHIVE_MAP
 from transformers.tokenization_utils import BatchEncoding
 from typing import List, Tuple
-from model import GPTConfig, GPT
 import pandas as pd
 
 def load_model(
-    device: str, init_from: str="local"
+    device: str, init_from: str="huggingface"
 ) -> GPT2LMHeadModel:
     if init_from == 'huggingface':
         model = GPT2LMHeadModel.from_pretrained("gpt2") # vanilla GPT2
@@ -44,10 +43,11 @@ def _tokens_log_prob_for_batch(
         nopad_mask = attention_mask
         logits: torch.Tensor = model(ids, attention_mask=attention_mask)[0]
 
-    for sent_index in tqdm(range(len(text))):
+    for sent_index in tqdm(range(5)):
         sent_nopad_mask = nopad_mask[sent_index] 
         # len(tokens) = len(text[sent_index]) + 1 
         sent_tokens = [tok for tok, mask in zip(tokenizer.convert_ids_to_tokens(ids[sent_index]),sent_nopad_mask) if mask][1:] # don't include BOS token
+        print(sent_tokens)
 
         # sent_ids.shape = [len(text[sent_index]) + 1]
         sent_ids = ids[sent_index][1:len(sent_tokens)+1,]
@@ -55,11 +55,14 @@ def _tokens_log_prob_for_batch(
         sent_logits = logits[sent_index][1:len(sent_tokens)+1,]
         # ids_scores.shape = [seq_len + 1]
         sent_ids_scores = sent_logits.gather(1, sent_ids.unsqueeze(1)).squeeze(1)
+        print(f"ID scores: {sent_ids_scores}")
         # log_prob.shape = [seq_len + 1]
         sent_log_probs = sent_ids_scores - sent_logits.logsumexp(axis=1) #softmax?
-
-        sent_log_probs = sent_log_probs.double()
-        sent_ids = sent_ids.double()
+        print(f"Log probs: {sent_log_probs}")
+        
+        sent_log_probs = sent_log_probs.float()
+        print(f"Log probs: {sent_log_probs}")
+        sent_ids = sent_ids.float()
         
         output = (sent_log_probs, sent_ids, sent_tokens)
         outputs.append(output)
@@ -71,16 +74,17 @@ def reduce(x: Tuple[torch.DoubleTensor, torch.LongTensor, List[str]]
 
     sentence_length = torch.tensor(x[0].shape[0])
     sentence_score = x[0].logsumexp(0)
+    print(x[0])
+    print(x[0].logsumexp(0))
     normalized_sentence_score = sentence_score - torch.log(sentence_length)
 
-    return (normalized_sentence_score.item(), x[1], x[2])
+    return (sentence_score.item(), x[1], x[2])
 
 def get_sentence_scores(text: List[str]
 ) -> List[Tuple[torch.DoubleTensor, torch.LongTensor, List[str]]]:
 
     batch_log_probs = _tokens_log_prob_for_batch(text)
     sentence_scores = map(reduce, batch_log_probs)
-
     return list(sentence_scores)
 
 
@@ -99,13 +103,15 @@ if __name__ == "__main__":
 
     model_name = args.model
     checkpoint_number = args.checkpoint
-    checkpoint = 'models/{}/checkpoint-{}'.format(model_name, checkpoint_number) # model checkpoint
+    checkpoint = model_name
    
     if torch.cuda.is_available():
         device = "cuda"
+    elif torch.backends.mps.is_available():
+        device = "mps"
     else:
         device = "cpu"
-        print("CUDA not available!")
+        print("CUDA and MPS not available!")
 
     model = load_model(device, model_name)
 
@@ -118,4 +124,4 @@ if __name__ == "__main__":
 
     test_sentences['pass_drop'] = test_sentences['active_score'] - test_sentences['passive_score']
 
-    test_sentences.to_csv(f'scores/test_sentences_scored_{model_name}.csv')
+    test_sentences.to_csv(f'scores/test_sentences_scored_x.csv')
