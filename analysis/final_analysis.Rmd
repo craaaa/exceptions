@@ -118,7 +118,7 @@ get_lemma <- function(verb) {
 
 ```{r exp1a_load}
 # Load scores for human participants from data/human/results.csv
-exp1a_scores <- read_csv(here("data", "human", "results.csv"),
+exp1a_scores <- read_csv(here("data", "human", "exp1a.csv"),
   comment = "#",
   col_names = c(
     "", "", "", "order_no", "", "trial_type", "", "element_type", "element_name",
@@ -745,7 +745,7 @@ exp1b_trigram_item_level_comparison %>%
 ## Ambridge dataset analyses
 ```{r exp1b_ambridge-analysis}
 # Load human scores from Ambridge dataset
-exp1b_ambridge_human_scores <- read_csv(here("data", "ambridge", "merged_sentences_and_scores.csv")) %>%
+exp1b_ambridge_human_scores <- read_csv(here("data", "human", "ambridge.csv")) %>%
   filter(FullSet == "Y")
 
 # Load model scores from Ambridge scores directory
