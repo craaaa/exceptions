@@ -32,7 +32,6 @@ theme_set(theme_light() + theme(
 
 ```{r flags, include=FALSE}
 SAVE_GRAPHS <- TRUE
-RUN_BAYESIAN_MODEL <- FALSE # Whether or not to run the Bayesian model
 MAX_UNEXPECTED_FILLERS <- 15
 RUN_SLOW_ANALYSES <- FALSE
 
