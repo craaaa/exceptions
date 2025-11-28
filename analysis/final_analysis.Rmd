@@ -1,0 +1,2007 @@
+```{r setup, include=FALSE}
+here::i_am("analysis/final_analysis.Rmd")
+library(dplyr)
+library(ggplot2)
+library(ggrepel)
+library(gghalves)
+library(colorBlindness)
+library(showtext)
+library(stringr)
+library(here)
+library(ggpattern)
+library(patchwork)
+library(ggtext)
+library(boot)
+library(readr)
+library(tidyr)
+library(lmerTest)
+library(brms)
+library(bayesplot)
+library(Hmisc)
+
+font_add("fira", regular = "FiraSans-Regular.ttf", italic = "FiraSans-Italic.ttf")
+font_add("firal", "FiraSans-Light.ttf")
+showtext_auto()
+theme_set(theme_light() + theme(
+  text = element_text(size = 14, family = "fira"),
+  legend.position = "bottom",
+  legend.box.background = element_rect(linewidth = 0, fill = NULL, colour = NULL)
+))
+
+```
+
+```{r flags, include=FALSE}
+SAVE_GRAPHS <- TRUE
+RUN_BAYESIAN_MODEL <- FALSE # Whether or not to run the Bayesian model
+MAX_UNEXPECTED_FILLERS <- 15
+RUN_SLOW_ANALYSES <- FALSE
+
+set.seed(123)
+
+verb_class_colours <- c(
+  "Advantage" = "#CC6677",
+  "Estimation" = "#6699CC",
+  "Price" = "#117733",
+  "Duration" = "#332288",
+  "Ooze" = "#AA4499",
+  "Agent-Patient" = "#44AA99",
+  "Experiencer-Theme" = "#e59c00",
+  "#661100", "#88CCEE", "#999933", "#882255", "#888888"
+)
+
+sent_type_colours <- c("#882255", "#4491EE", "#888888")
+model_colours <- c("#661100", "#88CCEE", "#999933", "#882255", "#888888")
+
+estimate_verbs <- c("approximated", "matched", "mirrored", "resembled")
+advantage_verbs <- c("benefited", "bettered", "helped", "profited", "strengthened")
+price_verbs <- c("cost", "earned", "fetched", "won")
+duration_verbs <- c("lasted", "needed", "required", "took")
+ooze_verbs <- c("discharged", "emanated", "emitted", "radiated")
+agt_verbs <- c("hit", "pushed", "washed", "dropped", "carried")
+exp_verbs <- c("saw", "heard", "knew", "liked", "remembered")
+verb_levels <- c(estimate_verbs, advantage_verbs, price_verbs, duration_verbs, ooze_verbs, agt_verbs, exp_verbs)
+
+# Return factor of verb class given a verb (past tense)
+get_verb_class <- function(verb) {
+  # Create regex patterns from the existing verb vectors
+  verb_class <- case_when(
+    str_detect(verb, paste(advantage_verbs, collapse = "|")) ~ "Advantage",
+    str_detect(verb, paste(estimate_verbs, collapse = "|")) ~ "Estimation",
+    str_detect(verb, paste(price_verbs, collapse = "|")) ~ "Price",
+    str_detect(verb, paste(duration_verbs, collapse = "|")) ~ "Duration",
+    str_detect(verb, paste(ooze_verbs, collapse = "|")) ~ "Ooze",
+    str_detect(verb, paste(agt_verbs, collapse = "|")) ~ "Agent-Patient",
+    str_detect(verb, paste(exp_verbs, collapse = "|")) ~ "Experiencer-Theme"
+  )
+  verb_class <- factor(verb_class,
+    levels = c("Advantage", "Estimation", "Price", "Duration", "Ooze", "Agent-Patient", "Experiencer-Theme")
+  )
+}
+
+# Return the lemma of a past tense verb
+get_lemma <- function(verb) {
+  lemma <- case_match(
+    verb,
+    "approximated" ~ "approximate",
+    "matched" ~ "match",
+    "mirrored" ~ "mirror",
+    "resembled" ~ "resemble",
+    "benefited" ~ "benefit",
+    "helped" ~ "help",
+    "profited" ~ "profit",
+    "strengthened" ~ "strengthen",
+    "cost" ~ "cost",
+    "earned" ~ "earn",
+    "fetched" ~ "fetch",
+    "won" ~ "win",
+    "hit" ~ "hit",
+    "pushed" ~ "push",
+    "washed" ~ "wash",
+    "dropped" ~ "drop",
+    "carried" ~ "carry",
+    "saw" ~ "see",
+    "heard" ~ "hear",
+    "knew" ~ "know",
+    "liked" ~ "like",
+    "remembered" ~ "remember",
+    "lasted" ~ "last",
+    "required" ~ "require",
+    "took" ~ "take",
+    "discharged" ~ "discharge",
+    "emanated" ~ "emanate",
+    "emitted" ~ "emit",
+    "radiated" ~ "radiate",
+  )
+}
+```
+
+# Experiment 1A
+
+```{r exp1a_load}
+# Load scores for human participants from data/human/results.csv
+exp1a_scores <- read_csv(here("data", "human", "results.csv"),
+  comment = "#",
+  col_names = c(
+    "", "", "", "order_no", "", "trial_type", "", "element_type", "element_name",
+    "", "score", "", "", "group", "list", "frame", "verb", "sentence_type",
+    "sentence", "presentation_order", "is_passivizable", "id", "", ""
+  )
+) %>%
+  select(id, verb, score, list, frame, order_no, sentence, sentence_type, trial_type, element_type) %>%
+  filter(element_type == "Scale") %>%
+  filter(trial_type != "practice-good" & trial_type != "practice-bad") %>%
+  mutate(
+    score = as.numeric(score),
+    verb = factor(verb),
+    verb_class = get_verb_class(verb)
+  )
+
+participants_to_remove <- exp1a_scores %>%
+  filter(element_type == "Scale") %>%
+  filter((sentence_type == "check_accept" & score < 50) |
+    (sentence_type == "check_unaccept" & score > 50)) %>%
+  count(id) %>%
+  filter(n >= MAX_UNEXPECTED_FILLERS) %>%
+  select(id)
+
+exp1a_scores <- exp1a_scores %>% filter(!id %in% participants_to_remove$id)
+exp1a_num_participants_human <- length(unique(exp1a_scores$id))
+
+### Obtain test and filler dfs
+exp1a_test <- exp1a_scores %>%
+  filter(trial_type == "experimental-trial")
+
+exp1a_filler <- exp1a_scores %>%
+  filter(trial_type == "attention-check") %>%
+  filter(!str_detect(sentence_type, "Attention")) %>%
+  mutate(frame = order_no)
+
+
+exp1a_test %>% head()
+```
+
+```{r exp1a_sanity_checks}
+# TODO: Add sanity checks
+```
+
+```{r exp1a_figure_2}
+variance_histogram <- exp1a_scores %>%
+  mutate(
+    sentence_type = if_else(trial_type == "attention-check", "filler", sentence_type),
+  ) %>%
+  group_by(sentence, sentence_type) %>%
+  summarise(variance = sd(score)) %>%
+  mutate(sentence_type = factor(sentence_type, levels = c("active", "passive", "filler"), labels = c("Active", "Passive", "Filler"))) %>%
+  ggplot(aes(x = variance, fill = sentence_type)) +
+  geom_histogram() +
+  facet_wrap(vars(sentence_type)) +
+  xlab("Standard deviation across participants") +
+  ylab("Frequency") +
+  scale_fill_manual(values = sent_type_colours) +
+  theme(legend.position = "none")
+
+score_histogram <- exp1a_scores %>%
+  filter(frame == 24) %>%
+  ggplot(aes(x = score, fill = sentence_type)) +
+  geom_histogram() +
+  facet_grid(
+    rows = vars(sentence_type), cols = vars(verb),
+    labeller = labeller(sentence_type = Hmisc::capitalize)
+  ) +
+  xlab("Score") +
+  ylab("Frequency") +
+  scale_fill_manual(values = sent_type_colours, name = element_blank()) +
+  theme(
+    legend.position = "none",
+    strip.text.x = element_text(face = "italic", family = "fira-italic")
+  )
+
+figure_2 <- variance_histogram + score_histogram
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_2,
+    filename = "exp1a_human-score-histogram.pdf",
+    device = "pdf",
+    width = 12,
+    height = 4,
+    units = "in",
+    path = here("analysis", "figures")
+  )
+}
+
+show(figure_2)
+```
+
+```{r exp1a_figure_3}
+# Figure 3
+
+# Obtain Cousineau-corrected CIs for error bars
+# Mean score for each verb and sentence type across all participants
+exp1a_global_means <- exp1a_test %>%
+  group_by(verb, sentence_type, sentence) %>%
+  summarise(global_mean = mean(score, na.rm = TRUE))
+
+# Mean score for each verb and sentence type for each participant
+exp1a_participant_means <- exp1a_test %>%
+  group_by(id, verb, sentence_type, sentence) %>%
+  summarise(participant_mean = mean(score, na.rm = TRUE))
+
+# Calculate Cousineau scores
+exp1a_test_cousineau_means <- exp1a_test %>%
+  left_join(exp1a_global_means) %>%
+  left_join(exp1a_participant_means) %>%
+  mutate(cousineau_score = score - participant_mean + global_mean) %>%
+  group_by(verb, verb_class, sentence_type) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(cousineau_score) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+figure_3 <- exp1a_test_cousineau_means %>%
+  ggplot(aes(x = sentence_type, y = Mean, color = verb_class)) +
+  facet_grid(cols = vars(verb_class)) +
+  geom_point(aes(group = verb)) +
+  geom_line(aes(group = interaction(verb))) +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.1) +
+  geom_text_repel(
+    data = subset(exp1a_test_cousineau_means, sentence_type == "passive"),
+    aes(label = verb, segment.linetype = 2),
+    size = 3.5, family = "fira", hjust = "right", vjust = 0,
+    nudge_x = 1.5, color = "black"
+  ) +
+  scale_colour_manual(values = verb_class_colours) +
+  labs(
+    # title="Human ratings of active and passive sentences by verb",
+    caption = paste("n=", toString(length(unique(exp1a_test$id))))
+  ) +
+  xlab(element_blank()) +
+  ylab("Mean sentence score") +
+  theme(
+    legend.position = "none",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+  ) +
+  scale_y_continuous(limits = c(0, 100)) +
+  scale_x_discrete(labels = c("Active", "Passive"), expand = expansion(mult = 0.5)) # +
+# theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_3,
+    filename = "exp1a_human-duckbill.pdf",
+    device = "pdf",
+    width = 12,
+    height = 4,
+    units = "in",
+    path = here("analysis", "figures")
+  )
+}
+
+show(figure_3)
+```
+
+
+```{r exp1a_split-half-analysis-functions}
+add_split_by_factor <- function(dataset, by_factor = "id") {
+  factors <- dataset %>%
+    select(all_of(by_factor)) %>%
+    unique()
+  random_sample <- sample(seq_len(nrow(factors)), size = nrow(factors) / 2)
+  group1 <- factors[random_sample, ] %>% pull(by_factor)
+  group2 <- factors[-random_sample, ] %>% pull(by_factor)
+  return(dataset %>%
+    mutate(split_factor = ifelse(!!as.name(by_factor) %in% group1, 1, 2)) %>%
+    mutate(split_factor = factor(split_factor)))
+}
+
+get_split_half_cor <- function(
+    dataset,
+    by_factor = "id",
+    group_cols = c("frame", "verb", "sentence_type"), # columns to group by
+    score_col = "score", # name of the column that contains the score to be averaged
+    split_factor_col = "split_factor" # name of the column that contains the split factor
+    ) {
+  split_dataset <- add_split_by_factor(dataset, by_factor)
+  half1 <- split_dataset %>%
+    filter(split_factor == 1) %>%
+    group_by(across(all_of(group_cols))) %>%
+    summarise(half1 = mean(!!as.name(score_col)), .groups = "keep")
+  half2 <- split_dataset %>%
+    filter(split_factor == 2) %>%
+    group_by(across(all_of(group_cols))) %>%
+    summarise(half2 = mean(!!as.name(score_col)), .groups = "keep")
+  together <- left_join(half1, half2, by = group_cols)
+  return(cor(x = together$half1, y = together$half2, method = "pearson"))
+}
+
+get_avg_split_half_cor <- function(
+    dataset,
+    iterations = 1000, # number of iterations to bootstrap
+    n = 10, # number of times to run the split-half analysis
+    by_factor = "id",
+    group_cols = c("frame", "verb", "sentence_type"),
+    score_col = "score",
+    split_factor_col = "split_factor") {
+  all_cors <- c()
+  for (i in 1:n) {
+    cors <- c()
+    for (j in 1:iterations) {
+      cors <- c(
+        cors,
+        get_split_half_cor(
+          dataset,
+          by_factor = by_factor,
+          group_cols = group_cols,
+          score_col = score_col,
+          split_factor_col = split_factor_col
+        )
+      )
+    }
+    all_cors <- c(all_cors, mean(cors, na.rm = TRUE))
+  }
+  return(all_cors)
+}
+
+# Spearman-Brown correction formula
+sb_correction <- function(r, k = 2) {
+  # k=2 for split-half analysis
+  return((k * r) / (1 + (k - 1) * r))
+}
+```
+
+```{r exp1a_split-half-analysis}
+# Split-half correlation for all test data
+if (RUN_SLOW_ANALYSES) {
+  exp1a_split_half_cor <- get_avg_split_half_cor(
+    exp1a_test,
+    iterations = 1000,
+    n = 10,
+    by_factor = "id",
+    group_cols = c("frame", "verb", "sentence_type"),
+  )
+  show(sb_correction(mean(exp1a_split_half_cor)))
+
+
+  # Split-half correlation for filler data
+  exp1a_split_half_cor_fillers <- get_avg_split_half_cor(
+    exp1a_filler,
+    iterations = 1000,
+    n = 10,
+    by_factor = "id",
+    group_cols = c("frame"), # frame uniquely identifies each filler item
+  )
+  show(sb_correction(mean(exp1a_split_half_cor_fillers)))
+
+  # Calculate split-half correlation for each verb class
+  verb_classes <- exp1a_test %>%
+    select(verb_class) %>%
+    unique() %>%
+    pull(verb_class)
+
+  exp1a_verb_class_split_half_cor <- c()
+  # iterate over each verb class
+  for (i in seq_along(verb_classes)) {
+    print(verb_classes[i])
+    cors <- get_avg_split_half_cor(
+      exp1a_test %>% filter(verb_class == verb_classes[i]),
+      iterations = 1000,
+      n = 10,
+      by_factor = "id",
+      group_cols = c("frame", "verb", "sentence_type"),
+    )
+    exp1a_verb_class_split_half_cor[i] <- sb_correction(mean(cors))
+
+  # merge with verb_classes
+  exp1a_verb_class_split_half_cor <- tibble(verb_class = verb_classes, split_half_cor = exp1a_verb_class_split_half_cor)
+
+  show(exp1a_verb_class_split_half_cor)
+}
+```
+
+```{r exp1a_split-half-by-verb}
+# Split-half correlation for all test data by verb, not item
+# warning: very slow!
+if (RUN_SLOW_ANALYSES) {
+  exp1a_split_half_cor_by_verb <- get_avg_split_half_cor(
+    exp1a_test,
+    iterations = 1000,
+    n = 10,
+    by_factor = "id",
+    # group by verb and sentence type but not item (frame)
+    group_cols = c("verb", "sentence_type"),
+  )
+  show(sb_correction(mean(exp1a_split_half_cor_by_verb)))
+}
+```
+
+# Experiment 1B
+
+## Our models vs. human
+```{r exp1b}
+# load scores for each model in the scores/exp1b directory.
+# Filename format: 100M_default_{seed}_scores.csv
+exp1b_scores <- list.files(path = here("scores", "exp1b"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(
+    file_name = (basename(file_name)),
+    seed = str_extract(file_name, "(?<=100M_).+(?=\\.csv$)"),
+    model_type = "default"
+  )
+
+exp1b_scores %>% head()
+```
+
+```{r exp1b_sanity_checks}
+# make sure no values are missing
+
+# same number of observations for each seed
+exp1b_scores %>%
+  group_by(seed) %>%
+  summarise(n = n()) %>%
+  filter(n != 140)
+```
+
+```{r exp1b_duckbill_plot}
+exp1b_scores_long <- exp1b_scores %>%
+  pivot_longer(
+    # remove "_score" from column names to get sentence_type
+    cols = c(active_score, passive_score),
+    names_pattern = "(.+)_score",
+    names_to = "sentence_type",
+    values_to = "score"
+  )
+
+# Obtain Cousineau-corrected CIs for error bars
+exp1b_global_mean_scores <- exp1b_scores_long %>%
+  group_by(verb) %>%
+  summarise(global_mean = mean(score, na.rm = TRUE))
+
+exp1b_participant_mean_scores <- exp1b_scores_long %>%
+  group_by(seed, verb) %>%
+  summarise(participant_mean = mean(score, na.rm = TRUE))
+
+exp1b_cousineau_scores <- exp1b_scores_long %>%
+  left_join(exp1b_global_mean_scores) %>%
+  left_join(exp1b_participant_mean_scores) %>%
+  mutate(cousineau_score = score - participant_mean + global_mean)
+
+exp1b_cousineau_means <- exp1b_cousineau_scores %>%
+  group_by(verb, verb_class, sentence_type) %>%
+  summarise(result = Hmisc::smean.cl.boot(cousineau_score) %>% t() %>% as.data.frame()) %>%
+  unnest(result)
+
+exp1b_model_duckbill <- exp1b_cousineau_means %>%
+  ggplot(aes(x = sentence_type, y = Mean, color = verb_class)) +
+  facet_grid(cols = vars(verb_class)) +
+  geom_point(aes(group = verb)) +
+  geom_line(aes(group = interaction(verb))) +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.1) +
+  geom_text_repel(
+    data = subset(exp1b_cousineau_means, sentence_type == "passive"),
+    aes(label = verb, segment.linetype = 2),
+    size = 3.5, family = "fira", hjust = "right", vjust = 0,
+    nudge_x = 1.5, color = "black"
+  ) +
+  scale_colour_manual(values = verb_class_colours) +
+  xlab(element_blank()) +
+  ylab("Mean sentence score") +
+  theme(
+    legend.position = "none",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+  ) +
+  scale_x_discrete(labels = c("Active", "Passive"), expand = expansion(mult = 0.5))
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = exp1b_model_duckbill,
+    filename = "exp1b_model-duckbill.pdf",
+    device = "pdf",
+    width = 12,
+    height = 4,
+    units = "in",
+    path = here("analysis", "figures")
+  )
+}
+
+show(exp1b_model_duckbill)
+```
+
+```{r exp1a_bootstrap-passive-drop}
+# Bootstrap mean passive drop for each verb and sentence type in human data.
+# Since data are unpaired, we cannot use mean.cl.boot() directly.
+exp1a_passive_drop <- function(data, indices) {
+  d <- data[indices, ]
+  passive_mean <- d %>%
+    filter(sentence_type == "passive") %>%
+    pull(score) %>%
+    mean()
+  active_mean <- d %>%
+    filter(sentence_type == "active") %>%
+    pull(score) %>%
+    mean()
+  difference <- active_mean - passive_mean
+}
+
+boot.mean.diff <- boot(data = exp1a_test, statistic = exp1a_passive_drop, R = 1000)
+ci <- boot.ci(boot.mean.diff, type = "perc")
+
+# Bootstrapped passive drop for each verb in human data.
+exp1a_verb_bootstrap <- exp1a_test %>%
+  group_by(verb, verb_class) %>%
+  group_modify(~ {
+    boot_result <- boot(data = .x, statistic = exp1a_passive_drop, R = 1000)
+    tibble(
+      Mean = boot_result$t0,
+      Lower = boot.ci(boot_result, type = "perc")$percent[4],
+      Upper = boot.ci(boot_result, type = "perc")$percent[5]
+    )
+  }) %>%
+  ungroup()
+```
+
+```{r exp1b_cousineau-passive-drop}
+# Calculate Cousineau-corrected SEs for passive drop
+exp1b_global_mean_passive_drop <- exp1b_scores %>%
+  group_by(verb) %>%
+  summarise(global_mean = mean(pass_drop, na.rm = TRUE))
+
+exp1b_participant_mean_passive_drop <- exp1b_scores %>%
+  group_by(seed, verb) %>%
+  summarise(participant_mean = mean(pass_drop, na.rm = TRUE))
+
+exp1b_cousineau_passive_drop <- exp1b_scores %>%
+  left_join(exp1b_global_mean_passive_drop) %>%
+  left_join(exp1b_participant_mean_passive_drop) %>%
+  mutate(cousineau_passive_drop = pass_drop - participant_mean + global_mean)
+
+exp1b_mean_cousineau_passive_drop <- exp1b_cousineau_passive_drop %>%
+  group_by(verb, verb_class) %>%
+  summarise(result = Hmisc::smean.cl.boot(cousineau_passive_drop) %>% t() %>% as.data.frame()) %>%
+  unnest(result)
+
+exp1_model_human_comparison <- exp1b_mean_cousineau_passive_drop %>%
+  left_join(exp1a_verb_bootstrap, by = c("verb"), suffix = c("_model", "_human"))
+
+figure_5 <- exp1_model_human_comparison %>%
+  ggplot(aes(x = Mean_human, y = Mean_model)) +
+  geom_smooth(aes(alpha = 0.8), method = "lm") +
+  geom_point(aes(color = verb_class_human)) +
+  geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model, color = verb_class_human, alpha = 0.8), width = 0) +
+  geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human, color = verb_class_human, alpha = 0.8)) +
+  xlab("Mean human passive drop") +
+  ylab("Mean model passive drop") +
+  geom_text_repel(aes(label = verb), min.segment.length = 0, size = 3.5, max.overlaps = Inf, segment.linetype = 2, family = "firal", nudge_x = 1, nudge_y = 0.4) +
+  scale_x_continuous(limits = c(-11, 91), breaks = seq(0, 80, by = 20)) +
+  scale_y_continuous(limits = c(-10, 40), breaks = seq(0, 30, by = 10)) +
+  theme(legend.position = "bottom", legend.title = element_blank()) +
+  scale_color_manual(values = verb_class_colours) +
+  ylim(-10, 30) +
+  guides(alpha = "none", colour = guide_legend(nrow = 1)) +
+  annotate(
+    geom = "text",
+    x = 90, y = -10,
+    label = paste("r = ", round(cor(exp1_model_human_comparison$Mean_human, exp1_model_human_comparison$Mean_model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_5,
+    filename = "exp1b_human-model-correlation-scatter.pdf",
+    device = "pdf",
+    width = 10, height = 6, units = "in", path = here("analysis", "figures")
+  )
+}
+
+show(figure_5)
+```
+
+```{r exp1b_remove-outlying-verbs}
+exp1_model_human_comparison
+
+## Correlation if we remove outlying verbs
+exp1_model_human_comparison %>%
+  ungroup() %>%
+  filter(verb != "lasted", verb != "cost", verb != "took") %>%
+  select(Mean_human, Mean_model) %>%
+  cor(method = "pearson") %>%
+  round(3)
+```
+
+```{r exp1b_item-level-correlation}
+# Correlation between human and model passive drop for each item
+# not each verb (as reported in Figure 5)
+
+exp1a_item_bootstrap <- exp1a_test %>%
+  mutate(
+    frame_no = as.numeric(frame)
+  ) %>%
+  group_by(frame_no, verb, verb_class) %>%
+  group_modify(~ {
+    boot_result <- boot(data = .x, statistic = exp1a_passive_drop, R = 1000)
+    tibble(
+      Mean = boot_result$t0,
+      Lower = boot.ci(boot_result, type = "perc")$percent[4],
+      Upper = boot.ci(boot_result, type = "perc")$percent[5]
+    )
+  }) %>%
+  ungroup()
+
+# merge frame_no with active sentence text
+exp1a_item_bootstrap <- exp1a_item_bootstrap %>%
+  left_join(
+    exp1a_test %>%
+      filter(sentence_type == "active") %>%
+      mutate(
+        frame_no = as.numeric(frame),
+        active = sentence
+      ) %>%
+      select(frame_no, verb, active) %>%
+      distinct()
+  )
+
+exp1b_item_mean_passive_drop <- exp1b_scores %>%
+  group_by(frame_no, active, verb, verb_class) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+# Item-level correlation between human and model passive drop
+exp1b_item_level_comparison <- exp1b_item_mean_passive_drop %>%
+  left_join(exp1a_item_bootstrap, by = c("active"), suffix = c("_model", "_human")) %>%
+  ungroup()
+
+# Graph of average model to human scores for each item
+exp1b_item_level_comparison %>% ggplot(aes(x = Mean_human, y = Mean_model)) +
+  geom_point(aes(color = verb_human, shape = verb_class_human), size = 3) +
+  scale_shape_manual(values = c(1, 16, 3, 13, 15, 8, 18)) +
+  xlab("Mean human passive drop") +
+  ylab("Mean model passive drop") +
+  labs(color = "Verb", shape = "Verb class") +
+  annotate(
+    geom = "text",
+    x = 85, y = -7,
+    label = paste("r = ", round(cor(exp1b_item_level_comparison$Mean_human, exp1b_item_level_comparison$Mean_model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+```
+
+```{r exp1b_trigram-correlation}
+exp1b_trigram_scores <- read_csv(here("scores", "exp1b_baselines", "trigram.csv"))
+
+exp1b_trigram_mean_scores <- exp1b_trigram_scores %>%
+  group_by(verb, verb_class) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+exp1b_trigram_merged_results <- exp1b_trigram_mean_scores %>%
+  left_join(exp1a_verb_bootstrap, by = c("verb"), suffix = c("_model", "_human")) %>%
+  select(verb, verb_class_human, Mean_human, Lower_human, Upper_human, Mean_model, Lower_model, Upper_model)
+
+exp1b_trigram_merged_results %>% head()
+
+figure_6 <- exp1b_trigram_merged_results %>%
+  ggplot(aes(x = Mean_human, y = Mean_model)) +
+  geom_smooth(aes(alpha = 0.8), method = "lm") +
+  geom_point(aes(color = verb_class_human)) +
+  geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model, color = verb_class_human, alpha = 0.8), width = 0) +
+  geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human, color = verb_class_human, alpha = 0.8)) +
+  xlab("Mean human passive drop") +
+  ylab("Mean trigram model passive drop") +
+  geom_text_repel(aes(label = verb), min.segment.length = 0, size = 3.5, max.overlaps = Inf, segment.linetype = 2, family = "firal", nudge_x = 1, nudge_y = 0.4) +
+  scale_x_continuous(limits = c(-11, 91), breaks = seq(0, 80, by = 20)) +
+  scale_y_continuous(limits = c(-10, 40), breaks = seq(0, 30, by = 10)) +
+  theme(legend.position = "bottom", legend.title = element_blank()) +
+  scale_color_manual(values = verb_class_colours) +
+  ylim(-3, 10) +
+  guides(alpha = "none", colour = guide_legend(nrow = 1)) +
+  annotate(
+    geom = "text",
+    x = 85, y = -2,
+    label = paste("r = ", round(cor(exp1b_trigram_merged_results$Mean_human, exp1b_trigram_merged_results$Mean_model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+
+show(figure_6)
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_6,
+    filename = "exp1b_human-trigram-correlation-scatter.pdf",
+    device = "pdf",
+    width = 10, height = 6, units = "in", path = here("analysis", "figures")
+  )
+}
+```
+
+```{r exp1b_trigram-item-level-correlation}
+# Item-level correlation between human and trigram model passive drop
+exp1b_trigram_item_level_comparison <- exp1b_trigram_scores %>%
+  left_join(exp1a_item_bootstrap, by = c("active"), suffix = c("_model", "_human")) %>%
+  mutate(
+    model = pass_drop,
+    human = Mean,
+  )
+
+exp1b_trigram_item_level_comparison %>%
+  ggplot(aes(x = human, y = model)) +
+  geom_point(aes(color = verb_human, shape = verb_class_human), size = 3) +
+  scale_shape_manual(values = c(1, 16, 3, 13, 15, 8, 18)) +
+  xlab("Mean human passive drop") +
+  ylab("Trigram model passive drop") +
+  labs(color = "Verb", shape = "Verb class") +
+  annotate(
+    geom = "text",
+    x = 85, y = -4,
+    label = paste("r = ", round(cor(exp1b_trigram_item_level_comparison$human, exp1b_trigram_item_level_comparison$model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+```
+
+## Ambridge dataset analyses
+```{r exp1b_ambridge-analysis}
+# Load human scores from Ambridge dataset
+exp1b_ambridge_human_scores <- read_csv(here("data", "ambridge", "merged_sentences_and_scores.csv")) %>%
+  filter(FullSet == "Y")
+
+# Load model scores from Ambridge scores directory
+exp1b_ambridge_model_scores <- list.files(path = here("scores", "exp1b-ambridge"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(
+    file_name = (basename(file_name)),
+    model_type = "default"
+  )
+```
+
+```{r exp1b_ambridge-model-scores}
+# Only use 100M_default model scores; exclude trigram model scores
+exp1b_ambridge_model_mean_scores <- exp1b_ambridge_model_scores %>%
+  filter(str_detect(file_name, "100M_")) %>%
+  group_by(Verb, VtypeNEW) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+# passive drop calculation for Ambridge scores
+exp1b_ambridge_passive_drop <- function(data, indices) {
+  d <- data[indices, ]
+  passive_mean <- d %>%
+    filter(Stype == "PASS") %>%
+    pull(Rating) %>%
+    mean()
+  active_mean <- d %>%
+    filter(Stype == "ACT") %>%
+    pull(Rating) %>%
+    mean()
+  difference <- active_mean - passive_mean
+}
+
+exp1b_ambridge_human_mean_scores <- exp1b_ambridge_human_scores %>%
+  group_by(Verb, VtypeNEW) %>%
+  group_modify(~ {
+    boot_result <- boot(data = .x, statistic = exp1b_ambridge_passive_drop, R = 1000)
+    tibble(
+      Mean = boot_result$t0,
+      Lower = boot.ci(boot_result, type = "perc")$percent[4],
+      Upper = boot.ci(boot_result, type = "perc")$percent[5]
+    )
+  }) %>%
+  ungroup()
+```
+
+```{r exp1b_ambridge-split-half-analysis}
+if (RUN_SLOW_ANALYSES) {
+  exp1b_ambridge_split_half_cor <- get_avg_split_half_cor(
+    exp1b_ambridge_human_scores,
+    iterations = 1000,
+    n = 10,
+    by_factor = "Participant",
+    score_col = "Rating",
+    group_cols = c("Verb", "Sentence", "Stype"),
+  )
+  show(sb_correction(mean(exp1b_ambridge_split_half_cor, na.rm = TRUE)))
+
+  # By verb
+  # Very slow!
+    exp1b_ambridge_split_half_cor_by_verb <- get_avg_split_half_cor(
+      exp1b_ambridge_human_scores,
+      iterations = 1000,
+      n = 10,
+      by_factor = "Participant",
+      score_col = "Rating",
+      group_cols = c("Verb", "Stype"),
+    )
+    show(sb_correction(
+      mean(exp1b_ambridge_split_half_cor_by_verb, na.rm = TRUE),
+    ))
+
+  # Split-half within each verb class
+  ambridge_verb_classes <- exp1b_ambridge_human_scores %>%
+    select(VtypeNEW) %>%
+    unique() %>%
+    pull(VtypeNEW)
+
+  exp1b_ambridge_verb_class_split_half_cor <- c()
+  for (i in seq_along(ambridge_verb_classes)) {
+    verb_class <- ambridge_verb_classes[i]
+    exp1b_ambridge_split_half_cor_by_verb_class <- get_avg_split_half_cor(
+      exp1b_ambridge_human_scores %>% filter(VtypeNEW == verb_class),
+      iterations = 1000,
+      n = 10,
+      by_factor = "Participant",
+      score_col = "Rating",
+      group_cols = c("Sentence"),
+    )
+    exp1b_ambridge_verb_class_split_half_cor[i] <- sb_correction(mean(exp1b_ambridge_split_half_cor_by_verb_class, na.rm = TRUE))
+  }
+  exp1b_ambridge_verb_class_split_half_cor <- tibble(
+    verb_class = ambridge_verb_classes,
+    split_half_cor = exp1b_ambridge_verb_class_split_half_cor
+  )
+
+  show(exp1b_ambridge_verb_class_split_half_cor)
+}
+```
+
+```{r exp1b_ambridge-trigram-correlation}
+exp1b_ambridge_trigram_mean_scores <- exp1b_ambridge_model_scores %>%
+  filter(str_detect(file_name, "trigram")) %>%
+  group_by(Verb, VtypeNEW) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+exp1b_ambridge_trigram_merged_results <-
+  exp1b_ambridge_trigram_mean_scores %>%
+  left_join(exp1b_ambridge_human_mean_scores, by = c("Verb", "VtypeNEW"), suffix = c("_model", "_human"))
+
+g <- exp1b_ambridge_trigram_merged_results %>%
+  ggplot(aes(x = Mean_human, y = Mean_model, color = VtypeNEW)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model), width = 0, alpha = 0.3) +
+  geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human), height = 0, alpha = 0.3) +
+  geom_smooth(method = "lm", color = "black") +
+  geom_text_repel(aes(label = Verb), family = "fira", color = "black") +
+  labs(x = "Mean human passive drop", y = "Mean model passive drop", color = "") +
+  scale_color_manual(values = c(
+    "(a) Agent-Patient" = "#44AA99",
+    "(b) Theme-Experiencer" = "#e59c00",
+    "(c) Experiencer-Theme" = "#eb77f1",
+    "(d) Other Passivizable" = "#D55E00",
+    "(e) Non-Passivizable" = "#332288"
+  )) +
+  theme(legend.position = "bottom") +
+  guides(color = guide_legend(nrow = 2, byrow = TRUE)) +
+  annotate(
+    geom = "text",
+    x = 4, y = -5,
+    label = paste("r = ", round(cor(exp1b_ambridge_trigram_merged_results$Mean_human, exp1b_ambridge_trigram_merged_results$Mean_model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+  
+show(g)
+```
+
+```{r exp1b_ambridge-scatter-plot}
+
+exp1b_ambridge_merged_results <- exp1b_ambridge_model_mean_scores %>%
+  left_join(exp1b_ambridge_human_mean_scores, by = c("Verb", "VtypeNEW"), suffix = c("_model", "_human"))
+
+figure_7 <- exp1b_ambridge_merged_results %>%
+  ggplot(aes(x = Mean_human, y = Mean_model, color = VtypeNEW)) +
+  geom_point() +
+  geom_errorbar(aes(ymin = Lower_model, ymax = Upper_model), width = 0, alpha = 0.3) +
+  geom_errorbarh(aes(xmin = Lower_human, xmax = Upper_human), height = 0, alpha = 0.3) +
+  geom_smooth(method = "lm", color = "black") +
+  geom_text_repel(aes(label = Verb), family = "firal", color = "black") +
+  labs(x = "Mean human passive drop", y = "Mean model passive drop", color = "") +
+  scale_color_manual(values = c(
+    "(a) Agent-Patient" = "#44AA99",
+    "(b) Theme-Experiencer" = "#e59c00",
+    "(c) Experiencer-Theme" = "#eb77f1",
+    "(d) Other Passivizable" = "#D55E00",
+    "(e) Non-Passivizable" = "#332288"
+  )) +
+  theme(legend.position = "bottom") +
+  guides(color = guide_legend(nrow = 2, byrow = TRUE)) +
+  annotate(
+    geom = "text",
+    x = 4, y = -8,
+    label = paste("r = ", round(cor(exp1b_ambridge_merged_results$Mean_human, exp1b_ambridge_merged_results$Mean_model), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_7,
+    filename = "exp1b_ambridge-model-correlation-scatter.pdf",
+    device = "pdf",
+    width = 10, height = 6, units = "in", path = here("analysis", "figures")
+  )
+}
+
+show(figure_7)
+```
+
+```{r exp1b_ambridge-model-item-level-comparison}
+exp1b_ambridge_human_mean_scores_by_item <- exp1b_ambridge_human_scores %>%
+  group_by(Sentence) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(Rating) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+exp1b_ambridge_model_mean_scores_by_item <- exp1b_ambridge_model_scores %>%
+  filter(str_detect(file_name, "100M_default")) %>%
+  mutate(
+    active_sent = active,
+    passive_sent = passive,
+    row_id = row_number()
+  ) %>%
+  {
+    sentences <- pivot_longer(
+      .,
+      cols = c(active_sent, passive_sent),
+      names_to = "sent_type",
+      names_pattern = "(.*)_sent",
+      values_to = "sent"
+    )
+    scores <- pivot_longer(
+      .,
+      cols = c(active_score, passive_score),
+      names_to = "sent_type",
+      names_pattern = "(.*)_score",
+      values_to = "score"
+    ) %>%
+      select(row_id, sent_type, score)
+    left_join(sentences, scores, by = c("row_id", "sent_type"))
+  } %>%
+  select(-row_id) %>%
+  mutate(
+    Sentence = sent
+  ) %>%
+  group_by(Sentence) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(score) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+exp1b_ambridge_item_level_comparison <- exp1b_ambridge_human_mean_scores_by_item %>%
+  left_join(exp1b_ambridge_model_mean_scores_by_item, by = c("Sentence"), suffix = c("_human", "_model")) %>%
+  ungroup()
+
+exp1b_ambridge_item_level_comparison %>%
+  select(Mean_human, Mean_model) %>%
+  cor(method = "pearson") %>%
+  round(3)
+```
+
+## BLiMP analyses
+```{r exp1b_blimp-data}
+blimp_results <- list.files(path = here("scores", "blimp"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name", comment = "#") %>%
+  mutate(file_name = factor(basename(file_name)))
+
+blimp_results$group <- case_when(
+  str_detect(blimp_results$test, "anaphor") ~ "Anaphora",
+  str_detect(blimp_results$test, "principle") ~ "Binding",
+  str_detect(blimp_results$test, "raising") ~ "Control/Raising",
+  str_detect(blimp_results$test, "determiner_noun") ~ "Det/N Agreement",
+  str_detect(blimp_results$test, "ellipsis") ~ "Ellipsis",
+  str_detect(blimp_results$test, "_gap") ~ "Filler-Gap",
+  str_detect(blimp_results$test, "irregular") ~ "Irregular Forms",
+  str_detect(blimp_results$test, "island") ~ "Island Effects",
+  str_detect(blimp_results$test, "coordinate_structure") ~ "Island Effects",
+  str_detect(blimp_results$test, "npi") ~ "NPI Licensing",
+  str_detect(blimp_results$test, "quantifiers") ~ "Quantifiers",
+  str_detect(blimp_results$test, "agreement") ~ "S-V Agreement",
+  .default = "Argument Structure"
+)
+
+blimp_overall_mean <- blimp_results %>%
+  select(file_name, accuracy) %>%
+  group_by(file_name) %>%
+  summarise(result = Hmisc::smean.cl.boot(accuracy) %>% t() %>% as.data.frame()) %>%
+  unnest(result) %>%
+  select(file_name, Mean) %>%
+  mutate(accuracy = Mean) %>%
+  select(!c(Mean)) %>%
+  mutate(
+    test = "overall",
+    group = "overall"
+  )
+
+figure_4 <- blimp_results %>%
+  filter(group == "Argument Structure") %>%
+  rbind(blimp_overall_mean) %>%
+  mutate(
+    test = relevel(factor(test), ref = "overall"),
+    file_name = ifelse(grepl("100M", file_name), "100M", file_name)
+  ) %>%
+  ggplot(aes(y = test, x = accuracy)) +
+  geom_jitter(aes(shape = file_name, color = file_name), size = 2, height = 0.2, width = 0) +
+  theme(
+    text = element_text(size = 12),
+    legend.position = "bottom",
+    axis.text.y = element_markdown()
+  ) +
+  labs(shape = element_blank(), color = element_blank()) +
+  ylab(element_blank()) +
+  xlab("Accuracy") +
+  scale_shape_manual(
+    labels = c("Our Models", "GPT-2", "LSTM"),
+    values = c(1, 15, 17)
+  ) +
+  scale_y_discrete(
+    limits = rev,
+    expand = c(.02, 0.5),
+    labels = c(
+      "overall" = "Overall",
+      "animate_subject_passive" = "Animate Subject Passive<br>*Amanda was respected by some waitresses/&ast;pictures.*",
+      "animate_subject_trans" = "Animate Subject Transitive<br>*Danielle/&ast;The eye visited Irene.*",
+      "causative" = "Causative<br>*Aaron breaks/&ast;appeared the glass.*",
+      "drop_argument" = "Drop Argument<br>*The Lutherans couldn&apos;t skate around/&ast;disagree with.*",
+      "inchoative" = "Inchoative<br>*A screen was fading/&ast;cleaning.*",
+      "intransitive" = "Intransitive<br>*Some glaciers are vaporizing/&ast;scaring.*",
+      "passive_1" = "Passive 1<br>*Jeffrey&apos;s sons are insulted/&ast;smiled by Tina&apos;s supervisor.*",
+      "passive_2" = "Passive 2<br>*Most cashiers are disliked/&ast;flirted.*",
+      "transitive" = "Transitive<br>*A lot of actresses&apos; nieces have toured/&ast;coped that art gallery.*"
+    )
+  ) +
+  geom_hline(yintercept = 9.5, linetype = "solid", color = "black") +
+  geom_vline(xintercept = 0.5, linetype = "dashed", color = "darkgray") +
+  scale_x_continuous(limits = c(0, 1), labels = scales::percent) +
+  scale_color_manual(
+    labels = c("Our Models", "GPT-2", "LSTM"),
+    values = c("#222222", "#269773", "#4491EE")
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_4,
+    filename = "exp1b_blimp-argument-structure.pdf",
+    device = "pdf",
+    width = 8, height = 5, units = "in",
+    path = here("analysis", "figures")
+  )
+}
+
+show(figure_4)
+```
+}
+# Experiment 2A
+```{r exp2a_frequency-correlations}
+exp1b_freq_counts <- jsonlite::fromJSON(here("data", "100M", "all_counts.json"))
+
+# Convert to dataframe format
+exp1b_freq_df <- data.frame(
+  verb = names(exp1b_freq_counts),
+  all = sapply(exp1b_freq_counts, function(x) x$all),
+  active = sapply(exp1b_freq_counts, function(x) x$active),
+  passive = sapply(exp1b_freq_counts, function(x) x$passive),
+  other = sapply(exp1b_freq_counts, function(x) x$other)
+) %>%
+  mutate(
+    active_prop = active / all,
+    passive_prop = passive / all,
+    other_prop = other / all,
+    act_pass_ratio = active / passive,
+    log_act_pass_ratio = log(act_pass_ratio)
+  )
+
+target_verbs <- c("last", "cost", "resemble")
+mutating_verbs <- c("drop", "push", "hit", "carry")
+
+# bar graph of active ,passive ,other counts for target and mutating verbs
+figure_8_data <- exp1b_freq_df %>%
+  filter(verb %in% c(target_verbs, mutating_verbs)) %>%
+  mutate(group = ifelse(verb %in% target_verbs, "Target Verbs", "Mutating Verbs"))
+
+# Calculate max count for each verb for annotation positioning
+figure_8_max_counts <- figure_8_data %>%
+  mutate(max_count = pmax(active, passive, other)) %>%
+  select(verb, group, act_pass_ratio, max_count)
+
+# Calculate global maximum count for aligned vertical positioning
+global_max_count <- max(figure_8_max_counts$max_count)
+
+figure_8 <- figure_8_data %>%
+  pivot_longer(cols = c(active, passive, other), names_to = "sentence_type", values_to = "count") %>%
+  mutate(
+    sentence_type = factor(sentence_type, levels = c("active", "passive", "other")),
+    count = count + 0.1, # Add small offset so values of 1 are visible on log scale
+  ) %>%
+  ggplot(aes(x = verb, y = count, fill = sentence_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  geom_text(
+    data = figure_8_max_counts,
+    aes(x = verb, y = global_max_count * 2.6, label = paste0("A/P = ", round(act_pass_ratio, 2))),
+    inherit.aes = FALSE,
+    family = "fira",
+    size = 3.5,
+    vjust = 0
+  ) +
+  facet_wrap(vars(group), scales = "free_x") +
+  scale_fill_manual(
+    values = c("#882255", "#4491EE", "#999933"),
+    labels = c("Active Transitive", "Passive", "Other")
+  ) +
+  scale_y_log10(
+    breaks = c(0, 10, 100, 1000, 10000, 100000),
+    labels = scales::number,
+    expand = expansion(mult = c(0, 0.1))
+  ) +
+  labs(x = "Verb", y = "Number of occurrences in corpus", fill = element_blank()) +
+  theme(
+    legend.position = "bottom",
+    axis.text.x = element_text(face = "italic"),
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_8,
+    filename = "exp2a_target-mutating-verb-counts.pdf",
+    path = here("analysis", "figures"),
+    device = "pdf",
+    width = 10, height = 4, units = "in"
+  )
+}
+show(figure_8)
+```
+
+```{r exp2a_human-passive-drop-vs-frequency}
+exp1b_freq_df <- exp1a_verb_bootstrap %>%
+  mutate(
+    lemma = get_lemma(as.character(verb))
+  ) %>%
+  left_join(exp1b_freq_df, by = c("lemma" = "verb"))
+cor.test(exp1b_freq_df$Mean, exp1b_freq_df$log_act_pass_ratio, method = "pearson")
+
+figure_9 <- exp1b_freq_df %>%
+  ggplot(aes(x = log_act_pass_ratio, y = Mean)) +
+  geom_point(aes(color = verb_class)) +
+  geom_smooth(method = "lm") +
+  labs(x = "Log A/P Ratio", y = "Human Passive Drop") +
+  theme(legend.position = "bottom") +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper, color = verb_class), width = 0) +
+  geom_text_repel(
+    aes(label = verb, segment.linetype = 2),
+    size = 3.5, family = "firal", hjust = "right", vjust = 0,
+    nudge_x = 0.5, color = "black"
+  ) +
+  scale_colour_manual(values = verb_class_colours) +
+  theme(
+    legend.title = element_blank()
+  ) +
+  guides(color = guide_legend(nrow = 1, byrow = TRUE)) +
+  annotate(
+    geom = "text",
+    x = 7, y = -15,
+    label = paste("r = ", round(cor(exp1b_freq_df$Mean, exp1b_freq_df$log_act_pass_ratio), 2)),
+    hjust = 1, vjust = 0, family = "fira", size = 3.5
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_9,
+    filename = "exp1b_human-passive-drop-vs-frequency.pdf",
+    path = here("analysis", "figures"),
+    device = "pdf",
+    width = 10, height = 6, units = "in"
+  )
+}
+show(figure_9)
+```
+
+```{r exp2a}
+# Load scores for each model in the scores/exp2a directory
+# filenames format: {mutating_verb}_to_{target_verb}_frequency_{seed}.csv
+exp2a_scores <- list.files(path = here("scores", "exp2a"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(
+    file_name = (basename(file_name)),
+    target_verb = str_extract(file_name, "^[^_]+"),
+    mutating_verb = str_extract(file_name, "(?<=_to_)[^_]+"),
+    seed = str_extract(file_name, "(?<=_frequency_)\\d+(?=\\.csv$)")
+  ) %>%
+  mutate(
+    mutating_verb = factor(mutating_verb),
+    target_verb = factor(target_verb),
+    seed = as.integer(seed)
+  )
+
+exp2a_scores %>% head()
+
+# Define whether verb is altered:
+# i.e. test verb is the mutating verb
+exp2a_scores <- exp2a_scores %>%
+  mutate(
+    altered = get_lemma(verb) == mutating_verb
+  )
+
+# all combinations of mutating and target verbs
+exp2a_scores %>%
+  select(mutating_verb, target_verb) %>%
+  unique()
+```
+
+```{r exp2a_sanity_checks}
+exp2a_scores %>%
+  filter(altered == TRUE) %>%
+  select(verb, mutating_verb, target_verb) %>%
+  unique()
+```
+
+```{r exp2a_summary_stats}
+# Calculate Cousineau-corrected SEs for scores
+exp2a_grand_means <- exp2a_scores %>%
+  group_by(mutating_verb, target_verb, verb) %>%
+  summarise(grand_mean = mean(pass_drop, na.rm = TRUE))
+
+exp2a_participant_means <- exp2a_scores %>%
+  group_by(file_name, mutating_verb, target_verb, verb) %>%
+  summarise(participant_mean = mean(pass_drop, na.rm = TRUE))
+
+exp2a_scores <- exp2a_scores %>%
+  left_join(exp2a_grand_means) %>%
+  left_join(exp2a_participant_means) %>%
+  mutate(
+    pass_drop_cousineau = pass_drop - participant_mean + grand_mean
+  )
+
+exp2a_cousineau_mean_passive_drop <- exp2a_scores %>%
+  group_by(mutating_verb, target_verb, verb) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop_cousineau) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ungroup() %>%
+  mutate(corpus_type = "frequency")
+```
+
+```{r exp2a_change-in-passive-frequency}
+# Demonstrates change in corpus statistics before/after intervention
+# Load counts for original corpus
+original_counts <- jsonlite::fromJSON(here("data", "100M", "counts.json")) %>%
+  tibble::enframe(name = "verb", value = "counts") %>%
+  unnest_wider(counts) %>%
+    pivot_longer(cols = c(active, passive, other), names_to = "sentence_type", values_to = "count") %>%
+  mutate(corpus = "original")
+
+
+# Load counts for modified corpus
+modified_counts <- jsonlite::fromJSON(here("data", "last_to_drop_frequency", "counts.json")) %>%
+  tibble::enframe(name = "verb", value = "counts") %>%
+  unnest_wider(counts) %>%
+  pivot_longer(cols = c(active, passive, other), names_to = "sentence_type", values_to = "count") %>%
+  mutate(corpus = "frequency")
+
+# Merge counts
+verbs_of_interest <- c("push", "hit", "carry", "drop", "last", "cost", "resemble")
+counts_merged <- original_counts %>%
+  rbind(modified_counts) %>%
+  mutate(verb_class = get_verb_class(verb)) %>%
+  filter(verb %in% verbs_of_interest & sentence_type != "other") %>%
+  mutate(
+    corpus = factor(corpus, levels = c("original", "frequency")),
+    alpha = if_else(verb == "drop", 1.0, if_else(verb == "last", 1.0, 0.8))
+  )
+
+# Plot change in passive frequency
+figure_10 <- counts_merged %>%
+  ggplot(aes(x = verb, y = count, fill = sentence_type)) +
+  facet_wrap(vars(corpus)) +
+  geom_bar(aes(alpha = alpha), stat = "identity", position = "dodge") +
+  labs(x = "Corpus", y = "Passive Frequency") +
+    facet_wrap(vars(corpus), labeller = as_labeller(c("original" = "Original", "frequency" = "Modified: Drop \u2192 Last"))) +
+  scale_y_log10(breaks = c(0,10,100,1000,10000,100000),
+                labels=scales::number) +
+  scale_fill_manual(labels = c("Active Transitive", "Passive"),
+                    values=sent_type_colours) +
+  labs(fill=element_blank(),
+       x=element_blank(),
+       y="Number of occurrences in corpus") +
+  guides(alpha = "none") +
+  theme(
+        axis.text.x = element_text(face = "italic"),
+  )
+
+
+show(figure_10)
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_10,
+    filename = "exp2a_modified-drop-corpus-frequency.pdf",
+    path = here("analysis", "figures"),
+    device = "pdf",
+    width = 10, height = 4, units = "in"
+  )
+}
+```
+```{r}
+
+exp2a_unique_mutating_target_verbs <- exp2a_cousineau_mean_passive_drop %>% select(mutating_verb, target_verb) %>% unique()
+
+exp1b_mean_cousineau_passive_drop %>%
+  mutate(corpus_type = "original") %>%
+  cross_join(exp2a_unique_mutating_target_verbs)
+```
+
+```{r exp2a_figure-11}
+# Copy original scores to each mutating/target verb combination
+exp2a_comparison_means <- exp1b_mean_cousineau_passive_drop %>%
+  mutate(corpus_type = "original") %>%
+  cross_join(exp2a_unique_mutating_target_verbs) %>%
+  mutate(corpus_type = factor(corpus_type, levels = c("original", "frequency"))) %>%
+  rbind(exp2a_cousineau_mean_passive_drop)
+
+figure_11 <- exp2a_comparison_means %>%
+  mutate(
+    altered = ifelse(get_lemma(verb) == mutating_verb, "Mutating Verb", ifelse(get_lemma(verb) == target_verb, "Target Verb", "Other Verb")),
+    alpha = if_else(altered == "Other Verb", 0.01, 1.0),
+    altered = factor(altered, levels = c("Mutating Verb", "Target Verb", "Other Verb")),
+    corpus_type = factor(corpus_type, levels = c("original", "frequency"), labels = c("Original\nCorpus", "Modified\nCorpus")),
+    mutating_verb = factor(mutating_verb,
+      labels = c(
+        "_carry_<br>(A/P = 3.51)",
+        "_drop_<br>(A/P = 2.88)",
+        "_hit_<br>(A/P = 3.82)",
+        "_push_<br>(A/P = 3.52)"
+      )
+    ),
+    target_verb = factor(target_verb,
+      labels = c(
+        "_cost_<br>(A/P = 196.71)",
+        "_last_<br>(A/P = 180.75)",
+        "_resemble_<br>(A/P = 1373.0)"
+      )
+    )
+  ) %>%
+  ggplot(aes(
+    y = Mean, x = corpus_type, color = altered, alpha = alpha
+  )) +
+  geom_point() +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.1, linetype = "solid") +
+  facet_grid(cols = vars(mutating_verb), rows = vars(target_verb)) +
+  geom_line(aes(group = verb, linetype = altered)) +
+  labs(subtitle = "Mutating Verb") + # misusing subtitle/secondary axis to label facets
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Target Verb", breaks = NULL, labels = NULL)) +
+  scale_linetype_manual(element_blank(), values = c("solid", "dashed", "solid")) +
+  scale_color_manual(element_blank(),
+    values = c("#009292", "#000", "#b66dff"),
+    guide = guide_legend(override.aes = list(
+      shape = c(NA, NA, NA),
+      linetype = c("solid", "dashed", "solid")
+    ))
+  ) +
+  guides(
+    alpha = "none",
+    linetype = guide_legend(keywidth = 3, keyheight = 1)
+  ) +
+  ylab("Passive Drop") +
+  theme(
+    legend.position = "bottom",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.title.x = element_blank(),
+    strip.text.x = element_textbox(halign = 0.5),
+    strip.text.y = element_textbox(halign = 0.5, orientation = "right-rotated"),
+    plot.subtitle = element_text(hjust = 0.5),
+    axis.title.y = element_text(margin = margin(r = 10)),
+    legend.box.background = element_rect(linewidth = 0, fill = NULL, colour = NULL)
+  )
+show(figure_11)
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_11,
+    filename = "exp2a_source-target-comparison.pdf",
+    device = "pdf",
+    width = 10, height = 8, units = "in",
+    path = here("analysis", "figures")
+  )
+}
+```
+
+```{r exp2a_average_change_in_passive_drop}
+# Calculate average change in passive drop for each mutating verb
+exp2a_comparison_means %>%
+  filter(get_lemma(verb) == mutating_verb) %>%
+  pivot_wider(names_from = corpus_type, values_from = Mean, id_cols = c(verb, mutating_verb, target_verb)) %>%
+  mutate(change = frequency - original)
+
+# Calculate difference in passive drop in original corpus between target verbs and mutating verb
+
+```
+
+```{r exp2a_statistical_test}
+exp2a_comparison_scores <- exp1b_scores %>%
+  mutate(
+    mutating_verb = NA,
+    target_verb = NA,
+    altered = FALSE,
+    corpus_type = "original"
+  ) %>%
+  select(verb, verb_class, altered, mutating_verb, target_verb, frame_no, seed, pass_drop, corpus_type) %>%
+  rbind(
+    exp2a_scores %>%
+      mutate(
+        corpus_type = "frequency",
+      ) %>%
+      select(verb, verb_class, altered, mutating_verb, target_verb, frame_no, seed, pass_drop, corpus_type)
+  ) %>%
+  mutate(
+    frame_no = factor(frame_no),
+    model_id = factor(paste(mutating_verb, target_verb, seed, sep = "_"))
+  )
+
+exp2a_lmer_pass_drop_no_altered <- lmer(
+  pass_drop ~ corpus_type + (1 | frame_no) + (1 | model_id) + (1 | verb) + (1 | verb_class),
+  data = exp2a_comparison_scores,
+  REML = FALSE
+)
+
+# Likelihood ratio test with corpus_type as a predictor
+exp2a_lmer_pass_drop_with_altered <- lmer(
+  pass_drop ~ corpus_type + altered + (1 | frame_no) + (1 | model_id) + (1 | verb) + (1 | verb_class),
+  data = exp2a_comparison_scores,
+  REML = FALSE
+)
+
+anova(exp2a_lmer_pass_drop_no_altered, exp2a_lmer_pass_drop_with_altered)
+```
+
+```{r}
+# Do unmodified verbs in the original corpus have a different passive drop than verbs in the modified corpus?
+# i.e. is corpus_type a significant predictor of pass_drop_cousineau?
+# Likelihood ratio test without corpus_type as a predictor
+
+exp2a_lmer_unmutated_verbs_no_corpus_type<- lmer(
+  pass_drop ~ verb + verb_class + (1 | frame_no) + (1 | model_id),
+  data = exp2a_comparison_scores %>% filter(altered == FALSE),
+  REML = FALSE
+)
+
+exp2a_lmer_unmutated_verbs_with_corpus_type <- lmer(
+  pass_drop ~ corpus_type + verb + verb_class + (1 | frame_no) + (1 | model_id),
+  data = exp2a_comparison_scores %>% filter(altered == FALSE),
+  REML = FALSE
+)
+
+summary(exp2a_lmer_unmutated_verbs_with_corpus_type)
+
+anova(exp2a_lmer_unmutated_verbs_no_corpus_type, exp2a_lmer_unmutated_verbs_with_corpus_type)
+```
+```{r}
+exp2a_freq_no_interaction <- lmer(
+  pass_drop ~ corpus_type + altered + verb + verb_class + (1 | frame_no) + (1 | model_id),
+  data = exp2a_comparison_scores,
+  REML = FALSE
+)
+
+exp2a_freq_with_interaction <- lmer(
+  pass_drop ~ corpus_type * altered + verb + verb_class + (1 | frame_no) + (1 | model_id),
+  data = exp2a_comparison_scores,
+  REML = FALSE
+)
+
+summary(exp2a_freq_with_interaction)
+
+anova(exp2a_freq_with_interaction, exp2a_freq_no_interaction)
+```
+
+# Experiment 2B
+
+```{r exp2b}
+
+exp2b_scores <- list.files(path = here("scores", "exp2b"), pattern = "*.csv", full.names = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(
+    file_name = (basename(file_name)),
+    mutating_verb = str_extract(file_name, "^[^_]+"),
+    target_verb = str_extract(file_name, "(?<=_to_)[^_]+"),
+    seed = str_extract(file_name, "(?<=_frequency_)\\d+(?=\\.csv$)")
+  ) %>%
+  mutate(
+    mutating_verb = factor(mutating_verb),
+    target_verb = factor(target_verb),
+    seed = as.integer(seed)
+  )
+
+exp2b_scores %>% head()
+
+# Define whether verb is altered:
+# i.e. test verb is the mutating verb
+exp2b_scores <- exp2b_scores %>%
+  mutate(
+    altered = get_lemma(verb) == mutating_verb
+  )
+
+# all combinations of mutating and target verbs
+exp2b_scores %>%
+  select(mutating_verb, target_verb) %>%
+  unique()
+```
+
+```{r exp2b_cousineau_summary}
+exp2b_grand_means <- exp2b_scores %>%
+  group_by(mutating_verb, target_verb, verb) %>%
+  summarise(grand_mean = mean(pass_drop, na.rm = TRUE))
+
+exp2b_participant_means <- exp2b_scores %>%
+  group_by(file_name, mutating_verb, target_verb, verb) %>%
+  summarise(participant_mean = mean(pass_drop, na.rm = TRUE))
+
+exp2b_scores <- exp2b_scores %>%
+  left_join(exp2b_grand_means) %>%
+  left_join(exp2b_participant_means) %>%
+  mutate(
+    pass_drop_cousineau = pass_drop - participant_mean + grand_mean
+  )
+
+exp2b_cousineau_mean_passive_drop <- exp2b_scores %>%
+  group_by(mutating_verb, target_verb, verb) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop_cousineau) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ungroup() %>%
+  mutate(corpus_type = "swap")
+```
+
+```{r exp2b_comparison_means}
+exp2b_unique_mutating_target_verbs <- exp2b_cousineau_mean_passive_drop %>% select(mutating_verb, target_verb) %>% unique()
+
+exp2b_comparison_means <- exp1b_mean_cousineau_passive_drop %>%
+  mutate(corpus_type = "original") %>%
+  cross_join(exp2b_unique_mutating_target_verbs) %>%
+  rbind(exp2b_cousineau_mean_passive_drop)
+
+figure_12 <- exp2b_comparison_means %>%
+  mutate(
+    altered = ifelse(get_lemma(verb) == mutating_verb, "Mutating Verb", ifelse(get_lemma(verb) == target_verb, "Target Verb", "Other Verb")),
+    alpha = if_else(altered == "Other Verb", 0.01, 1.0),
+    altered = factor(altered, levels = c("Mutating Verb", "Target Verb", "Other Verb")),
+    corpus_type = factor(corpus_type, levels = c("original", "swap"), labels = c("Original\nCorpus", "Modified\nCorpus"))
+  ) %>%
+  ggplot(aes(
+    y = Mean, x = corpus_type, color = altered, alpha = alpha
+  )) +
+  geom_point() +
+  geom_errorbar(aes(ymin = Lower, ymax = Upper), width = 0.1, linetype = "solid") +
+  facet_grid(cols = vars(mutating_verb), rows = vars(target_verb)) +
+  geom_line(aes(group = verb, linetype = altered)) +
+  labs(subtitle = "Mutating Verb") + # misusing subtitle/secondary axis to label facets
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Target Verb", breaks = NULL, labels = NULL)) +
+  scale_linetype_manual(element_blank(), values = c("solid", "dashed", "solid")) +
+  scale_color_manual(element_blank(),
+    values = c("#009292", "#000", "#b66dff"),
+    guide = guide_legend(override.aes = list(
+      shape = c(NA, NA, NA),
+      linetype = c("solid", "dashed", "solid")
+    ))
+  ) +
+  guides(
+    alpha = "none",
+    linetype = guide_legend(keywidth = 3, keyheight = 1)
+  ) +
+  ylab("Passive Drop") +
+  theme(
+    legend.position = "bottom",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor.x = element_blank(),
+    axis.title.x = element_blank(),
+    strip.text.x = element_textbox(halign = 0.5, face = "italic"),
+    strip.text.y = element_textbox(halign = 0.5, orientation = "right-rotated", face = "italic"),
+    plot.subtitle = element_text(hjust = 0.5),
+    axis.title.y = element_text(margin = margin(r = 10)),
+    legend.box.background = element_rect(linewidth = 0, fill = NULL, colour = NULL)
+  )
+show(figure_12)
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_12,
+    filename = "exp2b_source-target-comparison.pdf",
+    device = "pdf",
+    width = 10, height = 8, units = "in",
+    path = here("analysis", "figures")
+  )
+}
+```
+
+```{r exp2b_statistical_test}
+exp2b_comparison_scores <- exp1b_scores %>%
+  mutate(
+    mutating_verb = NA,
+    target_verb = NA,
+    altered = FALSE,
+    corpus_type = "original"
+  ) %>%
+  select(verb, verb_class, altered, mutating_verb, target_verb, frame_no, seed, pass_drop, corpus_type) %>%
+  rbind(
+    exp2b_scores %>%
+      mutate(
+        corpus_type = "swap",
+        verb_class = get_verb_class(verb),
+        frame_no = frame,
+      ) %>%
+      select(verb, verb_class, altered, mutating_verb, target_verb, frame_no, seed, pass_drop, corpus_type)
+  ) %>%
+  mutate(
+    frame_no = factor(frame_no),
+    model_id = factor(paste(mutating_verb, target_verb, seed, sep = "_"))
+  )
+
+exp2b_lmer_pass_drop_no_altered <- lmer(
+  pass_drop ~ corpus_type + (1 | frame_no) + (1 | model_id) + (1 + altered | verb) + (1 | verb_class),
+  data = exp2b_comparison_scores,
+  REML = FALSE
+)
+
+exp2b_lmer_pass_drop_with_altered <- lmer(
+  pass_drop ~ corpus_type + altered + (1 | frame_no) + (1 | model_id) + (1 + altered | verb) + (1 | verb_class),
+  data = exp2b_comparison_scores,
+  REML = FALSE
+)
+
+anova(exp2b_lmer_pass_drop_no_altered, exp2b_lmer_pass_drop_with_altered)
+```
+
+```{r exp2b_statistical_test_1}
+exp2b_lmer_verb_modified_interaction <- lmer(
+  pass_drop ~ corpus_type + verb * altered + (1 | frame_no) + (1 | model_id) ,
+  data = exp2b_comparison_scores,
+  REML = FALSE
+)
+  
+exp2b_lmer_verb_modified_no_interaction <- lmer(
+  pass_drop ~ corpus_type + verb + altered + (1 | frame_no) + (1 | model_id),
+  data = exp2b_comparison_scores,
+  REML = FALSE
+)
+
+anova(exp2b_lmer_verb_modified_no_interaction, exp2b_lmer_verb_modified_interaction)
+
+summary(exp2b_lmer_verb_modified_interaction)
+```
+
+# Experiment 3
+First, load scores for each model. Scores are saved in the `scores/exp3` directory, and are named `{affectedness}_{num_examples}_{seed}.csv`.
+```
+
+```{r exp3_load}
+# Load scores for each model in the scores/exp3 directory
+# There are two subdirectories: 'lexicalized' and 'novel'
+exp3_scores <- list.files(path = here("scores", "exp3"), pattern = "*.csv", full.names = TRUE, recursive = TRUE, include.dirs = TRUE) %>%
+  read_csv(id = "file_name") %>%
+  mutate(
+    test_sentence_type = ifelse(str_detect(file_name, "lexicalized"), "lexicalized", "novel"),
+    file_name = (basename(file_name)),
+    train_affectedness = str_extract(file_name, "^[^_]+"),
+    num_examples = str_extract(file_name, "(?<=_)[0-9]+(?=_)"),
+    seed = str_extract(file_name, "_[0-9]+_([^_]+)(?:_scores)?\\.csv$", group = 1)
+  ) %>%
+  mutate(
+    train_affectedness = factor(train_affectedness, levels = c("high", "low")),
+    num_examples = as.integer(num_examples),
+    model_id = factor(paste(train_affectedness, num_examples, seed, sep = "_"))
+  )
+exp3_scores %>%
+  head()
+```
+
+### Pre-processing
+
+Duplicate test sentences for `num_examples == 0`. In this case, the test verb was never seen in training, so copy the scores from `train_affectedness == high` to `train_affectedness == low` since the effect of the novel verb is the same in both cases.
+```{r exp3_preprocessing}
+# TODO: Implement
+```
+
+Keep scores where affectedness of test sentence (`affectedness`) is the same as the affectedness of the training sentences (`train_affectedness`). We usually test verbs in the same context as they were trained on, so it doesn't make sense to test verbs trained in a `low_affectedness` context on a `high_affectedness` test sentence.
+```{r exp3_keep_same_affectedness}
+exp3_scores <- exp3_scores %>%
+  filter(affectedness == train_affectedness)
+```
+
+Add unique sentence id to each sentence.
+```{r exp3_add_sentence_id}
+exp3_scores <- exp3_scores %>%
+  group_by(sentence) %>%
+  mutate(sentence_id = cur_group_id()) %>%
+  ungroup()
+```
+
+```{r sanity_checks}
+# Check that each num_example x train_affectedness has 5 seeds
+exp3_scores %>%
+  group_by(train_affectedness, num_examples, test_sentence_type) %>%
+  summarise(n = n_distinct(seed)) %>%
+  filter(n != 5)
+
+# Check that all num_examples values are present
+# Expected: 0, 1, 2, 4, 8, 10, 16, 32, 64, 100, 128, 256, 512, 1500, 2000
+exp3_scores %>%
+  group_by(num_examples) %>%
+  summarise(n = n_distinct(seed, train_affectedness))
+```
+
+```{r}
+# ACTUAL ACTIVE AND PASSIVE SCORES
+# Reshape data to long format for proper legend
+exp3_scores_long <- exp3_scores %>%
+  group_by(train_affectedness, num_examples, seed, affectedness, test_sentence_type) %>%
+  summarise(
+    active_score = Hmisc::smean.cl.boot(active_score) %>% t() %>% as.data.frame(),
+    passive_score = Hmisc::smean.cl.boot(passive_score) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(active_score, passive_score) %>%
+  select(train_affectedness, test_sentence_type, num_examples, seed, affectedness,
+    active_mean = Mean, active_lower = Lower, active_upper = Upper,
+    passive_mean = Mean1, passive_lower = Lower1, passive_upper = Upper1
+  ) %>%
+  pivot_longer(
+    cols = c(active_mean, passive_mean),
+    names_to = "score_type",
+    values_to = "mean_score"
+  ) %>%
+  mutate(
+    score_type = case_when(
+      score_type == "active_mean" ~ "Active sentence",
+      score_type == "passive_mean" ~ "Passive sentence"
+    ),
+    lower = case_when(
+      score_type == "Active sentence" ~ active_lower,
+      score_type == "Passive sentence" ~ passive_lower
+    ),
+    upper = case_when(
+      score_type == "Active sentence" ~ active_upper,
+      score_type == "Passive sentence" ~ passive_upper
+    )
+  ) %>%
+  select(train_affectedness, test_sentence_type, num_examples, seed, affectedness, score_type, mean_score, lower, upper)
+
+exp3_scores_long %>%
+  ggplot(aes(x = num_examples, y = mean_score, color = interaction(test_sentence_type, score_type))) +
+  facet_wrap(vars(train_affectedness)) +
+  geom_point() +
+  scale_x_continuous(breaks = c(0, 10, 100, 1000, 2000), trans = "pseudo_log") +
+  labs(
+    x = "Num. occurrences of novel verb in training corpus",
+    y = "Mean sentence score",
+    color = "Score type"
+  ) +
+  theme(legend.position = "bottom", legend.title = element_blank())
+# geom_smooth(method="lm") +
+```
+
+Mean scores with error bars
+```{r}
+figure_13 <- exp3_scores_long %>%
+  group_by(train_affectedness, num_examples, test_sentence_type, affectedness, score_type) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(mean_score) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ggplot(aes(x = num_examples, y = Mean, ymin = Lower, ymax = Upper, color = score_type, shape = test_sentence_type)) +
+  scale_x_continuous(breaks = c(0, 10, 100, 1000, 2000), trans = "pseudo_log") +
+  geom_errorbar(width = 0.1) +
+  facet_wrap(vars(train_affectedness), labeller = labeller(train_affectedness = c("high" = "High affectedness contexts", "low" = "Low affectedness contexts"))) +
+  scale_color_manual(values = sent_type_colours, labels = c("Active", "Passive")) +
+  scale_shape_manual(values = c(1, 16), labels = c("Original Verb", "Novel Verb")) +
+  geom_point(size = 2) +
+  labs(
+    x = "Num. active occurrences of novel verb in training",
+    y = "Mean sentence score",
+    color = element_blank(),
+    shape = element_blank()
+  ) +
+  theme(
+    legend.position = "bottom",
+    legend.box.background = element_rect(linewidth = 0, fill = NULL, colour = NULL)
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_13,
+    filename = "exp3_novel_vs_lexicalized_scores.pdf",
+    device = "pdf",
+    width = 10, height = 6, units = "in", path = here("analysis", "figures")
+  )
+}
+
+show(figure_13)
+```
+
+```{r}
+legend_labels <- c(
+  "Low affectedness" = "#009292",
+  "High affectedness" = "#b66dff"
+)
+
+
+exp3_average_lexicalized_pass_drop_high_affectedness <- exp3_scores %>%
+  filter(test_sentence_type == "lexicalized", train_affectedness == "high") %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+exp3_average_lexicalized_pass_drop_low_affectedness <- exp3_scores %>%
+  filter(test_sentence_type == "lexicalized", train_affectedness == "low") %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result)
+
+figure_14 <- exp3_scores %>%
+  filter(test_sentence_type == "novel") %>%
+  mutate(
+    pass_drop = active_score - passive_score,
+    train_affectedness = factor(train_affectedness, levels = c("high", "low"), labels = c("High affectedness", "Low affectedness"))
+  ) %>%
+  group_by(train_affectedness, num_examples, affectedness) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ggplot(aes(x = num_examples, y = Mean, ymin = Lower, ymax = Upper, color = train_affectedness, shape = train_affectedness)) +
+  scale_x_continuous(breaks = c(0, 10, 100, 1000, 2000), trans = "pseudo_log") +
+  geom_errorbar(width = 0.1) +
+  geom_point(size = 3) +
+  scale_y_continuous(limits = c(0, 18)) +
+  scale_shape_manual(values = c(19, 2)) +
+  scale_color_manual(values = legend_labels) +
+  labs(
+    x = "Num. active occurrences of novel verb in training",
+    y = "Mean passive drop",
+    color = "Affectedness of verb context"
+  ) +
+  guides(
+    color = guide_legend(element_blank()),
+    shape = guide_legend(element_blank())
+  ) +
+  theme(
+    legend.position = "bottom",
+    legend.box.background = element_rect(linewidth = 0, fill = NULL, colour = NULL)
+  )
+
+if (SAVE_GRAPHS) {
+  ggsave(
+    plot = figure_14,
+    filename = "exp3_passive_drop_by_num_examples.pdf",
+    device = "pdf",
+    width = 10, height = 6, units = "in", path = here("analysis", "figures")
+  )
+}
+show(figure_14)
+```
+
+Scores normalized by number of tokens in the test sentence. Not useful for this experiment; see Tjuatja et al. 2024 for more details.
+```{r}
+# Check average number of tokens in test sentences
+exp3_test_sentences <- read_csv(here("data", "exp3_test_sentences.csv"))
+
+exp3_test_sentences %>%
+  group_by(affectedness) %>%
+  summarise(
+    mean_active_tokens = mean(active_tokens),
+    mean_passive_tokens = mean(passive_tokens)
+  )
+
+exp3_scores %>%
+  left_join(exp3_test_sentences %>% select(sentence, active_tokens, passive_tokens), by = "sentence") %>%
+  mutate(
+    active_score = active_score / active_tokens,
+    passive_score = passive_score / passive_tokens
+  ) %>%
+  pivot_longer(cols = c(active_score, passive_score), names_to = "score_type", values_to = "score") %>%
+  group_by(train_affectedness, num_examples, test_sentence_type, affectedness, score_type) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(score) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ggplot(aes(x = num_examples, y = Mean, ymin = Lower, ymax = Upper, color = interaction(test_sentence_type, train_affectedness), linetype = score_type)) +
+  scale_x_continuous(breaks = c(0, 10, 100, 1000, 2000), trans = "pseudo_log") +
+  geom_errorbar(width = 0.1) +
+  geom_point() +
+  geom_smooth(aes(group = interaction(test_sentence_type, train_affectedness, score_type))) +
+  labs(
+    x = "Num. occurrences of novel verb in training corpus",
+    y = "Mean sentence score",
+    color = "Score type"
+  ) +
+  theme(legend.position = "bottom")
+
+exp3_scores %>%
+  left_join(exp3_test_sentences %>% select(sentence, active_tokens, passive_tokens), by = "sentence") %>%
+  mutate(
+    active_score = active_score / active_tokens,
+    passive_score = passive_score / passive_tokens,
+    pass_drop = passive_score - active_score
+  ) %>%
+  group_by(train_affectedness, num_examples, test_sentence_type) %>%
+  summarise(
+    result = Hmisc::smean.cl.boot(pass_drop) %>% t() %>% as.data.frame()
+  ) %>%
+  unnest(result) %>%
+  ggplot(aes(x = num_examples, y = Mean, ymin = Lower, ymax = Upper, color = interaction(test_sentence_type, train_affectedness))) +
+  scale_x_continuous(breaks = c(0, 10, 100, 1000, 2000), trans = "pseudo_log") +
+  geom_errorbar(width = 0.1) +
+  geom_point() +
+  geom_smooth(aes(group = interaction(test_sentence_type, train_affectedness))) +
+  labs(
+    x = "Num. occurrences of novel verb in training corpus",
+    y = "Mean passive drop",
+    color = "Affectedness of verb context"
+  ) +
+  theme(legend.position = "bottom")
+```
+
+```{r exp3_statistical_tests}
+# Is frequency a significant predictor of passive drop?
+exp3_scores <- exp3_scores %>%
+  mutate(log_num_examples = log(num_examples + 1))
+
+exp3_scores_novel <- exp3_scores %>%
+  filter(test_sentence_type == "novel")
+
+model_no_frequency <- lmer(
+  pass_drop ~ train_affectedness +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+model_with_frequency <- lmer(
+  pass_drop ~ log_num_examples + train_affectedness +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+anova(model_no_frequency, model_with_frequency)
+
+# Is affectedness of verb context a significant predictor of passive drop?
+
+model_no_affectedness <- lmer(
+  pass_drop ~ log_num_examples +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+model_with_affectedness <- lmer(
+  pass_drop ~ log_num_examples + train_affectedness +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+anova(model_no_affectedness, model_with_affectedness)
+
+# Is there an interaction between frequency and affectedness of verb context?
+model_no_interactions <- lmer(
+  pass_drop ~ log_num_examples + train_affectedness +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+model_with_interactions <- lmer(
+  pass_drop ~ log_num_examples * train_affectedness +
+    (1 | model_id) + (1 | sentence_id),
+  data = exp3_scores_novel,
+  REML = FALSE
+)
+
+anova(model_no_interactions, model_with_interactions)
+```
