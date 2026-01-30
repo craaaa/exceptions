@@ -669,7 +669,7 @@ exp1b_item_level_comparison %>% ggplot(aes(x = Mean_human, y = Mean_model)) +
 ```
 
 ```{r exp1b_trigram-correlation}
-exp1b_trigram_scores <- read_csv(here("scores", "exp1b_baselines", "trigram.csv"))
+exp1b_trigram_scores <- read_csv(here("scores", "exp1b-baselines", "trigram.csv"))
 
 exp1b_trigram_mean_scores <- exp1b_trigram_scores %>%
   group_by(verb, verb_class) %>%
@@ -984,7 +984,7 @@ exp1b_ambridge_item_level_comparison %>%
 
 ## BLiMP analyses
 ```{r exp1b_blimp-data}
-blimp_results <- list.files(path = here("scores", "blimp"), pattern = "*.csv", full.names = TRUE) %>%
+blimp_results <- list.files(path = here("scores", "exp1b-blimp"), pattern = "*.csv", full.names = TRUE) %>%
   read_csv(id = "file_name", comment = "#") %>%
   mutate(file_name = factor(basename(file_name)))
 
