@@ -1,0 +1,141 @@
+frame_no,group,set,active,passive,verb,verb_class,subject,object,is_passivizable,active_score,passive_score,pass_drop
+1,A,1,Your investment benefited the community.,The community was benefited by your investment.,benefited,Advantage,donation,communities,0,-28.169715881347656,-40.37130355834961,12.201587677001953
+1,A,2,Your investment profited the community.,The community was profited by your investment.,profited,Advantage,donation,communities,0,-35.33941650390625,-45.96384811401367,10.624431610107422
+2,A,1,The exercise helped his fitness.,His fitness was helped by the exercise.,helped,Advantage,exercise,fitness,1,-35.641998291015625,-33.98222351074219,-1.6597747802734375
+2,A,2,The exercise strengthened his fitness.,His fitness was strengthened by the exercise.,strengthened,Advantage,exercise,fitness,1,-32.61874771118164,-34.450660705566406,1.8319129943847656
+3,A,1,Our friendship benefited my life.,My life was benefited by our friendship.,benefited,Advantage,friendship,life,0,-30.84050750732422,-33.146183013916016,2.305675506591797
+3,A,2,Our friendship profited my life.,My life was profited by our friendship.,profited,Advantage,friendship,life,0,-37.47108459472656,-39.17283630371094,1.701751708984375
+4,A,1,The law helped these workers.,These workers were helped by the law.,helped,Advantage,law,workers,1,-33.769264221191406,-28.4691162109375,-5.300148010253906
+4,A,2,The law strengthened these workers.,These workers were strengthened by the law.,strengthened,Advantage,law,workers,1,-40.239105224609375,-32.67528533935547,-7.563819885253906
+5,A,1,The treaty benefited both countries.,Both countries were benefited by the treaty.,benefited,Advantage,treaty,countries,0,-27.887882232666016,-29.12818145751953,1.2402992248535156
+5,A,2,The treaty strengthened both countries.,Both countries were strengthened by the treaty.,strengthened,Advantage,treaty,countries,1,-35.70737075805664,-27.662460327148438,-8.044910430908203
+6,A,1,Your dish cost ninety dollars.,Ninety dollars was cost by your dish.,cost,Price,dish,dollars,0,-39.64168930053711,-53.80205535888672,14.16036605834961
+6,A,2,Your dish fetched ninety dollars.,Ninety dollars was fetched by your dish.,fetched,Price,dish,dollars,1,-48.174530029296875,-53.84971237182617,5.675182342529297
+7,A,1,The painting earned a fortune.,A fortune was earned by the painting.,earned,Price,painting,fortune,1,-33.93537902832031,-37.6920280456543,3.7566490173339844
+8,A,2,The tickets cost a lot of money.,A lot of money was cost by the tickets.,cost,Price,initiative,money,0,-25.530590057373047,-40.509552001953125,14.978961944580078
+8,A,1,The tickets fetched a lot of money.,A lot of money was fetched by the tickets.,fetched,Price,initiative,money,1,-34.33084487915039,-38.95812225341797,4.627277374267578
+9,A,2,Your book earned thirty dollars.,Thirty dollars was earned by your book.,earned,Price,book,dollars,1,-34.062171936035156,-36.963462829589844,2.9012908935546875
+10,A,1,His actions cost the medal.,The medal was cost by his actions.,cost,Price,actions,medal,0,-30.59711456298828,-44.40666961669922,13.809555053710938
+10,A,2,His actions fetched the medal.,The medal was fetched by his actions.,fetched,Price,actions,medal,1,-35.72024154663086,-40.380069732666016,4.659828186035156
+11,A,1,My friend emanated confidence.,Confidence was emanated by my friend.,emanated,Ooze,friend,confidence,0,-34.2662353515625,-36.07464599609375,1.80841064453125
+11,A,2,My friend radiated confidence.,Confidence was radiated by my friend.,radiated,Ooze,friend,confidence,0,-31.357070922851562,-34.98910140991211,3.632030487060547
+12,A,1,The lightbulb discharged some light.,Some light was discharged by the lightbulb.,discharged,Ooze,lightbulb,light,1,-41.789615631103516,-45.968894958496094,4.179279327392578
+12,A,2,The lightbulb emitted some light.,Some light was emitted by the lightbulb.,emitted,Ooze,lightbulb,light,1,-32.76985168457031,-34.845184326171875,2.0753326416015625
+13,A,1,That machine emanated a sound.,A sound was emanated by that machine.,emanated,Ooze,machine,sound,0,-41.505401611328125,-42.18347930908203,0.6780776977539062
+13,A,2,That machine radiated a sound.,A sound was radiated by that machine.,radiated,Ooze,machine,sound,0,-37.82697296142578,-41.16807556152344,3.3411026000976562
+14,A,1,The teacher discharged wisdom.,Wisdom was discharged by the teacher.,discharged,Ooze,teacher,wisdom,1,-38.010501861572266,-45.20901870727539,7.198516845703125
+14,A,2,The teacher emitted wisdom.,Wisdom was emitted by the teacher.,emitted,Ooze,teacher,wisdom,1,-37.921058654785156,-43.84439468383789,5.923336029052734
+15,A,1,The trash emanated an odor.,An odor was emanated by the trash.,emanated,Ooze,trash,odor,0,-46.81330108642578,-40.9011344909668,-5.912166595458984
+15,A,2,The trash emitted an odor.,An odor was emitted by the trash.,emitted,Ooze,trash,odor,1,-43.42198944091797,-33.21784210205078,-10.204147338867188
+16,A,1,Your drawing approximated her likeness.,Her likeness was approximated by the drawing.,approximated,Estimation,drawing,likeness,1,-41.870384216308594,-42.03462219238281,0.16423797607421875
+16,A,2,Your drawing mirrored her likeness.,Her likeness was mirrored by the drawing.,mirrored,Estimation,drawing,likeness,1,-40.04999923706055,-36.05447006225586,-3.9955291748046875
+17,A,1,Your friend matched my brother.,My brother was matched by your friend.,matched,Estimation,friend,brother,1,-29.661724090576172,-34.946922302246094,5.285198211669922
+17,A,2,Your friend resembled my brother.,My brother was resembled by your friend.,resembled,Estimation,friend,brother,0,-29.159711837768555,-39.33761978149414,10.177907943725586
+18,A,1,The character approximated the author.,The author was approximated by the character.,approximated,Estimation,author,character,1,-38.24797439575195,-43.02848815917969,4.780513763427734
+18,A,2,The character mirrored the author.,The author was mirrored by the character.,mirrored,Estimation,author,character,1,-33.527034759521484,-40.614967346191406,7.087932586669922
+19,A,1,Her son matched her father.,Her father was matched by her son.,matched,Estimation,son,father,1,-27.787689208984375,-28.667091369628906,0.8794021606445312
+19,A,2,Her son resembled her father.,Her father was resembled by her son.,resembled,Estimation,son,father,0,-26.391475677490234,-32.381370544433594,5.989894866943359
+20,A,1,The copy approximated the original.,The original was approximated by the copy.,approximated,Estimation,copy,original,1,-38.56585693359375,-42.941062927246094,4.375205993652344
+20,A,2,The copy resembled the original.,The original was resembled by the copy.,resembled,Estimation,copy,original,0,-31.868602752685547,-46.039329528808594,14.170726776123047
+21,A,1,The journey required three days.,Three days were required by the journey.,required,Duration,journey,days,1,-26.140396118164062,-39.596126556396484,13.455730438232422
+22,A,2,My meeting lasted two hours.,Two hours was lasted by my meeting.,lasted,Duration,meeting,hours,0,-25.389678955078125,-51.133522033691406,25.74384307861328
+22,A,1,My meeting took two hours.,Two hours was taken by my meeting.,took,Duration,meeting,hours,0,-24.4122257232666,-45.5223503112793,21.110124588012695
+23,A,2,The interview required some time.,Some time was required by the interview.,required,Duration,interview,time,1,-30.401830673217773,-37.04470443725586,6.642873764038086
+24,A,1,Her speech lasted seventeen minutes.,Seventeen minutes was lasted by her speech.,lasted,Duration,speech,minutes,0,-26.91337013244629,-47.40347671508789,20.4901065826416
+24,A,2,Her speech took seventeen minutes.,Seventeen minutes was taken by her speech.,took,Duration,speech,minutes,0,-30.95870590209961,-42.02037048339844,11.061664581298828
+25,A,1,His trek required a month.,A month was required by his trek.,required,Duration,trek,month,1,-34.35882568359375,-49.13495635986328,14.776130676269531
+26,A,2,My brother hit your friend.,your friend was hit by my brother.,hit,Agent-patient,my brother,your friend,1,-27.32637596130371,-30.129566192626953,2.803190231323242
+26,A,1,Your sister hit the target.,The target was hit by your sister.,hit,Agent-patient,your sister,the target,1,-25.788829803466797,-40.622314453125,14.833484649658203
+26,A,2,The child hit the ball.,The ball was hit by the child.,hit,Agent-patient,the child,the ball,1,-26.687578201293945,-29.484365463256836,2.7967872619628906
+27,A,1,My brother pushed a child.,A child was pushed by my brother.,pushed,Agent-patient,my brother,a child,1,-26.891639709472656,-33.4771614074707,6.585521697998047
+27,A,2,The mother pushed my toy.,My toy was pushed by the mother.,pushed,Agent-patient,the mother,my toy,1,-39.9296875,-35.227725982666016,-4.701961517333984
+28,A,1,A boy washed the cup.,The cup was washed by a boy.,washed,Agent-patient,a boy,the cup,1,-31.634061813354492,-37.46682357788086,5.832761764526367
+28,A,2,A child washed the bag.,The bag was washed by a child.,washed,Agent-patient,a child,the bag,1,-32.69322967529297,-35.39036560058594,2.6971359252929688
+28,A,1,My sister washed a towel.,A towel was washed by my sister.,washed,Agent-patient,my sister,a towel,1,-31.24374008178711,-36.89478302001953,5.651042938232422
+29,A,2,My brother dropped my plate.,My plate was dropped by my brother.,dropped,Agent-patient,my brother,my plate,1,-28.908262252807617,-34.094764709472656,5.186502456665039
+29,A,1,The mother dropped my toy.,My toy was dropped by the mother.,dropped,Agent-patient,the mother,my toy,1,-36.98064041137695,-33.250587463378906,-3.730052947998047
+30,A,2,A boy carried my bag.,My bag was carried by a boy.,carried,Agent-patient,a boy,my bag,1,-35.64155578613281,-28.5660400390625,-7.0755157470703125
+30,A,1,Your mother carried the child.,The child was carried by your mother.,carried,Agent-patient,your mother,the child,1,-24.524620056152344,-35.46803665161133,10.943416595458984
+31,A,2,My brother saw your friend.,Your friend was seen by my brother.,saw,Experiencer-theme,my brother,your friend,1,-24.743627548217773,-30.024484634399414,5.280857086181641
+31,A,1,Your dog saw the toy.,The toy was seen by your dog.,saw,Experiencer-theme,your dog,the toy,1,-27.262231826782227,-40.75823211669922,13.496000289916992
+31,A,2,Your sister saw a book.,A book was seen by your sister.,saw,Experiencer-theme,your sister,a book,1,-27.59283447265625,-38.67598342895508,11.083148956298828
+32,A,1,A boy heard the sound.,The sound was heard by a boy.,heard,Experiencer-theme,a boy,the sound,1,-25.879192352294922,-31.922103881835938,6.042911529541016
+32,A,2,The child heard the rules.,The rules were heard by the child.,heard,Experiencer-theme,the rules,a monkey,1,-32.5129280090332,-36.074954986572266,3.5620269775390625
+33,A,1,My brother knew your friend.,Your friend was known by my brother.,knew,Experiencer-theme,my brother,your friend,1,-28.585002899169922,-32.944549560546875,4.359546661376953
+33,A,2,Your dog knew my cat.,My cat was known by your dog.,knew,Experiencer-theme,your dog,my cat,1,-32.08058547973633,-33.94188690185547,1.8613014221191406
+33,A,1,Your sister knew my brother.,My brother was known by your sister.,knew,Experiencer-theme,your sister,my brother,1,-26.097579956054688,-32.65771484375,6.5601348876953125
+34,A,2,A boy liked the game.,The game was liked by a boy.,liked,Experiencer-theme,a boy,the game,1,-26.752464294433594,-31.959911346435547,5.207447052001953
+34,A,1,The child liked a monkey.,A monkey was liked by the child.,liked,Experiencer-theme,the child,a monkey,1,-33.77861022949219,-35.46399688720703,1.6853866577148438
+35,A,2,My brother remembered your friend.,Your friend was remembered by my brother.,remembered,Experiencer-theme,my brother,your friend,1,-28.301822662353516,-32.213531494140625,3.9117088317871094
+35,A,1,Your dog remembered my toy.,My toy was remembered by your dog.,remembered,Experiencer-theme,your dog,my toy,1,-40.72914505004883,-39.39471435546875,-1.3344306945800781
+35,A,2,Your sister remembered a book.,A book was remembered by your sister.,remembered,Experiencer-theme,your sister,a book,1,-32.40776443481445,-42.6412467956543,10.233482360839844
+1,B,1,Your investment helped the community.,The community was helped by your investment.,helped,Advantage,donation,communities,1,-29.33768081665039,-39.78025817871094,10.442577362060547
+1,B,2,Your investment strengthened the community.,The community was strengthened by your investment.,strengthened,Advantage,donation,communities,1,-30.130340576171875,-41.16510772705078,11.034767150878906
+2,B,1,The exercise benefited his fitness.,His fitness was benefited by the exercise.,benefited,Advantage,exercise,fitness,0,-37.80939483642578,-37.131690979003906,-0.677703857421875
+2,B,2,The exercise profited his fitness.,His fitness was profited by the exercise.,profited,Advantage,exercise,fitness,0,-46.909027099609375,-40.23685073852539,-6.672176361083984
+3,B,1,Our friendship helped my life.,My life was helped by our friendship.,helped,Advantage,friendship,life,1,-29.27203369140625,-29.76483917236328,0.49280548095703125
+3,B,2,Our friendship strengthened my life.,My life was strengthened by our friendship.,strengthened,Advantage,friendship,life,1,-30.454343795776367,-32.461360931396484,2.007017135620117
+4,B,1,The law benefited these workers.,These workers were benefited by the law.,benefited,Advantage,law,workers,0,-33.605873107910156,-32.02298355102539,-1.5828895568847656
+4,B,2,The law profited these workers.,These workers were profited by the law.,profited,Advantage,law,workers,0,-40.85783386230469,-32.89701843261719,-7.9608154296875
+5,B,1,The treaty helped both countries.,Both countries were helped by the treaty.,helped,Advantage,treaty,countries,1,-32.357276916503906,-27.022991180419922,-5.334285736083984
+5,B,2,The treaty profited both countries.,Both countries were profited by the treaty.,profited,Advantage,treaty,countries,0,-36.754398345947266,-34.101505279541016,-2.65289306640625
+6,B,1,Your dish earned ninety dollars.,Ninety dollars was earned by your dish.,earned,Price,dish,dollars,1,-39.420166015625,-47.22199630737305,7.801830291748047
+7,B,2,The painting cost a fortune.,A fortune was cost by the painting.,cost,Price,painting,fortune,0,-29.357891082763672,-45.33793640136719,15.980045318603516
+7,B,1,The painting fetched a fortune.,A fortune was fetched by the painting.,fetched,Price,painting,fortune,1,-35.99333953857422,-43.57557678222656,7.582237243652344
+8,B,2,The tickets earned a lot of money.,A lot of money was earned by the tickets.,earned,Price,initiative,money,1,-33.98508071899414,-35.00490951538086,1.0198287963867188
+9,B,1,Your book cost thirty dollars.,Thirty dollars was cost by your book.,cost,Price,book,dollars,0,-33.96782684326172,-41.390174865722656,7.4223480224609375
+9,B,2,Your book fetched thirty dollars.,Thirty dollars was fetched by your book.,fetched,Price,book,dollars,1,-41.64080047607422,-43.27053451538086,1.6297340393066406
+10,B,1,His actions earned the medal.,The medal was earned by his actions.,earned,Price,actions,medal,1,-28.000244140625,-35.94950866699219,7.9492645263671875
+11,B,2,My friend discharged confidence.,Confidence was discharged by my friend.,discharged,Ooze,friend,confidence,1,-31.626789093017578,-37.860015869140625,6.233226776123047
+11,B,1,My friend emitted confidence.,Confidence was emitted by my friend.,emitted,Ooze,friend,confidence,1,-36.112552642822266,-34.9842414855957,-1.1283111572265625
+12,B,2,The lightbulb emanated some light.,Some light was emanated by the lightbulb.,emanated,Ooze,lightbulb,light,0,-37.88420486450195,-45.03119659423828,7.146991729736328
+12,B,1,The lightbulb radiated some light.,Some light was radiated by the lightbulb.,radiated,Ooze,lightbulb,light,0,-39.36786651611328,-40.23811721801758,0.8702507019042969
+13,B,2,That machine discharged a sound.,A sound was discharged by that machine.,discharged,Ooze,machine,sound,1,-41.63706970214844,-44.35124969482422,2.7141799926757812
+13,B,1,That machine emitted a sound.,A sound was emitted by that machine.,emitted,Ooze,machine,sound,1,-33.886043548583984,-34.92453384399414,1.0384902954101562
+14,B,2,The teacher emanated wisdom.,Wisdom was emanated by the teacher.,emanated,Ooze,teacher,wisdom,0,-35.74875259399414,-47.31401443481445,11.565261840820312
+14,B,1,The teacher radiated wisdom.,Wisdom was radiated by the teacher.,radiated,Ooze,teacher,wisdom,0,-33.69087219238281,-44.55144119262695,10.86056900024414
+15,B,2,The trash discharged an odor.,An odor was discharged by the trash.,discharged,Ooze,trash,odor,1,-45.131900787353516,-41.43136215209961,-3.7005386352539062
+15,B,1,The trash radiated an odor.,An odor was radiated by the trash.,radiated,Ooze,trash,odor,0,-42.9326171875,-40.632781982421875,-2.299835205078125
+16,B,2,Your drawing matched her likeness.,Her likeness was matched by the drawing.,matched,Estimation,drawing,likeness,1,-36.430721282958984,-35.12058639526367,-1.3101348876953125
+16,B,1,Your drawing resembled her likeness.,Her likeness was resembled by the drawing.,resembled,Estimation,drawing,likeness,0,-39.8426399230957,-38.556095123291016,-1.2865447998046875
+17,B,2,Your friend approximated my brother.,My brother was approximated by your friend.,approximated,Estimation,friend,brother,1,-38.3841552734375,-42.475337982177734,4.091182708740234
+17,B,1,Your friend mirrored my brother.,My brother was mirrored by your friend.,mirrored,Estimation,friend,brother,1,-33.07888412475586,-38.451446533203125,5.372562408447266
+18,B,2,The character matched the author.,The author was matched by the character.,matched,Estimation,author,character,1,-31.840612411499023,-38.80094528198242,6.960332870483398
+18,B,1,The character resembled the author.,The author was resembled by the character.,resembled,Estimation,author,character,0,-32.183597564697266,-40.48805236816406,8.304454803466797
+19,B,2,Her son approximated her father.,Her father was approximated by her son.,approximated,Estimation,son,father,1,-33.723453521728516,-34.09504699707031,0.3715934753417969
+19,B,1,Her son mirrored her father.,Her father was mirrored by her son.,mirrored,Estimation,son,father,1,-28.843936920166016,-30.986879348754883,2.142942428588867
+20,B,2,The copy matched the original.,The original was matched by the copy.,matched,Estimation,copy,original,1,-28.29756736755371,-39.831275939941406,11.533708572387695
+20,B,1,The copy mirrored the original.,The original was mirrored by the copy.,mirrored,Estimation,copy,original,1,-31.508899688720703,-39.035743713378906,7.526844024658203
+21,B,2,The journey lasted three days.,Three days were lasted by the journey.,lasted,Duration,journey,days,0,-21.572036743164062,-43.86463928222656,22.2926025390625
+21,B,1,The journey took three days.,Three days were taken by the journey.,took,Duration,journey,days,0,-20.214149475097656,-36.346046447753906,16.13189697265625
+22,B,2,My meeting required two hours.,Two hours was required by my meeting.,required,Duration,meeting,hours,1,-30.706737518310547,-44.52801513671875,13.821277618408203
+23,B,1,The interview lasted some time.,Some time was lasted by the interview.,lasted,Duration,interview,time,0,-25.0786075592041,-46.53885269165039,21.46024513244629
+23,B,2,The interview took some time.,Some time was taken by the interview.,took,Duration,interview,time,0,-22.60443878173828,-37.438480377197266,14.834041595458984
+24,B,1,Her speech required seventeen minutes.,Seventeen minutes was required by her speech.,required,Duration,speech,minutes,1,-31.70547103881836,-42.959983825683594,11.254512786865234
+25,B,2,His trek lasted a month.,A month was lasted by his trek.,lasted,Duration,trek,month,0,-30.875526428222656,-54.84099197387695,23.965465545654297
+25,B,1,His trek took a month.,A month was taken by his trek.,took,Duration,trek,month,0,-29.15587043762207,-47.795833587646484,18.639963150024414
+26,B,2,A boy hit my bag.,My bag was hit by a boy.,hit,Agent-patient,a boy,my bag,1,-31.528850555419922,-31.904613494873047,0.375762939453125
+26,B,1,A monkey hit the toy.,The toy was hit by a monkey.,hit,Agent-patient,a monkey,the toy,1,-29.81619644165039,-33.111568450927734,3.2953720092773438
+27,B,2,A boy pushed the cup.,The cup was pushed by a boy.,pushed,Agent-patient,a boy,the cup,1,-31.599166870117188,-34.56961441040039,2.970447540283203
+27,B,1,A child pushed the bag.,The bag was pushed by a child.,pushed,Agent-patient,a child,the bag,1,-31.605876922607422,-33.305633544921875,1.6997566223144531
+27,B,2,Your sister pushed your friend.,Your friend was pushed by your sister.,pushed,Agent-patient,your sister,your friend,1,-29.11956214904785,-30.924304962158203,1.8047428131103516
+28,B,1,My brother washed my plate.,My plate was washed by my brother.,washed,Agent-patient,my brother,my plate,1,-30.072059631347656,-37.113990783691406,7.04193115234375
+28,B,2,Your mother washed my toy.,My toy was washed by your mother.,washed,Agent-patient,your mother,my toy,1,-34.021141052246094,-38.66217041015625,4.641029357910156
+29,B,1,A boy dropped the cup.,The cup was dropped by a boy.,dropped,Agent-patient,a boy,the cup,1,-30.612279891967773,-34.07817840576172,3.4658985137939453
+29,B,2,A child dropped the bag.,The bag was dropped by a child.,dropped,Agent-patient,a child,the bag,1,-31.39594268798828,-30.890914916992188,-0.5050277709960938
+29,B,1,Your sister dropped a book.,A book was dropped by your sister.,dropped,Agent-patient,your sister,a book,1,-27.447803497314453,-38.40684127807617,10.959037780761719
+30,B,2,My brother carried your friend.,Your friend was carried by my brother.,carried,Agent-patient,my brother,your friend,1,-33.47614669799805,-32.898712158203125,-0.5774345397949219
+30,B,1,The dog carried the toy.,The toy was carried by the dog.,carried,Agent-patient,the dog,the toy,1,-29.54303741455078,-34.61571502685547,5.0726776123046875
+30,B,2,The donkey carried the load.,The load was carried by the donkey.,carried,Agent-patient,the donkey,the load,1,-32.45919418334961,-34.64570617675781,2.186511993408203
+31,B,1,A boy saw my bag.,My bag was seen by a boy.,saw,Experiencer-theme,a boy,my bag,1,-30.421836853027344,-33.176300048828125,2.7544631958007812
+31,B,2,The child saw a monkey.,A monkey was seen by the child.,saw,Experiencer-theme,the child,a monkey,1,-30.27447509765625,-31.815540313720703,1.5410652160644531
+32,B,1,My brother heard your friend.,Your friend was heard by my brother.,heard,Experiencer-theme,my brother,your friend,1,-28.85177230834961,-31.926984786987305,3.0752124786376953
+32,B,2,Your dog heard the toy.,The toy was heard by your dog.,heard,Experiencer-theme,your dog,the toy,1,-33.3148307800293,-43.42595291137695,10.111122131347656
+32,B,1,Your sister heard a squeak.,A squeak was heard by your sister.,heard,Experiencer-theme,your sister,a squeak,1,-29.81747055053711,-37.67621994018555,7.8587493896484375
+33,B,2,A boy knew my mother.,My mother was known by a boy.,knew,Experiencer-theme,a boy,my mother,1,-28.448951721191406,-32.41143798828125,3.9624862670898438
+33,B,1,The mother knew the dog.,The dog was known by the mother.,knew,Experiencer-theme,the mother,the dog,1,-30.40704345703125,-33.80429458618164,3.3972511291503906
+34,B,2,My brother liked your friend.,Your friend was liked by my brother.,liked,Experiencer-theme,my brother,your friend,1,-28.792591094970703,-31.713855743408203,2.9212646484375
+34,B,1,Your dog liked the toy.,The toy was liked by your dog.,liked,Experiencer-theme,your dog,the toy,1,-29.541160583496094,-39.94750213623047,10.406341552734375
+34,B,2,Your sister liked a book.,A book was liked by your sister.,liked,Experiencer-theme,your sister,a book,1,-28.451675415039062,-38.91206359863281,10.46038818359375
+35,B,1,A boy remembered the game.,The game was remembered by a boy.,remembered,Experiencer-theme,a boy,the game,1,-29.08380889892578,-36.33966064453125,7.255851745605469
+35,B,2,The child remembered the rules.,The rules were remembered by the child.,remembered,Experiencer-theme,the child,the rules,1,-32.58124542236328,-39.910072326660156,7.328826904296875
